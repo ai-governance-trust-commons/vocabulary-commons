@@ -20,6 +20,8 @@ Lance J. Johnson | October 24, 2026 | Version 1.0.2
 
 [Read the published discussion and 35-term glossary on Zenodo](https://doi.org/10.5281/zenodo.23626688)
 
+[Browse the founding 35-term glossary](FOUNDING_GLOSSARY_v1.0.2.md)
+
 This publication establishes our initial, permanent, citable reference. The Commons will provide a place to examine and develop the vocabulary without altering that historical record.
 
 ## How the Commons Will Work
