@@ -34,6 +34,15 @@ The Commons is intended to support three complementary activities:
 
 A submitted term need not be accepted into the curated glossary to remain visible and available for discussion.
 
+## Participate in the Commons
+
+There are several ways to contribute:
+
+- **Join the discussion:** [Explore public Discussions](https://github.com/ai-governance-trust-commons/vocabulary-commons/discussions) to ask questions, compare definitions, examine evidence, and challenge interpretations.
+- **Propose terminology:** [Submit a terminology proposal](https://github.com/ai-governance-trust-commons/vocabulary-commons/issues/new/choose) using our structured "Propose a Term" template.
+- **Review the guidelines:** [Contributing to the Commons](CONTRIBUTING.md) explains provenance, evidence expectations, attribution, and editorial stewardship.
+
+Participation is open. Publication of a proposal does not imply endorsement or acceptance into the curated glossary.
 ## Principles for Participation
 
 - Existing terminology should be recognized and respected, not replaced unnecessarily.
@@ -47,6 +56,6 @@ A submitted term need not be accepted into the curated glossary to remain visibl
 
 **Initial setup — October 2026**
 
-The founding glossary is published. The collaborative submission process, editorial guidelines, and searchable public reference are being established.
+The founding glossary is published and available to browse. Public discussions and terminology submissions are open. The editorial review workflow and broader public reference remain under development.
 
 **Our objective is shared understanding, not shared conclusions.**
