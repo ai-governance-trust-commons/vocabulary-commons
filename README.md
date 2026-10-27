@@ -41,8 +41,12 @@ There are several ways to contribute:
 - **Join the discussion:** [Explore public Discussions](https://github.com/ai-governance-trust-commons/vocabulary-commons/discussions) to ask questions, compare definitions, examine evidence, and challenge interpretations.
 - **Propose terminology:** [Submit a terminology proposal](https://github.com/ai-governance-trust-commons/vocabulary-commons/issues/new/choose) using our structured "Propose a Term" template.
 - **Review the guidelines:** [Contributing to the Commons](CONTRIBUTING.md) explains provenance, evidence expectations, attribution, and editorial stewardship.
+- **Understand editorial review:** [Read the Editorial Review and Curation Policy](EDITORIAL_REVIEW.md) to see how proposals are examined, decisions documented, and definitions reconsidered.
 
 Participation is open. Publication of a proposal does not imply endorsement or acceptance into the curated glossary.
+
+**We welcome contributors from every discipline and level of experience.** Help us identify established terminology, challenge definitions, contribute evidence, or clarify relationships. You do not need to arrive with a fully developed proposal.
+
 ## Principles for Participation
 
 - Existing terminology should be recognized and respected, not replaced unnecessarily.
@@ -56,6 +60,6 @@ Participation is open. Publication of a proposal does not imply endorsement or a
 
 **Initial setup — October 2026**
 
-The founding glossary is published and available to browse. Public discussions and terminology submissions are open. The editorial review workflow and broader public reference remain under development.
+The founding glossary is published and available to browse. Public discussions and terminology submissions are open, and the initial editorial review policy is established. Broader editorial participation and a more accessible public reference remain under development.
 
 **Our objective is shared understanding, not shared conclusions.**
