@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ai-governance-trust-commons.github.io/vocabulary-commons/sitemap.xml
