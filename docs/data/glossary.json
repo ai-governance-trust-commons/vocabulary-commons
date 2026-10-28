@@ -1,0 +1,526 @@
+{
+  "title": "Governance and Trust Vocabulary Commons — Founding Glossary v1.0.2",
+  "status": "baseline transcription; not a new edition",
+  "published": "2026-10-24",
+  "source_repository_file": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/main/FOUNDING_GLOSSARY_v1.0.2.md",
+  "source_git_blob_sha1": "2e5a19de39653dac037b1c568f4c654870e911ba",
+  "publication_of_record": "https://doi.org/10.5281/zenodo.23626688",
+  "license": "CC BY 4.0",
+  "terms": [
+    {
+      "term": "AI-enabled capability",
+      "slug": "ai-enabled-capability",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "An organizational function delivered through an AI model and the people, tools, data, workflows, and dependencies required to produce its intended outcome. The capability—not only the model—is the relevant unit when discussing operational consequences.",
+      "relationship": "Organizational dependency arises when an organization relies materially on such a capability; assurance concerns justified confidence in its operation.",
+      "see_also": [
+        "Organizational dependency",
+        "Assurance"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nAn organizational function delivered through an AI model and the people, tools, data, workflows, and dependencies required to produce its intended outcome. The capability—not only the model—is the relevant unit when discussing operational consequences.\n\n**Relationship:** Organizational dependency arises when an organization relies materially on such a capability; assurance concerns justified confidence in its operation.\n\n**See also:** [Organizational dependency](#organizational-dependency) · [Assurance](#assurance)"
+    },
+    {
+      "term": "Assurance",
+      "slug": "assurance",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "relationship": "Attacker-model change can invalidate previously adequate evidence; assurance independence and reference-environment integrity affect the credibility of that evidence.",
+      "see_also": [
+        "Attacker-model change",
+        "Assurance independence",
+        "Reference environment integrity"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nEvidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.\n\n**Relationship:** Attacker-model change can invalidate previously adequate evidence; assurance independence and reference-environment integrity affect the credibility of that evidence.\n\n**See also:** [Attacker-model change](#attacker-model-change) · [Assurance independence](#assurance-independence) · [Reference environment integrity](#reference-environment-integrity)"
+    },
+    {
+      "term": "Assurance independence",
+      "slug": "assurance-independence",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "An evaluator’s practical freedom to obtain necessary evidence, choose evaluation methods, form judgments, and report findings without undue control by the actor or system being evaluated. Separate organizational status alone is insufficient.",
+      "relationship": "Chaperoning relies on independent supervisory judgment; reliable observability and reference-environment integrity help make independent assurance possible.",
+      "see_also": [
+        "Chaperoning",
+        "Observability",
+        "Reference environment integrity"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nAn evaluator’s practical freedom to obtain necessary evidence, choose evaluation methods, form judgments, and report findings without undue control by the actor or system being evaluated. Separate organizational status alone is insufficient.\n\n**Relationship:** Chaperoning relies on independent supervisory judgment; reliable observability and reference-environment integrity help make independent assurance possible.\n\n**See also:** [Chaperoning](#chaperoning) · [Observability](#observability) · [Reference environment integrity](#reference-environment-integrity)"
+    },
+    {
+      "term": "Attacker-model change",
+      "slug": "attacker-model-change",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "A material shift in what adversaries can feasibly attempt, given available tools, knowledge, resources, speed, and scale. Exposure can increase even when the protected system and its controls remain unchanged.",
+      "relationship": "Constraint compression can drive this shift; capability feasibility progression describes how formerly impractical attacks become executable or scalable.",
+      "see_also": [
+        "Constraint compression",
+        "Capability feasibility progression",
+        "Assurance"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nA material shift in what adversaries can feasibly attempt, given available tools, knowledge, resources, speed, and scale. Exposure can increase even when the protected system and its controls remain unchanged.\n\n**Relationship:** Constraint compression can drive this shift; capability feasibility progression describes how formerly impractical attacks become executable or scalable.\n\n**See also:** [Constraint compression](#constraint-compression) · [Capability feasibility progression](#capability-feasibility-progression) · [Assurance](#assurance)"
+    },
+    {
+      "term": "Beyond visual range (BVR)",
+      "slug": "beyond-visual-range-bvr",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Indicated",
+      "normative_proposal": false,
+      "definition": "A condition in which consequential actions, effects, or causal relationships fall outside what an observer recognizes as relevant to the process being examined. Those activities may be visible elsewhere, yet the connection that makes them consequential is unrecognized. Neither concealment nor a defective local monitor is required.",
+      "relationship": "An observability boundary marks the current limit of evidence and inference. BVR emphasizes an unrecognized relationship beyond that limit; the sleight-of-hand effect describes the resulting appearance of adequate local coverage. Horizon compression is a separate loss of time.",
+      "see_also": [
+        "Observability boundary",
+        "Sleight-of-hand effect",
+        "Horizon compression"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Indicated**\n\nA condition in which consequential actions, effects, or causal relationships fall outside what an observer recognizes as relevant to the process being examined. Those activities may be visible elsewhere, yet the connection that makes them consequential is unrecognized. Neither concealment nor a defective local monitor is required.\n\n**Relationship:** An observability boundary marks the current limit of evidence and inference. BVR emphasizes an unrecognized relationship beyond that limit; the sleight-of-hand effect describes the resulting appearance of adequate local coverage. Horizon compression is a separate loss of time.\n\n**See also:** [Observability boundary](#observability-boundary) · [Sleight-of-hand effect](#sleight-of-hand-effect) · [Horizon compression](#horizon-compression)"
+    },
+    {
+      "term": "Capability feasibility progression",
+      "slug": "capability-feasibility-progression",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "An analytical sequence for describing distinct levels of practical possibility: possible → practical → repeatable → scalable. A step need not follow the preceding one automatically, and the categories are not a universal maturity model.",
+      "relationship": "Constraint compression concerns the removal of barriers; this progression describes a potential result of that removal. Comparable staged capability reasoning appears in biosecurity studies [3].",
+      "see_also": [
+        "Constraint compression",
+        "Attacker-model change"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nAn analytical sequence for describing distinct levels of practical possibility: possible → practical → repeatable → scalable. A step need not follow the preceding one automatically, and the categories are not a universal maturity model.\n\n**Relationship:** Constraint compression concerns the removal of barriers; this progression describes a potential result of that removal. Comparable staged capability reasoning appears in biosecurity studies [3].\n\n**See also:** [Constraint compression](#constraint-compression) · [Attacker-model change](#attacker-model-change)"
+    },
+    {
+      "term": "Chaperoning",
+      "slug": "chaperoning",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "relationship": "Meaningful human control is a condition chaperoning may help support. BVR can hide which activity warrants attention; horizon compression can remove intervention time; trajectory persistence can make a supervised agent less responsive even when a problem is identified. Trajectory persistence does not imply that a chaperone cannot enforce an external constraint; a control air gap can separate the agent’s continued intent from its authority to execute.",
+      "see_also": [
+        "Meaningful human control",
+        "Beyond visual range (BVR)",
+        "Horizon compression",
+        "Trajectory persistence",
+        "Control air gap"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Foundation**\n\nThe continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.\n\n**Relationship:** Meaningful human control is a condition chaperoning may help support. BVR can hide which activity warrants attention; horizon compression can remove intervention time; trajectory persistence can make a supervised agent less responsive even when a problem is identified. Trajectory persistence does not imply that a chaperone cannot enforce an external constraint; a control air gap can separate the agent’s continued intent from its authority to execute.\n\n**See also:** [Meaningful human control](#meaningful-human-control) · [Beyond visual range (BVR)](#beyond-visual-range-bvr) · [Horizon compression](#horizon-compression) · [Trajectory persistence](#trajectory-persistence) · [Control air gap](#control-air-gap)"
+    },
+    {
+      "term": "Competency decay",
+      "slug": "competency-decay",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Indicated",
+      "normative_proposal": false,
+      "definition": "A decline in the human or organizational expertise needed to perform, verify, contest, or recover work that is repeatedly delegated to AI-enabled systems. It is especially consequential when skills needed for independent judgment are lost.",
+      "relationship": "Organizational dependency can intensify the effects of competency decay, while chaperoning relies upon some retained evaluative competence.",
+      "see_also": [
+        "Organizational dependency",
+        "Chaperoning"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Indicated**\n\nA decline in the human or organizational expertise needed to perform, verify, contest, or recover work that is repeatedly delegated to AI-enabled systems. It is especially consequential when skills needed for independent judgment are lost.\n\n**Relationship:** Organizational dependency can intensify the effects of competency decay, while chaperoning relies upon some retained evaluative competence.\n\n**See also:** [Organizational dependency](#organizational-dependency) · [Chaperoning](#chaperoning)"
+    },
+    {
+      "term": "Constraint compression",
+      "slug": "constraint-compression",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Demonstrated (bounded)",
+      "normative_proposal": false,
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "relationship": "Capability feasibility progression describes a potential resulting shift in what is practical, repeatable, or scalable. A similar mechanism is studied as capability uplift in biosecurity [3].",
+      "see_also": [
+        "Capability feasibility progression",
+        "Attacker-model change",
+        "Feedback acceleration"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Demonstrated (bounded)**\n\nA reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.\n\n**Relationship:** Capability feasibility progression describes a potential resulting shift in what is practical, repeatable, or scalable. A similar mechanism is studied as capability uplift in biosecurity [3].\n\n**See also:** [Capability feasibility progression](#capability-feasibility-progression) · [Attacker-model change](#attacker-model-change) · [Feedback acceleration](#feedback-acceleration)"
+    },
+    {
+      "term": "Control air gap",
+      "slug": "control-air-gap",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "An architectural separation between an agent’s ability to recommend, select, or plan an action and the authority or mechanism that permits consequential execution. Independent enforcement can maintain the separation even when the agent’s internal reasoning changes.",
+      "relationship": "Assurance independence concerns evaluating the control; governability concerns whether consequential activities remain subject to legitimate direction and correction.",
+      "see_also": [
+        "Assurance independence",
+        "Governability"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nAn architectural separation between an agent’s ability to recommend, select, or plan an action and the authority or mechanism that permits consequential execution. Independent enforcement can maintain the separation even when the agent’s internal reasoning changes.\n\n**Relationship:** Assurance independence concerns evaluating the control; governability concerns whether consequential activities remain subject to legitimate direction and correction.\n\n**See also:** [Assurance independence](#assurance-independence) · [Governability](#governability)"
+    },
+    {
+      "term": "Cross-system feedback",
+      "slug": "cross-system-feedback",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "A pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.",
+      "relationship": "Feedback acceleration measures shorter interaction intervals and feedback amplification characterizes growth in downstream intensity, reach, or activity.",
+      "see_also": [
+        "Feedback acceleration",
+        "Feedback amplification",
+        "Distributed adaptive control environment"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nA pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.\n\n**Relationship:** Feedback acceleration measures shorter interaction intervals and feedback amplification characterizes growth in downstream intensity, reach, or activity.\n\n**See also:** [Feedback acceleration](#feedback-acceleration) · [Feedback amplification](#feedback-amplification) · [Distributed adaptive control environment](#distributed-adaptive-control-environment)"
+    },
+    {
+      "term": "Demonstrated behavior",
+      "slug": "demonstrated-behavior",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "An observed, reproduced, or reliably reconstructed action or mechanism in a specified setting. Demonstration establishes that the behavior occurred under those conditions, not its frequency or generality.",
+      "relationship": "Mechanism hypotheses explain possible causes; investigative indicators suggest what else to examine without converting suspicion into demonstrated fact.",
+      "see_also": [
+        "Mechanism hypothesis",
+        "Investigative indicator"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nAn observed, reproduced, or reliably reconstructed action or mechanism in a specified setting. Demonstration establishes that the behavior occurred under those conditions, not its frequency or generality.\n\n**Relationship:** Mechanism hypotheses explain possible causes; investigative indicators suggest what else to examine without converting suspicion into demonstrated fact.\n\n**See also:** [Mechanism hypothesis](#mechanism-hypothesis) · [Investigative indicator](#investigative-indicator)"
+    },
+    {
+      "term": "Distributed adaptive control environment",
+      "slug": "distributed-adaptive-control-environment",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Hypothesis",
+      "normative_proposal": false,
+      "definition": "A proposed characterization of interacting human, organizational, and AI activities in which participants with distinct objectives continuously influence one another’s information, actions, and relationships. Its usefulness is descriptive; the scope and consequences of such environments require investigation.",
+      "relationship": "Cross-system feedback describes one interaction mechanism, mutual adaptation describes reciprocal change, and governability asks whether the resulting activities remain subject to legitimate direction.",
+      "see_also": [
+        "Cross-system feedback",
+        "Human–AI mutual adaptation",
+        "Governability"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Hypothesis**\n\nA proposed characterization of interacting human, organizational, and AI activities in which participants with distinct objectives continuously influence one another’s information, actions, and relationships. Its usefulness is descriptive; the scope and consequences of such environments require investigation.\n\n**Relationship:** Cross-system feedback describes one interaction mechanism, mutual adaptation describes reciprocal change, and governability asks whether the resulting activities remain subject to legitimate direction.\n\n**See also:** [Cross-system feedback](#cross-system-feedback) · [Human–AI mutual adaptation](#humanai-mutual-adaptation) · [Governability](#governability)"
+    },
+    {
+      "term": "Environmental redirection",
+      "slug": "environmental-redirection",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Demonstrated (bounded)",
+      "normative_proposal": false,
+      "definition": "A change in an agent’s actions, methods, beliefs, or priorities arising from information, artifacts, tools, constraints, or incentives encountered while performing a task. Such redirection can be beneficial or harmful; an altered belief, selected method, and adopted objective are not the same outcome.",
+      "relationship": "Reference-environment integrity concerns the quality of external inputs and records, while evidence laundering can alter apparent credibility. Trajectory persistence concerns continued pursuit of a selected course even after new evidence; it is not necessarily caused by external environmental manipulation.",
+      "see_also": [
+        "Reference environment integrity",
+        "Evidence laundering through AI",
+        "Trajectory persistence"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Demonstrated (bounded)**\n\nA change in an agent’s actions, methods, beliefs, or priorities arising from information, artifacts, tools, constraints, or incentives encountered while performing a task. Such redirection can be beneficial or harmful; an altered belief, selected method, and adopted objective are not the same outcome.\n\n**Relationship:** Reference-environment integrity concerns the quality of external inputs and records, while evidence laundering can alter apparent credibility. Trajectory persistence concerns continued pursuit of a selected course even after new evidence; it is not necessarily caused by external environmental manipulation.\n\n**See also:** [Reference environment integrity](#reference-environment-integrity) · [Evidence laundering through AI](#evidence-laundering-through-ai) · [Trajectory persistence](#trajectory-persistence)"
+    },
+    {
+      "term": "Evidence laundering through AI",
+      "slug": "evidence-laundering-through-ai",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Indicated",
+      "normative_proposal": false,
+      "definition": "The appearance of credibility or corroboration acquired by low-integrity material when AI systems retrieve, summarize, cite, or re-present it. Multiple apparently agreeing outputs may share the same original, manipulated source.",
+      "relationship": "This is one risk to reference-environment integrity; environmental redirection is a broader change in agent behavior that may—but need not—follow contaminated information.",
+      "see_also": [
+        "Reference environment integrity",
+        "Environmental redirection"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Indicated**\n\nThe appearance of credibility or corroboration acquired by low-integrity material when AI systems retrieve, summarize, cite, or re-present it. Multiple apparently agreeing outputs may share the same original, manipulated source.\n\n**Relationship:** This is one risk to reference-environment integrity; environmental redirection is a broader change in agent behavior that may—but need not—follow contaminated information.\n\n**See also:** [Reference environment integrity](#reference-environment-integrity) · [Environmental redirection](#environmental-redirection)"
+    },
+    {
+      "term": "Feedback acceleration",
+      "slug": "feedback-acceleration",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Indicated",
+      "normative_proposal": false,
+      "definition": "The shortening of intervals between consequential activities, responses, and later adjustments in an interacting process. It describes the tempo of the process, whether or not the number or severity of responses increases.",
+      "relationship": "Feedback amplification describes increased downstream activity or consequences. Horizon compression instead describes a reduced window for an observer to recognize, judge, and intervene.",
+      "see_also": [
+        "Feedback amplification",
+        "Horizon compression",
+        "Cross-system feedback"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Indicated**\n\nThe shortening of intervals between consequential activities, responses, and later adjustments in an interacting process. It describes the tempo of the process, whether or not the number or severity of responses increases.\n\n**Relationship:** Feedback amplification describes increased downstream activity or consequences. Horizon compression instead describes a reduced window for an observer to recognize, judge, and intervene.\n\n**See also:** [Feedback amplification](#feedback-amplification) · [Horizon compression](#horizon-compression) · [Cross-system feedback](#cross-system-feedback)"
+    },
+    {
+      "term": "Feedback amplification",
+      "slug": "feedback-amplification",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "A feedback effect in which an activity and the reactions it generates increase the intensity, reach, amount, or consequences of subsequent activity. Stabilizing or dampening responses may limit or reverse amplification.",
+      "relationship": "Acceleration refers to how quickly responses occur, not how much downstream activity they create. Cross-system feedback provides the setting in which amplification may arise.",
+      "see_also": [
+        "Feedback acceleration",
+        "Cross-system feedback"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nA feedback effect in which an activity and the reactions it generates increase the intensity, reach, amount, or consequences of subsequent activity. Stabilizing or dampening responses may limit or reverse amplification.\n\n**Relationship:** Acceleration refers to how quickly responses occur, not how much downstream activity they create. Cross-system feedback provides the setting in which amplification may arise.\n\n**See also:** [Feedback acceleration](#feedback-acceleration) · [Cross-system feedback](#cross-system-feedback)"
+    },
+    {
+      "term": "Governability",
+      "slug": "governability",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "A property of a consequential process describing the extent to which legitimate parties can understand, influence, constrain, correct, or recover its operation and outcomes. It does not imply complete predictability or a single controller.",
+      "relationship": "Chaperoning is a form of active supervision within this larger property; system-level autonomy is a separate hypothesis concerning processes no participant can effectively direct.",
+      "see_also": [
+        "Chaperoning",
+        "System-level autonomy",
+        "Assurance"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nA property of a consequential process describing the extent to which legitimate parties can understand, influence, constrain, correct, or recover its operation and outcomes. It does not imply complete predictability or a single controller.\n\n**Relationship:** Chaperoning is a form of active supervision within this larger property; system-level autonomy is a separate hypothesis concerning processes no participant can effectively direct.\n\n**See also:** [Chaperoning](#chaperoning) · [System-level autonomy](#system-level-autonomy) · [Assurance](#assurance)"
+    },
+    {
+      "term": "Horizon compression",
+      "slug": "horizon-compression",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Indicated",
+      "normative_proposal": false,
+      "definition": "A process in which the time available to identify, interpret, decide about, and intervene in consequential activity becomes shorter relative to the time intervention requires. It is an intervention-window problem, not a general label for every obstacle to correcting an agent.",
+      "relationship": "BVR concerns recognition of relevant activities and relationships, not time. Feedback acceleration may shorten intervention windows, while trajectory persistence may impede behavioral correction despite an otherwise adequate window. Chaperoning requires observation, judgment, and effective action.",
+      "see_also": [
+        "Beyond visual range (BVR)",
+        "Feedback acceleration",
+        "Chaperoning",
+        "Trajectory persistence"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Indicated**\n\nA process in which the time available to identify, interpret, decide about, and intervene in consequential activity becomes shorter relative to the time intervention requires. It is an intervention-window problem, not a general label for every obstacle to correcting an agent.\n\n**Relationship:** BVR concerns recognition of relevant activities and relationships, not time. Feedback acceleration may shorten intervention windows, while trajectory persistence may impede behavioral correction despite an otherwise adequate window. Chaperoning requires observation, judgment, and effective action.\n\n**See also:** [Beyond visual range (BVR)](#beyond-visual-range-bvr) · [Feedback acceleration](#feedback-acceleration) · [Chaperoning](#chaperoning) · [Trajectory persistence](#trajectory-persistence)"
+    },
+    {
+      "term": "Human–AI mutual adaptation",
+      "slug": "humanai-mutual-adaptation",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Indicated",
+      "normative_proposal": false,
+      "definition": "Reciprocal changes in human practices and AI-enabled activities as each responds to the other. Delegation can change how people decide and work; human behavior and institutions can reshape AI adoption, incentives, and subsequent capabilities.",
+      "relationship": "Organizational dependency can reinforce delegation, while a distributed adaptive control environment is a wider proposed setting for these reciprocal effects.",
+      "see_also": [
+        "Organizational dependency",
+        "Distributed adaptive control environment"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Indicated**\n\nReciprocal changes in human practices and AI-enabled activities as each responds to the other. Delegation can change how people decide and work; human behavior and institutions can reshape AI adoption, incentives, and subsequent capabilities.\n\n**Relationship:** Organizational dependency can reinforce delegation, while a distributed adaptive control environment is a wider proposed setting for these reciprocal effects.\n\n**See also:** [Organizational dependency](#organizational-dependency) · [Distributed adaptive control environment](#distributed-adaptive-control-environment)"
+    },
+    {
+      "term": "Investigative indicator",
+      "slug": "investigative-indicator",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "An observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.",
+      "relationship": "It motivates testing a mechanism hypothesis and must not be presented as demonstrated behavior.",
+      "see_also": [
+        "Mechanism hypothesis",
+        "Demonstrated behavior"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nAn observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.\n\n**Relationship:** It motivates testing a mechanism hypothesis and must not be presented as demonstrated behavior.\n\n**See also:** [Mechanism hypothesis](#mechanism-hypothesis) · [Demonstrated behavior](#demonstrated-behavior)"
+    },
+    {
+      "term": "Meaningful human control",
+      "slug": "meaningful-human-control",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "A condition in which people retain adequate information, independent judgment, authority, and practical means to redirect consequential activity. A nominal human-in-the-loop approval does not, by itself, demonstrate this capacity.",
+      "relationship": "Chaperoning describes active supervision that can help produce meaningful human control. Horizon compression limits time for intervention; trajectory persistence can impair an agent’s uptake of corrective signals, which is distinct from removing an external human’s intervention authority.",
+      "see_also": [
+        "Chaperoning",
+        "Horizon compression",
+        "Trajectory persistence"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nA condition in which people retain adequate information, independent judgment, authority, and practical means to redirect consequential activity. A nominal human-in-the-loop approval does not, by itself, demonstrate this capacity.\n\n**Relationship:** Chaperoning describes active supervision that can help produce meaningful human control. Horizon compression limits time for intervention; trajectory persistence can impair an agent’s uptake of corrective signals, which is distinct from removing an external human’s intervention authority.\n\n**See also:** [Chaperoning](#chaperoning) · [Horizon compression](#horizon-compression) · [Trajectory persistence](#trajectory-persistence)"
+    },
+    {
+      "term": "Mechanism hypothesis",
+      "slug": "mechanism-hypothesis",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "A provisional explanation specifying how certain conditions, activities, or relationships could produce an observed or anticipated effect. A useful hypothesis names evidence that could support, qualify, or weaken the explanation.",
+      "relationship": "Investigative indicators can motivate the hypothesis; demonstrated behavior provides bounded observations against which it may be tested.",
+      "see_also": [
+        "Investigative indicator",
+        "Demonstrated behavior"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nA provisional explanation specifying how certain conditions, activities, or relationships could produce an observed or anticipated effect. A useful hypothesis names evidence that could support, qualify, or weaken the explanation.\n\n**Relationship:** Investigative indicators can motivate the hypothesis; demonstrated behavior provides bounded observations against which it may be tested.\n\n**See also:** [Investigative indicator](#investigative-indicator) · [Demonstrated behavior](#demonstrated-behavior)"
+    },
+    {
+      "term": "Observability",
+      "slug": "observability",
+      "vocabulary_standing": "Established",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "The capacity to obtain and interpret dependable evidence about states, actions, relationships, and consequences relevant to a specified question. Evidence may come from more than one system or organization.",
+      "relationship": "An observability boundary describes the current limit of that capacity, while BVR describes relevant relationships beyond what the observer even recognizes as necessary to examine.",
+      "see_also": [
+        "Observability boundary",
+        "Beyond visual range (BVR)",
+        "Assurance independence"
+      ],
+      "source_markdown_exact": "**Vocabulary: Established**  \n**Claim: Foundation**\n\nThe capacity to obtain and interpret dependable evidence about states, actions, relationships, and consequences relevant to a specified question. Evidence may come from more than one system or organization.\n\n**Relationship:** An observability boundary describes the current limit of that capacity, while BVR describes relevant relationships beyond what the observer even recognizes as necessary to examine.\n\n**See also:** [Observability boundary](#observability-boundary) · [Beyond visual range (BVR)](#beyond-visual-range-bvr) · [Assurance independence](#assurance-independence)"
+    },
+    {
+      "term": "Observability boundary",
+      "slug": "observability-boundary",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "relationship": "BVR specifically calls attention to consequential relationships outside recognized relevance; the sleight-of-hand effect captures how valid local observation may be mistaken for sufficient overall coverage.",
+      "see_also": [
+        "Observability",
+        "Beyond visual range (BVR)",
+        "Sleight-of-hand effect"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nThe practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.\n\n**Relationship:** BVR specifically calls attention to consequential relationships outside recognized relevance; the sleight-of-hand effect captures how valid local observation may be mistaken for sufficient overall coverage.\n\n**See also:** [Observability](#observability) · [Beyond visual range (BVR)](#beyond-visual-range-bvr) · [Sleight-of-hand effect](#sleight-of-hand-effect)"
+    },
+    {
+      "term": "Operational trust",
+      "slug": "operational-trust",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "Reliance placed in an AI-enabled capability through actual use, decisions, and delegation, whether or not users express subjective confidence in it. Trust in this sense is operational behavior, not a reliability certification.",
+      "relationship": "Sustained operational reliance may develop into organizational dependency; both concern the larger capability rather than the model alone.",
+      "see_also": [
+        "Organizational dependency",
+        "AI-enabled capability"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nReliance placed in an AI-enabled capability through actual use, decisions, and delegation, whether or not users express subjective confidence in it. Trust in this sense is operational behavior, not a reliability certification.\n\n**Relationship:** Sustained operational reliance may develop into organizational dependency; both concern the larger capability rather than the model alone.\n\n**See also:** [Organizational dependency](#organizational-dependency) · [AI-enabled capability](#ai-enabled-capability)"
+    },
+    {
+      "term": "Organizational dependency",
+      "slug": "organizational-dependency",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "Material reliance by an organization on an AI-enabled capability to conduct operations, make decisions, or sustain service. Consequences depend on alternatives, retained expertise, and capacity to continue or recover without the capability.",
+      "relationship": "Operational trust concerns reliance in use; competency decay can make alternatives and independent judgment harder to maintain.",
+      "see_also": [
+        "Operational trust",
+        "Competency decay",
+        "AI-enabled capability"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nMaterial reliance by an organization on an AI-enabled capability to conduct operations, make decisions, or sustain service. Consequences depend on alternatives, retained expertise, and capacity to continue or recover without the capability.\n\n**Relationship:** Operational trust concerns reliance in use; competency decay can make alternatives and independent judgment harder to maintain.\n\n**See also:** [Operational trust](#operational-trust) · [Competency decay](#competency-decay) · [AI-enabled capability](#ai-enabled-capability)"
+    },
+    {
+      "term": "Outcome–purpose divergence",
+      "slug": "outcomepurpose-divergence",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Demonstrated (bounded)",
+      "normative_proposal": false,
+      "definition": "A condition in which meeting an immediate objective or metric degrades the benefit or purpose that justified pursuing it. The divergence can occur through narrow measures or indirect consequences without an intent to deceive.",
+      "relationship": "Purpose preservation and purposeful continuity are proposed principles meant to keep immediate success and continued development linked to underlying value.",
+      "see_also": [
+        "Purpose preservation",
+        "Purposeful continuity"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Demonstrated (bounded)**\n\nA condition in which meeting an immediate objective or metric degrades the benefit or purpose that justified pursuing it. The divergence can occur through narrow measures or indirect consequences without an intent to deceive.\n\n**Relationship:** Purpose preservation and purposeful continuity are proposed principles meant to keep immediate success and continued development linked to underlying value.\n\n**See also:** [Purpose preservation](#purpose-preservation) · [Purposeful continuity](#purposeful-continuity)"
+    },
+    {
+      "term": "Purpose preservation",
+      "slug": "purpose-preservation",
+      "vocabulary_standing": "Working",
+      "claim_standing": null,
+      "normative_proposal": true,
+      "definition": "A proposed principle that the achievement of an objective should not destroy or irreversibly undermine the conditions giving it intended value to its beneficiaries. It tests the meaning of success, not solely performance against a target.",
+      "relationship": "Outcome–purpose divergence describes the kind of failure the principle would flag; purposeful continuity extends the question to changing capabilities and successors.",
+      "see_also": [
+        "Outcome–purpose divergence",
+        "Purposeful continuity"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Normative proposal**\n\nA proposed principle that the achievement of an objective should not destroy or irreversibly undermine the conditions giving it intended value to its beneficiaries. It tests the meaning of success, not solely performance against a target.\n\n**Relationship:** Outcome–purpose divergence describes the kind of failure the principle would flag; purposeful continuity extends the question to changing capabilities and successors.\n\n**See also:** [Outcome–purpose divergence](#outcomepurpose-divergence) · [Purposeful continuity](#purposeful-continuity)"
+    },
+    {
+      "term": "Purposeful continuity",
+      "slug": "purposeful-continuity",
+      "vocabulary_standing": "Working",
+      "claim_standing": null,
+      "normative_proposal": true,
+      "definition": "A proposed principle for evolving AI capabilities and successors: changes in methods, objectives, or architecture should preserve defensible connections to intended value and permit independent reconsideration. This remains a normative proposal, not a demonstrated alignment solution.",
+      "relationship": "Purpose preservation concerns immediate objectives; successor assurance would examine whether specified properties persist as systems evolve.",
+      "see_also": [
+        "Purpose preservation",
+        "Successor assurance",
+        "Governability"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Normative proposal**\n\nA proposed principle for evolving AI capabilities and successors: changes in methods, objectives, or architecture should preserve defensible connections to intended value and permit independent reconsideration. This remains a normative proposal, not a demonstrated alignment solution.\n\n**Relationship:** Purpose preservation concerns immediate objectives; successor assurance would examine whether specified properties persist as systems evolve.\n\n**See also:** [Purpose preservation](#purpose-preservation) · [Successor assurance](#successor-assurance) · [Governability](#governability)"
+    },
+    {
+      "term": "Reference environment integrity",
+      "slug": "reference-environment-integrity",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "The reliability, provenance, completeness, and resistance to manipulation of information used to make operational or assurance judgments, including documents, logs, telemetry, evidence, and monitoring outputs.",
+      "relationship": "Evidence laundering can give unreliable sources apparent authority; environmental redirection concerns agent behavior influenced by what the environment presents.",
+      "see_also": [
+        "Evidence laundering through AI",
+        "Environmental redirection",
+        "Assurance"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nThe reliability, provenance, completeness, and resistance to manipulation of information used to make operational or assurance judgments, including documents, logs, telemetry, evidence, and monitoring outputs.\n\n**Relationship:** Evidence laundering can give unreliable sources apparent authority; environmental redirection concerns agent behavior influenced by what the environment presents.\n\n**See also:** [Evidence laundering through AI](#evidence-laundering-through-ai) · [Environmental redirection](#environmental-redirection) · [Assurance](#assurance)"
+    },
+    {
+      "term": "Sleight-of-hand effect",
+      "slug": "sleight-of-hand-effect",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "An analogy for a mismatch between apparently successful local observation and the consequential process actually unfolding. An observer may see what was assigned for monitoring while missing actions or relationships elsewhere that change the outcome. Deliberate concealment is not required.",
+      "relationship": "BVR names a limitation in recognizing which relationships matter; an observability boundary identifies the extent of monitored or inferable activity.",
+      "see_also": [
+        "Beyond visual range (BVR)",
+        "Observability boundary"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Foundation**\n\nAn analogy for a mismatch between apparently successful local observation and the consequential process actually unfolding. An observer may see what was assigned for monitoring while missing actions or relationships elsewhere that change the outcome. Deliberate concealment is not required.\n\n**Relationship:** BVR names a limitation in recognizing which relationships matter; an observability boundary identifies the extent of monitored or inferable activity.\n\n**See also:** [Beyond visual range (BVR)](#beyond-visual-range-bvr) · [Observability boundary](#observability-boundary)"
+    },
+    {
+      "term": "Successor assurance",
+      "slug": "successor-assurance",
+      "vocabulary_standing": "Extended",
+      "claim_standing": "Foundation",
+      "normative_proposal": false,
+      "definition": "Evaluation of whether a significantly modified or AI-created successor preserves specified behavioral, authorization, evidence, control, and purpose-related properties. Passing performance tests alone does not demonstrate preservation of these properties.",
+      "relationship": "Purposeful continuity offers a normative rationale for preserving justified value; assurance independence is relevant to determining whether assessments can be trusted.",
+      "see_also": [
+        "Purposeful continuity",
+        "Assurance independence"
+      ],
+      "source_markdown_exact": "**Vocabulary: Extended**  \n**Claim: Foundation**\n\nEvaluation of whether a significantly modified or AI-created successor preserves specified behavioral, authorization, evidence, control, and purpose-related properties. Passing performance tests alone does not demonstrate preservation of these properties.\n\n**Relationship:** Purposeful continuity offers a normative rationale for preserving justified value; assurance independence is relevant to determining whether assessments can be trusted.\n\n**See also:** [Purposeful continuity](#purposeful-continuity) · [Assurance independence](#assurance-independence)"
+    },
+    {
+      "term": "System-level autonomy",
+      "slug": "system-level-autonomy",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Hypothesis",
+      "normative_proposal": false,
+      "definition": "A possible condition in which interactions among humans, organizations, and AI systems sustain consequential patterns no single participant meaningfully directs or can correct. It is a claim about collective operation, not necessarily autonomy of any one agent.",
+      "relationship": "A distributed adaptive control environment is a proposed setting in which such effects might arise; governability describes whether legitimate direction and correction remain possible.",
+      "see_also": [
+        "Distributed adaptive control environment",
+        "Governability",
+        "Cross-system feedback"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Hypothesis**\n\nA possible condition in which interactions among humans, organizations, and AI systems sustain consequential patterns no single participant meaningfully directs or can correct. It is a claim about collective operation, not necessarily autonomy of any one agent.\n\n**Relationship:** A distributed adaptive control environment is a proposed setting in which such effects might arise; governability describes whether legitimate direction and correction remain possible.\n\n**See also:** [Distributed adaptive control environment](#distributed-adaptive-control-environment) · [Governability](#governability) · [Cross-system feedback](#cross-system-feedback)"
+    },
+    {
+      "term": "Trajectory persistence",
+      "slug": "trajectory-persistence",
+      "vocabulary_standing": "Working",
+      "claim_standing": "Demonstrated (bounded)",
+      "normative_proposal": false,
+      "definition": "A tendency for an agent to continue an established approach despite information suggesting the approach is inappropriate, unsafe, or outside scope. In controlled incident replays, continued behavior was observed. The explanation that prior actions and compaction summaries create a self-reinforcing “momentum” remains a researcher hypothesis, not a verified causal mechanism [8–10].",
+      "relationship": "Unlike horizon compression, trajectory persistence need not result from a lack of time. Unlike BVR, the relevant behavior need not be unseen. Recognition of a reason to stop may fail to change the agent’s actions; independent intervention through a control air gap is a separate matter.",
+      "see_also": [
+        "Chaperoning",
+        "Horizon compression",
+        "Environmental redirection",
+        "Meaningful human control",
+        "Control air gap"
+      ],
+      "source_markdown_exact": "**Vocabulary: Working**  \n**Claim: Demonstrated (bounded)**\n\nA tendency for an agent to continue an established approach despite information suggesting the approach is inappropriate, unsafe, or outside scope. In controlled incident replays, continued behavior was observed. The explanation that prior actions and compaction summaries create a self-reinforcing “momentum” remains a researcher hypothesis, not a verified causal mechanism [8–10].\n\n**Relationship:** Unlike horizon compression, trajectory persistence need not result from a lack of time. Unlike BVR, the relevant behavior need not be unseen. Recognition of a reason to stop may fail to change the agent’s actions; independent intervention through a control air gap is a separate matter.\n\n**See also:** [Chaperoning](#chaperoning) · [Horizon compression](#horizon-compression) · [Environmental redirection](#environmental-redirection) · [Meaningful human control](#meaningful-human-control) · [Control air gap](#control-air-gap)\n\n---"
+    }
+  ]
+}
