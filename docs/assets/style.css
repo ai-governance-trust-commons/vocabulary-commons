@@ -23,3 +23,37 @@
   .hero-intro{margin-bottom:0}
   .welcome{display:none}
 }
+
+/* Commons palette revision: navy, copper, ivory */
+:root {
+  --bg: #FBF9F6;
+  --ink: #202C41;
+  --muted: #526076;
+  --line: #DDD8D0;
+  --teal: #8D4B26;
+  --deep: #263855;
+  --pale: #F4ECE2;
+}
+p { color: #354257; }
+a:hover { color: #182743; }
+.site-header nav a { color: #526076; }
+.hero {
+  background: linear-gradient(110deg, #F7EEE5, #FBF9F6 60%, #ECECF3);
+}
+.hero-panel { box-shadow: 12px 12px 0 #E4D7C9; }
+.panel-top, .panel-bottom { color: #DEC8A9; }
+.hero-panel p { color: #E8E5DF; }
+.fullband { background: #F0ECE7; border-color: #DDD5CA; }
+.band-details, .band-details>div { border-color: #D8D0C4; }
+.site-footer { background: #202C41; }
+.footer-cols p { color: #D3DBE6; }
+.footer-label { color: #E7C49B; }
+.footer-cols a { color: #F8F0E5; }
+.foot-end { border-color: #4E586D; color: #D1D9E1; }
+.filterbar input, .filter-row select { border-color: #B5B2AB; }
+.chips span, .related a {
+  background: #F5EDE5;
+  border-color: #E5D7C8;
+}
+.related a:hover { background: #EDE1D3; }
+.source-banner { background: #F4ECE2; }
