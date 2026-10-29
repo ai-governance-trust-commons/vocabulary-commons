@@ -24,7 +24,8 @@
   .welcome{display:none}
 }
 
-/* Commons palette revision: navy, copper, ivory */
+
+/* Commons palette revision: navy, copper, ivory (existing live design) */
 :root {
   --bg: #FBF9F6;
   --ink: #202C41;
@@ -37,9 +38,7 @@
 p { color: #354257; }
 a:hover { color: #182743; }
 .site-header nav a { color: #526076; }
-.hero {
-  background: linear-gradient(110deg, #F7EEE5, #FBF9F6 60%, #ECECF3);
-}
+.hero { background: linear-gradient(110deg, #F7EEE5, #FBF9F6 60%, #ECECF3); }
 .hero-panel { box-shadow: 12px 12px 0 #E4D7C9; }
 .panel-top, .panel-bottom { color: #DEC8A9; }
 .hero-panel p { color: #E8E5DF; }
@@ -51,9 +50,13 @@ a:hover { color: #182743; }
 .footer-cols a { color: #F8F0E5; }
 .foot-end { border-color: #4E586D; color: #D1D9E1; }
 .filterbar input, .filter-row select { border-color: #B5B2AB; }
-.chips span, .related a {
-  background: #F5EDE5;
-  border-color: #E5D7C8;
-}
+.chips span, .related a { background: #F5EDE5; border-color: #E5D7C8; }
 .related a:hover { background: #EDE1D3; }
 .source-banner { background: #F4ECE2; }
+
+/* v0.3.1: invite discussion beside each individual entry. */
+.contribute-entry { background: #F7F0E8; padding: 22px 25px 10px !important; border-left: 3px solid var(--teal); margin: 20px 0 26px; }
+.contribute-entry h2 { color: var(--ink) !important; font-size: 21px !important; letter-spacing: -.02em !important; text-transform: none !important; }
+.contribute-entry p { font-size: 15px !important; line-height: 1.6 !important; }
+.contribute-links { display: flex; flex-wrap: wrap; gap: 10px; }
+.contribute-entry .tiny-note { font-size: 12px !important; }
