@@ -60,3 +60,20 @@ a:hover { color: #182743; }
 .contribute-entry p { font-size: 15px !important; line-height: 1.6 !important; }
 .contribute-links { display: flex; flex-wrap: wrap; gap: 10px; }
 .contribute-entry .tiny-note { font-size: 12px !important; }
+
+/* v0.3.3: clear contribution routes and tighter participation spacing. */
+.participate-hero{padding-bottom:8px}
+.participate-options{padding-top:28px;padding-bottom:36px}
+.participate-details{padding-top:14px;padding-bottom:60px}
+.participate-options .feature-number{margin-bottom:22px}
+.participate-options section.feature:hover{transform:none}
+.participate-options section.feature p{flex:0}
+.participate-options section.feature p:last-child{margin-bottom:0}
+.participate-options .route-note{margin-top:7px}
+.contribution-options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.contribution-option{min-width:0}
+.contribution-options .button{width:100%;text-align:center;color:var(--deep);background:var(--surface)}
+.contribution-options .button:hover{background:var(--pale)}
+.route-note,.contribute-entry p.route-note{font-size:13px!important;line-height:1.6!important;color:var(--muted);margin:9px 0 14px}
+.contribute-entry p.submission-followup{margin-top:22px;margin-bottom:0}
+@media(max-width:750px){.participate-options{padding-top:20px;padding-bottom:24px}.participate-details{padding-top:8px}.contribution-options{grid-template-columns:1fr;gap:22px}.contribute-entry{padding-left:18px!important;padding-right:18px!important}}
