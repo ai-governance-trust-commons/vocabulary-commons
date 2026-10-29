@@ -11,8 +11,9 @@
  const search=document.querySelector('#term-search');
  const vocab=document.querySelector('#vocab-filter');
  const claim=document.querySelector('#claim-filter');
+ const kind=document.querySelector('#kind-filter');
  const list=document.querySelector('#term-list');
- if(!search||!vocab||!claim||!list)return;
+ if(!search||!vocab||!claim||!kind||!list)return;
  const items=Array.from(list.querySelectorAll('.term-item'));
  const count=document.querySelector('#results-count');
  const empty=document.querySelector('#no-results');
@@ -21,7 +22,7 @@
    let hits=0;
    items.forEach(item=>{
      const text=item.dataset.search||'';
-     const match=words.every(word=>text.includes(word))&&(!vocab.value||item.dataset.vocabulary===vocab.value)&&(!claim.value||item.dataset.claim===claim.value);
+     const match=words.every(word=>text.includes(word))&&(!vocab.value||item.dataset.vocabulary===vocab.value)&&(!claim.value||item.dataset.claim===claim.value)&&(!kind.value||item.dataset.kind===kind.value);
      item.hidden=!match;if(match)hits++;
    });
    if(count)count.textContent=`${hits} ${hits===1?'term':'terms'}`;
@@ -30,4 +31,5 @@
  search.addEventListener('input',filter);
  vocab.addEventListener('change',filter);
  claim.addEventListener('change',filter);
+ kind.addEventListener('change',filter);
 })();
