@@ -87,7 +87,7 @@ def relink_markup(text, prefix):
 
 # Globally shared page elements.
 def nav(prefix, active=''):
-    menu=[('Home',prefix),('Glossary',prefix+'terms/'),('Explore questions',prefix+'questions/'),('How to read',prefix+'method/'),('Participate',prefix+'participate/')]
+    menu=[('Home',prefix),('Glossary',prefix+'terms/'),('Evidence Locker',prefix+'evidence/'),('Explore questions',prefix+'questions/'),('How to read',prefix+'method/'),('Participate',prefix+'participate/')]
     links=''.join('<a href="'+esc(u)+'"'+(' aria-current="page"' if label==active else '')+'>'+esc(label)+'</a>' for label,u in menu)
     return f'''<header class="site-header"><div class="wrap masthead">
 <a class="brand" href="{prefix}" aria-label="Governance and Trust Vocabulary Commons, home"><span class="mark" aria-hidden="true"><span></span><span></span><span></span></span><span class="brand-name">Governance <em>&amp;</em> Trust <small>Vocabulary Commons</small></span></a>
@@ -204,7 +204,7 @@ put(Path('data/glossary.json'),json.dumps(export,ensure_ascii=False,indent=2)+'\
 shutil.copyfile(SOURCE,SITE/'source/FOUNDING_GLOSSARY_v1.0.2.md')
 assert (SITE/'source/FOUNDING_GLOSSARY_v1.0.2.md').read_bytes()==b
 
-urls=['','terms/','questions/','method/','participate/']+['terms/'+t['slug']+'/' for t in terms]
+urls=['','terms/','questions/','method/','participate/','evidence/','evidence/policy.html']+['terms/'+t['slug']+'/' for t in terms]
 sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+xml_escape(HOST+x)+'</loc></url>\n' for x in urls)+'</urlset>\n'
 put(Path('sitemap.xml'),sitemap)
 put(Path('robots.txt'),'User-agent: *\nAllow: /\n\nSitemap: '+HOST+'sitemap.xml\n')
@@ -212,3 +212,4 @@ if not (SITE/'.nojekyll').exists():
     put(Path('.nojekyll'),'')
 
 print('Built',len(terms),'terms /',len(urls),'HTML pages, source git SHA:',gitsha)
+
