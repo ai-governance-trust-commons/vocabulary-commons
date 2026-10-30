@@ -110,3 +110,12 @@ The editorial process itself remains open to criticism, revision, and simplifica
 ---
 
 **Our objective is shared understanding, not shared conclusions.**
+
+
+## Evidence Locker provisional publication
+
+Effective October 30, 2026, the founding steward authorizes publication and routine maintenance of provisional Evidence Locker records without individual human approval of every update. Each public record must identify its source and supporting location, attribute claims, state material limitations, distinguish publication from independent verification, and preserve case identity and source dependencies. AI assistance does not turn a provider report into independent corroboration.
+
+Routine editorial checks may be performed under this standing authority. Material disputes, uncertain provenance, privacy or rights concerns, and proposed changes to the founding glossary require further review. The initial collection is explicitly provisional and not independently verified by the Commons. Stable record IDs, dated releases, and correction routes support subsequent qualification, correction, or withdrawal.
+
+This policy concerns provisional evidence records. The existing authorization requirement for inclusion in the curated glossary remains applicable to glossary definitions. Third-party source preservation and redistribution are separate permission decisions.

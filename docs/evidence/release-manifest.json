@@ -1,0 +1,11 @@
+{
+  "release": "initial-provisional-0.4.0",
+  "generated_at": "2026-10-30T19:10:05.438408+00:00",
+  "evidence_count": 10,
+  "publication_status": "Provisional; not independent verification",
+  "files_sha256": {
+    "evidence.json": "08a13af532f0dc78b3172f0b3a75528b9365d1ffaa2f9ad2b29bca0d838c0921",
+    "index.html": "eb1a97844703097655a1e9fa8212f42ae67bdee6228980ca6ea3fbb86f489874",
+    "policy.html": "8a02f84f013954898bc6b09fc606f265ea36c3b26301f1768a82a3c2fc4373eb"
+  }
+}

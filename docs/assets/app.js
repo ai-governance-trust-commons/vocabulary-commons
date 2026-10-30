@@ -33,3 +33,4 @@
  claim.addEventListener('change',filter);
  kind.addEventListener('change',filter);
 })();
+

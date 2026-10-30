@@ -86,3 +86,4 @@ a:hover { color: #182743; }
 .term-card h2 a::after{content:"";position:absolute;inset:0}
 .term-card:focus-within{outline:3px solid #ed9b42;outline-offset:3px}
 .term-card h2 a:focus-visible{outline:none}
+
