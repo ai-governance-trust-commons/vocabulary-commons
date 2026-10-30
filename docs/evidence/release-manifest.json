@@ -5,8 +5,8 @@
   "publication_status": "Provisional; not independent verification",
   "files_sha256": {
     "evidence.json": "08a13af532f0dc78b3172f0b3a75528b9365d1ffaa2f9ad2b29bca0d838c0921",
-    "index.html": "332a811b46e5f1127ae25bc6f60995186b0e6bb8ca71f9cd70b8015b5a2a49b8",
-    "policy.html": "48e23031cf8b5a8f8b24cfcce1dcf180acd88a761cc652d5258b1e795c7d65ad"
+    "index.html": "e959b2eb0d70606bb87a54290a7393657fd12a2851e5b575de239daa2daf41b6",
+    "policy.html": "9aefb3854503551581e6d800490f2aba66f2a5cd57664f7061a8d1ba5b754e73"
   },
-  "presentation_update": "2026-10-30: add Commons navigation; evidence records unchanged"
+  "presentation_update": "2026-10-30: use shared Commons header, stylesheet and mobile navigation script; evidence unchanged"
 }
