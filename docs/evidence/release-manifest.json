@@ -5,8 +5,8 @@
   "publication_status": "Provisional; not independent verification",
   "files_sha256": {
     "evidence.json": "08a13af532f0dc78b3172f0b3a75528b9365d1ffaa2f9ad2b29bca0d838c0921",
-    "index.html": "e959b2eb0d70606bb87a54290a7393657fd12a2851e5b575de239daa2daf41b6",
-    "policy.html": "9aefb3854503551581e6d800490f2aba66f2a5cd57664f7061a8d1ba5b754e73"
+    "index.html": "307b7d863547331f857eaf89e015f7f3ae5d4b0dc8ec084b18b91c6fc9d1612c",
+    "policy.html": "4bbca35a9599fc2d7c639546016f07ac5fe952b202ee0e4b4aee750c330d77c1"
   },
-  "presentation_update": "2026-10-30: use shared Commons header, stylesheet and mobile navigation script; evidence unchanged"
+  "presentation_update": "2026-10-30: remove Georgia title override and use Commons sans-serif typography; evidence unchanged"
 }
