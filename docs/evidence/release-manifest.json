@@ -1,12 +1,11 @@
 {
-  "release": "initial-provisional-0.4.0",
-  "generated_at": "2026-10-30T19:10:05.438408+00:00",
-  "evidence_count": 10,
+  "release": "provisional-0.4.1",
+  "generated_at": "2026-10-30T20:26:00.630214+00:00",
+  "evidence_count": 20,
   "publication_status": "Provisional; not independent verification",
   "files_sha256": {
-    "evidence.json": "08a13af532f0dc78b3172f0b3a75528b9365d1ffaa2f9ad2b29bca0d838c0921",
-    "index.html": "307b7d863547331f857eaf89e015f7f3ae5d4b0dc8ec084b18b91c6fc9d1612c",
+    "evidence.json": "9cfbed593454df30041c8038c7fcb327ef2dfa60c45e5b6ac41a5f27ee851a84",
+    "index.html": "3fd8addbd2767dc44906937adc5225e5aab66b0ecb04c6e47dfee8595d6683c3",
     "policy.html": "4bbca35a9599fc2d7c639546016f07ac5fe952b202ee0e4b4aee750c330d77c1"
-  },
-  "presentation_update": "2026-10-30: remove Georgia title override and use Commons sans-serif typography; evidence unchanged"
+  }
 }
