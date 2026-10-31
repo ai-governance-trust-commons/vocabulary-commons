@@ -1,11 +1,11 @@
 {
-  "release": "provisional-0.4.1",
-  "generated_at": "2026-10-30T20:26:00.630214+00:00",
-  "evidence_count": 20,
+  "release": "provisional-0.4.2",
+  "generated_at": "2026-10-30T22:37:06.129731+00:00",
+  "evidence_count": 156,
   "publication_status": "Provisional; not independent verification",
   "files_sha256": {
-    "evidence.json": "9cfbed593454df30041c8038c7fcb327ef2dfa60c45e5b6ac41a5f27ee851a84",
-    "index.html": "3fd8addbd2767dc44906937adc5225e5aab66b0ecb04c6e47dfee8595d6683c3",
+    "index.html": "a19d96080f216b451a8a86596b6e689dfd24721ac115e1f005eeb27d9de79234",
+    "evidence.json": "7659ef7756d09e927eba3c1df929e10c5720ade9472f2cfe7a309bd05f72c112",
     "policy.html": "4bbca35a9599fc2d7c639546016f07ac5fe952b202ee0e4b4aee750c330d77c1"
   }
 }
