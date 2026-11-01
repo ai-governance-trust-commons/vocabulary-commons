@@ -1,23 +1,23 @@
 {
-  "dataset_version": "0.4.5",
-  "presentation_version": "0.5.0",
-  "generated_at": "2026-11-01T11:31:38.032439+00:00",
-  "evidence_count": 176,
-  "source_count": 139,
+  "dataset_version": "0.5.1",
+  "presentation_version": "0.5.1",
+  "generated_at": "2026-11-01T18:38:34.584202+00:00",
+  "evidence_count": 182,
+  "source_count": 145,
   "withdrawn_ids": [
     "EVID-139",
     "EVID-144"
   ],
   "files_sha256": {
-    "index.html": "68913505c736e2de783e17de76576d99976174cb2b16865058c70b7e19d5090f",
-    "evidence.json": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+    "index.html": "3689d2da3d76fd4bcc48acd08bcf33d5548c2cb3a4776dfab5fec335c4e415ad",
+    "evidence.json": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
     "policy.html": "9558c90c8622108e53fe32acd727e09e3fb191d0257b332a4771f224c44ed744",
     "evidence.js": "b00425211d7e07bfcc9b3c061e35713bf5bd9d017cb2eb2200b7d68b7623cf3e",
     "evidence.css": "03d5aa39ecff9a40fd9431b7bb00af74806d77c1c38e18396b5447f14105e6f1"
   },
-  "presentation_updated_at": "2026-11-01T14:42:19.326928+00:00",
-  "machine_release": "0.5.0",
+  "presentation_updated_at": "2026-11-01T18:40:29.543176+00:00",
+  "machine_release": "0.5.1",
   "machine_contract_version": "1.0",
   "machine_catalog": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/catalog.json",
-  "machine_checksums_sha256": "e782447cb6eb967464de45082947e10a1ed794a357fd8fa40d1f446ad7bc438f"
+  "machine_checksums_sha256": "b06c3b8a87cb58c716ab84f929a796e7bad33f91d9fd776ce1e4160dc94d1aa1"
 }

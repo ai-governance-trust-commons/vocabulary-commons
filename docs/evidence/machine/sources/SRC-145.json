@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.1",
+  "dataset_version": "0.5.1",
+  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "id": "SRC-145",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-145.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-145",
+    "title": "Diving Deeper into AI Package Hallucinations",
+    "publisher": "Lasso Security",
+    "issuing_body": "Bar Lanyado",
+    "authors": [
+      "Bar Lanyado"
+    ],
+    "url": "https://www.lasso.security/blog/ai-package-hallucinations",
+    "publication_date": "2024-03-28",
+    "access_date": "2026-11-01",
+    "locator": "How — Research Process; Cross models hallucinations; Hallucinated Package Case Study; registerability qualifications",
+    "source_kind": "Original vendor research",
+    "independence_group": "lanyado-package-hallucination-programme",
+    "version_note": "Original vendor follow-up research dated 28 March 2024; methods and package case inspected. Numeric hallucination rates are not adopted because denominator comparability needs further reconciliation. Root/source: https://www.lasso.security/blog/ai-package-hallucinations Discovery credit: MITRE ATLAS AML.CS0022 → Lasso original follow-up research; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-004, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+    "verification": {
+      "status": "Original public source inspected; underlying claims not independently verified",
+      "scope": "How — Research Process; Cross models hallucinations; Hallucinated Package Case Study; registerability qualifications; direct public full text inspected by Mike AI on 2026-11-01",
+      "review_date": "2026-11-01",
+      "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+      "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+      "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+      "dispute_check_date": null,
+      "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+    },
+    "preservation": {
+      "status": "Link-only; no source publication copy captured or redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T18:38:34.386143+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-182",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-182.json"
+    }
+  ]
+}

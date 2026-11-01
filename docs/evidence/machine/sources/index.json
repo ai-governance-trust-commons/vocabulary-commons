@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "dataset_version": "0.4.5",
+  "dataset_version": "0.5.1",
   "notice": "One source record is not necessarily one independent study or corroborator.",
   "sources": [
     {
@@ -697,6 +697,36 @@
       "id": "SRC-141",
       "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-141.json",
       "original_url": "https://journals.sagepub.com/doi/10.1177/0018720816685832"
+    },
+    {
+      "id": "SRC-142",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-142.json",
+      "original_url": "https://arxiv.org/html/2302.12173v2"
+    },
+    {
+      "id": "SRC-143",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-143.json",
+      "original_url": "https://arxiv.org/html/2403.02817v2"
+    },
+    {
+      "id": "SRC-144",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-144.json",
+      "original_url": "https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/"
+    },
+    {
+      "id": "SRC-145",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-145.json",
+      "original_url": "https://www.lasso.security/blog/ai-package-hallucinations"
+    },
+    {
+      "id": "SRC-146",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-146.json",
+      "original_url": "https://arxiv.org/html/2403.14720v1"
+    },
+    {
+      "id": "SRC-147",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-147.json",
+      "original_url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/"
     }
   ]
 }
