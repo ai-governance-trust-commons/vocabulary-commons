@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-092",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-092.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-092",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-092",
+    "title": "Hacktron reports a July exploit chain reaching employee accounts and a proof-of-access internal pull request, using AI assistance with skilled human guidance.",
+    "case_id": "CASE-081",
+    "observation": "Hacktron reports a July exploit chain reaching employee accounts and a proof-of-access internal pull request, using AI assistance with skilled human guidance.",
+    "evidence_standing": "Attributed bounded observation; not independently verified",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-059"
+    ],
+    "source_locations": {
+      "SRC-059": "Exploit timeline; disclosure timeline; Opus 5 Released; Costs of finding these vulnerabilities"
+    },
+    "limitations": "Researcher account not independently reproduced. Broader possible connector access differs from demonstrated access. Do not describe the entire operation as authorized by the bounty: the included OpenAI comment excludes the Discourse target from its scope. Earlier model attempts failed under enabled mitigations; later models succeeded. Researchers explicitly say the process was not completely autonomous. OpenAI-side fix is reported, not independently retested.",
+    "open_questions": "Underlying records, alternatives and generalization have not been independently verified by the Commons.",
+    "keywords": [
+      "Constraint compression",
+      "Capability feasibility progression"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-081",
+    "title": "Hacktron OpenAI exploit chain with human-guided AI assistance",
+    "kind": "Researcher-reported security testing",
+    "event_date": "2026-07-23 to 2026-07-25",
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-059"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-059",
+      "title": "Hacktron OpenAI exploit chain with human-guided AI assistance",
+      "publisher": "Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron",
+      "issuing_body": "Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron",
+      "authors": [
+        "Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron"
+      ],
+      "url": "https://www.hacktron.ai/blog/hacking-openai",
+      "publication_date": "2026-09-13",
+      "access_date": "2026-10-30",
+      "locator": "Exploit timeline; disclosure timeline; Opus 5 Released; Costs of finding these vulnerabilities",
+      "source_kind": "Primary publication or technical disclosure; see cited scope",
+      "independence_group": "https://www.hacktron.ai/blog/hacking-openai",
+      "version_note": "Includes OpenAI scope clarification and fix timeline. Publication displays Sep13; secondary reporting appeared Sep18. No claim those are identical dates. Primary publisher account; news retellings do not independently corroborate it.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Exploit timeline; disclosure timeline; Opus 5 Released; Costs of finding these vulnerabilities",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Includes OpenAI scope clarification and fix timeline. Publication displays Sep13; secondary reporting appeared Sep18. No claim those are identical dates.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only; archival/redistribution permission not established; no source copy retained.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-capability-feasibility-progression",
+      "name": "Capability feasibility progression",
+      "definition": "An analytical sequence for describing distinct levels of practical possibility: possible → practical → repeatable → scalable. A step need not follow the preceding one automatically, and the categories are not a universal maturity model.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#capability-feasibility-progression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-206",
+      "from_id": "EVID-092",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-207",
+      "from_id": "EVID-092",
+      "to_id": "TERM-capability-feasibility-progression",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

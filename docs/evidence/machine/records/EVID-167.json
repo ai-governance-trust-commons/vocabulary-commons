@@ -1,0 +1,174 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-167",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-167.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-167",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-167",
+    "title": "Retraining can converge under bounded assumptions rather than inevitably amplify instability",
+    "case_id": "CASE-151",
+    "observation": "Source-reported finding: The authors establish conditional convergence to a stable model when the induced distribution and loss meet stated sensitivity, smoothness and convexity assumptions. Counterexamples diverge when assumptions fail. Observation period and measurement context: Formal analysis and illustrative experiments; no longitudinal field sample.",
+    "evidence_standing": "Source-reported bounded account; Formal analysis; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-131"
+    ],
+    "source_locations": {
+      "SRC-131": "Proceedings introduction and §3; v4 §3.2, Theorem 3.5 and Proposition 3.6"
+    },
+    "limitations": "These assumptions need not hold in deployed ecosystems. Stability does not imply social desirability or global optimality. Proofs and code were not independently checked by the Commons.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Feedback amplification",
+      "Mechanism hypothesis"
+    ],
+    "support_assessment": "Commons interpretation: Counterconditions qualify universal runaway-feedback claims.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Conceptual framing",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-151",
+    "title": "Performative Prediction — study grouping",
+    "kind": "Formal analysis",
+    "event_date": "Formal analysis and illustrative experiments; no longitudinal field sample",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-131"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Formal analysis and illustrative experiments; no longitudinal field sample",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-131",
+      "title": "Performative Prediction",
+      "publisher": "PMLR 119",
+      "issuing_body": "Juan C. Perdomo; Tijana Zrnic; Celestine Mendler-Dünner; Moritz Hardt",
+      "authors": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "publication_date": "2020-07-13",
+      "access_date": "2026-10-31",
+      "locator": "Proceedings introduction and §3; v4 §3.2, Theorem 3.5 and Proposition 3.6",
+      "source_kind": "Formal analysis",
+      "independence_group": "perdomo-2020",
+      "version_note": "v1 February 16, 2020; v4 February 26, 2021: https://arxiv.org/abs/2002.06673 . v4 marked fixed some typos; substantive equivalence not fully audited. https://github.com/jcperdomo/performative-prediction not executed.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Proceedings introduction and §3; v4 §3.2, Theorem 3.5 and Proposition 3.6; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-feedback-amplification",
+      "name": "Feedback amplification",
+      "definition": "A feedback effect in which an activity and the reactions it generates increase the intensity, reach, amount, or consequences of subsequent activity. Stabilizing or dampening responses may limit or reverse amplification.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#feedback-amplification",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-mechanism-hypothesis",
+      "name": "Mechanism hypothesis",
+      "definition": "A provisional explanation specifying how certain conditions, activities, or relationships could produce an observed or anticipated effect. A useful hypothesis names evidence that could support, qualify, or weaken the explanation.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#mechanism-hypothesis",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-390",
+      "from_id": "EVID-167",
+      "to_id": "TERM-feedback-amplification",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies inevitable reinforcement with conditional convergence and divergence counterexamples.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-391",
+      "from_id": "EVID-167",
+      "to_id": "TERM-mechanism-hypothesis",
+      "relationship_type": "qualifies",
+      "explanation": "Illustrates specifying assumptions and counterexamples for a proposed mechanism.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

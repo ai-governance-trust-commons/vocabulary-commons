@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-139",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-139.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-139",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "temporarily_withdrawn",
+  "evidence": null,
+  "case": null,
+  "sources": [],
+  "terms": [],
+  "relationships": [],
+  "source_dependencies": [],
+  "withdrawal": {
+    "id": "EVID-139",
+    "status": "Temporarily withdrawn",
+    "reason": "Temporarily withdrawn pending clarification of source authorization.",
+    "date": "2026-11-01"
+  }
+}

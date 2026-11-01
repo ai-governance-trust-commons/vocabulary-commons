@@ -1,0 +1,195 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-159",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-159.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-159",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-159",
+    "title": "Agent-management work grows as human attention becomes a bottleneck",
+    "case_id": "CASE-143",
+    "observation": "Source-reported finding: Anthropic reports that agent-management and meta-work rose from 10% to 22% of interactive sessions. Its interviews and output-reading estimates identify human attention as a bottleneck in an organization using AI extensively. Observation period and measurement context: Several series through August 2026; session comparison fall 2025 to spring 2026.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-123"
+    ],
+    "source_locations": {
+      "SRC-123": "Productivity and human-attention bottleneck sections; figure notes and methods"
+    },
+    "limitations": "Single rapidly growing developer; nonrandom adoption. Estimated reading demand is not observed reading time. Human communication and executive control persisted. Neither oversight failure nor general labor-market effects are established.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Chaperoning"
+    ],
+    "support_assessment": "Commons interpretation: Supervision is work with its own attention requirements; this does not establish that intervention failed.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-143",
+    "title": "How employment is changing at Anthropic — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "Several series through August 2026; session comparison fall 2025 to spring 2026",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-123"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Several series through August 2026; session comparison fall 2025 to spring 2026",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-123",
+      "title": "How employment is changing at Anthropic",
+      "publisher": "Anthropic",
+      "issuing_body": "Nathan Wilmers; Regina Catipon; Maxim Massenkoff; Peter McCrory",
+      "authors": [
+        "Nathan Wilmers",
+        "Regina Catipon",
+        "Maxim Massenkoff",
+        "Peter McCrory"
+      ],
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "publication_date": "2026-10-16",
+      "access_date": "2026-10-31",
+      "locator": "Productivity and human-attention bottleneck sections; figure notes and methods",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "anthropic-employment-2026",
+      "version_note": "Article and PDF describe the same study. Related organizational source family to SRC-038/EVID-053/054, not independent corroboration.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Productivity and human-attention bottleneck sections; figure notes and methods; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-038",
+      "title": "Measurements for understanding the pace of AI development inside frontier labs",
+      "publisher": "Anthropic Institute",
+      "issuing_body": "Anthropic Institute",
+      "authors": [
+        "Anthropic Institute"
+      ],
+      "url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+      "publication_date": "2026-09-17",
+      "access_date": "2026-10-30",
+      "locator": "Sections 1–2 and Appendix; publication date from official Institute index",
+      "source_kind": "Primary technical disclosure",
+      "independence_group": "anthropic-rd-metrics-2026",
+      "version_note": "Official Institute index dates linked Illuminating the frontier publication September 17. Measurements describe August 2026 snapshot, not all platforms.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Sections 1–2 and Appendix; publication date from official Institute index",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Bounded correction checks only; no absence guarantee",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only. No source copies captured; public availability does not establish redistribution permission.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-380",
+      "from_id": "EVID-159",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates attention and assessment demands of supervision; not a demonstration of ineffective oversight.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [
+    {
+      "id": "REL-409",
+      "from_id": "SRC-123",
+      "to_id": "SRC-038",
+      "relationship_type": "organizational dependence",
+      "explanation": "Same organizational source family, distinct disclosure; not independent corroboration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "withdrawal": null
+}

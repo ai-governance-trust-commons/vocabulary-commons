@@ -1,0 +1,175 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-107",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-107.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-107",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-107",
+    "title": "Authors grade consequences of agents’ filed actions in a simulated enterprise warehouse rather than merely plausible queries; the strongest evaluated model reached the complete-solution…",
+    "case_id": "CASE-096",
+    "observation": "Authors grade consequences of agents’ filed actions in a simulated enterprise warehouse rather than merely plausible queries; the strongest evaluated model reached the complete-solution threshold on 34.8% of tasks.",
+    "evidence_standing": "Bounded observation (author-reported study; not independently reproduced)",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-074"
+    ],
+    "source_locations": {
+      "SRC-074": "Sections 2–3; Table 2; Section 5; Appendices F, I, J, K"
+    },
+    "limitations": "One city, year, and ERP format; simulator assumptions constrain transfer. Appendix J documents task-family artifacts and distinctions from intended difficulty. Reference feasibility and runtime caps deserve separate audit; no production performance or independent replication established.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "Outcome–purpose divergence",
+      "Assurance"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No explicit correction located in bounded checks; not exhaustive",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-096",
+    "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+    "kind": "Controlled benchmark",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-074"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-074",
+      "title": "Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows",
+      "publisher": "arXiv",
+      "issuing_body": "Authors listed in arXiv publication",
+      "authors": [
+        "Gabriel Tomitsuka",
+        "Arman Raayatsanati",
+        "Emma Xing",
+        "Duke Gand",
+        "Joseph J Ma"
+      ],
+      "url": "https://arxiv.org/abs/2610.02122v1",
+      "publication_date": "2026-10-01",
+      "access_date": "2026-10-30",
+      "locator": "Sections 2–3; Table 2; Section 5; Appendices F, I, J, K",
+      "source_kind": "Controlled benchmark",
+      "independence_group": "study-arxiv-2610.02122",
+      "version_note": "v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "Sections 2–3; Table 2; Section 5; Appendices F, I, J, K; full text https://arxiv.org/html/2610.02122v1",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable author preprint on arXiv; underlying data and claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "No explicit external correction located in bounded checks; version and internal limitations retained",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-outcome-purpose-divergence",
+      "name": "Outcome–purpose divergence",
+      "definition": "A condition in which meeting an immediate objective or metric degrades the benefit or purpose that justified pursuing it. The divergence can occur through narrow measures or indirect consequences without an intent to deceive.",
+      "vocabulary": "Extended",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#outcomepurpose-divergence",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-241",
+      "from_id": "EVID-107",
+      "to_id": "TERM-outcome-purpose-divergence",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-242",
+      "from_id": "EVID-107",
+      "to_id": "TERM-assurance",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

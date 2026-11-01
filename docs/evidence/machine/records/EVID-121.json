@@ -1,0 +1,206 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-121",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-121.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-121",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-121",
+    "title": "Authors distinguish technical intervention capacity from normative conditions for meaningful control across four mechanism classes in a 59-study review.",
+    "case_id": "CASE-108",
+    "observation": "Authors distinguish technical intervention capacity from normative conditions for meaningful control across four mechanism classes in a 59-study review.",
+    "evidence_standing": "Conceptual, review or formal argument; not a new operational incident",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-088"
+    ],
+    "source_locations": {
+      "SRC-088": "Sections 2.2–2.3, 3.5, 4 and conclusion"
+    },
+    "limitations": "Depth-first, non-exhaustive corpus; three reports inaccessible; standalone interpretability/formal-verification categories excluded. No mechanism wins across all dimensions; proposed integrations are not proven operational guarantees.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "Chaperoning",
+      "Meaningful human control",
+      "Assurance"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No correction established in bounded original inspection; limitations retained.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Conceptual framing",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-108",
+    "title": "On Controllability in Agentic AI: A Survey",
+    "kind": "Literature review and conceptual analysis",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-088"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-088",
+      "title": "On Controllability in Agentic AI: A Survey",
+      "publisher": "Minds and Machines",
+      "issuing_body": "Minds and Machines",
+      "authors": [
+        "My H. Nguyen",
+        "Duc-Hai Nguyen",
+        "Barry O’Sullivan",
+        "Hoang D. Nguyen"
+      ],
+      "url": "https://link.springer.com/article/10.1007/s11023-026-09783-y",
+      "publication_date": "2026-05-26",
+      "access_date": "2026-10-30",
+      "locator": "Sections 2.2–2.3, 3.5, 4 and conclusion",
+      "source_kind": "Literature review and conceptual analysis",
+      "independence_group": "study-controllability",
+      "version_note": "Publisher full text inspected; no source copy retained.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "Sections 2.2–2.3, 3.5, 4 and conclusion",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original author/institution publication inspected; underlying claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-meaningful-human-control",
+      "name": "Meaningful human control",
+      "definition": "A condition in which people retain adequate information, independent judgment, authority, and practical means to redirect consequential activity. A nominal human-in-the-loop approval does not, by itself, demonstrate this capacity.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#meaningful-human-control",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-287",
+      "from_id": "EVID-121",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-288",
+      "from_id": "EVID-121",
+      "to_id": "TERM-meaningful-human-control",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-289",
+      "from_id": "EVID-121",
+      "to_id": "TERM-assurance",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

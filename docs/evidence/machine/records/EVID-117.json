@@ -1,0 +1,141 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-117",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-117.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-117",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-117",
+    "title": "Wiz reports AI-assisted testing of exploit variants across representative PHP applications and coordinated patch verification.",
+    "case_id": "CASE-080",
+    "observation": "Wiz reports AI-assisted testing of exploit variants across representative PHP applications and coordinated patch verification.",
+    "evidence_standing": "Attributed bounded observation; not independently verified",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-084"
+    ],
+    "source_locations": {
+      "SRC-084": "Impact; The AI inflection point; Industry-level collaborations"
+    },
+    "limitations": "Affected-language market share is not confirmed compromise count. Researcher account does not experimentally isolate AI productivity effects. Shared root causes and coordinated disclosure overlap the Foundation and OpenAI reports. Configuration changes can break exploit assumptions. Reported patched variants and pre-disclosure defenses qualify claims that easier exploitation guarantees attacker success.",
+    "open_questions": "Underlying records, alternatives and generalization have not been independently verified by the Commons.",
+    "keywords": [
+      "Constraint compression"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-080",
+    "title": "PHP vulnerability exploitability and disclosure constraints",
+    "kind": "Maintainer technical disclosure",
+    "event_date": "2024–2026",
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-058",
+      "SRC-084",
+      "SRC-085"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-084",
+      "title": "Wiz PHP2Shell research and exploitability qualification",
+      "publisher": "Sagi Tzadik, Shir Tamari, Nir Ohfeld, Tomer Schwartz / Wiz",
+      "issuing_body": "Sagi Tzadik, Shir Tamari, Nir Ohfeld, Tomer Schwartz / Wiz",
+      "authors": [
+        "Sagi Tzadik, Shir Tamari, Nir Ohfeld, Tomer Schwartz / Wiz"
+      ],
+      "url": "https://www.wiz.io/blog/php2shell-php-rce",
+      "publication_date": "2026-10-21",
+      "access_date": "2026-10-30",
+      "locator": "Impact; The AI inflection point; Industry-level collaborations",
+      "source_kind": "Primary publication or technical disclosure; see cited scope",
+      "independence_group": "https://www.wiz.io/blog/php2shell-php-rce",
+      "version_note": "No explicit correction located in bounded original-page and title search; not proof none exists. Same PHP vulnerability family as ROOT-PHP; separate researcher publication, shared coordination not automatically independent corroboration.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Impact; The AI inflection point; Industry-level collaborations",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "No explicit correction located in bounded original-page and title search; not proof none exists.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only; archival/redistribution permission not established; no source copy retained.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-266",
+      "from_id": "EVID-117",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

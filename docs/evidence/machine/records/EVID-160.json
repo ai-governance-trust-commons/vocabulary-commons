@@ -1,0 +1,104 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-160",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-160.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-160",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-160",
+    "title": "Application activity increases do not themselves measure useful output",
+    "case_id": "CASE-144",
+    "observation": "Source-reported finding: In telemetry from eleven companies, Yu and colleagues estimate that frequent Copilot users increased productivity-application actions by 21.2% and communication actions by 7.1%. The measured units are application actions. Observation period and measurement context: January–September 2024; ten weeks before and twenty after enablement.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Unmatched: relevant work-allocation evidence retained without forcing a glossary term",
+    "source_ids": [
+      "SRC-124"
+    ],
+    "source_locations": {
+      "SRC-124": "https://arxiv.org/html/2608.15550v1 — methods, results, figures and limitations"
+    },
+    "limitations": "Activity is not output quality, time saved or productivity itself. Adoption selection remains. Reduced email activity may remove redundancy or reduce information exchange; these interpretations are not resolved by action counts.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [],
+    "support_assessment": "Commons interpretation: A relevant work-allocation measurement retained without a forced glossary connection.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-144",
+    "title": "Adoption of Generative AI in the Workplace — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "January–September 2024; ten weeks before and twenty after enablement",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-124"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. January–September 2024; ten weeks before and twenty after enablement",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-124",
+      "title": "Adoption of Generative AI in the Workplace",
+      "publisher": "arXiv",
+      "issuing_body": "Yu et al.",
+      "authors": [
+        "Yu et al."
+      ],
+      "url": "https://arxiv.org/abs/2608.15550",
+      "publication_date": "2026-08-16",
+      "access_date": "2026-10-31",
+      "locator": "https://arxiv.org/html/2608.15550v1 — methods, results, figures and limitations",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "m365-adoption-2026",
+      "version_note": "v1 submission August 16, 2026; manuscript heading August 24 recorded separately. Microsoft listing describes the same study. Different populations and tasks from EVID-002–004; neither replication nor direct contradiction.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "https://arxiv.org/html/2608.15550v1 — methods, results, figures and limitations; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [],
+  "relationships": [],
+  "source_dependencies": [],
+  "withdrawal": null
+}

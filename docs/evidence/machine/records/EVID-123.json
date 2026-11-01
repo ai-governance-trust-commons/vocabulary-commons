@@ -1,0 +1,176 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-123",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-123.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-123",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-123",
+    "title": "Authors argue that AI governance should consider infrastructures, labor and power relations beyond individual models, and propose plural, participatory governance measures.",
+    "case_id": "CASE-110",
+    "observation": "Authors argue that AI governance should consider infrastructures, labor and power relations beyond individual models, and propose plural, participatory governance measures.",
+    "evidence_standing": "Conceptual, review or formal argument; not a new operational incident",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-090"
+    ],
+    "source_locations": {
+      "SRC-090": "Sections 2–5, especially 5.1–5.4; Section 6"
+    },
+    "limitations": "Normative sociotechnical argument, not evidence of autonomous coordination or measured intervention effectiveness. Multi-stakeholder arrangements may reproduce unequal power; recommendations require contextual evaluation.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "Organizational dependency",
+      "Governability"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No correction established in bounded original inspection; limitations retained.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Conceptual framing",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-110",
+    "title": "Towards a sociotechnical ecology of artificial intelligence: power, accountability, and governance in a global context",
+    "kind": "Conceptual and normative synthesis",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-090"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-090",
+      "title": "Towards a sociotechnical ecology of artificial intelligence: power, accountability, and governance in a global context",
+      "publisher": "AI and Ethics",
+      "issuing_body": "AI and Ethics",
+      "authors": [
+        "Andrés Domínguez Hernández",
+        "Antonella Maia Perini",
+        "Semeli Hadjiloizou",
+        "Ann Borda",
+        "Sabeehah Mahomed",
+        "David Leslie"
+      ],
+      "url": "https://link.springer.com/article/10.1007/s43681-025-00902-6",
+      "publication_date": "2025-12-05",
+      "access_date": "2026-10-30",
+      "locator": "Sections 2–5, especially 5.1–5.4; Section 6",
+      "source_kind": "Conceptual and normative synthesis",
+      "independence_group": "study-ecology",
+      "version_note": "Publisher full text inspected; online2025 versus volume2026 distinguished; no copy retained.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "Sections 2–5, especially 5.1–5.4; Section 6",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original author/institution publication inspected; underlying claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-governability",
+      "name": "Governability",
+      "definition": "A property of a consequential process describing the extent to which legitimate parties can understand, influence, constrain, correct, or recover its operation and outcomes. It does not imply complete predictability or a single controller.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#governability",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-organizational-dependency",
+      "name": "Organizational dependency",
+      "definition": "Material reliance by an organization on an AI-enabled capability to conduct operations, make decisions, or sustain service. Consequences depend on alternatives, retained expertise, and capacity to continue or recover without the capability.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#organizational-dependency",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-293",
+      "from_id": "EVID-123",
+      "to_id": "TERM-organizational-dependency",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-294",
+      "from_id": "EVID-123",
+      "to_id": "TERM-governability",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

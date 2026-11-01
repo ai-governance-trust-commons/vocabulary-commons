@@ -1,0 +1,139 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-161",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-161.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-161",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-161",
+    "title": "Improved research execution does not ensure expert acceptance of research results",
+    "case_id": "CASE-145",
+    "observation": "Source-reported finding: CRUX reports that both follow-up research papers were rejected by expert reviewers, despite improvements in experimental design and resource management. The two trials are separate task outcomes within one evaluation programme. Observation period and measurement context: Initial work early July 2026; follow-up trials September 2026.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-125"
+    ],
+    "source_locations": {
+      "SRC-125": "Original reports: setup, expert reviews, limitations and appendices"
+    },
+    "limitations": "Two tasks; non-blind review by original authors; changed scaffolds and one manual reset. Improvements were real within these tests. Follow-up papers and full logs were unpublished. This does not establish that AI cannot do research.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Successor assurance"
+    ],
+    "support_assessment": "Commons interpretation: Research execution and research judgment are distinct assurance questions.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-145",
+    "title": "CRUX initial study and CRUX-2 follow-up — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "Initial work early July 2026; follow-up trials September 2026",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-125"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Initial work early July 2026; follow-up trials September 2026",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-125",
+      "title": "CRUX initial study and CRUX-2 follow-up",
+      "publisher": "CRUX Evals",
+      "issuing_body": "Kirgis et al.",
+      "authors": [
+        "Kirgis et al."
+      ],
+      "url": "https://cruxevals.com/research-notes/crux-2-follow-up/",
+      "publication_date": "2026-10-20",
+      "access_date": "2026-10-31",
+      "locator": "Original reports: setup, expert reviews, limitations and appendices",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "crux-research-2026",
+      "version_note": "Initial report July 30, 2026: https://cruxevals.com/crux/can-ai-agents-conduct-research/ . Follow-up October 20. Overlapping authors and reused question prevent independent-corroboration claims.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Original reports: setup, expert reviews, limitations and appendices; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-successor-assurance",
+      "name": "Successor assurance",
+      "definition": "Evaluation of whether a significantly modified or AI-created successor preserves specified behavioral, authorization, evidence, control, and purpose-related properties. Passing performance tests alone does not demonstrate preservation of these properties.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#successor-assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-381",
+      "from_id": "EVID-161",
+      "to_id": "TERM-successor-assurance",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies extrapolation from successful engineering execution to autonomous research judgment.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

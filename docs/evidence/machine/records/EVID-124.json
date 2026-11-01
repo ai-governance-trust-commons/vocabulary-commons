@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-124",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-124.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-124",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-124",
+    "title": "Committee distinguishes AI-enabled design acceleration from physical experimental validation and identifies remaining practical bottlenecks in assessing capability uplift.",
+    "case_id": "CASE-111",
+    "observation": "Committee distinguishes AI-enabled design acceleration from physical experimental validation and identifies remaining practical bottlenecks in assessing capability uplift.",
+    "evidence_standing": "Conceptual, review or formal argument; not a new operational incident",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-091"
+    ],
+    "source_locations": {
+      "SRC-091": "Summary, pp. 1–8, especially pp. 2–3 and Figure S-1"
+    },
+    "limitations": "2025 technical assessment, not a current exhaustive capability inventory or new misuse incident. Design predictions do not establish validated biological outcomes; future automation reducing bottlenecks is a contingency, not demonstrated removal of constraints.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "AI-enabled capability",
+      "Constraint compression",
+      "Capability feasibility progression"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No correction established in bounded original inspection; limitations retained.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Conceptual framing",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-111",
+    "title": "The Age of AI in the Life Sciences: Benefits and Biosecurity Considerations",
+    "kind": "Consensus technical assessment",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-091"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-091",
+      "title": "The Age of AI in the Life Sciences: Benefits and Biosecurity Considerations",
+      "publisher": "National Academies Press",
+      "issuing_body": "National Academies Press",
+      "authors": [
+        "National Academies of Sciences, Engineering, and Medicine"
+      ],
+      "url": "https://www.nationalacademies.org/read/28868",
+      "publication_date": "2025",
+      "access_date": "2026-10-30",
+      "locator": "Summary, pp. 1–8, especially pp. 2–3 and Figure S-1",
+      "source_kind": "Consensus technical assessment",
+      "independence_group": "study-nas28868",
+      "version_note": "Front matter and complete Summary inspected at https://www.nationalacademies.org/read/28868/chapter/2 ; year-only date. Full book not comprehensively inspected. All rights reserved; links only.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "Summary, pp.1–8, especially pp.2–3 and Figure S-1",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original author/institution publication inspected; underlying claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-ai-enabled-capability",
+      "name": "AI-enabled capability",
+      "definition": "An organizational function delivered through an AI model and the people, tools, data, workflows, and dependencies required to produce its intended outcome. The capability—not only the model—is the relevant unit when discussing operational consequences.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#ai-enabled-capability",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-capability-feasibility-progression",
+      "name": "Capability feasibility progression",
+      "definition": "An analytical sequence for describing distinct levels of practical possibility: possible → practical → repeatable → scalable. A step need not follow the preceding one automatically, and the categories are not a universal maturity model.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#capability-feasibility-progression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-295",
+      "from_id": "EVID-124",
+      "to_id": "TERM-ai-enabled-capability",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-296",
+      "from_id": "EVID-124",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-297",
+      "from_id": "EVID-124",
+      "to_id": "TERM-capability-feasibility-progression",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}
