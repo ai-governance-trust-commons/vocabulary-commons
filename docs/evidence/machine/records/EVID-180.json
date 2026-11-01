@@ -1,0 +1,173 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.1",
+  "dataset_version": "0.5.1",
+  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "id": "EVID-180",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-180.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-180",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-180",
+    "title": "Self-replicating prompts propagated through a constructed email-assistant ecosystem",
+    "case_id": "CASE-163",
+    "observation": "Source-reported finding: Cohen and colleagues demonstrate prompt propagation and confidential-data extraction in a constructed retrieval-based email-assistant ecosystem.",
+    "evidence_standing": "Source-reported bounded demonstration; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-143"
+    ],
+    "source_locations": {
+      "SRC-143": "§III-C attack steps and Clarification; §IV-A experimental setup; §IV-E propagation; §V guardrails; §VI limitations; https://arxiv.org/html/2403.02817v2"
+    },
+    "limitations": "The prompt changes generated content; the application determines recipients. This is not evidence of arbitrary autonomous recipient selection or an uncontrolled outbreak. The revised paper also evaluates a guardrail; adaptive attacks on that guardrail were not tested.",
+    "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+    "keywords": [
+      "Cross-system feedback",
+      "Environmental redirection"
+    ],
+    "support_assessment": "Commons interpretation: Illustrates consequences that cross connected applications. Propagation depends on the surrounding workflow; it does not establish inevitable propagation or general system-level autonomy.",
+    "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Demonstrated (bounded)",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T18:38:34.386143+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-163",
+    "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications — study or setting grouping",
+    "kind": "Original research demonstration",
+    "event_date": "Constructed email-assistant experiments; exact session dates not established",
+    "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+    "source_ids": [
+      "SRC-143"
+    ],
+    "summary": "Grouping for the reported study, disclosure or setting; not an incident count. Constructed email-assistant experiments; exact session dates not established",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T18:38:34.386143+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-143",
+      "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications",
+      "publisher": "arXiv; research authors",
+      "issuing_body": "Stav Cohen; Ron Bitton; Ben Nassi",
+      "authors": [
+        "Stav Cohen",
+        "Ron Bitton",
+        "Ben Nassi"
+      ],
+      "url": "https://arxiv.org/html/2403.02817v2",
+      "publication_date": "2025-01-30",
+      "access_date": "2026-11-01",
+      "locator": "§III-C attack steps and Clarification; §IV-A experimental setup; §IV-E propagation; §V guardrails; §VI limitations",
+      "source_kind": "Original research demonstration",
+      "independence_group": "morris-ii-2024-2025",
+      "version_note": "arXiv:2403.02817v2; first submitted 5 March 2024, revised 30 January 2025. This entry uses v2 rather than the v1 screened initially. Root/source: https://arxiv.org/html/2403.02817v2 Discovery credit: MITRE ATLAS AML.CS0024 → original research; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-002, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "§III-C attack steps and Clarification; §IV-A experimental setup; §IV-E propagation; §V guardrails; §VI limitations; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-cross-system-feedback",
+      "name": "Cross-system feedback",
+      "definition": "A pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#cross-system-feedback",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-environmental-redirection",
+      "name": "Environmental redirection",
+      "definition": "A change in an agent’s actions, methods, beliefs, or priorities arising from information, artifacts, tools, constraints, or incentives encountered while performing a task. Such redirection can be beneficial or harmful; an altered belief, selected method, and adopted objective are not the same outcome.",
+      "vocabulary": "Extended",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#environmental-redirection",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-414",
+      "from_id": "EVID-180",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates consequences that cross connected applications. Propagation depends on the surrounding workflow; it does not establish inevitable propagation or general system-level autonomy. Proposed link to Cross-system feedback is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-415",
+      "from_id": "EVID-180",
+      "to_id": "TERM-environmental-redirection",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates consequences that cross connected applications. Propagation depends on the surrounding workflow; it does not establish inevitable propagation or general system-level autonomy. Proposed link to Environmental redirection is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

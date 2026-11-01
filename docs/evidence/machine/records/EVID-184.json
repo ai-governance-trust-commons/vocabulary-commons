@@ -1,0 +1,202 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.1",
+  "dataset_version": "0.5.1",
+  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "id": "EVID-184",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-184.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-184",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-184",
+    "title": "Coordinated abuse exposed a gap despite pre-release testing",
+    "case_id": "CASE-167",
+    "observation": "Source-reported finding: Microsoft reports that coordinated abuse exploited an overlooked vulnerability, producing offensive outputs; Tay was taken offline despite prior filtering and testing.",
+    "evidence_standing": "Source-reported bounded account; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-147"
+    ],
+    "source_locations": {
+      "SRC-147": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement; https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/"
+    },
+    "limitations": "Developer account without independently authenticated logs. It does not establish the learning mechanism, autonomous goal formation, or current-model behavior.",
+    "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+    "keywords": [
+      "Environmental redirection",
+      "Purpose preservation",
+      "Assurance"
+    ],
+    "support_assessment": "Commons interpretation: Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable.",
+    "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T18:38:34.386143+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-167",
+    "title": "Learning from Tay’s introduction — study or setting grouping",
+    "kind": "Original developer incident account",
+    "event_date": "First 24 hours after Tay’s March 2016 launch, as described by Microsoft",
+    "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+    "source_ids": [
+      "SRC-147"
+    ],
+    "summary": "Grouping for the reported study, disclosure or setting; not an incident count. First 24 hours after Tay’s March 2016 launch, as described by Microsoft",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T18:38:34.386143+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-147",
+      "title": "Learning from Tay’s introduction",
+      "publisher": "Microsoft",
+      "issuing_body": "Peter Lee",
+      "authors": [
+        "Peter Lee"
+      ],
+      "url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/",
+      "publication_date": "2016-03-25",
+      "access_date": "2026-11-01",
+      "locator": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement",
+      "source_kind": "Original developer incident account",
+      "independence_group": "microsoft-tay-2016",
+      "version_note": "Original developer statement dated 25 March 2016. Historical incident account; not a current product assessment. Root/source: https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/ Discovery credit: MITRE ATLAS AML.CS0009 → Microsoft original statement; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-006, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-environmental-redirection",
+      "name": "Environmental redirection",
+      "definition": "A change in an agent’s actions, methods, beliefs, or priorities arising from information, artifacts, tools, constraints, or incentives encountered while performing a task. Such redirection can be beneficial or harmful; an altered belief, selected method, and adopted objective are not the same outcome.",
+      "vocabulary": "Extended",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#environmental-redirection",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-purpose-preservation",
+      "name": "Purpose preservation",
+      "definition": "A proposed principle that the achievement of an objective should not destroy or irreversibly undermine the conditions giving it intended value to its beneficiaries. It tests the meaning of success, not solely performance against a target.",
+      "vocabulary": "Working",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#purpose-preservation",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-424",
+      "from_id": "EVID-184",
+      "to_id": "TERM-environmental-redirection",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable. Proposed link to Environmental redirection is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-425",
+      "from_id": "EVID-184",
+      "to_id": "TERM-purpose-preservation",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable. Proposed link to Purpose preservation is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-426",
+      "from_id": "EVID-184",
+      "to_id": "TERM-assurance",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable. Proposed link to Assurance is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}
