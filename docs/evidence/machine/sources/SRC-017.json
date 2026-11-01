@@ -1,0 +1,92 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-017",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-017.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-017",
+    "title": "Explanations Can Reduce Overreliance on AI Systems During Decision-Making",
+    "publisher": "Association for Computing Machinery; author preprint on arXiv",
+    "issuing_body": "Association for Computing Machinery; author preprint on arXiv",
+    "authors": [
+      "Helena Vasconcelos",
+      "Matthew Jörke",
+      "Madeleine Grunde-McLaughlin",
+      "Tobias Gerstenberg",
+      "Michael S. Bernstein",
+      "Ranjay Krishna"
+    ],
+    "url": "https://arxiv.org/abs/2212.06823v2",
+    "publication_date": "2022-12-13",
+    "access_date": "2026-10-30",
+    "locator": "Section 4 methods; Sections 5–8 results; Section 7.4 participant reuse; Section 10.4 limitations",
+    "source_kind": "Primary experimental research",
+    "independence_group": "vasconcelos-explanations-overreliance-2023",
+    "version_note": "Inspected arXiv v2 revised 2023-01-26; journal publication April 2023, exact day not established. New study-series case distinct from SRC-016 and canonical collection; within-paper data reuse explicit. Journal/preprint/author copies one source family.",
+    "verification": {
+      "status": "Original publication inspected; no independent reproduction",
+      "scope": "Section 4 methods; Sections 5–8 results; Section 7.4 participant reuse; Section 10.4 limitations; full text examined at https://arxiv.org/html/2212.06823v2",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable primary article; data and analyses not independently authenticated",
+      "independent_corroboration": "Not established by this batch",
+      "dispute_status": "Bounded correction search found no specific correction; not exhaustive",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source bytes archived; arXiv perpetual nonexclusive license is not general redistribution permission; preservation permission not established",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [
+    {
+      "id": "REL-043",
+      "from_id": "SRC-017",
+      "to_id": "SRC-016",
+      "relationship_type": "research dependency",
+      "explanation": "Cites earlier experiment as conceptual context; distinct task and data, not a failed replication.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-045",
+      "from_id": "SRC-018",
+      "to_id": "SRC-017",
+      "relationship_type": "research dependency",
+      "explanation": "Cites this study; possible synthesis overlap. Exact inclusion and weight unverified; not independent corroboration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "evidence_records": [
+    {
+      "id": "EVID-019",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-019.json"
+    }
+  ]
+}

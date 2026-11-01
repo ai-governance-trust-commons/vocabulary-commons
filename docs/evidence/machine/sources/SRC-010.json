@@ -1,0 +1,61 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-010",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-010.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-010",
+    "title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+    "publisher": "USENIX Association, 34th USENIX Security Symposium, pp. 3827–3844",
+    "issuing_body": "USENIX Association, 34th USENIX Security Symposium, pp. 3827–3844",
+    "authors": [
+      "Wei Zou",
+      "Runpeng Geng",
+      "Binghui Wang",
+      "Jinyuan Jia"
+    ],
+    "url": "https://www.usenix.org/system/files/usenixsecurity25-zou-poisonedrag.pdf",
+    "publication_date": "2025-08",
+    "access_date": "2026-10-30",
+    "locator": "Abstract; sections 7.3–7.4 and 8, printed pp. 3839–3840 (PDF pages 14–15), Table 13; section 6.2–6.3 for application tests.",
+    "source_kind": "Primary research report",
+    "independence_group": "new-study-SRC-010",
+    "version_note": "2025-08 proceedings; conference 2025-08-13–15; preprint v1 2024-02-12, v3 2024-08-13. Proceedings PDF, publisher page, preprint and author repository belong to one study family; not four corroborators. Preserve final proceedings as preferred citation; link preprint as version history, not a second event.",
+    "verification": {
+      "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "scope": "Abstract; sections 7.3–7.4 and 8, printed pp.3839–3840 (PDF pages14–15), Table13; section6.2–6.3 for application tests.",
+      "review_date": "2026-10-30",
+      "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+      "independent_corroboration": "Not established by this batch",
+      "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-012",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-012.json"
+    }
+  ]
+}

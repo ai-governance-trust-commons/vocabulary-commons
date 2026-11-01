@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-059",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-059.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-059",
+    "title": "Hacktron OpenAI exploit chain with human-guided AI assistance",
+    "publisher": "Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron",
+    "issuing_body": "Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron",
+    "authors": [
+      "Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron"
+    ],
+    "url": "https://www.hacktron.ai/blog/hacking-openai",
+    "publication_date": "2026-09-13",
+    "access_date": "2026-10-30",
+    "locator": "Exploit timeline; disclosure timeline; Opus 5 Released; Costs of finding these vulnerabilities",
+    "source_kind": "Primary publication or technical disclosure; see cited scope",
+    "independence_group": "https://www.hacktron.ai/blog/hacking-openai",
+    "version_note": "Includes OpenAI scope clarification and fix timeline. Publication displays Sep13; secondary reporting appeared Sep18. No claim those are identical dates. Primary publisher account; news retellings do not independently corroborate it.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "Exploit timeline; disclosure timeline; Opus 5 Released; Costs of finding these vulnerabilities",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "Includes OpenAI scope clarification and fix timeline. Publication displays Sep13; secondary reporting appeared Sep18. No claim those are identical dates.",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. Links only; archival/redistribution permission not established; no source copy retained.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-092",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-092.json"
+    }
+  ]
+}

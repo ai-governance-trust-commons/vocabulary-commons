@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/glossary-v1.schema.json",
+  "title": "glossary-v1.schema.json",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "published": {
+      "type": "string"
+    },
+    "source_repository_file": {
+      "type": "string"
+    },
+    "source_git_blob_sha1": {
+      "type": "string"
+    },
+    "publication_of_record": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "term": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "definition": {
+            "type": "string"
+          },
+          "relationship": {
+            "type": "string"
+          },
+          "source_markdown_exact": {
+            "type": "string"
+          },
+          "vocabulary_standing": {
+            "type": "string"
+          },
+          "claim_standing": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "normative_proposal": {
+            "type": "boolean"
+          },
+          "see_also": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "term",
+          "slug",
+          "definition",
+          "relationship",
+          "source_markdown_exact",
+          "vocabulary_standing",
+          "claim_standing",
+          "normative_proposal",
+          "see_also"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "title",
+    "status",
+    "published",
+    "source_repository_file",
+    "source_git_blob_sha1",
+    "publication_of_record",
+    "license",
+    "terms"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-046",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-046.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-046",
+    "title": "AI Agents as Attack Vectors: Unauthorized Access by Agents under Evaluation and Misuse of Open-Source Agentic AI Tools Targeting Indian ICT Assets",
+    "publisher": "CERT-In",
+    "issuing_body": "CERT-In",
+    "authors": [
+      "CERT-In"
+    ],
+    "url": "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+    "publication_date": "2026-10-15",
+    "access_date": "2026-10-30",
+    "locator": "Categories1–2; Observations3–4",
+    "source_kind": "Primary publication or technical disclosure; see cited scope",
+    "independence_group": "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+    "version_note": "Same substantive notice inspected at CICA-2026-3630 and CIAD-2026-0049. Site footer says October31 despite examinationOctober30; not treated as substantive advisory revision. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "Categories1–2; Observations3–4",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "Same substantive notice inspected at CICA-2026-3630 and CIAD-2026-0049. Site footer says October31 despite examinationOctober30; not treated as substantive advisory revision.",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. No source copy retained. Preservation permission unestablished unless otherwise specified.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-072",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-072.json"
+    },
+    {
+      "id": "EVID-073",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-073.json"
+    }
+  ]
+}

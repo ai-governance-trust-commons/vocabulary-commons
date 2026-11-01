@@ -1,0 +1,82 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-039",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-039.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-039",
+    "title": "An alignment assessment of recent cybersecurity incidents",
+    "publisher": "Anthropic",
+    "issuing_body": "Anthropic",
+    "authors": [
+      "Anthropic"
+    ],
+    "url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+    "publication_date": "2026-09-09",
+    "access_date": "2026-10-30",
+    "locator": "Introduction; Chapters 4–9",
+    "source_kind": "Primary technical disclosure",
+    "independence_group": "anthropic-four-cyber-evals-2026",
+    "version_note": "Four original incidents plus retrospective and simulated experiments. Single-agent episodes; no reported inter-agent coordination. Earlier July 30 account is same incident family, not corroboration.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "Introduction; Chapters 4–9",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "Bounded correction checks only; no absence guarantee",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. Links only. No source copies captured; public availability does not establish redistribution permission.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-055",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-055.json"
+    },
+    {
+      "id": "EVID-056",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-056.json"
+    },
+    {
+      "id": "EVID-057",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-057.json"
+    },
+    {
+      "id": "EVID-058",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-058.json"
+    },
+    {
+      "id": "EVID-059",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-059.json"
+    },
+    {
+      "id": "EVID-060",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-060.json"
+    },
+    {
+      "id": "EVID-061",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-061.json"
+    }
+  ]
+}

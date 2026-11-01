@@ -1,0 +1,91 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-032",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-032.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-032",
+    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+    "publisher": "Microsoft Security Research and Microsoft Threat Intelligence",
+    "issuing_body": "Microsoft Security Research and Microsoft Threat Intelligence",
+    "authors": [
+      "Microsoft Security Research and Microsoft Threat Intelligence"
+    ],
+    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+    "publication_date": "2026-10-21",
+    "access_date": "2026-10-30",
+    "locator": "What is ARTEX; Password Spraying; Downstream customer access",
+    "source_kind": "Primary technical disclosure",
+    "independence_group": "microsoft-storm 0940-oct 2026",
+    "version_note": "Current inspected article. No explicit correction notice located in bounded checks.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "What is ARTEX; Password Spraying; Downstream customer access",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "Bounded correction checks only; no absence guarantee",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. Links only. No source copies captured; public availability does not establish redistribution permission.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [
+    {
+      "id": "REL-210",
+      "from_id": "SRC-033",
+      "to_id": "SRC-032",
+      "relationship_type": "qualifies",
+      "explanation": "Wiz cites Microsoft attribution while describing additional telemetry; overlap unresolved, not independent incident count.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-211",
+      "from_id": "SRC-035",
+      "to_id": "SRC-032",
+      "relationship_type": "qualifies",
+      "explanation": "Publisher explicitly distinguishes VAPOR PANDA from Storm0940; common ARTEX tooling does not merge cases.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "evidence_records": [
+    {
+      "id": "EVID-039",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-039.json"
+    },
+    {
+      "id": "EVID-040",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-040.json"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-020",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-020.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-020",
+    "title": "Red-Teaming OpenAI’s Internal Agent Monitoring Systems",
+    "publisher": "METR",
+    "issuing_body": "METR",
+    "authors": [
+      "David Rein and Adam Kaufman"
+    ],
+    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+    "publication_date": "2026-10-22",
+    "access_date": "2026-10-30",
+    "locator": "Opening scope paragraphs; findings bullets3–4, 6–10; final remediation paragraph; October29 update log; footnotes4–7",
+    "source_kind": "Primary publication or technical disclosure; see cited scope",
+    "independence_group": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+    "version_note": "October29 revised remediation wording: most vulnerabilities reportedly patched; one fix remains in progress. Assessors had not evaluated remediation claims. Separate exercise from Hugging Face CASE-003; shares OpenAI system context with SRC-006 but not a new operational incident or independent reproduction of that disclosure. New publication and assessment grouping, not duplicate incident count; original and Oct29 update same source.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "Opening scope paragraphs; findings bullets3–4,6–10; final remediation paragraph; October29 update log; footnotes4–7",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "October29 revised remediation wording: most vulnerabilities reportedly patched; one fix remains in progress. Assessors had not evaluated remediation claims.",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. No preservation/redistribution permission established; links only.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-022",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-022.json"
+    }
+  ]
+}

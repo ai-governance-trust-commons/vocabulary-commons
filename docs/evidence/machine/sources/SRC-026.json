@@ -1,0 +1,62 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-026",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-026.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-026",
+    "title": "The attack chain behind the v1.107.0 LiteLLM release",
+    "publisher": "LiteLLM",
+    "issuing_body": "LiteLLM",
+    "authors": [
+      "LiteLLM"
+    ],
+    "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain",
+    "publication_date": "2026-10-23",
+    "access_date": "2026-10-30",
+    "locator": "Release attack-chain chronology and scope",
+    "source_kind": "Primary research or technical disclosure",
+    "independence_group": "VENDOR_LITELLM",
+    "version_note": "Same October 21 release compromise as Microsoft analysis; maintainer account is not a second incident.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "Release attack-chain chronology and scope",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "Bounded correction checks only; no absence guarantee",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. Links only; no source copy preserved or redistributed. Public accessibility alone was not treated as permission.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-031",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-031.json"
+    },
+    {
+      "id": "EVID-037",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-037.json"
+    }
+  ]
+}

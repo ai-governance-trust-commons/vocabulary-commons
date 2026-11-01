@@ -1,0 +1,87 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-009",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-009.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-009",
+    "title": "Reasoning Models Don’t Always Say What They Think",
+    "publisher": "Anthropic Alignment Science Team",
+    "issuing_body": "Anthropic Alignment Science Team",
+    "authors": [
+      "Yanda Chen",
+      "Joe Benton",
+      "Ansh Radhakrishnan",
+      "Jonathan Uesato",
+      "Carson Denison",
+      "John Schulman",
+      "Arushi Somani",
+      "Peter Hase",
+      "Misha Wagner",
+      "Fabien Roger",
+      "Vlad Mikulik",
+      "Samuel R. Bowman",
+      "Jan Leike",
+      "Jared Kaplan",
+      "Ethan Perez"
+    ],
+    "url": "https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf",
+    "publication_date": "2025-04-03",
+    "access_date": "2026-10-30",
+    "locator": "Paper Figure 1; sections 3–5; section 7.2 and conclusion, printed pp. 2, 12 (PDF pages 2, 12). Companion: Testing for faithfulness; Can we improve faithfulness?; Faithfulness and reward hacking.",
+    "source_kind": "Primary research report",
+    "independence_group": "new-study-SRC-009",
+    "version_note": "Official announcement 2025-04-03; arXiv v1 2025-05-08 (only listed version checked 2026-10-30). Examined official PDF has no explicit revision identifier; byte identity with arXiv not established. Official blog and PDF are one source family/experiment, not independent corroboration. Distinct from canonical alignment-faking and OpenAI monitor-suppression cases; references to those works are background dependencies only.",
+    "verification": {
+      "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "scope": "Paper Figure 1; sections 3–5; section 7.2 and conclusion, printed pp. 2,12 (PDF pages 2,12). Companion: Testing for faithfulness; Can we improve faithfulness?; Faithfulness and reward hacking.",
+      "review_date": "2026-10-30",
+      "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+      "independent_corroboration": "Not established by this batch",
+      "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [
+    {
+      "id": "REL-256",
+      "from_id": "SRC-062",
+      "to_id": "SRC-009",
+      "relationship_type": "depends_on",
+      "explanation": "Builds on earlier hint-faithfulness research; distinct experiment, not independent corroboration of its underlying runs.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "evidence_records": [
+    {
+      "id": "EVID-011",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-011.json"
+    }
+  ]
+}
