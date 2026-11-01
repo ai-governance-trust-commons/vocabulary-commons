@@ -1556,3 +1556,75 @@ PY  - 2017
 UR  - https://journals.sagepub.com/doi/10.1177/0018720816685832
 N1  - Source ID SRC-141. Publication date as recorded: 2017-01-26. Human Factors 59(4), 689–705; online January 26, June 2017 issue. Publisher request timed out; MM1 inspected author-uploaded full text https://www.researchgate.net/publication/312922628_Takeover_Time_in_Highly_Automated_Vehicles_Noncritical_Transitions_to_and_From_Manual_Control . Metadata https://pubmed.ncbi.nlm.nih.gov/28124573/ . One study family; not a replication of Endsley/Kiris or Bainbridge. Source inspection is not independent verification.
 ER  - 
+
+TY  - GEN
+ID  - SRC-142
+TI  - Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection
+PB  - arXiv; research authors
+AU  - Kai Greshake
+AU  - Sahar Abdelnabi
+AU  - Shailesh Mishra
+AU  - Christoph Endres
+AU  - Thorsten Holz
+AU  - Mario Fritz
+PY  - 2023
+UR  - https://arxiv.org/html/2302.12173v2
+N1  - Source ID SRC-142. Publication date as recorded: 2023-05-05. arXiv:2302.12173v2; first submitted 23 February 2023, revised 5 May 2023. Root/source: https://arxiv.org/html/2302.12173v2 Discovery credit: AIID EchoLeak trail → later case study → Greshake et al.; related ATLAS AML.CS0020; https://incidentdatabase.ai/reports/5307/; https://arxiv.org/html/2509.10540v1; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-001, 1 November 2026. Index references identify discovery, not verification or endorsement. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-143
+TI  - Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications
+PB  - arXiv; research authors
+AU  - Stav Cohen
+AU  - Ron Bitton
+AU  - Ben Nassi
+PY  - 2025
+UR  - https://arxiv.org/html/2403.02817v2
+N1  - Source ID SRC-143. Publication date as recorded: 2025-01-30. arXiv:2403.02817v2; first submitted 5 March 2024, revised 30 January 2025. This entry uses v2 rather than the v1 screened initially. Root/source: https://arxiv.org/html/2403.02817v2 Discovery credit: MITRE ATLAS AML.CS0024 → original research; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-002, 1 November 2026. Index references identify discovery, not verification or endorsement. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-144
+TI  - Google Gemini: Planting Instructions For Delayed Automatic Tool Invocation
+PB  - Embrace The Red
+AU  - Johann Rehberger (wunderwuzzi)
+PY  - 2024
+UR  - https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/
+N1  - Source ID SRC-144. Publication date as recorded: 2024-02-22. Original researcher disclosure dated 22 February 2024; main text inspected; embedded video not independently replayed. Root/source: https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/ Discovery credit: MITRE ATLAS AML.CS0038 → original researcher disclosure; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-003, 1 November 2026. Index references identify discovery, not verification or endorsement. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-145
+TI  - Diving Deeper into AI Package Hallucinations
+PB  - Lasso Security
+AU  - Bar Lanyado
+PY  - 2024
+UR  - https://www.lasso.security/blog/ai-package-hallucinations
+N1  - Source ID SRC-145. Publication date as recorded: 2024-03-28. Original vendor follow-up research dated 28 March 2024; methods and package case inspected. Numeric hallucination rates are not adopted because denominator comparability needs further reconciliation. Root/source: https://www.lasso.security/blog/ai-package-hallucinations Discovery credit: MITRE ATLAS AML.CS0022 → Lasso original follow-up research; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-004, 1 November 2026. Index references identify discovery, not verification or endorsement. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-146
+TI  - Defending Against Indirect Prompt Injection Attacks With Spotlighting
+PB  - arXiv; Microsoft research authors
+AU  - Keegan Hines
+AU  - Gary Lopez
+AU  - Matthew Hall
+AU  - Federico Zarfati
+AU  - Yonatan Zunger
+AU  - Emre Kıcıman
+PY  - 2024
+UR  - https://arxiv.org/html/2403.14720v1
+N1  - Source ID SRC-146. Publication date as recorded: 2024-03-20. arXiv:2403.14720v1; 20 March 2024. Original research, not independent reproduction of EchoLeak. Root/source: https://arxiv.org/html/2403.14720v1 Discovery credit: AIID EchoLeak trail → later case-study bibliography → original Microsoft research; https://incidentdatabase.ai/reports/5307/; https://arxiv.org/html/2509.10540v1. Commons identification: citation-trail review, CAN-005, 1 November 2026. Index references identify discovery, not verification or endorsement. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-147
+TI  - Learning from Tay’s introduction
+PB  - Microsoft
+AU  - Peter Lee
+PY  - 2016
+UR  - https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/
+N1  - Source ID SRC-147. Publication date as recorded: 2016-03-25. Original developer statement dated 25 March 2016. Historical incident account; not a current product assessment. Root/source: https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/ Discovery credit: MITRE ATLAS AML.CS0009 → Microsoft original statement; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-006, 1 November 2026. Index references identify discovery, not verification or endorsement. Source inspection is not independent verification.
+ER  - 

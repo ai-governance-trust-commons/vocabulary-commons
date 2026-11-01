@@ -1,4 +1,4 @@
-# Machine-access contract 1.0 — release 0.5.0
+# Machine-access contract 1.0 — release 0.5.1
 
 This is a static file collection, not a live query API. HTTPS GET requests require no account or token. Directory paths and filename case are significant. Existing human record anchors and the public evidence.json are retained. The complete existing dataset has format_version 1.0; the new envelope has contract_version 1.0. Dataset, presentation, contract and machine-release versions have different purposes.
 

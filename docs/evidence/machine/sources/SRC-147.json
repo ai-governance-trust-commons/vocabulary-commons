@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.1",
+  "dataset_version": "0.5.1",
+  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "id": "SRC-147",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-147.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-147",
+    "title": "Learning from Tay’s introduction",
+    "publisher": "Microsoft",
+    "issuing_body": "Peter Lee",
+    "authors": [
+      "Peter Lee"
+    ],
+    "url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/",
+    "publication_date": "2016-03-25",
+    "access_date": "2026-11-01",
+    "locator": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement",
+    "source_kind": "Original developer incident account",
+    "independence_group": "microsoft-tay-2016",
+    "version_note": "Original developer statement dated 25 March 2016. Historical incident account; not a current product assessment. Root/source: https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/ Discovery credit: MITRE ATLAS AML.CS0009 → Microsoft original statement; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-006, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+    "verification": {
+      "status": "Original public source inspected; underlying claims not independently verified",
+      "scope": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement; direct public full text inspected by Mike AI on 2026-11-01",
+      "review_date": "2026-11-01",
+      "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+      "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+      "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+      "dispute_check_date": null,
+      "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+    },
+    "preservation": {
+      "status": "Link-only; no source publication copy captured or redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T18:38:34.386143+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-184",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-184.json"
+    }
+  ]
+}
