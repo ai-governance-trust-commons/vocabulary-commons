@@ -1,0 +1,70 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-098",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-098.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-098",
+    "title": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+    "publisher": "CEPR Discussion Paper 21577",
+    "issuing_body": "CEPR",
+    "authors": [
+      "David Strömberg",
+      "Victor Lei",
+      "Yanhui Wu"
+    ],
+    "url": "https://cepr.org/publications/dp21577",
+    "publication_date": "2026-06-02",
+    "access_date": "2026-10-30",
+    "locator": "Original abstract and bibliographic metadata only",
+    "source_kind": "Working paper: abstract-only inspection",
+    "independence_group": "study-learning",
+    "version_note": "Working paper underlying the September4 author column. CEPR states published/revised June2 2026. SSRN full PDF returned403; methods/results beyond original abstract not directly inspected.",
+    "verification": {
+      "status": "Original abstract inspected; full paper inaccessible; not independently verified",
+      "scope": "Abstract and metadata only",
+      "review_date": "2026-10-30",
+      "authenticity": "Original CEPR record inspected; no underlying data examined",
+      "independent_corroboration": "Not established by this inspection",
+      "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [
+    {
+      "id": "REL-311",
+      "from_id": "SRC-093",
+      "to_id": "SRC-098",
+      "relationship_type": "depends_on",
+      "explanation": "Author column explicitly reports DP21577; not independent corroboration. Full working-paper methods remain uninspected.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "evidence_records": []
+}

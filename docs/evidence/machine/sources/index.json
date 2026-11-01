@@ -1,0 +1,702 @@
+{
+  "contract_version": "1.0",
+  "dataset_version": "0.4.5",
+  "notice": "One source record is not necessarily one independent study or corroborator.",
+  "sources": [
+    {
+      "id": "SRC-001",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-001.json",
+      "original_url": "https://www.anthropic.com/research/alignment-faking"
+    },
+    {
+      "id": "SRC-002",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-002.json",
+      "original_url": "https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/"
+    },
+    {
+      "id": "SRC-003",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-003.json",
+      "original_url": "https://arxiv.org/abs/2507.09089v2"
+    },
+    {
+      "id": "SRC-004",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-004.json",
+      "original_url": "https://metr.org/blog/2026-02-24-uplift-update/"
+    },
+    {
+      "id": "SRC-005",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-005.json",
+      "original_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/"
+    },
+    {
+      "id": "SRC-006",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-006.json",
+      "original_url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/"
+    },
+    {
+      "id": "SRC-007",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-007.json",
+      "original_url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/"
+    },
+    {
+      "id": "SRC-008",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-008.json",
+      "original_url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/"
+    },
+    {
+      "id": "SRC-009",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-009.json",
+      "original_url": "https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf"
+    },
+    {
+      "id": "SRC-010",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-010.json",
+      "original_url": "https://www.usenix.org/system/files/usenixsecurity25-zou-poisonedrag.pdf"
+    },
+    {
+      "id": "SRC-011",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-011.json",
+      "original_url": "https://arxiv.org/html/2503.10965v2"
+    },
+    {
+      "id": "SRC-012",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-012.json",
+      "original_url": "https://alignment.anthropic.com/2025/auditing-mo-replication/"
+    },
+    {
+      "id": "SRC-013",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-013.json",
+      "original_url": "https://arxiv.org/abs/2606.28425v1"
+    },
+    {
+      "id": "SRC-014",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-014.json",
+      "original_url": "https://arxiv.org/abs/2609.28900v2"
+    },
+    {
+      "id": "SRC-015",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-015.json",
+      "original_url": "https://arxiv.org/abs/2503.13657v3"
+    },
+    {
+      "id": "SRC-016",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-016.json",
+      "original_url": "https://arxiv.org/abs/2102.09692v1"
+    },
+    {
+      "id": "SRC-017",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-017.json",
+      "original_url": "https://arxiv.org/abs/2212.06823v2"
+    },
+    {
+      "id": "SRC-018",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-018.json",
+      "original_url": "https://www.nature.com/articles/s41562-024-02024-1"
+    },
+    {
+      "id": "SRC-019",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-019.json",
+      "original_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf"
+    },
+    {
+      "id": "SRC-020",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-020.json",
+      "original_url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/"
+    },
+    {
+      "id": "SRC-021",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-021.json",
+      "original_url": "https://openai.com/index/safety-alignment-long-horizon-models/"
+    },
+    {
+      "id": "SRC-022",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-022.json",
+      "original_url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/"
+    },
+    {
+      "id": "SRC-023",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-023.json",
+      "original_url": "https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident"
+    },
+    {
+      "id": "SRC-024",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-024.json",
+      "original_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi"
+    },
+    {
+      "id": "SRC-025",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-025.json",
+      "original_url": "https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/"
+    },
+    {
+      "id": "SRC-026",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-026.json",
+      "original_url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain"
+    },
+    {
+      "id": "SRC-027",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-027.json",
+      "original_url": "https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/"
+    },
+    {
+      "id": "SRC-028",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-028.json",
+      "original_url": "https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/"
+    },
+    {
+      "id": "SRC-029",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-029.json",
+      "original_url": "https://agentic.tracebit.com/factory"
+    },
+    {
+      "id": "SRC-030",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-030.json",
+      "original_url": "https://arxiv.org/abs/2610.31593v1"
+    },
+    {
+      "id": "SRC-031",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-031.json",
+      "original_url": "https://www.anthropic.com/news/disrupting-AI-espionage"
+    },
+    {
+      "id": "SRC-032",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-032.json",
+      "original_url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/"
+    },
+    {
+      "id": "SRC-033",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-033.json",
+      "original_url": "https://www.wiz.io/blog/artex-in-the-wild-storm0940-expands-targeting-of-it-and-software-vendors"
+    },
+    {
+      "id": "SRC-034",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-034.json",
+      "original_url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/"
+    },
+    {
+      "id": "SRC-035",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-035.json",
+      "original_url": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/"
+    },
+    {
+      "id": "SRC-036",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-036.json",
+      "original_url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+    },
+    {
+      "id": "SRC-037",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-037.json",
+      "original_url": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    {
+      "id": "SRC-038",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-038.json",
+      "original_url": "https://www.anthropic.com/institute/measuring-pace-of-ai-development"
+    },
+    {
+      "id": "SRC-039",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-039.json",
+      "original_url": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents"
+    },
+    {
+      "id": "SRC-040",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-040.json",
+      "original_url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+    },
+    {
+      "id": "SRC-041",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-041.json",
+      "original_url": "https://www.irregular.com/research/agentic-self-modification-in-open-weights-systems"
+    },
+    {
+      "id": "SRC-042",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-042.json",
+      "original_url": "https://arxiv.org/html/2610.08364v2"
+    },
+    {
+      "id": "SRC-043",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-043.json",
+      "original_url": "https://csirt.divd.nl/cases/DIVD-2026-00014/"
+    },
+    {
+      "id": "SRC-044",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-044.json",
+      "original_url": "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email"
+    },
+    {
+      "id": "SRC-045",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-045.json",
+      "original_url": "https://www.prnewswire.com/news-releases/salt-labs-research-a-single-email-could-hijack-an-ai-agent-and-reach-a-users-connected-accounts-302895317.html"
+    },
+    {
+      "id": "SRC-046",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-046.json",
+      "original_url": "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02"
+    },
+    {
+      "id": "SRC-047",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-047.json",
+      "original_url": "https://norforge.com/blog/inside_cairn"
+    },
+    {
+      "id": "SRC-048",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-048.json",
+      "original_url": "https://norforge.com/blog/automated-subversion-attempted-takeover"
+    },
+    {
+      "id": "SRC-049",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-049.json",
+      "original_url": "https://openai.com/index/how-we-will-do-better-for-australia/"
+    },
+    {
+      "id": "SRC-050",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-050.json",
+      "original_url": "https://www.aihw.gov.au/news-media/media-releases/2026/september/a-statement-from-the-australian-institute-of-health-and-welfare"
+    },
+    {
+      "id": "SRC-051",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-051.json",
+      "original_url": "https://www.minister.defence.gov.au/transcripts/2026-09-24/press-conference-sydney"
+    },
+    {
+      "id": "SRC-052",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-052.json",
+      "original_url": "https://openai.com/hugging-face-incident-and-misalignment/"
+    },
+    {
+      "id": "SRC-053",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-053.json",
+      "original_url": "https://transluce.org/us-canada-gov"
+    },
+    {
+      "id": "SRC-054",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-054.json",
+      "original_url": "https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/"
+    },
+    {
+      "id": "SRC-055",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-055.json",
+      "original_url": "https://arxiv.org/abs/2609.38415v1"
+    },
+    {
+      "id": "SRC-056",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-056.json",
+      "original_url": "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/"
+    },
+    {
+      "id": "SRC-057",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-057.json",
+      "original_url": "https://www.air.security/blog-posts/plugin4shell"
+    },
+    {
+      "id": "SRC-058",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-058.json",
+      "original_url": "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/"
+    },
+    {
+      "id": "SRC-059",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-059.json",
+      "original_url": "https://www.hacktron.ai/blog/hacking-openai"
+    },
+    {
+      "id": "SRC-060",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-060.json",
+      "original_url": "https://github.com/pwardle/not-a-mused"
+    },
+    {
+      "id": "SRC-061",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-061.json",
+      "original_url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/"
+    },
+    {
+      "id": "SRC-062",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-062.json",
+      "original_url": "https://arxiv.org/abs/2609.15989v1"
+    },
+    {
+      "id": "SRC-063",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-063.json",
+      "original_url": "https://arxiv.org/abs/2609.15383v2"
+    },
+    {
+      "id": "SRC-064",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-064.json",
+      "original_url": "https://arxiv.org/abs/2609.17527v2"
+    },
+    {
+      "id": "SRC-065",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-065.json",
+      "original_url": "https://arxiv.org/abs/2609.01491v1"
+    },
+    {
+      "id": "SRC-066",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-066.json",
+      "original_url": "https://arxiv.org/abs/2609.23226v1"
+    },
+    {
+      "id": "SRC-067",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-067.json",
+      "original_url": "https://arxiv.org/abs/2609.24242v1"
+    },
+    {
+      "id": "SRC-068",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-068.json",
+      "original_url": "https://arxiv.org/abs/2609.27273v2"
+    },
+    {
+      "id": "SRC-069",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-069.json",
+      "original_url": "https://arxiv.org/abs/2609.29189v1"
+    },
+    {
+      "id": "SRC-070",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-070.json",
+      "original_url": "https://arxiv.org/abs/2609.38411v1"
+    },
+    {
+      "id": "SRC-071",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-071.json",
+      "original_url": "https://arxiv.org/abs/2609.39050v1"
+    },
+    {
+      "id": "SRC-072",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-072.json",
+      "original_url": "https://arxiv.org/abs/2610.00797v1"
+    },
+    {
+      "id": "SRC-073",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-073.json",
+      "original_url": "https://arxiv.org/abs/2610.02036v2"
+    },
+    {
+      "id": "SRC-074",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-074.json",
+      "original_url": "https://arxiv.org/abs/2610.02122v1"
+    },
+    {
+      "id": "SRC-075",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-075.json",
+      "original_url": "https://arxiv.org/abs/2610.04083v1"
+    },
+    {
+      "id": "SRC-076",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-076.json",
+      "original_url": "https://arxiv.org/abs/2610.05840v1"
+    },
+    {
+      "id": "SRC-077",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-077.json",
+      "original_url": "https://arxiv.org/abs/2603.19213v2"
+    },
+    {
+      "id": "SRC-078",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-078.json",
+      "original_url": "https://arxiv.org/abs/2604.27292v3"
+    },
+    {
+      "id": "SRC-079",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-079.json",
+      "original_url": "https://arxiv.org/abs/2608.08601v2"
+    },
+    {
+      "id": "SRC-080",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-080.json",
+      "original_url": "https://arxiv.org/abs/2609.32701v2"
+    },
+    {
+      "id": "SRC-081",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-081.json",
+      "original_url": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/"
+    },
+    {
+      "id": "SRC-082",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-082.json",
+      "original_url": "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce"
+    },
+    {
+      "id": "SRC-083",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-083.json",
+      "original_url": "https://labs.zenity.io/post/salesbleed-hijacking-agentforce-in-slack-for-anonymous-phishing"
+    },
+    {
+      "id": "SRC-084",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-084.json",
+      "original_url": "https://www.wiz.io/blog/php2shell-php-rce"
+    },
+    {
+      "id": "SRC-085",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-085.json",
+      "original_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+    },
+    {
+      "id": "SRC-086",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-086.json",
+      "original_url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+    },
+    {
+      "id": "SRC-087",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-087.json",
+      "original_url": "https://doi.org/10.1016/0005-1098(83)90046-8"
+    },
+    {
+      "id": "SRC-088",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-088.json",
+      "original_url": "https://link.springer.com/article/10.1007/s11023-026-09783-y"
+    },
+    {
+      "id": "SRC-089",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-089.json",
+      "original_url": "https://doi.org/10.1016/j.jrt.2026.100167"
+    },
+    {
+      "id": "SRC-090",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-090.json",
+      "original_url": "https://link.springer.com/article/10.1007/s43681-025-00902-6"
+    },
+    {
+      "id": "SRC-091",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-091.json",
+      "original_url": "https://www.nationalacademies.org/read/28868"
+    },
+    {
+      "id": "SRC-092",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-092.json",
+      "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13161690/"
+    },
+    {
+      "id": "SRC-093",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-093.json",
+      "original_url": "https://cepr.org/voxeu/columns/generative-ai-learning-penalty-secondary-school"
+    },
+    {
+      "id": "SRC-094",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-094.json",
+      "original_url": "https://www.anthropic.com/research/self-replicating-ai"
+    },
+    {
+      "id": "SRC-095",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-095.json",
+      "original_url": "https://arxiv.org/abs/2604.23065v2"
+    },
+    {
+      "id": "SRC-096",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-096.json",
+      "original_url": "https://arxiv.org/abs/2509.04664v1"
+    },
+    {
+      "id": "SRC-097",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-097.json",
+      "original_url": "https://openai.com/index/why-language-models-hallucinate/"
+    },
+    {
+      "id": "SRC-098",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-098.json",
+      "original_url": "https://cepr.org/publications/dp21577"
+    },
+    {
+      "id": "SRC-099",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-099.json",
+      "original_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+    },
+    {
+      "id": "SRC-100",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-100.json",
+      "original_url": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier"
+    },
+    {
+      "id": "SRC-101",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-101.json",
+      "original_url": "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report/"
+    },
+    {
+      "id": "SRC-102",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-102.json",
+      "original_url": "https://aiverifyfoundation.sg/ai-assurance/accredited-testers/"
+    },
+    {
+      "id": "SRC-103",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-103.json",
+      "original_url": "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf"
+    },
+    {
+      "id": "SRC-104",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-104.json",
+      "original_url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/"
+    },
+    {
+      "id": "SRC-106",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-106.json",
+      "original_url": "https://blog.claroc.io/ghostshares-muse-passive-dns/"
+    },
+    {
+      "id": "SRC-107",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-107.json",
+      "original_url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
+    },
+    {
+      "id": "SRC-108",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-108.json",
+      "original_url": "https://github.com/openai/math"
+    },
+    {
+      "id": "SRC-109",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-109.json",
+      "original_url": "https://swarmcha.se/posts/chinese-agent-fleet-full-report"
+    },
+    {
+      "id": "SRC-111",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-111.json",
+      "original_url": "https://arxiv.org/abs/2610.35835"
+    },
+    {
+      "id": "SRC-112",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-112.json",
+      "original_url": "https://www.irregular.com/research/glm-5.3-multi-stage-cyber-operations-and-instruction-violations"
+    },
+    {
+      "id": "SRC-113",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-113.json",
+      "original_url": "https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/"
+    },
+    {
+      "id": "SRC-114",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-114.json",
+      "original_url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/"
+    },
+    {
+      "id": "SRC-115",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-115.json",
+      "original_url": "https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/"
+    },
+    {
+      "id": "SRC-116",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-116.json",
+      "original_url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+    },
+    {
+      "id": "SRC-117",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-117.json",
+      "original_url": "https://openai.com/index/model-misalignment-reporting-framework/"
+    },
+    {
+      "id": "SRC-118",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-118.json",
+      "original_url": "https://www.aicpa-cima.com/news/article/auditors-meet-urgent-demand-for-ai-assurance-with-new-offering-from-aicpa-and-aiuc"
+    },
+    {
+      "id": "SRC-119",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-119.json",
+      "original_url": "https://www.policeconduct.gov.uk/news/officers-risk-accidental-ai-misconduct-iopc-warns"
+    },
+    {
+      "id": "SRC-120",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-120.json",
+      "original_url": "https://www.anthropic.com/claude-haiku-5-5-system-card"
+    },
+    {
+      "id": "SRC-121",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-121.json",
+      "original_url": "https://deploymentsafety.openai.com/gpt-6-october"
+    },
+    {
+      "id": "SRC-122",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-122.json",
+      "original_url": "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/"
+    },
+    {
+      "id": "SRC-123",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-123.json",
+      "original_url": "https://www.anthropic.com/research/employment-at-anthropic"
+    },
+    {
+      "id": "SRC-124",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-124.json",
+      "original_url": "https://arxiv.org/abs/2608.15550"
+    },
+    {
+      "id": "SRC-125",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-125.json",
+      "original_url": "https://cruxevals.com/research-notes/crux-2-follow-up/"
+    },
+    {
+      "id": "SRC-126",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-126.json",
+      "original_url": "https://www.anthropic.com/research/formal-verification"
+    },
+    {
+      "id": "SRC-127",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-127.json",
+      "original_url": "https://arxiv.org/abs/2512.08296v3"
+    },
+    {
+      "id": "SRC-128",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-128.json",
+      "original_url": "https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2016.00960.x"
+    },
+    {
+      "id": "SRC-129",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-129.json",
+      "original_url": "https://proceedings.mlr.press/v81/ensign18a.html"
+    },
+    {
+      "id": "SRC-130",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-130.json",
+      "original_url": "https://arxiv.org/abs/1710.11214"
+    },
+    {
+      "id": "SRC-131",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-131.json",
+      "original_url": "https://proceedings.mlr.press/v119/perdomo20a.html"
+    },
+    {
+      "id": "SRC-132",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-132.json",
+      "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6329591/"
+    },
+    {
+      "id": "SRC-133",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-133.json",
+      "original_url": "https://orbit.dtu.dk/en/publications/risk-management-in-a-dynamic-society-a-modelling-problem/"
+    },
+    {
+      "id": "SRC-134",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-134.json",
+      "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552228/"
+    },
+    {
+      "id": "SRC-135",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-135.json",
+      "original_url": "https://intelligence.org/files/Corrigibility.pdf"
+    },
+    {
+      "id": "SRC-136",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-136.json",
+      "original_url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html"
+    },
+    {
+      "id": "SRC-137",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-137.json",
+      "original_url": "https://www.rand.org/pubs/research_reports/RRA3892-1.html"
+    },
+    {
+      "id": "SRC-138",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-138.json",
+      "original_url": "https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf"
+    },
+    {
+      "id": "SRC-139",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-139.json",
+      "original_url": "https://academic.oup.com/qje/article/140/2/889/7990658"
+    },
+    {
+      "id": "SRC-140",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-140.json",
+      "original_url": "https://journals.sagepub.com/doi/10.1518/001872095779064555"
+    },
+    {
+      "id": "SRC-141",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-141.json",
+      "original_url": "https://journals.sagepub.com/doi/10.1177/0018720816685832"
+    }
+  ]
+}

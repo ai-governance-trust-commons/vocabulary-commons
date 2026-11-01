@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-130",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-130.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-130",
+    "title": "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility",
+    "publisher": "RecSys / arXiv",
+    "issuing_body": "Allison J. B. Chaney; Brandon M. Stewart; Barbara E. Engelhardt",
+    "authors": [
+      "Allison J. B. Chaney",
+      "Brandon M. Stewart",
+      "Barbara E. Engelhardt"
+    ],
+    "url": "https://arxiv.org/abs/1710.11214",
+    "publication_date": "2018",
+    "access_date": "2026-10-31",
+    "locator": "Current preprint PDF §§4, 5.2–5.4, 6 and version metadata",
+    "source_kind": "Simulation study",
+    "independence_group": "chaney-2018",
+    "version_note": "v1 October 30, 2017; v2 November 27, 2018. RecSys October 2–7, 2018, DOI https://doi.org/10.1145/3240323.3240370 . Institutional copy and preprint are one work; no complete version diff performed.",
+    "verification": {
+      "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "scope": "Current preprint PDF §§4, 5.2–5.4, 6 and version metadata; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "review_date": "2026-10-31",
+      "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+      "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+      "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+      "dispute_check_date": null,
+      "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+    },
+    "preservation": {
+      "status": "Link-only; no source copy captured",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-166",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-166.json"
+    }
+  ]
+}

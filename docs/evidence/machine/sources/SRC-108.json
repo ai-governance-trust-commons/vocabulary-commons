@@ -1,0 +1,71 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-108",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-108.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-108",
+    "title": "Mathematics release README and correction history",
+    "publisher": "OpenAI",
+    "issuing_body": "OpenAI",
+    "authors": [],
+    "url": "https://github.com/openai/math",
+    "publication_date": "2026-10-06",
+    "access_date": "2026-10-30",
+    "locator": "README verification caveats; history.md October 7, 26 and 29",
+    "source_kind": "Primary repository documentation",
+    "independence_group": "rem-5",
+    "version_note": "Read-only inspection. History https://github.com/openai/math/blob/main/history.md . Current catalogue 721 manuscripts / 373 families; earlier 719 count is date-specific, not independent cases. Apache-2.0 license displayed; no file copy retained.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "README verification caveats; history.md October 7, 26 and 29",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "Bounded correction checks only; no absence guarantee",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. Links and descriptive metadata only; no publication copy retained.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [
+    {
+      "id": "REL-339",
+      "from_id": "SRC-108",
+      "to_id": "SRC-107",
+      "relationship_type": "qualifies",
+      "explanation": "Same publisher and release; correction history is not independent corroboration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "evidence_records": [
+    {
+      "id": "EVID-141",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-141.json"
+    }
+  ]
+}

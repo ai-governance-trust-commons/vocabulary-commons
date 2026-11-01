@@ -1,0 +1,12 @@
+# Governance & Trust Vocabulary Commons
+
+Public research resource: a founding glossary and provisional Evidence Library.
+
+- Machine catalog: https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/catalog.json
+- Machine guide: https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/
+- Interpretation guidance: https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/interpretation.md
+- Rights and reuse scope: https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json
+- Public evidence: https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json
+- Founding glossary: https://ai-governance-trust-commons.github.io/vocabulary-commons/data/glossary.json
+
+This optional discovery file is advisory, not an access-control or security mechanism. Preserve findings with their limitations and source dependencies. Provisional publication is not independent verification.
