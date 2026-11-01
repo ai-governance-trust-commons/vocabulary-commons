@@ -1,0 +1,299 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-009",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-009.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-009",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-009",
+    "title": "Intervention availability depends on monitoring configuration",
+    "case_id": "CASE-007",
+    "observation": "OpenAI describes workload-dependent paging, automatic pauses in some configurations, and broader timed stops as planned. External pausing depends on supported conversation tracking; notification alone need not stop continuation.",
+    "evidence_standing": "Observed (bounded provider-reported account)",
+    "glossary_fit": "Illustrative connection; bounded",
+    "source_ids": [
+      "SRC-006"
+    ],
+    "source_locations": {
+      "SRC-006": "Human response; Safeguarding external usage of Astra, final three paragraphs"
+    },
+    "limitations": "A provider description of arrangements, not measured universal reliability. Some automatic intervention exists; coverage denominator and end-to-end reliability remain unknown.",
+    "open_questions": "What configurations and workloads have verified end-to-end intervention coverage?",
+    "keywords": [
+      "monitoring",
+      "Observability",
+      "Chaperoning"
+    ],
+    "support_assessment": "Attributed summary based on a recorded AI source review. The Commons has not independently replicated or verified the underlying finding.",
+    "dispute_status": "Disputes and retractions not systematically checked",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-007",
+    "title": "October monitoring coverage and intervention configuration",
+    "kind": "Configuration disclosure; not an incident",
+    "event_date": "2026-10-29",
+    "event_date_precision": "disclosure date",
+    "source_ids": [
+      "SRC-006"
+    ],
+    "summary": "Groups a reported monitoring configuration observation, distinct from live incidents and retrospective replay.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-006",
+      "title": "How we detect frontier model misalignment",
+      "publisher": "OpenAI",
+      "issuing_body": "OpenAI",
+      "authors": [],
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment/",
+      "publication_date": "2026-10-29",
+      "access_date": "2026-10-30",
+      "locator": "Opening replay and live-event examples; Our internal monitoring system today; Human response",
+      "source_kind": "Organization assurance disclosure",
+      "independence_group": "openai-monitoring-2026",
+      "version_note": "Opened page displays October 29; search index displayed October 28, so opened-page date retained",
+      "verification": {
+        "status": "AI source inspection recorded; underlying claims not independently verified",
+        "scope": "Cited publication and supporting locations",
+        "review_date": "2026-10-30",
+        "authenticity": "Publisher URL recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by this pilot",
+        "dispute_status": "Disputes and retractions not systematically checked",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction check recorded; null does not mean none exist."
+      },
+      "preservation": {
+        "status": "Linked source only; full source bytes not archived",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-005",
+      "title": "The Hugging Face incident and the road ahead",
+      "publisher": "OpenAI",
+      "issuing_body": "OpenAI",
+      "authors": [],
+      "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "publication_date": "2026-08-26",
+      "access_date": "2026-10-30",
+      "locator": "Opening summary; What happened; Safeguard coverage in internal evaluations",
+      "source_kind": "Organization incident disclosure",
+      "independence_group": "openai-hugging-face-2026",
+      "version_note": "Issuer account; external report linked but not separately assessed in this pilot",
+      "verification": {
+        "status": "AI source inspection recorded; underlying claims not independently verified",
+        "scope": "Cited publication and supporting locations",
+        "review_date": "2026-10-30",
+        "authenticity": "Publisher URL recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by this pilot",
+        "dispute_status": "Disputes and retractions not systematically checked",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction check recorded; null does not mean none exist."
+      },
+      "preservation": {
+        "status": "Linked source only; full source bytes not archived",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-007",
+      "title": "An agent used DNS to reach an external chatbot",
+      "publisher": "OpenAI Alignment",
+      "issuing_body": "OpenAI",
+      "authors": [],
+      "url": "https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/",
+      "publication_date": null,
+      "access_date": "2026-10-30",
+      "locator": "Investigation and response: incident timeline and operational gaps paragraph",
+      "source_kind": "Organization incident report",
+      "independence_group": "openai-monitoring-2026",
+      "version_note": "Sample and discovery September 20, 2026; report updated September 25, 2026. Separate initial publication date unverified. Same event as CASE-004 and SRC-006.",
+      "verification": {
+        "status": "AI source inspection recorded; underlying claims not independently verified",
+        "scope": "Cited publication and supporting locations",
+        "review_date": "2026-10-30",
+        "authenticity": "Publisher URL recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established; SRC-006 and SRC-007 are same-provider accounts of the same event",
+        "dispute_status": "Disputes and retractions not systematically checked",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction check recorded; null does not mean none exist."
+      },
+      "preservation": {
+        "status": "Linked source only; full source bytes not archived; preservation permission not assessed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability",
+      "name": "Observability",
+      "definition": "The capacity to obtain and interpret dependable evidence about states, actions, relationships, and consequences relevant to a specified question. Evidence may come from more than one system or organization.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-018",
+      "from_id": "EVID-009",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "qualifies",
+      "explanation": "Notification, available stopping mechanisms, and effective response depend on configuration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-019",
+      "from_id": "EVID-009",
+      "to_id": "TERM-observability",
+      "relationship_type": "illustrates",
+      "explanation": "Monitoring coverage and intervention coverage are distinct reported properties.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-023",
+      "from_id": "EVID-009",
+      "to_id": "EVID-005",
+      "relationship_type": "updates context",
+      "explanation": "Reported configuration context is distinct from the retrospective replay; both reuse SRC-006.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-024",
+      "from_id": "EVID-009",
+      "to_id": "EVID-006",
+      "relationship_type": "updates context",
+      "explanation": "Reported configuration context is distinct from the live DNS event; shared publication does not provide independent corroboration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [
+    {
+      "id": "REL-012",
+      "from_id": "SRC-006",
+      "to_id": "SRC-005",
+      "relationship_type": "later assurance disclosure",
+      "explanation": "Monitoring replay adds assurance evidence to the historical incident case, rather than constituting another incident.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-013",
+      "from_id": "SRC-007",
+      "to_id": "SRC-006",
+      "relationship_type": "same underlying event",
+      "explanation": "Detailed incident report and later monitoring overview describe CASE-004; separate pages do not provide independent corroboration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "withdrawal": null
+}

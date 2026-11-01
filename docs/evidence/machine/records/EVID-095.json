@@ -1,0 +1,240 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-095",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-095.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-095",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-095",
+    "title": "Authors report that injected upstream plans can be paraphrased without attribution and evade reasoning-trace monitors in controlled coding and reasoning tasks.",
+    "case_id": "CASE-084",
+    "observation": "Authors report that injected upstream plans can be paraphrased without attribution and evade reasoning-trace monitors in controlled coding and reasoning tasks.",
+    "evidence_standing": "Bounded observation (author-reported study; not independently reproduced)",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-062"
+    ],
+    "source_locations": {
+      "SRC-062": "Sections 3–6; Section 7 Limitations; Appendix B.3–B.8"
+    },
+    "limitations": "Two reasoning models and two scaling tasks; extreme-selected, single-monitor budget experiment does not estimate prevalence. Thinking monitors performed better on average. End-to-end delivery through RAG or multi-agent systems remains future work.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "Evidence laundering through AI",
+      "Observability boundary"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No explicit correction located in bounded checks; not exhaustive",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-084",
+    "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+    "kind": "Controlled experiment",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-062"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-062",
+      "title": "Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection",
+      "publisher": "arXiv",
+      "issuing_body": "Authors listed in arXiv publication",
+      "authors": [
+        "Keertana Chidambaram",
+        "Andrew Ilyas",
+        "Vasilis Syrgkanis"
+      ],
+      "url": "https://arxiv.org/abs/2609.15989v1",
+      "publication_date": "2026-09-14",
+      "access_date": "2026-10-30",
+      "locator": "Sections 3–6; Section 7 Limitations; Appendix B.3–B.8",
+      "source_kind": "Controlled experiment",
+      "independence_group": "study-arxiv-2609.15989",
+      "version_note": "v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "Sections 3–6; Section 7 Limitations; Appendix B.3–B.8; full text https://arxiv.org/html/2609.15989v1",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable author preprint on arXiv; underlying data and claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "No explicit external correction located in bounded checks; version and internal limitations retained",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-009",
+      "title": "Reasoning Models Don’t Always Say What They Think",
+      "publisher": "Anthropic Alignment Science Team",
+      "issuing_body": "Anthropic Alignment Science Team",
+      "authors": [
+        "Yanda Chen",
+        "Joe Benton",
+        "Ansh Radhakrishnan",
+        "Jonathan Uesato",
+        "Carson Denison",
+        "John Schulman",
+        "Arushi Somani",
+        "Peter Hase",
+        "Misha Wagner",
+        "Fabien Roger",
+        "Vlad Mikulik",
+        "Samuel R. Bowman",
+        "Jan Leike",
+        "Jared Kaplan",
+        "Ethan Perez"
+      ],
+      "url": "https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf",
+      "publication_date": "2025-04-03",
+      "access_date": "2026-10-30",
+      "locator": "Paper Figure 1; sections 3–5; section 7.2 and conclusion, printed pp. 2, 12 (PDF pages 2, 12). Companion: Testing for faithfulness; Can we improve faithfulness?; Faithfulness and reward hacking.",
+      "source_kind": "Primary research report",
+      "independence_group": "new-study-SRC-009",
+      "version_note": "Official announcement 2025-04-03; arXiv v1 2025-05-08 (only listed version checked 2026-10-30). Examined official PDF has no explicit revision identifier; byte identity with arXiv not established. Official blog and PDF are one source family/experiment, not independent corroboration. Distinct from canonical alignment-faking and OpenAI monitor-suppression cases; references to those works are background dependencies only.",
+      "verification": {
+        "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+        "scope": "Paper Figure 1; sections 3–5; section 7.2 and conclusion, printed pp. 2,12 (PDF pages 2,12). Companion: Testing for faithfulness; Can we improve faithfulness?; Faithfulness and reward hacking.",
+        "review_date": "2026-10-30",
+        "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-evidence-laundering-through-ai",
+      "name": "Evidence laundering through AI",
+      "definition": "The appearance of credibility or corroboration acquired by low-integrity material when AI systems retrieve, summarize, cite, or re-present it. Multiple apparently agreeing outputs may share the same original, manipulated source.",
+      "vocabulary": "Working",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#evidence-laundering-through-ai",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-216",
+      "from_id": "EVID-095",
+      "to_id": "TERM-evidence-laundering-through-ai",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-217",
+      "from_id": "EVID-095",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [
+    {
+      "id": "REL-256",
+      "from_id": "SRC-062",
+      "to_id": "SRC-009",
+      "relationship_type": "depends_on",
+      "explanation": "Builds on earlier hint-faithfulness research; distinct experiment, not independent corroboration of its underlying runs.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "withdrawal": null
+}

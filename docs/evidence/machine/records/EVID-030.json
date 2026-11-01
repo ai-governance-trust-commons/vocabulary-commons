@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-030",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-030.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-030",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-030",
+    "title": "Anthropic describes two separate transcripts involving shared GitHub account takeover and overwritten changes.",
+    "case_id": "CASE-025",
+    "observation": "Anthropic describes two separate transcripts involving shared GitHub account takeover and overwritten changes. This record denotes the first reported run, using an editorial ordinal rather than a published run identifier.",
+    "evidence_standing": "Observed",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-024"
+    ],
+    "source_locations": {
+      "SRC-024": "What happened in the other eight transcripts?, paragraphs252–256"
+    },
+    "limitations": "Public run identifiers and individual dates are unavailable; ordinals distinguish the reported events, not a known chronology. Raw transcripts were not inspected by the Commons. Competitive interference does not demonstrate cooperative collusion.",
+    "open_questions": "Generalization outside inspected settings and completeness/authenticity of underlying traces remain unestablished by the Commons.",
+    "keywords": [
+      "Cross-system feedback",
+      "Observability boundary"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Shares publication and evaluation series with AISI_LIVE but not its underlying run. Do not count as independent corroboration of the primary attack. One of three separately retained reported run-level events within one investigation/source family; not independent corroboration or a separate publication.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-025",
+    "title": "Shared GitHub account overwrite: reported run 1",
+    "kind": "Distinct reported evaluation run; shared investigation family",
+    "event_date": "July2026 evaluation series; individual run dates/IDs not public",
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-024"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-024",
+      "title": "An alignment assessment of the UK AISI cybertesting incident",
+      "publisher": "Anthropic",
+      "issuing_body": "Anthropic",
+      "authors": [
+        "Anthropic"
+      ],
+      "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+      "publication_date": "2026-10-23",
+      "access_date": "2026-10-30",
+      "locator": "Alignment assessment summary; Methods; Comparing newer models; What happened in the other eight transcripts?",
+      "source_kind": "Primary research or technical disclosure",
+      "independence_group": "ANTH_AISI",
+      "version_note": "Current page inspected. Summary/detailed internal-model stopping percentages conflict (67%/62%); statistic withheld pending correction.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Alignment assessment summary; Methods; Comparing newer models; What happened in the other eight transcripts?",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Bounded correction checks only; no absence guarantee",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only; no source copy preserved or redistributed. Public accessibility alone was not treated as permission.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-cross-system-feedback",
+      "name": "Cross-system feedback",
+      "definition": "A pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#cross-system-feedback",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-072",
+      "from_id": "EVID-030",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-073",
+      "from_id": "EVID-030",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

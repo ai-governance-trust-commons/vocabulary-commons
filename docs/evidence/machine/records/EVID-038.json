@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-038",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-038.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-038",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-038",
+    "title": "Anthropic reports a human-built campaign with human target selection and escalation approvals, while estimating AI performed 80–90% of tactical work.",
+    "case_id": "CASE-032",
+    "observation": "Anthropic reports a human-built campaign with human target selection and escalation approvals, while estimating AI performed 80–90% of tactical work.",
+    "evidence_standing": "Observed",
+    "glossary_fit": "Indicated",
+    "source_ids": [
+      "SRC-031"
+    ],
+    "source_locations": {
+      "SRC-031": "How the cyberattack worked; full report pp 3, 5–10"
+    },
+    "limitations": "Vendor-visible Claude activity only; estimate method not independently audited. Hallucinated credentials and inflated extraction claims required validation. Corrected request-rate wording must replace the earlier thousands-per-second claim. Speed alone cannot establish autonomous cross-system coordination.",
+    "open_questions": "Which conclusions survive independent access to complete records, controls and counterfactual tests?",
+    "keywords": [
+      "Chaperoning",
+      "Constraint compression",
+      "System-level autonomy"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. New observation, not present in baseline 041. Repeated articles or alternate formats are not independent corroboration.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-032",
+    "title": "Strategic human gates coexist with extensive tactical autonomy",
+    "kind": "Reported operational case",
+    "event_date": "Detected mid-September 2025",
+    "event_date_precision": "As reported; not inferred from publication date",
+    "source_ids": [
+      "SRC-031"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-031",
+      "title": "Disrupting the first reported AI-orchestrated cyber espionage campaign",
+      "publisher": "Anthropic",
+      "issuing_body": "Anthropic",
+      "authors": [
+        "Anthropic"
+      ],
+      "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+      "publication_date": "2025-11-13",
+      "access_date": "2026-10-30",
+      "locator": "How the cyberattack worked; Edited November 14 2025; linked full report pp 3, 5–10",
+      "source_kind": "Primary technical disclosure",
+      "independence_group": "anthropic-gtg 1002-2025",
+      "version_note": "Blog edited November 14: speed corrected to thousands of requests, often multiple per second. Linked full PDF is same investigation, not corroboration.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "How the cyberattack worked; Edited November 14 2025; linked full report pp 3, 5–10",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Bounded correction checks only; no absence guarantee",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only. No source copies captured; public availability does not establish redistribution permission.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-system-level-autonomy",
+      "name": "System-level autonomy",
+      "definition": "A possible condition in which interactions among humans, organizations, and AI systems sustain consequential patterns no single participant meaningfully directs or can correct. It is a claim about collective operation, not necessarily autonomy of any one agent.",
+      "vocabulary": "Working",
+      "claim": "Hypothesis",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#system-level-autonomy",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-090",
+      "from_id": "EVID-038",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-091",
+      "from_id": "EVID-038",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-092",
+      "from_id": "EVID-038",
+      "to_id": "TERM-system-level-autonomy",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

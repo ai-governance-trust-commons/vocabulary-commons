@@ -1,0 +1,68 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-097",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-097.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-097",
+    "title": "Why Language Models Hallucinate",
+    "publisher": "OpenAI",
+    "issuing_body": "OpenAI",
+    "authors": [
+      "OpenAI"
+    ],
+    "url": "https://openai.com/index/why-language-models-hallucinate/",
+    "publication_date": "2025-09-05",
+    "access_date": "2026-10-30",
+    "locator": "Teaching to the test; A better way to grade evaluations; Conclusions",
+    "source_kind": "Authors’ research explainer",
+    "independence_group": "study-hallucinate",
+    "version_note": "Dependent explanation of arXiv2509.04664; separate publication, same underlying study, not independent corroboration.",
+    "verification": {
+      "status": "Original publication inspected; not independently verified",
+      "scope": "Sections 3–5; Section4.1; Discussion and limitations",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original author/institution publication inspected; underlying claims not independently authenticated",
+      "independent_corroboration": "Not established by this inspection",
+      "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [
+    {
+      "id": "REL-310",
+      "from_id": "SRC-097",
+      "to_id": "SRC-096",
+      "relationship_type": "depends_on",
+      "explanation": "Links the original paper and explains its argument; not an independent study.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "evidence_records": []
+}

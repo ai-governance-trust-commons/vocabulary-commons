@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-100",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-100.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-100",
+    "title": "Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime",
+    "publisher": "Mark Chen, Doug, Dylan Patel / SemiAnalysis",
+    "issuing_body": "Mark Chen, Doug, Dylan Patel / SemiAnalysis",
+    "authors": [
+      "Mark Chen, Doug, Dylan Patel / SemiAnalysis"
+    ],
+    "url": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+    "publication_date": "2026-10-08",
+    "access_date": "2026-10-30",
+    "locator": "China’s frontier AI labs: what they do; census criteria and timing discussion",
+    "source_kind": "Primary publication or technical disclosure; see cited scope",
+    "independence_group": "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+    "version_note": "No explicit correction located in inspected original. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "China’s frontier AI labs: what they do; census criteria and timing discussion",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "No explicit correction located in inspected original.",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. No source copy retained; permission unestablished.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-131",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-131.json"
+    }
+  ]
+}

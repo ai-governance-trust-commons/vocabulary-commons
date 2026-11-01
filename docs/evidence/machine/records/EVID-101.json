@@ -1,0 +1,173 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-101",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-101.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-101",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-101",
+    "title": "Authors report user-optimal purchases falling from 78.6% in matched controls to 17.3% under bundled marketplace steering; targeted harnesses improve tested decisions.",
+    "case_id": "CASE-090",
+    "observation": "Authors report user-optimal purchases falling from 78.6% in matched controls to 17.3% under bundled marketplace steering; targeted harnesses improve tested decisions.",
+    "evidence_standing": "Bounded observation (author-reported study; not independently reproduced)",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-068"
+    ],
+    "source_locations": {
+      "SRC-068": "Sections 3–6; Section 8 Limitations; Appendix E"
+    },
+    "limitations": "Controlled stress test bundles eight mechanisms, not deployment prevalence. Deeper mitigation analyses concentrate on one marketplace with small transfer checks. Stronger models and interventions improve robustness, contradicting inevitable failure.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "Environmental redirection",
+      "Purpose preservation"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No explicit correction located in bounded checks; not exhaustive",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-090",
+    "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+    "kind": "Controlled experiment",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-068"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-068",
+      "title": "CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments",
+      "publisher": "arXiv",
+      "issuing_body": "Authors listed in arXiv publication",
+      "authors": [
+        "Yuxuan Li",
+        "Will Epperson",
+        "Wesley Deng",
+        "Zezhou Huang"
+      ],
+      "url": "https://arxiv.org/abs/2609.27273v2",
+      "publication_date": "2026-09-23",
+      "access_date": "2026-10-30",
+      "locator": "Sections 3–6; Section 8 Limitations; Appendix E",
+      "source_kind": "Controlled experiment",
+      "independence_group": "study-arxiv-2609.27273",
+      "version_note": "v2, revised 2026-09-27. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "Sections 3–6; Section 8 Limitations; Appendix E; full text https://arxiv.org/html/2609.27273v2",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable author preprint on arXiv; underlying data and claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "No explicit external correction located in bounded checks; version and internal limitations retained",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-environmental-redirection",
+      "name": "Environmental redirection",
+      "definition": "A change in an agent’s actions, methods, beliefs, or priorities arising from information, artifacts, tools, constraints, or incentives encountered while performing a task. Such redirection can be beneficial or harmful; an altered belief, selected method, and adopted objective are not the same outcome.",
+      "vocabulary": "Extended",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#environmental-redirection",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-purpose-preservation",
+      "name": "Purpose preservation",
+      "definition": "A proposed principle that the achievement of an objective should not destroy or irreversibly undermine the conditions giving it intended value to its beneficiaries. It tests the meaning of success, not solely performance against a target.",
+      "vocabulary": "Working",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#purpose-preservation",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-228",
+      "from_id": "EVID-101",
+      "to_id": "TERM-environmental-redirection",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-229",
+      "from_id": "EVID-101",
+      "to_id": "TERM-purpose-preservation",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

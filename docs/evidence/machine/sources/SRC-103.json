@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-103",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-103.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-103",
+    "title": "Advisory Committee on Evidence Rules October15 2026 agenda book",
+    "publisher": "US Courts / Advisory Committee on Evidence Rules",
+    "issuing_body": "US Courts / Advisory Committee on Evidence Rules",
+    "authors": [
+      "US Courts / Advisory Committee on Evidence Rules"
+    ],
+    "url": "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf",
+    "publication_date": "2026-10-15",
+    "access_date": "2026-10-30",
+    "locator": "May7 meeting minutes, PDF pages 12 and19; draft901(c), PDF page 149",
+    "source_kind": "Primary publication or technical disclosure; see cited scope",
+    "independence_group": "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf",
+    "version_note": "The inspected agenda contains prior May7 minutes and later draft discussions; no October15 outcome verified. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "May7 meeting minutes, PDF pages12 and19; draft901(c), PDF page149",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "The inspected agenda contains prior May7 minutes and later draft discussions; no October15 outcome verified.",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. No source copy retained; permission unestablished.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-134",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-134.json"
+    }
+  ]
+}

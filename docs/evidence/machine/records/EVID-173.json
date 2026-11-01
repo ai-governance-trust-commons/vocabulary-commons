@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-173",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-173.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-173",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-173",
+    "title": "Novice early-stage cyber uplift does not establish end-to-end attack gains",
+    "case_id": "CASE-157",
+    "observation": "Source-reported finding: RAND reports stronger early-stage novice uplift than end-to-end uplift in a randomized AI-access study. Complete-chain differences were generally statistically insignificant, and most participants failed harder chains with or without AI. Observation period and measurement context: September 2025–January 2026; randomized AI access for 157 participants and three CTF chains.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-137"
+    ],
+    "source_locations": {
+      "SRC-137": "Executive summary, §§3.3–3.5, printed pp. 27–30 and methods context"
+    },
+    "limitations": "Small sample, eight-hour sessions, timeout gates, simplified targets without active defense, possible control access to AI search, optional model use and then-current models. Insignificance does not establish no effect.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Attacker-model change",
+      "Capability feasibility progression"
+    ],
+    "support_assessment": "Commons interpretation: Easier entry does not establish scalable end-to-end attack capability or autonomous goals.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-157",
+    "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "September 2025–January 2026; randomized AI access for 157 participants and three CTF chains",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-137"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. September 2025–January 2026; randomized AI access for 157 participants and three CTF chains",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-137",
+      "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
+      "publisher": "RAND / UK AISI",
+      "issuing_body": "Jair Aguirre et al.",
+      "authors": [
+        "Jair Aguirre et al."
+      ],
+      "url": "https://www.rand.org/pubs/research_reports/RRA3892-1.html",
+      "publication_date": "2026-05-28",
+      "access_date": "2026-10-31",
+      "locator": "Executive summary, §§3.3–3.5, printed pp. 27–30 and methods context",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "rand-cyber-uplift-2026",
+      "version_note": "RR-A3892-1; DOI https://doi.org/10.7249/RRA3892-1 . Landing page and full report are one study; reproduction rights reserved to UK AISI, links only.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Executive summary, §§3.3–3.5, printed pp. 27–30 and methods context; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-attacker-model-change",
+      "name": "Attacker-model change",
+      "definition": "A material shift in what adversaries can feasibly attempt, given available tools, knowledge, resources, speed, and scale. Exposure can increase even when the protected system and its controls remain unchanged.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#attacker-model-change",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-capability-feasibility-progression",
+      "name": "Capability feasibility progression",
+      "definition": "An analytical sequence for describing distinct levels of practical possibility: possible → practical → repeatable → scalable. A step need not follow the preceding one automatically, and the categories are not a universal maturity model.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#capability-feasibility-progression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-399",
+      "from_id": "EVID-173",
+      "to_id": "TERM-attacker-model-change",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates stage- and skill-dependent changes rather than a universal attacker uplift.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-400",
+      "from_id": "EVID-173",
+      "to_id": "TERM-capability-feasibility-progression",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies extrapolation from early task success to practical end-to-end capability.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

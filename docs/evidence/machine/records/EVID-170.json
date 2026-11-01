@@ -1,0 +1,142 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-170",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-170.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-170",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-170",
+    "title": "A prospective clinical study detects no group-level post-exposure skill change",
+    "case_id": "CASE-154",
+    "observation": "Source-reported finding: A three-phase registry study before, during and after computer-aided detection found no statistically detected group-level post-exposure upskilling or deskilling. Inexperienced endoscopists improved during assistance; individual outcomes varied. Observation period and measurement context: November 2021–June 2025; three Norwegian clinics, 13 endoscopists, 5,013 procedures.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-134"
+    ],
+    "source_locations": {
+      "SRC-134": "Full methods, results, discussion, limitations and conflicts"
+    },
+    "limitations": "PDR-5 endpoint rather than histological adenoma detection; nonrandomized phases, case mix, one device and small clinician sample. Null significance is not equivalence or proof against all skill loss. No raw data or replication inspected.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Competency decay"
+    ],
+    "support_assessment": "Commons interpretation: Qualifies inevitable competency-decay claims. Differences from the Polish decline study prevent treating this as a direct refutation.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-154",
+    "title": "Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "November 2021–June 2025; three Norwegian clinics, 13 endoscopists, 5,013 procedures",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-134"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. November 2021–June 2025; three Norwegian clinics, 13 endoscopists, 5,013 procedures",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-134",
+      "title": "Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial",
+      "publisher": "Endoscopy",
+      "issuing_body": "T. A. Pedersen; Y. Mori; E. Botteri; et al.",
+      "authors": [
+        "T. A. Pedersen",
+        "Y. Mori",
+        "E. Botteri",
+        "et al."
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552228/",
+      "publication_date": "2026-06-03",
+      "access_date": "2026-10-31",
+      "locator": "Full methods, results, discussion, limitations and conflicts",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "pedersen-2026",
+      "version_note": "Endoscopy 58(9), 1003–1014; online June 3, 2026; DOI https://doi.org/10.1055/a-2858-7084 . Personnel overlap with the separate Polish study does not imply the same dataset. Article states CC BY 4.0; links only.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Full methods, results, discussion, limitations and conflicts; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-competency-decay",
+      "name": "Competency decay",
+      "definition": "A decline in the human or organizational expertise needed to perform, verify, contest, or recover work that is repeatedly delegated to AI-enabled systems. It is especially consequential when skills needed for independent judgment are lost.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#competency-decay",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-394",
+      "from_id": "EVID-170",
+      "to_id": "TERM-competency-decay",
+      "relationship_type": "qualifies",
+      "explanation": "Provides bounded counterevidence to inevitable decline; different endpoints and designs prevent direct replication claims.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

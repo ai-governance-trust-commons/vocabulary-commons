@@ -1,0 +1,87 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-011",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-011.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-011",
+    "title": "Auditing language models for hidden objectives",
+    "publisher": "Anthropic / arXiv",
+    "issuing_body": "Anthropic / arXiv",
+    "authors": [
+      "Samuel Marks et al."
+    ],
+    "url": "https://arxiv.org/html/2503.10965v2",
+    "publication_date": "2025-03-14",
+    "access_date": "2026-10-30",
+    "locator": "Sections 4 (blind auditing game), 5 (auditing techniques), 7 (limitations), 8 (conclusion).",
+    "source_kind": "Primary research report",
+    "independence_group": "auditing-model-organism-lineage",
+    "version_note": "Official announcement 2025-03-13; arXiv v1 2025-03-14; examined v2 2025-03-28. Blog/abstract/HTML/PDF are same research family. Related to but separate from canonical alignment-faking experiment. SRC-012 is a later related model-organism replication, not an independent replication of the human auditing outcome.",
+    "verification": {
+      "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "scope": "Sections4 (blind auditing game),5 (auditing techniques),7 (limitations),8 (conclusion).",
+      "review_date": "2026-10-30",
+      "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+      "independent_corroboration": "Not established by this batch",
+      "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [
+    {
+      "id": "REL-039",
+      "from_id": "SRC-012",
+      "to_id": "SRC-011",
+      "relationship_type": "derived experimental protocol",
+      "explanation": "Later model-organism experiment reuses the earlier synthetic corpus/protocol and overlaps authors; not independent replication of the human audit outcome.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-410",
+      "from_id": "SRC-136",
+      "to_id": "SRC-011",
+      "relationship_type": "research programme overlap",
+      "explanation": "Hidden-objective model-organism overlap; intervention cases must not be counted as independent corroboration of all prior claims.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "evidence_records": [
+    {
+      "id": "EVID-013",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-013.json"
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-165",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-165.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-165",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-165",
+    "title": "Modeled feedback distortion can be reduced or removed under specified conditions",
+    "case_id": "CASE-149",
+    "observation": "Source-reported finding: An urn model and simulations show deployment changing future discovered-crime inputs. Reported incidents dampen but do not eliminate the modeled distortion; altered input sampling can remove it. Observation period and measurement context: Mathematical model and simulation iterations; no field observation period.",
+    "evidence_standing": "Source-reported bounded account; Formal analysis and simulation; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-129"
+    ],
+    "source_locations": {
+      "SRC-129": "Proceedings PDF §§1, 3.4, 4.1–4.3; arXiv version history"
+    },
+    "limitations": "Crime-rate, reporting and urn-dynamic assumptions bound the finding. Simulation does not establish measured field harm. Successful mitigation qualifies inevitable-runaway interpretations.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Cross-system feedback",
+      "Feedback amplification"
+    ],
+    "support_assessment": "Commons interpretation: A reinforcing mechanism with counterconditions, not a measurement of faster feedback.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-149",
+    "title": "Runaway Feedback Loops in Predictive Policing — study grouping",
+    "kind": "Formal analysis and simulation",
+    "event_date": "Mathematical model and simulation iterations; no field observation period",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-129"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Mathematical model and simulation iterations; no field observation period",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-129",
+      "title": "Runaway Feedback Loops in Predictive Policing",
+      "publisher": "PMLR 81",
+      "issuing_body": "Danielle Ensign; Sorelle A. Friedler; Scott Neville; Carlos Scheidegger; Suresh Venkatasubramanian",
+      "authors": [
+        "Danielle Ensign",
+        "Sorelle A. Friedler",
+        "Scott Neville",
+        "Carlos Scheidegger",
+        "Suresh Venkatasubramanian"
+      ],
+      "url": "https://proceedings.mlr.press/v81/ensign18a.html",
+      "publication_date": "2018-02-23",
+      "access_date": "2026-10-31",
+      "locator": "Proceedings PDF §§1, 3.4, 4.1–4.3; arXiv version history",
+      "source_kind": "Formal analysis and simulation",
+      "independence_group": "ensign-2018",
+      "version_note": "v1 June 29, 2017: https://arxiv.org/abs/1706.09847v1 ; v3 December 22, 2017: https://arxiv.org/abs/1706.09847v3 . Proceedings 160–171, February 23–24, 2018. Lum/Isaac precursor and data dependence retained.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Proceedings PDF §§1, 3.4, 4.1–4.3; arXiv version history; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-128",
+      "title": "To predict and serve?",
+      "publisher": "Significance",
+      "issuing_body": "Kristian Lum; William Isaac",
+      "authors": [
+        "Kristian Lum",
+        "William Isaac"
+      ],
+      "url": "https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2016.00960.x",
+      "publication_date": "2016-10-07",
+      "access_date": "2026-10-31",
+      "locator": "Predictive policing case study; Figures 1–3; assumptions and discussion",
+      "source_kind": "Simulation study",
+      "independence_group": "lum-isaac-2016",
+      "version_note": "Significance 13(5), 14–19; DOI 10.1111/j.1740-9713.2016.00960.x. Ensign et al. reuse this motivating setting/data; not independent corroboration of those inputs.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Predictive policing case study; Figures 1–3; assumptions and discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-cross-system-feedback",
+      "name": "Cross-system feedback",
+      "definition": "A pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#cross-system-feedback",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-feedback-amplification",
+      "name": "Feedback amplification",
+      "definition": "A feedback effect in which an activity and the reactions it generates increase the intensity, reach, amount, or consequences of subsequent activity. Stabilizing or dampening responses may limit or reverse amplification.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#feedback-amplification",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-386",
+      "from_id": "EVID-165",
+      "to_id": "TERM-feedback-amplification",
+      "relationship_type": "qualifies",
+      "explanation": "Illustrates modeled reinforcement while retaining successful mitigation as counterevidence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-387",
+      "from_id": "EVID-165",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Shows decisions changing the evidence subsequently used by the system.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [
+    {
+      "id": "REL-408",
+      "from_id": "SRC-129",
+      "to_id": "SRC-128",
+      "relationship_type": "data and methodological dependence",
+      "explanation": "Ensign reuses the motivating setting/data and adds formal analysis; not independent corroboration of the underlying inputs.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "withdrawal": null
+}

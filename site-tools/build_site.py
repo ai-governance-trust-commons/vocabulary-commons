@@ -231,3 +231,7 @@ if not (SITE/'.nojekyll').exists():
 print('Built',len(terms),'terms /',len(urls),'HTML pages, source git SHA:',gitsha)
 
 
+
+# Machine views are derived only after the current public site data is present.
+import subprocess, sys
+subprocess.run([sys.executable, str(ROOT / "site-tools/build_machine_access.py")], check=True)

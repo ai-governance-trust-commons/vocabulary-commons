@@ -1,0 +1,183 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-017",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-017.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-017",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-017",
+    "title": "Multi-agent traces reveal distinct failure modes and verification gaps",
+    "case_id": "CASE-014",
+    "observation": "Authors classify 1,642 traces from seven engineered multi-agent frameworks into 14 failure modes. Missing information can reflect withholding, ignored input, or context failure. Verification flaws also occur in successful runs.",
+    "evidence_standing": "Bounded observation (researcher-reported experiment; not independently reproduced)",
+    "glossary_fit": "Illustrative, bounded; does not establish generality",
+    "source_ids": [
+      "SRC-015"
+    ],
+    "source_locations": {
+      "SRC-015": "Sections 3-5; Appendix B.3, H.1-H.3 and J.1; Tables 2, 5 and 7"
+    },
+    "limitations": "Prompt/topology interventions sometimes improved results; the GPT-4 AG2 topology gain was nonsignificant (p=0.4). Failures are not inevitable. Taxonomy is not exhaustive; incomplete closed-platform traces prevented detailed annotation. These are benchmark observations, not wild-coordination prevalence.",
+    "open_questions": "Root cause cannot safely be inferred from surface missingness alone; transfer to newer systems is untested here.",
+    "keywords": [
+      "Assurance",
+      "Reference environment integrity"
+    ],
+    "support_assessment": "Attributed research finding; not independently reproduced by the Commons.",
+    "dispute_status": "No explicit correction located in bounded search; not a systematic retraction clearance",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-014",
+    "title": "Why Do Multi-Agent LLM Systems Fail?",
+    "kind": "Controlled research setting; not a deployment incident",
+    "event_date": null,
+    "event_date_precision": "Experimental dates not separately established",
+    "source_ids": [
+      "SRC-015"
+    ],
+    "summary": "Distinct study setting; source versions and companion pages are not separate events.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-015",
+      "title": "Why Do Multi-Agent LLM Systems Fail?",
+      "publisher": "NeurIPS 2025 Datasets and Benchmarks proceedings; arXiv versioned manuscript",
+      "issuing_body": "UC Berkeley / Intesa Sanpaolo researchers",
+      "authors": [
+        "Mert Cemri",
+        "Melissa Z. Pan",
+        "Shuyi Yang",
+        "Lakshya A. Agrawal",
+        "Bhavya Chopra",
+        "Rishabh Tiwari",
+        "Kurt Keutzer",
+        "Aditya Parameswaran",
+        "Dan Klein",
+        "Kannan Ramchandran",
+        "Matei Zaharia",
+        "Joseph E. Gonzalez",
+        "Ion Stoica"
+      ],
+      "url": "https://arxiv.org/abs/2503.13657v3",
+      "publication_date": "2025-03-17",
+      "access_date": "2026-10-30",
+      "locator": "Sections 3-5; Appendix B.3, H.1-H.3 and J.1; Tables 2, 5 and 7",
+      "source_kind": "Primary research report",
+      "independence_group": "new-study-SRC-015",
+      "version_note": "Original publication: 2025-03-17 (first preprint); proceedings year 2025, exact proceedings day not established. Examined v3, 2025-10-26; v2 2025-04-22. Independent counterweight to overgeneralized coordination capability, not replication of SRC-013/B. Code/dataset/proceedings/preprint share this study's provenance.",
+      "verification": {
+        "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+        "scope": "Sections 3-5; Appendix B.3, H.1-H.3 and J.1; Tables 2, 5 and 7",
+        "review_date": "2026-10-30",
+        "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-reference-environment-integrity",
+      "name": "Reference environment integrity",
+      "definition": "The reliability, provenance, completeness, and resistance to manipulation of information used to make operational or assurance judgments, including documents, logs, telemetry, evidence, and monitoring outputs.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#reference-environment-integrity",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-037",
+      "from_id": "EVID-017",
+      "to_id": "TERM-assurance",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies confidence outside the tested conditions; success or failure is not universal.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-038",
+      "from_id": "EVID-017",
+      "to_id": "TERM-reference-environment-integrity",
+      "relationship_type": "illustrates",
+      "explanation": "Evidence availability, completeness and provenance condition the inference.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

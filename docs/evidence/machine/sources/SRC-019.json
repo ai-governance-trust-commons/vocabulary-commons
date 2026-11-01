@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-019",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-019.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-019",
+    "title": "Guide to Computer Security Log Management",
+    "publisher": "NIST",
+    "issuing_body": "NIST",
+    "authors": [
+      "Karen Kent and Murugiah Souppaya"
+    ],
+    "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf",
+    "publication_date": "2006-09-13",
+    "access_date": "2026-10-30",
+    "locator": "Executive Summary ES-2 (PDFp10); sections 1.1 (PDFp13), 3.2 (PDFpp29–30), 5.1.2 (PDFp50), 5.2.1 (PDFp53)",
+    "source_kind": "Primary publication or technical disclosure; see cited scope",
+    "independence_group": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf",
+    "version_note": "NIST project publications list still identifies 2006 final and 2023 Revision1 draft. Do not treat draft as finalized replacement. https://csrc.nist.gov/Projects/log-management/publications Official PDF case-variant URLs, DOI and catalogue are manifestations of one publication, not corroboration.",
+    "verification": {
+      "status": "Original publication inspected; underlying claims not independently verified",
+      "scope": "Executive Summary ES-2 (PDFp10); sections1.1 (PDFp13),3.2 (PDFpp29–30),5.1.2 (PDFp50),5.2.1 (PDFp53)",
+      "review_date": "2026-10-30",
+      "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+      "independent_corroboration": "Not established by source inspection",
+      "dispute_status": "NIST project publications list still identifies 2006 final and 2023 Revision1 draft. Do not treat draft as finalized replacement. https://csrc.nist.gov/Projects/log-management/publications",
+      "dispute_check_date": "2026-10-30",
+      "dispute_check_note": null
+    },
+    "preservation": {
+      "status": "Links only; no source publication bytes captured. Section1.1 explicitly states not subject to copyright, attribution desired. No copy captured despite established permission.",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-021",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-021.json"
+    }
+  ]
+}

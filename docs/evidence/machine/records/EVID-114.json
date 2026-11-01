@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-114",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-114.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-114",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-114",
+    "title": "Talos static analysis describes a configured multi-provider voting loop selecting bounded tactical actions.",
+    "case_id": "CASE-103",
+    "observation": "Talos static analysis describes a configured multi-provider voting loop selecting bounded tactical actions.",
+    "evidence_standing": "Attributed bounded observation; not independently verified",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-081"
+    ],
+    "source_locations": {
+      "SRC-081": "Introducing CLOSEDQUORUM; LLM-as-C2 architecture; The operating model"
+    },
+    "limitations": "The public binary contains placeholder credentials and is nonfunctional as distributed; Talos did not observe complete end-to-end operation or confirm wild deployment. Static design is not demonstrated autonomous attacks. Fallback when providers fail may produce no executable action. Architecture is developer-designed, not evidence of spontaneous agent-created coordination.",
+    "open_questions": "Underlying records, alternatives and generalization have not been independently verified by the Commons.",
+    "keywords": [
+      "System-level autonomy",
+      "Investigative indicator"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-103",
+    "title": "CLOSEDQUORUM: designed multi-model C2 without observed end-to-end operation",
+    "kind": "Static malware analysis; capability design evidence",
+    "event_date": null,
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-081"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-081",
+      "title": "CLOSEDQUORUM: designed multi-model C2 without observed end-to-end operation",
+      "publisher": "Ryan Fetterman / Cisco Talos",
+      "issuing_body": "Ryan Fetterman / Cisco Talos",
+      "authors": [
+        "Ryan Fetterman / Cisco Talos"
+      ],
+      "url": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/",
+      "publication_date": "2026-09-22",
+      "access_date": "2026-10-30",
+      "locator": "Introducing CLOSEDQUORUM; LLM-as-C2 architecture; The operating model",
+      "source_kind": "Primary publication or technical disclosure; see cited scope",
+      "independence_group": "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant",
+      "version_note": "No explicit correction located in bounded original-page and title search; not proof none exists. Primary publisher account; news retellings do not independently corroborate it.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Introducing CLOSEDQUORUM; LLM-as-C2 architecture; The operating model",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "No explicit correction located in bounded original-page and title search; not proof none exists.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only; archival/redistribution permission not established; no source copy retained.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-investigative-indicator",
+      "name": "Investigative indicator",
+      "definition": "An observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#investigative-indicator",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-system-level-autonomy",
+      "name": "System-level autonomy",
+      "definition": "A possible condition in which interactions among humans, organizations, and AI systems sustain consequential patterns no single participant meaningfully directs or can correct. It is a claim about collective operation, not necessarily autonomy of any one agent.",
+      "vocabulary": "Working",
+      "claim": "Hypothesis",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#system-level-autonomy",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-260",
+      "from_id": "EVID-114",
+      "to_id": "TERM-system-level-autonomy",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-261",
+      "from_id": "EVID-114",
+      "to_id": "TERM-investigative-indicator",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

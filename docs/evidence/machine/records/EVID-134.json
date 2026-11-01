@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-134",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-134.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-134",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-134",
+    "title": "May7 minutes in the October agenda record15 of931 responding federal judges encountering deepfake challenges, with45% response.",
+    "case_id": "CASE-121",
+    "observation": "May7 minutes in the October agenda record15 of931 responding federal judges encountering deepfake challenges, with45% response. Challenge frequency is not fabricated-evidence prevalence. Draft901(c) would require an evidential trigger before heightened authentication; it is a proposal, not enacted law.",
+    "evidence_standing": "bounded observation",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-103"
+    ],
+    "source_locations": {
+      "SRC-103": "May7 meeting minutes, PDF pages 12 and19; draft901(c), PDF page 149"
+    },
+    "limitations": "Agenda is not October15 meeting minutes. Survey summarized in May7 minutes: response bias, self-report and undetected fabrication remain. No individual case independently checked. Committee members disagreed whether existing authentication rules suffice. Low observed challenge rates neither establish a crisis nor rule out undetected fabrication.",
+    "open_questions": "Underlying records, alternatives and generalization have not been independently verified by the Commons.",
+    "keywords": [
+      "Investigative indicator",
+      "Observability boundary",
+      "Evidence laundering through AI"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-121",
+    "title": "Advisory Committee on Evidence Rules October15 2026 agenda book",
+    "kind": "documentary or publication study",
+    "event_date": "2026-10-15",
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-103"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-103",
+      "title": "Advisory Committee on Evidence Rules October15 2026 agenda book",
+      "publisher": "US Courts / Advisory Committee on Evidence Rules",
+      "issuing_body": "US Courts / Advisory Committee on Evidence Rules",
+      "authors": [
+        "US Courts / Advisory Committee on Evidence Rules"
+      ],
+      "url": "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf",
+      "publication_date": "2026-10-15",
+      "access_date": "2026-10-30",
+      "locator": "May7 meeting minutes, PDF pages 12 and19; draft901(c), PDF page 149",
+      "source_kind": "Primary publication or technical disclosure; see cited scope",
+      "independence_group": "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf",
+      "version_note": "The inspected agenda contains prior May7 minutes and later draft discussions; no October15 outcome verified. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "May7 meeting minutes, PDF pages12 and19; draft901(c), PDF page149",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "The inspected agenda contains prior May7 minutes and later draft discussions; no October15 outcome verified.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. No source copy retained; permission unestablished.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-evidence-laundering-through-ai",
+      "name": "Evidence laundering through AI",
+      "definition": "The appearance of credibility or corroboration acquired by low-integrity material when AI systems retrieve, summarize, cite, or re-present it. Multiple apparently agreeing outputs may share the same original, manipulated source.",
+      "vocabulary": "Working",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#evidence-laundering-through-ai",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-investigative-indicator",
+      "name": "Investigative indicator",
+      "definition": "An observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#investigative-indicator",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-281",
+      "from_id": "EVID-134",
+      "to_id": "TERM-investigative-indicator",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-282",
+      "from_id": "EVID-134",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-283",
+      "from_id": "EVID-134",
+      "to_id": "TERM-evidence-laundering-through-ai",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

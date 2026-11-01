@@ -1,0 +1,255 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-019",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-019.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-019",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-019",
+    "title": "Explanations reduce overreliance when verification becomes easier",
+    "case_id": "CASE-016",
+    "observation": "Authors report five simulated-AI maze studies, overall N=731, in which verification costs and rewards affected overreliance. Explanations reduced overreliance when checking became easier relative to solving the task; benefits were not uniform across difficulty or explanation format.",
+    "evidence_standing": "Bounded observation (researcher-reported experiment; not independently reproduced)",
+    "glossary_fit": "Illustrative, bounded; does not establish generality",
+    "source_ids": [
+      "SRC-017"
+    ],
+    "source_locations": {
+      "SRC-017": "Section 4 methods; Sections 5–8 results; Section 7.4 participant reuse; Section 10.4 limitations"
+    },
+    "limitations": "Low-stakes game setting leaves high-stakes and open-ended transfer unresolved. Study 3 was exploratory, not preregistered, and reused earlier participant/data groups; counts must not be summed as independent replications. Zero observed overreliance in its most salient error condition is not a population-wide guarantee. Qualifies blanket inference that explanations cannot support supervision or forcing is always necessary; does not refute EVID-018's distinct task result.",
+    "open_questions": "Transfer to operational oversight and effective intervention remains unestablished.",
+    "keywords": [
+      "human oversight",
+      "negative findings",
+      "Meaningful human control"
+    ],
+    "support_assessment": "Attributed research finding; not independently reproduced by the Commons.",
+    "dispute_status": "No explicit correction located in bounded search; not a systematic retraction clearance",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-016",
+    "title": "Explanations Can Reduce Overreliance on AI Systems During Decision-Making",
+    "kind": "Controlled experimental study",
+    "event_date": null,
+    "event_date_precision": "Experiment dates not separately established",
+    "source_ids": [
+      "SRC-017"
+    ],
+    "summary": "Distinct study or synthesis, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-017",
+      "title": "Explanations Can Reduce Overreliance on AI Systems During Decision-Making",
+      "publisher": "Association for Computing Machinery; author preprint on arXiv",
+      "issuing_body": "Association for Computing Machinery; author preprint on arXiv",
+      "authors": [
+        "Helena Vasconcelos",
+        "Matthew Jörke",
+        "Madeleine Grunde-McLaughlin",
+        "Tobias Gerstenberg",
+        "Michael S. Bernstein",
+        "Ranjay Krishna"
+      ],
+      "url": "https://arxiv.org/abs/2212.06823v2",
+      "publication_date": "2022-12-13",
+      "access_date": "2026-10-30",
+      "locator": "Section 4 methods; Sections 5–8 results; Section 7.4 participant reuse; Section 10.4 limitations",
+      "source_kind": "Primary experimental research",
+      "independence_group": "vasconcelos-explanations-overreliance-2023",
+      "version_note": "Inspected arXiv v2 revised 2023-01-26; journal publication April 2023, exact day not established. New study-series case distinct from SRC-016 and canonical collection; within-paper data reuse explicit. Journal/preprint/author copies one source family.",
+      "verification": {
+        "status": "Original publication inspected; no independent reproduction",
+        "scope": "Section 4 methods; Sections 5–8 results; Section 7.4 participant reuse; Section 10.4 limitations; full text examined at https://arxiv.org/html/2212.06823v2",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable primary article; data and analyses not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search found no specific correction; not exhaustive",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source bytes archived; arXiv perpetual nonexclusive license is not general redistribution permission; preservation permission not established",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-016",
+      "title": "To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making",
+      "publisher": "Association for Computing Machinery; author preprint on arXiv",
+      "issuing_body": "Association for Computing Machinery; author preprint on arXiv",
+      "authors": [
+        "Zana Buçinca",
+        "Maja Barbara Malaya",
+        "Krzysztof Z. Gajos"
+      ],
+      "url": "https://arxiv.org/abs/2102.09692v1",
+      "publication_date": "2021-02-19",
+      "access_date": "2026-10-30",
+      "locator": "Sections 3.1–3.5 (task, conditions, simulated AI, participants), 4.1 (incorrect predictions), 5 (cognitive motivation), 6 (discussion)",
+      "source_kind": "Primary experimental research",
+      "independence_group": "bucinca-cognitive-forcing-2021",
+      "version_note": "Inspected arXiv v1, first submitted 2021-02-19; journal publication April 2021, exact day not established. One experiment/source family. ACM article, author copies, arXiv versions are not separate corroboration; no canonical duplicate.",
+      "verification": {
+        "status": "Original publication inspected; no independent reproduction",
+        "scope": "Sections 3.1–3.5 (task, conditions, simulated AI, participants), 4.1 (incorrect predictions), 5 (cognitive motivation), 6 (discussion); full text examined at https://arxiv.org/html/2102.09692v1",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable primary article; data and analyses not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search found no specific correction; not exhaustive",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source bytes archived; Inspected arXiv HTML explicitly displays CC BY 4.0; preservation potentially permissible with attribution/license compliance but not performed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-018",
+      "title": "When combinations of humans and AI are useful: A systematic review and meta-analysis",
+      "publisher": "Nature Human Behaviour",
+      "issuing_body": "Nature Human Behaviour",
+      "authors": [
+        "Michelle Vaccaro",
+        "Abdullah Almaatouq",
+        "Thomas Malone"
+      ],
+      "url": "https://www.nature.com/articles/s41562-024-02024-1",
+      "publication_date": "2024-10-28",
+      "access_date": "2026-10-30",
+      "locator": "Abstract; Main; Moderating effect of relative human/AI performance; Surprisingly insignificant moderators; Limitations; references 31–32",
+      "source_kind": "Systematic review and meta-analysis",
+      "independence_group": "vaccaro-human-ai-meta-analysis-2024",
+      "version_note": "Published journal article, read via identifiable PMC primary-article mirror No canonical source duplicate. Synthesis is not independent corroboration of SRC-016/SRC-017; exact inclusion weights remain unverified. Publisher/PMC mirror same article.",
+      "verification": {
+        "status": "Original publication inspected; no independent reproduction",
+        "scope": "Abstract; Main; Moderating effect of relative human/AI performance; Surprisingly insignificant moderators; Limitations; references 31–32; full text examined at https://pmc.ncbi.nlm.nih.gov/articles/PMC11659167/",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable primary article; data and analyses not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search found no specific correction; not exhaustive",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source bytes archived; PMC explicitly displays CC BY 4.0 with third-party-material caveat",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-meaningful-human-control",
+      "name": "Meaningful human control",
+      "definition": "A condition in which people retain adequate information, independent judgment, authority, and practical means to redirect consequential activity. A nominal human-in-the-loop approval does not, by itself, demonstrate this capacity.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#meaningful-human-control",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-041",
+      "from_id": "EVID-019",
+      "to_id": "TERM-meaningful-human-control",
+      "relationship_type": "qualifies",
+      "explanation": "Task-level assessment and correction do not establish full operational authority, independence, or effective intervention.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [
+    {
+      "id": "REL-043",
+      "from_id": "SRC-017",
+      "to_id": "SRC-016",
+      "relationship_type": "research dependency",
+      "explanation": "Cites earlier experiment as conceptual context; distinct task and data, not a failed replication.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-045",
+      "from_id": "SRC-018",
+      "to_id": "SRC-017",
+      "relationship_type": "research dependency",
+      "explanation": "Cites this study; possible synthesis overlap. Exact inclusion and weight unverified; not independent corroboration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "withdrawal": null
+}

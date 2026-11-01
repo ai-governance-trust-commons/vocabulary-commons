@@ -1,0 +1,35 @@
+{
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "prepared_at": "2026-11-01T14:42:19.326928+00:00",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json",
+  "dataset_schema_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/dataset-v1.schema.json",
+  "record_index_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/index.json",
+  "record_schema_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "source_index_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/index.json",
+  "source_schema_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "metadata_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/dataset.jsonld",
+  "field_definitions_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/field-definitions.json",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "guide_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/",
+  "interpretation_guide_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/interpretation.md",
+  "contract_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/contract.md",
+  "checksums_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/checksums.json",
+  "glossary_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/data/glossary.json",
+  "glossary_schema_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/glossary-v1.schema.json",
+  "counts": {
+    "published_evidence": 176,
+    "withdrawal_notices": 2,
+    "source_records": 139,
+    "founding_terms": 35
+  },
+  "exports": {
+    "evidence.csv": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/evidence.csv",
+    "sources.csv": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/sources.csv",
+    "sources.bib": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/sources.bib",
+    "sources.ris": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/sources.ris"
+  }
+}

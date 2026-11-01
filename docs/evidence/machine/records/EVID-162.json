@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-162",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-162.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-162",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-162",
+    "title": "Formal verification expands reported coverage while retaining specification dependencies",
+    "case_id": "CASE-146",
+    "observation": "Source-reported finding: The authors report proofs covering 239 entry points in 123 libraries, and reduced token use through proof reuse in a shared-workspace experiment. The public repository lists a released subset of 61 entry points in 26 libraries. Observation period and measurement context: A few weeks before publication; exact run dates not established.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-126"
+    ],
+    "source_locations": {
+      "SRC-126": "Methods and limitations; six-page appendix; proof-repository README"
+    },
+    "limitations": "Guarantees depend on specifications, machine and OS models, the checker, and bounded inputs and execution assumptions. Formally verified does not mean bug-free or deployment-wide secure. Proofs were not executed by the Commons.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Assurance",
+      "Constraint compression"
+    ],
+    "support_assessment": "Commons interpretation: Capability expansion can shift assurance dependencies. Designed proof sharing is not unauthorized autonomous coordination.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-146",
+    "title": "LLMs are making formal software verification feasible at a much larger scale — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "A few weeks before publication; exact run dates not established",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-126"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. A few weeks before publication; exact run dates not established",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-126",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "publisher": "Anthropic",
+      "issuing_body": "Lucas et al.",
+      "authors": [
+        "Lucas et al."
+      ],
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "publication_date": "2026-10-22",
+      "access_date": "2026-10-31",
+      "locator": "Methods and limitations; six-page appendix; proof-repository README",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "formal-verification-2026",
+      "version_note": "Same source family: appendix https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf and https://github.com/theorem-labs/oss-verify-proofs . The released subset is not independent confirmation of the full claim.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Methods and limitations; six-page appendix; proof-repository README; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-382",
+      "from_id": "EVID-162",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates a reported reduction in effort barriers within specified verification tasks.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-383",
+      "from_id": "EVID-162",
+      "to_id": "TERM-assurance",
+      "relationship_type": "illustrates",
+      "explanation": "Highlights specification, checker and environmental assumptions bounding assurance.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

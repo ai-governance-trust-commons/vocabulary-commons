@@ -1,0 +1,141 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-175",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-175.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-175",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-175",
+    "title": "Outage performance provides bounded evidence of learning after AI exposure",
+    "case_id": "CASE-159",
+    "observation": "Source-reported finding: The final journal study reports 5,172 support workers and a 15% average productivity gain. Workers exposed to AI retained faster chat handling during outages, which the authors interpret as suggestive learning. Some high-skilled workers showed small negative quality effects despite increasing adherence. Observation period and measurement context: Staggered rollout chiefly fall 2020/winter 2021; complete panel endpoints not established.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-139"
+    ],
+    "source_locations": {
+      "SRC-139": "Journal §§III–IV, §VI.A–B and Figure VII"
+    },
+    "limitations": "Single firm, medium-run staggered observational adoption; outage chat duration does not measure individual-chat resolution. Outage estimates are noisy and may reflect chat mix. Does not establish durable generalized competence, long-run wages or aggregate labor demand. Data/code not independently analyzed.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Competency decay"
+    ],
+    "support_assessment": "Commons interpretation: Qualifies inevitable skill decay while retaining task-specific quality costs and uncertainty.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-159",
+    "title": "Generative AI at Work — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "Staggered rollout chiefly fall 2020/winter 2021; complete panel endpoints not established",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-139"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Staggered rollout chiefly fall 2020/winter 2021; complete panel endpoints not established",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-139",
+      "title": "Generative AI at Work",
+      "publisher": "Quarterly Journal of Economics",
+      "issuing_body": "Erik Brynjolfsson; Danielle Li; Lindsey R. Raymond",
+      "authors": [
+        "Erik Brynjolfsson",
+        "Danielle Li",
+        "Lindsey R. Raymond"
+      ],
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "publication_date": "2025-02-04",
+      "access_date": "2026-10-31",
+      "locator": "Journal §§III–IV, §VI.A–B and Figure VII",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "brynjolfsson-work",
+      "version_note": "QJE 140(2), 889–942, DOI https://doi.org/10.1093/qje/qjae044 . NBER 31161 April 2023/revised November 2023 https://www.nber.org/papers/w31161 reports 5,179/14%; arXiv https://arxiv.org/abs/2304.11771 . Versions of one study; historical changes not fully diffed. Replication files not inspected. CC BY-NC 4.0; no copy preserved.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Journal §§III–IV, §VI.A–B and Figure VII; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-competency-decay",
+      "name": "Competency decay",
+      "definition": "A decline in the human or organizational expertise needed to perform, verify, contest, or recover work that is repeatedly delegated to AI-enabled systems. It is especially consequential when skills needed for independent judgment are lost.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#competency-decay",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-403",
+      "from_id": "EVID-175",
+      "to_id": "TERM-competency-decay",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded counterevidence to inevitable decline, alongside heterogeneous quality effects.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

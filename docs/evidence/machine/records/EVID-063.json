@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-063",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-063.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-063",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-063",
+    "title": "Anthropic reports scheduled token renewal and cloud harvesting, while human operators retained targeting decisions.",
+    "case_id": "CASE-055",
+    "observation": "Anthropic reports scheduled token renewal and cloud harvesting, while human operators retained targeting decisions.",
+    "evidence_standing": "Observed",
+    "glossary_fit": "Indicated",
+    "source_ids": [
+      "SRC-040"
+    ],
+    "source_locations": {
+      "SRC-040": "GTG-20006; Prevailing trends: AI’s increasingly autonomous role in cyber operations"
+    },
+    "limitations": "Scheduled execution does not establish emergent autonomous cross-system goals; vendor visibility is incomplete.",
+    "open_questions": "Which conclusions survive independent access to complete records, controls and counterfactual tests?",
+    "keywords": [
+      "Chaperoning",
+      "System-level autonomy"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. New observation, not present in baseline 041. Repeated articles or alternate formats are not independent corroboration.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-055",
+    "title": "Scheduled token harvesting coexisted with human targeting",
+    "kind": "Reported operational case",
+    "event_date": "December 2025–August 2026 reporting window",
+    "event_date_precision": "As reported; not inferred from publication date",
+    "source_ids": [
+      "SRC-040"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-040",
+      "title": "Detecting and countering misuse of AI: September 2026",
+      "publisher": "Anthropic Threat Intelligence",
+      "issuing_body": "Anthropic Threat Intelligence",
+      "authors": [
+        "Anthropic Threat Intelligence"
+      ],
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+      "publication_date": "2026-09",
+      "access_date": "2026-10-30",
+      "locator": "Cyber operations: GTG-50029; Prevailing trends; Conventional weapons: GTG-87001 and drone-swarm case",
+      "source_kind": "Primary technical disclosure",
+      "independence_group": "anthropic-threat-report-sept 2026",
+      "version_note": "Primary page title establishes publication month; exact September 10 day appears in secondary indexes but was not confirmed from visible primary date. Selected cases, not representative misuse sample.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Cyber operations: GTG-50029; Prevailing trends; Conventional weapons: GTG-87001 and drone-swarm case",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Bounded correction checks only; no absence guarantee",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only. No source copies captured; public availability does not establish redistribution permission.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-system-level-autonomy",
+      "name": "System-level autonomy",
+      "definition": "A possible condition in which interactions among humans, organizations, and AI systems sustain consequential patterns no single participant meaningfully directs or can correct. It is a claim about collective operation, not necessarily autonomy of any one agent.",
+      "vocabulary": "Working",
+      "claim": "Hypothesis",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#system-level-autonomy",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-148",
+      "from_id": "EVID-063",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-149",
+      "from_id": "EVID-063",
+      "to_id": "TERM-system-level-autonomy",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

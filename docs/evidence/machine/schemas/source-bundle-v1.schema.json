@@ -1,0 +1,513 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "title": "source-bundle-v1.schema.json",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "contract_version": {
+      "const": "1.0"
+    },
+    "machine_release": {
+      "const": "0.5.0"
+    },
+    "dataset_version": {
+      "type": "string"
+    },
+    "dataset_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "id": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "human_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "notice": {
+      "type": "string"
+    },
+    "rights_url": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "status": {
+      "const": "provisionally_published"
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relationship"
+      }
+    },
+    "evidence_records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          }
+        },
+        "required": [
+          "id",
+          "url"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "$schema",
+    "contract_version",
+    "machine_release",
+    "dataset_version",
+    "dataset_sha256",
+    "id",
+    "url",
+    "human_url",
+    "notice",
+    "rights_url",
+    "status",
+    "source",
+    "relationships",
+    "evidence_records"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "publication": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "prepared_by": {
+          "type": "string"
+        },
+        "authority_policy_id": {
+          "type": "string"
+        },
+        "individual_human_review": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "status",
+        "prepared_by",
+        "authority_policy_id",
+        "individual_human_review",
+        "date"
+      ],
+      "additionalProperties": false
+    },
+    "verification": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "scope": {
+          "type": "string"
+        },
+        "review_date": {
+          "type": "string"
+        },
+        "authenticity": {
+          "type": "string"
+        },
+        "independent_corroboration": {
+          "type": "string"
+        },
+        "dispute_status": {
+          "type": "string"
+        },
+        "dispute_check_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "dispute_check_note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "scope",
+        "review_date",
+        "authenticity",
+        "independent_corroboration",
+        "dispute_status",
+        "dispute_check_date",
+        "dispute_check_note"
+      ],
+      "additionalProperties": false
+    },
+    "preservation": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "captured_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "status",
+        "sha256",
+        "captured_at"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^SRC-[0-9]{3,}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": "string"
+        },
+        "issuing_body": {
+          "type": "string"
+        },
+        "access_date": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "source_kind": {
+          "type": "string"
+        },
+        "independence_group": {
+          "type": "string"
+        },
+        "version_note": {
+          "type": "string"
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "publication_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
+        "preservation": {
+          "$ref": "#/$defs/preservation"
+        },
+        "publication_record": {
+          "$ref": "#/$defs/publication"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "publisher",
+        "issuing_body",
+        "access_date",
+        "locator",
+        "source_kind",
+        "independence_group",
+        "version_note",
+        "authors",
+        "url",
+        "publication_date",
+        "verification",
+        "preservation",
+        "publication_record"
+      ],
+      "additionalProperties": false
+    },
+    "case": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^CASE-[0-9]{3,}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "event_date_precision": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "event_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "publication_record": {
+          "$ref": "#/$defs/publication"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "kind",
+        "event_date_precision",
+        "summary",
+        "event_date",
+        "source_ids",
+        "publication_record"
+      ],
+      "additionalProperties": false
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^EVID-[0-9]{3,}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "case_id": {
+          "type": "string"
+        },
+        "observation": {
+          "type": "string"
+        },
+        "evidence_standing": {
+          "type": "string"
+        },
+        "glossary_fit": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "string"
+        },
+        "open_questions": {
+          "type": "string"
+        },
+        "support_assessment": {
+          "type": "string"
+        },
+        "dispute_status": {
+          "type": "string"
+        },
+        "publication_status": {
+          "type": "string"
+        },
+        "verification_status": {
+          "type": "string"
+        },
+        "evidence_standing_label": {
+          "enum": [
+            "Reported observation",
+            "Demonstrated (bounded)",
+            "Indication",
+            "Hypothesis",
+            "Conceptual framing",
+            "Normative proposal"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_locations": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "keywords": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "publication_record": {
+          "$ref": "#/$defs/publication"
+        }
+      },
+      "required": [
+        "id",
+        "title",
+        "case_id",
+        "observation",
+        "evidence_standing",
+        "glossary_fit",
+        "limitations",
+        "open_questions",
+        "support_assessment",
+        "dispute_status",
+        "publication_status",
+        "verification_status",
+        "evidence_standing_label",
+        "source_ids",
+        "source_locations",
+        "keywords",
+        "publication_record"
+      ],
+      "additionalProperties": false
+    },
+    "term": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^TERM-[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "definition": {
+          "type": "string"
+        },
+        "vocabulary": {
+          "type": "string"
+        },
+        "claim": {
+          "type": "string"
+        },
+        "baseline": {
+          "type": "string"
+        },
+        "blob_sha": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https://"
+        },
+        "publication_record": {
+          "$ref": "#/$defs/publication"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "definition",
+        "vocabulary",
+        "baseline",
+        "blob_sha",
+        "url",
+        "publication_record"
+      ],
+      "additionalProperties": false
+    },
+    "relationship": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^REL-[0-9]{3,}$"
+        },
+        "from_id": {
+          "type": "string"
+        },
+        "to_id": {
+          "type": "string"
+        },
+        "relationship_type": {
+          "type": "string"
+        },
+        "explanation": {
+          "type": "string"
+        },
+        "publication_record": {
+          "$ref": "#/$defs/publication"
+        }
+      },
+      "required": [
+        "id",
+        "from_id",
+        "to_id",
+        "relationship_type",
+        "explanation",
+        "publication_record"
+      ],
+      "additionalProperties": false
+    },
+    "withdrawal": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^EVID-[0-9]{3,}$"
+        },
+        "status": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "status",
+        "reason",
+        "date"
+      ],
+      "additionalProperties": false
+    }
+  }
+}

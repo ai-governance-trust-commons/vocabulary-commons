@@ -1,0 +1,1075 @@
+{
+  "contract_version": "1.0",
+  "dataset_version": "0.4.5",
+  "notice": "Navigation index only. Retrieve the complete bundle before interpreting or citing a finding. Withdrawals are not evidence.",
+  "records": [
+    {
+      "id": "EVID-001",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-001.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-001"
+    },
+    {
+      "id": "EVID-002",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-002.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-002"
+    },
+    {
+      "id": "EVID-003",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-003.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-003"
+    },
+    {
+      "id": "EVID-004",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-004.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-004"
+    },
+    {
+      "id": "EVID-005",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-005.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-005"
+    },
+    {
+      "id": "EVID-006",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-006.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-006"
+    },
+    {
+      "id": "EVID-007",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-007.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-007"
+    },
+    {
+      "id": "EVID-008",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-008.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-008"
+    },
+    {
+      "id": "EVID-009",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-009.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-009"
+    },
+    {
+      "id": "EVID-010",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-010.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-010"
+    },
+    {
+      "id": "EVID-011",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-011.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-011"
+    },
+    {
+      "id": "EVID-012",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-012.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-012"
+    },
+    {
+      "id": "EVID-013",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-013.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-013"
+    },
+    {
+      "id": "EVID-014",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-014.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-014"
+    },
+    {
+      "id": "EVID-015",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-015.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-015"
+    },
+    {
+      "id": "EVID-016",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-016.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-016"
+    },
+    {
+      "id": "EVID-017",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-017.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-017"
+    },
+    {
+      "id": "EVID-018",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-018.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-018"
+    },
+    {
+      "id": "EVID-019",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-019.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-019"
+    },
+    {
+      "id": "EVID-020",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-020.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-020"
+    },
+    {
+      "id": "EVID-021",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-021.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-021"
+    },
+    {
+      "id": "EVID-022",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-022.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-022"
+    },
+    {
+      "id": "EVID-023",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-023.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-023"
+    },
+    {
+      "id": "EVID-024",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-024.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-024"
+    },
+    {
+      "id": "EVID-025",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-025.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-025"
+    },
+    {
+      "id": "EVID-026",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-026.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-026"
+    },
+    {
+      "id": "EVID-027",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-027.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-027"
+    },
+    {
+      "id": "EVID-028",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-028.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-028"
+    },
+    {
+      "id": "EVID-029",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-029.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-029"
+    },
+    {
+      "id": "EVID-030",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-030.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-030"
+    },
+    {
+      "id": "EVID-031",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-031.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-031"
+    },
+    {
+      "id": "EVID-032",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-032.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-032"
+    },
+    {
+      "id": "EVID-033",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-033.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-033"
+    },
+    {
+      "id": "EVID-034",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-034.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-034"
+    },
+    {
+      "id": "EVID-035",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-035.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-035"
+    },
+    {
+      "id": "EVID-036",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-036.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-036"
+    },
+    {
+      "id": "EVID-037",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-037.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-037"
+    },
+    {
+      "id": "EVID-038",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-038.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-038"
+    },
+    {
+      "id": "EVID-039",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-039.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-039"
+    },
+    {
+      "id": "EVID-040",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-040.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-040"
+    },
+    {
+      "id": "EVID-041",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-041.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-041"
+    },
+    {
+      "id": "EVID-042",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-042.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-042"
+    },
+    {
+      "id": "EVID-043",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-043.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-043"
+    },
+    {
+      "id": "EVID-044",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-044.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-044"
+    },
+    {
+      "id": "EVID-045",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-045.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-045"
+    },
+    {
+      "id": "EVID-046",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-046.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-046"
+    },
+    {
+      "id": "EVID-047",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-047.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-047"
+    },
+    {
+      "id": "EVID-048",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-048.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-048"
+    },
+    {
+      "id": "EVID-049",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-049.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-049"
+    },
+    {
+      "id": "EVID-050",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-050.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-050"
+    },
+    {
+      "id": "EVID-051",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-051.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-051"
+    },
+    {
+      "id": "EVID-052",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-052.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-052"
+    },
+    {
+      "id": "EVID-053",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-053.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-053"
+    },
+    {
+      "id": "EVID-054",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-054.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-054"
+    },
+    {
+      "id": "EVID-055",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-055.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-055"
+    },
+    {
+      "id": "EVID-056",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-056.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-056"
+    },
+    {
+      "id": "EVID-057",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-057.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-057"
+    },
+    {
+      "id": "EVID-058",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-058.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-058"
+    },
+    {
+      "id": "EVID-059",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-059.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-059"
+    },
+    {
+      "id": "EVID-060",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-060.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-060"
+    },
+    {
+      "id": "EVID-061",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-061.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-061"
+    },
+    {
+      "id": "EVID-062",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-062.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-062"
+    },
+    {
+      "id": "EVID-063",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-063.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-063"
+    },
+    {
+      "id": "EVID-064",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-064.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-064"
+    },
+    {
+      "id": "EVID-065",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-065.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-065"
+    },
+    {
+      "id": "EVID-066",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-066.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-066"
+    },
+    {
+      "id": "EVID-067",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-067.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-067"
+    },
+    {
+      "id": "EVID-068",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-068.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-068"
+    },
+    {
+      "id": "EVID-069",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-069.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-069"
+    },
+    {
+      "id": "EVID-070",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-070.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-070"
+    },
+    {
+      "id": "EVID-071",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-071.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-071"
+    },
+    {
+      "id": "EVID-072",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-072.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-072"
+    },
+    {
+      "id": "EVID-073",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-073.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-073"
+    },
+    {
+      "id": "EVID-074",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-074.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-074"
+    },
+    {
+      "id": "EVID-075",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-075.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-075"
+    },
+    {
+      "id": "EVID-076",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-076.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-076"
+    },
+    {
+      "id": "EVID-077",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-077.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-077"
+    },
+    {
+      "id": "EVID-078",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-078.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-078"
+    },
+    {
+      "id": "EVID-079",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-079.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-079"
+    },
+    {
+      "id": "EVID-080",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-080.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-080"
+    },
+    {
+      "id": "EVID-081",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-081.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-081"
+    },
+    {
+      "id": "EVID-082",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-082.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-082"
+    },
+    {
+      "id": "EVID-083",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-083.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-083"
+    },
+    {
+      "id": "EVID-084",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-084.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-084"
+    },
+    {
+      "id": "EVID-085",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-085.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-085"
+    },
+    {
+      "id": "EVID-086",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-086.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-086"
+    },
+    {
+      "id": "EVID-087",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-087.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-087"
+    },
+    {
+      "id": "EVID-088",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-088.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-088"
+    },
+    {
+      "id": "EVID-089",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-089.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-089"
+    },
+    {
+      "id": "EVID-090",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-090.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-090"
+    },
+    {
+      "id": "EVID-091",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-091.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-091"
+    },
+    {
+      "id": "EVID-092",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-092.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-092"
+    },
+    {
+      "id": "EVID-093",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-093.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-093"
+    },
+    {
+      "id": "EVID-094",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-094.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-094"
+    },
+    {
+      "id": "EVID-095",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-095.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-095"
+    },
+    {
+      "id": "EVID-096",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-096.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-096"
+    },
+    {
+      "id": "EVID-097",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-097.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-097"
+    },
+    {
+      "id": "EVID-098",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-098.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-098"
+    },
+    {
+      "id": "EVID-099",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-099.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-099"
+    },
+    {
+      "id": "EVID-100",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-100.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-100"
+    },
+    {
+      "id": "EVID-101",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-101.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-101"
+    },
+    {
+      "id": "EVID-102",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-102.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-102"
+    },
+    {
+      "id": "EVID-103",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-103.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-103"
+    },
+    {
+      "id": "EVID-104",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-104.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-104"
+    },
+    {
+      "id": "EVID-105",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-105.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-105"
+    },
+    {
+      "id": "EVID-106",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-106.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-106"
+    },
+    {
+      "id": "EVID-107",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-107.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-107"
+    },
+    {
+      "id": "EVID-108",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-108.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-108"
+    },
+    {
+      "id": "EVID-109",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-109.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-109"
+    },
+    {
+      "id": "EVID-110",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-110.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-110"
+    },
+    {
+      "id": "EVID-111",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-111.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-111"
+    },
+    {
+      "id": "EVID-112",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-112.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-112"
+    },
+    {
+      "id": "EVID-113",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-113.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-113"
+    },
+    {
+      "id": "EVID-114",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-114.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-114"
+    },
+    {
+      "id": "EVID-115",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-115.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-115"
+    },
+    {
+      "id": "EVID-116",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-116.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-116"
+    },
+    {
+      "id": "EVID-117",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-117.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-117"
+    },
+    {
+      "id": "EVID-118",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-118.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-118"
+    },
+    {
+      "id": "EVID-119",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-119.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-119"
+    },
+    {
+      "id": "EVID-120",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-120.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-120"
+    },
+    {
+      "id": "EVID-121",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-121.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-121"
+    },
+    {
+      "id": "EVID-122",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-122.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-122"
+    },
+    {
+      "id": "EVID-123",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-123.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-123"
+    },
+    {
+      "id": "EVID-124",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-124.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-124"
+    },
+    {
+      "id": "EVID-125",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-125.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-125"
+    },
+    {
+      "id": "EVID-126",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-126.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-126"
+    },
+    {
+      "id": "EVID-127",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-127.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-127"
+    },
+    {
+      "id": "EVID-128",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-128.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-128"
+    },
+    {
+      "id": "EVID-129",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-129.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-129"
+    },
+    {
+      "id": "EVID-130",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-130.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-130"
+    },
+    {
+      "id": "EVID-131",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-131.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-131"
+    },
+    {
+      "id": "EVID-132",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-132.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-132"
+    },
+    {
+      "id": "EVID-133",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-133.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-133"
+    },
+    {
+      "id": "EVID-134",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-134.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-134"
+    },
+    {
+      "id": "EVID-135",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-135.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-135"
+    },
+    {
+      "id": "EVID-136",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-136.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-136"
+    },
+    {
+      "id": "EVID-137",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-137.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-137"
+    },
+    {
+      "id": "EVID-138",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-138.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-138"
+    },
+    {
+      "id": "EVID-139",
+      "status": "temporarily_withdrawn",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-139.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-139"
+    },
+    {
+      "id": "EVID-140",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-140.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-140"
+    },
+    {
+      "id": "EVID-141",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-141.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-141"
+    },
+    {
+      "id": "EVID-142",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-142.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-142"
+    },
+    {
+      "id": "EVID-143",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-143.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-143"
+    },
+    {
+      "id": "EVID-144",
+      "status": "temporarily_withdrawn",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-144.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-144"
+    },
+    {
+      "id": "EVID-145",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-145.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-145"
+    },
+    {
+      "id": "EVID-146",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-146.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-146"
+    },
+    {
+      "id": "EVID-147",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-147.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-147"
+    },
+    {
+      "id": "EVID-148",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-148.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-148"
+    },
+    {
+      "id": "EVID-149",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-149.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-149"
+    },
+    {
+      "id": "EVID-150",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-150.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-150"
+    },
+    {
+      "id": "EVID-151",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-151.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-151"
+    },
+    {
+      "id": "EVID-152",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-152.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-152"
+    },
+    {
+      "id": "EVID-153",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-153.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-153"
+    },
+    {
+      "id": "EVID-154",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-154.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-154"
+    },
+    {
+      "id": "EVID-155",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-155.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-155"
+    },
+    {
+      "id": "EVID-156",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-156.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-156"
+    },
+    {
+      "id": "EVID-157",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-157.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-157"
+    },
+    {
+      "id": "EVID-158",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-158.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-158"
+    },
+    {
+      "id": "EVID-159",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-159.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-159"
+    },
+    {
+      "id": "EVID-160",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-160.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-160"
+    },
+    {
+      "id": "EVID-161",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-161.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-161"
+    },
+    {
+      "id": "EVID-162",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-162.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-162"
+    },
+    {
+      "id": "EVID-163",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-163.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-163"
+    },
+    {
+      "id": "EVID-164",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-164.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-164"
+    },
+    {
+      "id": "EVID-165",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-165.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-165"
+    },
+    {
+      "id": "EVID-166",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-166.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-166"
+    },
+    {
+      "id": "EVID-167",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-167.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-167"
+    },
+    {
+      "id": "EVID-168",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-168.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-168"
+    },
+    {
+      "id": "EVID-169",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-169.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-169"
+    },
+    {
+      "id": "EVID-170",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-170.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-170"
+    },
+    {
+      "id": "EVID-171",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-171.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-171"
+    },
+    {
+      "id": "EVID-172",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-172.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-172"
+    },
+    {
+      "id": "EVID-173",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-173.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-173"
+    },
+    {
+      "id": "EVID-174",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-174.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-174"
+    },
+    {
+      "id": "EVID-175",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-175.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-175"
+    },
+    {
+      "id": "EVID-176",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-176.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-176"
+    },
+    {
+      "id": "EVID-177",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-177.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-177"
+    },
+    {
+      "id": "EVID-178",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-178.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-178"
+    }
+  ]
+}

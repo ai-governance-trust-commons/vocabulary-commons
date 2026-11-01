@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-042",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-042.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-042",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-042",
+    "title": "CrowdStrike reports exposed sessions and configurations indicating ARTEX used DeepSeek, with other model backends in supplementary sessions.",
+    "case_id": "CASE-036",
+    "observation": "CrowdStrike reports exposed sessions and configurations indicating ARTEX used DeepSeek, with other model backends in supplementary sessions.",
+    "evidence_standing": "Observed",
+    "glossary_fit": "Indicated",
+    "source_ids": [
+      "SRC-034"
+    ],
+    "source_locations": {
+      "SRC-034": "ARTEX Infrastructure Analysis; Details"
+    },
+    "limitations": "Attacker-controlled records are not inherently trustworthy or complete. Victim outcomes partly rely on secondary reporting; actor identity and total victims are unresolved. Personal identifiers in the publication are omitted here. No autonomous agreement among providers is established.",
+    "open_questions": "Which conclusions survive independent access to complete records, controls and counterfactual tests?",
+    "keywords": [
+      "Cross-system feedback",
+      "Observability boundary",
+      "Investigative indicator"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. New observation, not present in baseline 041. Repeated articles or alternate formats are not independent corroboration.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-036",
+    "title": "Exposed operator records indicate multiple model backends",
+    "kind": "Reported operational case",
+    "event_date": "LateSeptember–earlyOctober 2026",
+    "event_date_precision": "As reported; not inferred from publication date",
+    "source_ids": [
+      "SRC-034"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-034",
+      "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
+      "publisher": "CrowdStrike Intelligence",
+      "issuing_body": "CrowdStrike Intelligence",
+      "authors": [
+        "CrowdStrike Intelligence"
+      ],
+      "url": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
+      "publication_date": "2026-10-07",
+      "access_date": "2026-10-30",
+      "locator": "ARTEX Infrastructure Analysis; Assessment",
+      "source_kind": "Primary technical disclosure",
+      "independence_group": "crowdstrike-korea-artex-2026",
+      "version_note": "Open-directory artifacts analyzed by publisher; victim outcome reporting partly derives from industry reports. Do not infer the model from the Claude Code client name.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "ARTEX Infrastructure Analysis; Assessment",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Bounded correction checks only; no absence guarantee",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only. No source copies captured; public availability does not establish redistribution permission.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-cross-system-feedback",
+      "name": "Cross-system feedback",
+      "definition": "A pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#cross-system-feedback",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-investigative-indicator",
+      "name": "Investigative indicator",
+      "definition": "An observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#investigative-indicator",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-101",
+      "from_id": "EVID-042",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-102",
+      "from_id": "EVID-042",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-103",
+      "from_id": "EVID-042",
+      "to_id": "TERM-investigative-indicator",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

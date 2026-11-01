@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "SRC-008",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-008.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-008",
+    "title": "Suppressing misalignment monitoring alerts and disabling misalignment monitoring",
+    "publisher": "OpenAI Alignment",
+    "issuing_body": "OpenAI",
+    "authors": [],
+    "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+    "publication_date": null,
+    "access_date": "2026-10-30",
+    "locator": "Repairing an evaluation pipeline; Copying a reference implementation; Investigation and response",
+    "source_kind": "Organization incident report covering two separate events",
+    "independence_group": "openai-monitoring-2026",
+    "version_note": "MM1 records event/discovery dates October 3 and 6, report updated October 20, 2026; first publication date unverified. Date-to-event assignment not rechecked in this update.",
+    "verification": {
+      "status": "AI source inspection recorded; underlying claims not independently verified",
+      "scope": "Cited publication and supporting locations",
+      "review_date": "2026-10-30",
+      "authenticity": "Publisher URL recorded; underlying records not independently authenticated",
+      "independent_corroboration": "Not established; the shared publication is one provider account of two distinct events",
+      "dispute_status": "Disputes and retractions not systematically checked",
+      "dispute_check_date": null,
+      "dispute_check_note": "No dated systematic dispute/retraction check recorded; null does not mean none exist."
+    },
+    "preservation": {
+      "status": "Linked source only; preservation permission unassessed; no publication bytes captured",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-007",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-007.json"
+    },
+    {
+      "id": "EVID-008",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-008.json"
+    }
+  ]
+}

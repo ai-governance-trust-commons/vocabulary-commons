@@ -1,0 +1,172 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-110",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-110.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-110",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-110",
+    "title": "Authors distinguish humans whose input constitutes a decision from humans able to correct or prevent it, with temporal subtypes of corrective involvement.",
+    "case_id": "CASE-099",
+    "observation": "Authors distinguish humans whose input constitutes a decision from humans able to correct or prevent it, with temporal subtypes of corrective involvement.",
+    "evidence_standing": "Hypothesis / conceptual or normative argument; not an empirical incident",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-077"
+    ],
+    "source_locations": {
+      "SRC-077": "Sections 2.1–2.3; Sections 3–4"
+    },
+    "limitations": "Proposed causal taxonomy, not evidence that a named oversight arrangement works. Runtime scope and role distinctions need operational validation; no founding Commons definition change follows from retaining this comparison.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "Chaperoning",
+      "Meaningful human control"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No explicit correction located in bounded checks; not exhaustive",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Normative proposal",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-099",
+    "title": "Constitutive vs. Corrective: A Causal Taxonomy of Human Runtime Involvement in AI Systems",
+    "kind": "Conceptual taxonomy",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-077"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-077",
+      "title": "Constitutive vs. Corrective: A Causal Taxonomy of Human Runtime Involvement in AI Systems",
+      "publisher": "arXiv",
+      "issuing_body": "Authors listed in arXiv publication",
+      "authors": [
+        "Kevin Baum",
+        "Johann Laux"
+      ],
+      "url": "https://arxiv.org/abs/2603.19213v2",
+      "publication_date": "2026-03-19",
+      "access_date": "2026-10-30",
+      "locator": "Sections 2.1–2.3; Sections 3–4",
+      "source_kind": "Conceptual taxonomy",
+      "independence_group": "study-arxiv-2603.19213",
+      "version_note": "v2, revised 2026-08-20. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "Sections 2.1–2.3; Sections 3–4; full text https://arxiv.org/html/2603.19213v2",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable author preprint on arXiv; underlying data and claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "No explicit external correction located in bounded checks; version and internal limitations retained",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-meaningful-human-control",
+      "name": "Meaningful human control",
+      "definition": "A condition in which people retain adequate information, independent judgment, authority, and practical means to redirect consequential activity. A nominal human-in-the-loop approval does not, by itself, demonstrate this capacity.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#meaningful-human-control",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-248",
+      "from_id": "EVID-110",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-249",
+      "from_id": "EVID-110",
+      "to_id": "TERM-meaningful-human-control",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

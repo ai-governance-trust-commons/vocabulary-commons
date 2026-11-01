@@ -1,0 +1,55 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/dataset.jsonld",
+  "name": "Vocabulary Commons Evidence Library",
+  "description": "Provisional attributed findings, sources, qualifications, glossary relationships and public withdrawal notices about the changing human–AI operating environment. Inclusion is not independent verification.",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "version": "0.4.5",
+  "dateModified": "2026-11-01T11:31:38.163077+00:00",
+  "isAccessibleForFree": true,
+  "publisher": {
+    "@type": "Organization",
+    "name": "Governance & Trust Vocabulary Commons"
+  },
+  "conditionsOfAccess": "Public downloads. Reuse rights are described separately; no blanket third-party rights or new Library license is implied.",
+  "usageInfo": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "measurementTechnique": "Curation of attributed publications and source-inspection reports; not independent measurement or reproduction.",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Complete public dataset",
+      "encodingFormat": "application/json",
+      "contentUrl": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Evidence and withdrawal table",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/evidence.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Source table",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/sources.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Source citations: BibTeX",
+      "encodingFormat": "application/x-bibtex",
+      "contentUrl": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/sources.bib"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Source citations: RIS",
+      "encodingFormat": "application/x-research-info-systems",
+      "contentUrl": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/exports/sources.ris"
+    }
+  ],
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "Governance & Trust Vocabulary Commons",
+    "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/"
+  }
+}

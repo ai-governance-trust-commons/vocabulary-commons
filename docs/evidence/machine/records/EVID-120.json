@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-120",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-120.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-120",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-120",
+    "title": "Bainbridge argues that automation can leave human operators rare, demanding recovery tasks while reducing practice and making monitoring harder.",
+    "case_id": "CASE-107",
+    "observation": "Bainbridge argues that automation can leave human operators rare, demanding recovery tasks while reducing practice and making monitoring harder.",
+    "evidence_standing": "Conceptual, review or formal argument; not a new operational incident",
+    "glossary_fit": "Bounded comparison; no change to definitions and no universal claim",
+    "source_ids": [
+      "SRC-087"
+    ],
+    "source_locations": {
+      "SRC-087": "pp. 775–778, Sections 1.1–3.3"
+    },
+    "limitations": "Industrial-process and aviation synthesis, not modern LLM data. Training, displays and collaboration are proposed mitigations; occasional effective automation does not remove human-factor constraints. Underlying cited experiments not independently rechecked.",
+    "open_questions": "Generality, independent replication or formal validation beyond the inspected scope remain open.",
+    "keywords": [
+      "Chaperoning",
+      "Competency decay",
+      "Horizon compression"
+    ],
+    "support_assessment": "Attributed study or argument with explicit bounds; publication inclusion does not certify truth.",
+    "dispute_status": "No correction established in bounded original inspection; limitations retained.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Conceptual framing",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-107",
+    "title": "Ironies of Automation",
+    "kind": "Historical research synthesis",
+    "event_date": null,
+    "event_date_precision": "Study execution dates not established; publication date is separate",
+    "source_ids": [
+      "SRC-087"
+    ],
+    "summary": "Research study or argument, not an operational incident.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-087",
+      "title": "Ironies of Automation",
+      "publisher": "Automatica / IFAC",
+      "issuing_body": "Automatica / IFAC",
+      "authors": [
+        "Lisanne Bainbridge"
+      ],
+      "url": "https://doi.org/10.1016/0005-1098(83)90046-8",
+      "publication_date": "1983-11",
+      "access_date": "2026-10-30",
+      "locator": "pp. 775–778, Sections 1.1–3.3",
+      "source_kind": "Historical research synthesis",
+      "independence_group": "study-bainbridge",
+      "version_note": "Publisher403; complete five-page original inspected at https://tc.ifac-control.org/4/1/newsletter/ironies-of-automation/@@download/file/Bainbridge1983_Automatica_Ironies%20of%20automation.pdf . Published month only; no invented day. Rights holder IFAC; no copy retained.",
+      "verification": {
+        "status": "Original publication inspected; not independently verified",
+        "scope": "pp.775–778, Sections 1.1–3.3",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original author/institution publication inspected; underlying claims not independently authenticated",
+        "independent_corroboration": "Not established by this inspection",
+        "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-competency-decay",
+      "name": "Competency decay",
+      "definition": "A decline in the human or organizational expertise needed to perform, verify, contest, or recover work that is repeatedly delegated to AI-enabled systems. It is especially consequential when skills needed for independent judgment are lost.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#competency-decay",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-horizon-compression",
+      "name": "Horizon compression",
+      "definition": "A process in which the time available to identify, interpret, decide about, and intervene in consequential activity becomes shorter relative to the time intervention requires. It is an intervention-window problem, not a general label for every obstacle to correcting an agent.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#horizon-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-284",
+      "from_id": "EVID-120",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-285",
+      "from_id": "EVID-120",
+      "to_id": "TERM-competency-decay",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-286",
+      "from_id": "EVID-120",
+      "to_id": "TERM-horizon-compression",
+      "relationship_type": "qualifies",
+      "explanation": "Scoped comparison, not a change to founding definitions or proof of universal behavior.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

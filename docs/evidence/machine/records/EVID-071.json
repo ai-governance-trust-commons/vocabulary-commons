@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-071",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-071.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-071",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-071",
+    "title": "Salt reports encoded email content executed in Manus before an approval warning; testers obtained sandbox access and discovered integration tokens.",
+    "case_id": "CASE-061",
+    "observation": "Salt reports encoded email content executed in Manus before an approval warning; testers obtained sandbox access and discovered integration tokens.",
+    "evidence_standing": "Bounded original-source report; not independently verified by the Commons",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-044"
+    ],
+    "source_locations": {
+      "SRC-044": "Manus Guardrails Bypass, especially warning-after-execution paragraphs; controlled reverse-shell demonstration"
+    },
+    "limitations": "Direct instructions and common encodings were blocked. The issuer reports remediation and unsuccessful later retests. Controlled test account; no prevalence estimate or independent reproduction. Further connected-service exposure depends on configured credentials.",
+    "open_questions": "Underlying records, alternatives and generalization have not been independently verified by the Commons.",
+    "keywords": [
+      "Chaperoning",
+      "Horizon compression",
+      "Sleight-of-hand effect"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-061",
+    "title": "Security warning arrived after execution in controlled email injection",
+    "kind": "Controlled vulnerability proof of concept; not wild compromise",
+    "event_date": null,
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-044"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-044",
+      "title": "How We Hijacked an AI Agent With a Single Email",
+      "publisher": "Salt Labs Research Team",
+      "issuing_body": "Salt Labs Research Team",
+      "authors": [
+        "Salt Labs Research Team"
+      ],
+      "url": "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
+      "publication_date": "2026-10-01",
+      "access_date": "2026-10-30",
+      "locator": "Manus Guardrails Bypass, especially warning-after-execution paragraphs; controlled reverse-shell demonstration",
+      "source_kind": "Primary publication or technical disclosure; see cited scope",
+      "independence_group": "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
+      "version_note": "Original says resolved; issuer release reports later reproduction attempts unsuccessful. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Manus Guardrails Bypass, especially warning-after-execution paragraphs; controlled reverse-shell demonstration",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Original says resolved; issuer release reports later reproduction attempts unsuccessful.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. No source copy retained. Preservation permission unestablished unless otherwise specified.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-horizon-compression",
+      "name": "Horizon compression",
+      "definition": "A process in which the time available to identify, interpret, decide about, and intervene in consequential activity becomes shorter relative to the time intervention requires. It is an intervention-window problem, not a general label for every obstacle to correcting an agent.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#horizon-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-sleight-of-hand-effect",
+      "name": "Sleight-of-hand effect",
+      "definition": "An analogy for a mismatch between apparently successful local observation and the consequential process actually unfolding. An observer may see what was assigned for monitoring while missing actions or relationships elsewhere that change the outcome. Deliberate concealment is not required.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#sleight-of-hand-effect",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-164",
+      "from_id": "EVID-071",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-165",
+      "from_id": "EVID-071",
+      "to_id": "TERM-horizon-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-166",
+      "from_id": "EVID-071",
+      "to_id": "TERM-sleight-of-hand-effect",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

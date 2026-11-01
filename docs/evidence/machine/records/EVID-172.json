@@ -1,0 +1,226 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-172",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-172.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-172",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-172",
+    "title": "Interventions test selected internal-mechanism explanations while exposing instrument limits",
+    "case_id": "CASE-156",
+    "observation": "Source-reported finding: Selected language-model case studies connect proposed internal mechanisms to output changes using feature interventions and prompt variations. A backwards-reasoning example was tested by inhibiting features and changing the suggested answer. Observation period and measurement context: Experimental calendar dates not established.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-136"
+    ],
+    "source_locations": {
+      "SRC-136": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension"
+    },
+    "limitations": "Selected successes, incomplete replacement models and possible artifacts. Perturbation discrepancies compound across layers; some local effects follow partly from construction. Primarily Claude 3.5 Haiku. No independent model access or reproduction.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Mechanism hypothesis",
+      "Observability"
+    ],
+    "support_assessment": "Commons interpretation: Illustrates testing a mechanism hypothesis while separating supportive interventions from remaining uncertainty.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-156",
+    "title": "Circuit Tracing: Revealing Computational Graphs in Language Models; On the Biology of a Large Language Model — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "Experimental calendar dates not established",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-136"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Experimental calendar dates not established",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-136",
+      "title": "Circuit Tracing: Revealing Computational Graphs in Language Models; On the Biology of a Large Language Model",
+      "publisher": "Transformer Circuits",
+      "issuing_body": "Emmanuel Ameisen et al.; Jack Lindsey et al.; Harish Kamath et al.",
+      "authors": [
+        "Emmanuel Ameisen et al.",
+        "Jack Lindsey et al.",
+        "Harish Kamath et al."
+      ],
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+      "publication_date": "2025-03-27",
+      "access_date": "2026-10-31",
+      "locator": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "circuit-tracing-2025",
+      "version_note": "Biology companion https://transformer-circuits.pub/2025/attribution-graphs/biology.html . July 31 extension https://transformer-circuits.pub/2025/attention-qk/index.html adds attention-pattern computation; related programme, not a renamed edition. March announcement and May tool release are not independent studies. Overlap with hidden-objective model organism EVID-013/SRC-011 disclosed.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-011",
+      "title": "Auditing language models for hidden objectives",
+      "publisher": "Anthropic / arXiv",
+      "issuing_body": "Anthropic / arXiv",
+      "authors": [
+        "Samuel Marks et al."
+      ],
+      "url": "https://arxiv.org/html/2503.10965v2",
+      "publication_date": "2025-03-14",
+      "access_date": "2026-10-30",
+      "locator": "Sections 4 (blind auditing game), 5 (auditing techniques), 7 (limitations), 8 (conclusion).",
+      "source_kind": "Primary research report",
+      "independence_group": "auditing-model-organism-lineage",
+      "version_note": "Official announcement 2025-03-13; arXiv v1 2025-03-14; examined v2 2025-03-28. Blog/abstract/HTML/PDF are same research family. Related to but separate from canonical alignment-faking experiment. SRC-012 is a later related model-organism replication, not an independent replication of the human auditing outcome.",
+      "verification": {
+        "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+        "scope": "Sections4 (blind auditing game),5 (auditing techniques),7 (limitations),8 (conclusion).",
+        "review_date": "2026-10-30",
+        "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-mechanism-hypothesis",
+      "name": "Mechanism hypothesis",
+      "definition": "A provisional explanation specifying how certain conditions, activities, or relationships could produce an observed or anticipated effect. A useful hypothesis names evidence that could support, qualify, or weaken the explanation.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#mechanism-hypothesis",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability",
+      "name": "Observability",
+      "definition": "The capacity to obtain and interpret dependable evidence about states, actions, relationships, and consequences relevant to a specified question. Evidence may come from more than one system or organization.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-397",
+      "from_id": "EVID-172",
+      "to_id": "TERM-mechanism-hypothesis",
+      "relationship_type": "illustrates",
+      "explanation": "Provides an intervention-based explanatory example with explicit instrument limitations.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-398",
+      "from_id": "EVID-172",
+      "to_id": "TERM-observability",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies claims of unrestricted access to internal model processes.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [
+    {
+      "id": "REL-410",
+      "from_id": "SRC-136",
+      "to_id": "SRC-011",
+      "relationship_type": "research programme overlap",
+      "explanation": "Hidden-objective model-organism overlap; intervention cases must not be counted as independent corroboration of all prior claims.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "withdrawal": null
+}

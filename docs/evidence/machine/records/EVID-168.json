@@ -1,0 +1,142 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-168",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-168.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-168",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-168",
+    "title": "Reciprocal adjustment is observed in a short human–robot task",
+    "case_id": "CASE-152",
+    "observation": "Source-reported finding: A bounded-memory model adjusts robot policy to estimated human willingness to adapt. In a simulated table-carrying study with 69 included participants, people were more likely to switch toward the robot strategy than under cross-training. Observation period and measurement context: Short simulated interactions; calendar dates not established.",
+    "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-132"
+    ],
+    "source_locations": {
+      "SRC-132": "2016 §§VI–VIII; 2017 §§6–9 and extension statement"
+    },
+    "limitations": "Mechanical Turk sample; participants initially preferring the robot goal excluded; discrete actions, specified rewards and short interaction. No significant satisfaction difference. Does not establish longitudinal organizational coevolution.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Human–AI mutual adaptation"
+    ],
+    "support_assessment": "Commons interpretation: A bounded experimental illustration of reciprocal adjustment, with task and model assumptions retained.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-152",
+    "title": "Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model; 2017 journal extension — study grouping",
+    "kind": "Study or operational measurement",
+    "event_date": "Short simulated interactions; calendar dates not established",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-132"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Short simulated interactions; calendar dates not established",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-132",
+      "title": "Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model; 2017 journal extension",
+      "publisher": "HRI / International Journal of Robotics Research",
+      "issuing_body": "Stefanos Nikolaidis; Anton Kuznetsov; David Hsu; Siddhartha Srinivasa",
+      "authors": [
+        "Stefanos Nikolaidis",
+        "Anton Kuznetsov",
+        "David Hsu",
+        "Siddhartha Srinivasa"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6329591/",
+      "publication_date": "2016",
+      "access_date": "2026-10-31",
+      "locator": "2016 §§VI–VIII; 2017 §§6–9 and extension statement",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "nikolaidis-adaptation",
+      "version_note": "2016 root DOI https://doi.org/10.1109/HRI.2016.7451736 . 2017 extension: https://stefanosnikolaidis.net/papers/ijrr2017.pdf ; DOI https://doi.org/10.1177/0278364917690593 . The original 69-participant result is reused, not replicated. Expanded experiments include samples of 43 and 58.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "2016 §§VI–VIII; 2017 §§6–9 and extension statement; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-human-ai-mutual-adaptation",
+      "name": "Human–AI mutual adaptation",
+      "definition": "Reciprocal changes in human practices and AI-enabled activities as each responds to the other. Delegation can change how people decide and work; human behavior and institutions can reshape AI adoption, incentives, and subsequent capabilities.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#humanai-mutual-adaptation",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-392",
+      "from_id": "EVID-168",
+      "to_id": "TERM-human-ai-mutual-adaptation",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates reciprocal adjustment in a short controlled human–robot task, not long-term generative-AI coevolution.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

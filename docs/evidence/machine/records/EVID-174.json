@@ -1,0 +1,180 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-174",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-174.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-174",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-174",
+    "title": "Undeclared consumers and hidden feedback can couple otherwise separate systems",
+    "case_id": "CASE-158",
+    "observation": "Source-reported finding: The authors describe how outputs used without declared dependencies can couple systems, and how apparently separate systems can influence one another through users or markets. A local improvement may worsen system behavior. Observation period and measurement context: Engineering analysis and illustrative patterns; no population observation period.",
+    "evidence_standing": "Source-reported bounded account; Conceptual engineering analysis; not independently reproduced",
+    "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+    "source_ids": [
+      "SRC-138"
+    ],
+    "source_locations": {
+      "SRC-138": "Introduction, §2 Undeclared Consumers, §4 Hidden Feedback Loops, monitoring discussion"
+    },
+    "limitations": "Engineering analysis rather than a controlled trial, effect-size estimate or LLM-agent prevalence measurement. Mitigations and strategic reasons for technical debt are discussed. The 2014 precursor full text was inaccessible.",
+    "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+    "keywords": [
+      "Beyond visual range (BVR)",
+      "Cross-system feedback"
+    ],
+    "support_assessment": "Commons interpretation: An unrecognized consequential connection can remain outside an observer’s frame even when component activities are visible.",
+    "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Conceptual framing",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-158",
+    "title": "Hidden Technical Debt in Machine Learning Systems — study grouping",
+    "kind": "Conceptual engineering analysis",
+    "event_date": "Engineering analysis and illustrative patterns; no population observation period",
+    "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+    "source_ids": [
+      "SRC-138"
+    ],
+    "summary": "Grouping for the study, series or operational setting; not an incident count. Engineering analysis and illustrative patterns; no population observation period",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-01T11:31:38.032439+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-138",
+      "title": "Hidden Technical Debt in Machine Learning Systems",
+      "publisher": "NeurIPS",
+      "issuing_body": "D. Sculley; Gary Holt; Daniel Golovin; Eugene Davydov; Todd Phillips; Dietmar Ebner; Vinay Chaudhary; Michael Young; Jean-François Crespo; Dan Dennison",
+      "authors": [
+        "D. Sculley",
+        "Gary Holt",
+        "Daniel Golovin",
+        "Eugene Davydov",
+        "Todd Phillips",
+        "Dietmar Ebner",
+        "Vinay Chaudhary",
+        "Michael Young",
+        "Jean-François Crespo",
+        "Dan Dennison"
+      ],
+      "url": "https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+      "publication_date": "2015",
+      "access_date": "2026-10-31",
+      "locator": "Introduction, §2 Undeclared Consumers, §4 Hidden Feedback Loops, monitoring discussion",
+      "source_kind": "Conceptual engineering analysis",
+      "independence_group": "sculley-2015",
+      "version_note": "Expanded 2015 paper follows 2014 Machine Learning: The High Interest Credit Card of Technical Debt. Root metadata https://research.google/pubs/machine-learning-the-high-interest-credit-card-of-technical-debt/ inspected; root full text unavailable. One intellectual lineage, not independent corroboration.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Introduction, §2 Undeclared Consumers, §4 Hidden Feedback Loops, monitoring discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-beyond-visual-range-bvr",
+      "name": "Beyond visual range (BVR)",
+      "definition": "A condition in which consequential actions, effects, or causal relationships fall outside what an observer recognizes as relevant to the process being examined. Those activities may be visible elsewhere, yet the connection that makes them consequential is unrecognized. Neither concealment nor a defective local monitor is required.",
+      "vocabulary": "Working",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#beyond-visual-range-bvr",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-cross-system-feedback",
+      "name": "Cross-system feedback",
+      "definition": "A pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#cross-system-feedback",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-401",
+      "from_id": "EVID-174",
+      "to_id": "TERM-beyond-visual-range-bvr",
+      "relationship_type": "illustrates",
+      "explanation": "Conceptual illustration of an unrecognized consequential dependency; not empirical validation of the proposed BVR category.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-402",
+      "from_id": "EVID-174",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Describes coupling through undeclared consumers and hidden feedback.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}
