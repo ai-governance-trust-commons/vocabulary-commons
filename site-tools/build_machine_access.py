@@ -10,7 +10,7 @@ from datetime import datetime,timezone
 
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs';M=DOCS/'evidence/machine'
 HOST='https://ai-governance-trust-commons.github.io/vocabulary-commons/'
-BASE=HOST+'evidence/machine/';VERSION='0.5.1';CONTRACT='1.0';PRESENTATION_VERSION='0.5.2'
+BASE=HOST+'evidence/machine/';VERSION='0.5.1';CONTRACT='1.0';PRESENTATION_VERSION='0.5.3'
 DATA=DOCS/'evidence/evidence.json';d=json.loads(DATA.read_text());g=json.loads((DOCS/'data/glossary.json').read_text())
 STAMP=datetime.now(timezone.utc).isoformat();DATA_SHA=hashlib.sha256(DATA.read_bytes()).hexdigest()
 for folder,expected in [('records',{r['id']+'.json' for r in d['evidence']+d['withdrawals']}|{'index.json'}),('sources',{r['id']+'.json' for r in d['sources']}|{'index.json'})]:
@@ -232,3 +232,6 @@ print(json.dumps({'machine_release':VERSION,'published_evidence':len(d['evidence
 # Coverage is a derived view of the same public data, refreshed after machine exports.
 import subprocess,sys
 subprocess.run([sys.executable,str(ROOT/"site-tools/build_coverage.py")],check=True)
+
+# Refresh editorial reading paths from the same approved public dataset.
+subprocess.run([sys.executable,str(ROOT/"site-tools/build_research_paths.py")],check=True)
