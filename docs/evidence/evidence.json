@@ -1,9 +1,9 @@
 {
   "format_version": "1.0",
-  "title": "Vocabulary Commons Evidence Locker",
+  "title": "Vocabulary Commons Evidence Library",
   "status": "Provisional public evidence collection",
-  "dataset_version": "0.4.3",
-  "generated_at": "2026-10-30T22:52:57.972635+00:00",
+  "dataset_version": "0.4.5",
+  "generated_at": "2026-11-01T11:31:38.163077+00:00",
   "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
   "sources": [
     {
@@ -4076,42 +4076,6 @@
       }
     },
     {
-      "id": "SRC-105",
-      "title": "Meta Muse Marketplace permission report",
-      "publisher": "The Guardian",
-      "issuing_body": "The Guardian",
-      "authors": [],
-      "url": "https://www.theguardian.com/technology/2026/sep/28/metas-ai-agent-muse-home-address",
-      "publication_date": "2026-09-28",
-      "access_date": "2026-10-30",
-      "locator": "Message-review passages; September 29 update; permission discussion",
-      "source_kind": "Original journalism",
-      "independence_group": "rem-2",
-      "version_note": "Updated September 29. Rights budget 25 words: keep source-derived summary minimal.",
-      "verification": {
-        "status": "Original publication inspected; underlying claims not independently verified",
-        "scope": "Message-review passages; September 29 update; permission discussion",
-        "review_date": "2026-10-30",
-        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
-        "independent_corroboration": "Not established by source inspection",
-        "dispute_status": "Bounded correction checks only; no absence guarantee",
-        "dispute_check_date": "2026-10-30",
-        "dispute_check_note": null
-      },
-      "preservation": {
-        "status": "Links only; no source publication bytes captured. Links and descriptive metadata only; no publication copy retained.",
-        "sha256": null,
-        "captured_at": null
-      },
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
       "id": "SRC-106",
       "title": "GhostShares: Muse share-link discovery investigation",
       "publisher": "Claroc Research Team",
@@ -4235,42 +4199,6 @@
       "verification": {
         "status": "Original publication inspected; underlying claims not independently verified",
         "scope": "Technical Overview; Communication; Findings sections 4, 5, 7, 8",
-        "review_date": "2026-10-30",
-        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
-        "independent_corroboration": "Not established by source inspection",
-        "dispute_status": "Bounded correction checks only; no absence guarantee",
-        "dispute_check_date": "2026-10-30",
-        "dispute_check_note": null
-      },
-      "preservation": {
-        "status": "Links only; no source publication bytes captured. Links and descriptive metadata only; no publication copy retained.",
-        "sha256": null,
-        "captured_at": null
-      },
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "SRC-110",
-      "title": "Google testimony at NYC Council: community transcript locator",
-      "publisher": "BetaNYC / NYC Council hearing",
-      "issuing_body": "BetaNYC / NYC Council hearing",
-      "authors": [],
-      "url": "https://betanyc.github.io/hearings-transcripts/hearings/2026-10-05-committee-of-the-whole-ai/transcript/transcript-clean.txt",
-      "publication_date": "2026-10-05",
-      "access_date": "2026-10-30",
-      "locator": "Alice Friend 01:59:01 and 04:01:06",
-      "source_kind": "Community transcript of primary testimony",
-      "independence_group": "rem-7",
-      "version_note": "Transcript read; official video landing page opened but audio not checked: https://councilnyc.viebit.com/embed/vod?v=OGjxTRko6gO02D5A&s=true&d=false . Transcript publication date itself unverified; date given is hearing date.",
-      "verification": {
-        "status": "Original publication inspected; underlying claims not independently verified",
-        "scope": "Alice Friend 01:59:01 and 04:01:06",
         "review_date": "2026-10-30",
         "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
         "independent_corroboration": "Not established by source inspection",
@@ -4749,6 +4677,765 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-123",
+      "title": "How employment is changing at Anthropic",
+      "publisher": "Anthropic",
+      "issuing_body": "Nathan Wilmers; Regina Catipon; Maxim Massenkoff; Peter McCrory",
+      "authors": [
+        "Nathan Wilmers",
+        "Regina Catipon",
+        "Maxim Massenkoff",
+        "Peter McCrory"
+      ],
+      "url": "https://www.anthropic.com/research/employment-at-anthropic",
+      "publication_date": "2026-10-16",
+      "access_date": "2026-10-31",
+      "locator": "Productivity and human-attention bottleneck sections; figure notes and methods",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "anthropic-employment-2026",
+      "version_note": "Article and PDF describe the same study. Related organizational source family to SRC-038/EVID-053/054, not independent corroboration.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Productivity and human-attention bottleneck sections; figure notes and methods; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-124",
+      "title": "Adoption of Generative AI in the Workplace",
+      "publisher": "arXiv",
+      "issuing_body": "Yu et al.",
+      "authors": [
+        "Yu et al."
+      ],
+      "url": "https://arxiv.org/abs/2608.15550",
+      "publication_date": "2026-08-16",
+      "access_date": "2026-10-31",
+      "locator": "https://arxiv.org/html/2608.15550v1 — methods, results, figures and limitations",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "m365-adoption-2026",
+      "version_note": "v1 submission August 16, 2026; manuscript heading August 24 recorded separately. Microsoft listing describes the same study. Different populations and tasks from EVID-002–004; neither replication nor direct contradiction.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "https://arxiv.org/html/2608.15550v1 — methods, results, figures and limitations; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-125",
+      "title": "CRUX initial study and CRUX-2 follow-up",
+      "publisher": "CRUX Evals",
+      "issuing_body": "Kirgis et al.",
+      "authors": [
+        "Kirgis et al."
+      ],
+      "url": "https://cruxevals.com/research-notes/crux-2-follow-up/",
+      "publication_date": "2026-10-20",
+      "access_date": "2026-10-31",
+      "locator": "Original reports: setup, expert reviews, limitations and appendices",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "crux-research-2026",
+      "version_note": "Initial report July 30, 2026: https://cruxevals.com/crux/can-ai-agents-conduct-research/ . Follow-up October 20. Overlapping authors and reused question prevent independent-corroboration claims.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Original reports: setup, expert reviews, limitations and appendices; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-126",
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "publisher": "Anthropic",
+      "issuing_body": "Lucas et al.",
+      "authors": [
+        "Lucas et al."
+      ],
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "publication_date": "2026-10-22",
+      "access_date": "2026-10-31",
+      "locator": "Methods and limitations; six-page appendix; proof-repository README",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "formal-verification-2026",
+      "version_note": "Same source family: appendix https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf and https://github.com/theorem-labs/oss-verify-proofs . The released subset is not independent confirmation of the full claim.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Methods and limitations; six-page appendix; proof-repository README; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-127",
+      "title": "Towards a Science of Scaling Agent Systems",
+      "publisher": "arXiv / Nature Machine Intelligence",
+      "issuing_body": "Kim et al.",
+      "authors": [
+        "Kim et al."
+      ],
+      "url": "https://arxiv.org/abs/2512.08296v3",
+      "publication_date": "2026-04-08",
+      "access_date": "2026-10-31",
+      "locator": "Preprint; author summary; repository changelog; architecture_selection_eval.py protocol docstring",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "agent-scaling-kim",
+      "version_note": "v1 December 9, 2025: https://arxiv.org/abs/2512.08296v1 . Renamed journal version July 24, 2026: https://www.nature.com/articles/s42256-026-01268-y . Changelog commit 8673d6a8d5a764a07b08e4283492380d80257223: https://github.com/ybkim95/agent-scaling/blob/8673d6a8d5a764a07b08e4283492380d80257223/CHANGELOG.md . Related EVID-106/SRC-073, distinct study.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Preprint; author summary; repository changelog; architecture_selection_eval.py protocol docstring; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-128",
+      "title": "To predict and serve?",
+      "publisher": "Significance",
+      "issuing_body": "Kristian Lum; William Isaac",
+      "authors": [
+        "Kristian Lum",
+        "William Isaac"
+      ],
+      "url": "https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2016.00960.x",
+      "publication_date": "2016-10-07",
+      "access_date": "2026-10-31",
+      "locator": "Predictive policing case study; Figures 1–3; assumptions and discussion",
+      "source_kind": "Simulation study",
+      "independence_group": "lum-isaac-2016",
+      "version_note": "Significance 13(5), 14–19; DOI 10.1111/j.1740-9713.2016.00960.x. Ensign et al. reuse this motivating setting/data; not independent corroboration of those inputs.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Predictive policing case study; Figures 1–3; assumptions and discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-129",
+      "title": "Runaway Feedback Loops in Predictive Policing",
+      "publisher": "PMLR 81",
+      "issuing_body": "Danielle Ensign; Sorelle A. Friedler; Scott Neville; Carlos Scheidegger; Suresh Venkatasubramanian",
+      "authors": [
+        "Danielle Ensign",
+        "Sorelle A. Friedler",
+        "Scott Neville",
+        "Carlos Scheidegger",
+        "Suresh Venkatasubramanian"
+      ],
+      "url": "https://proceedings.mlr.press/v81/ensign18a.html",
+      "publication_date": "2018-02-23",
+      "access_date": "2026-10-31",
+      "locator": "Proceedings PDF §§1, 3.4, 4.1–4.3; arXiv version history",
+      "source_kind": "Formal analysis and simulation",
+      "independence_group": "ensign-2018",
+      "version_note": "v1 June 29, 2017: https://arxiv.org/abs/1706.09847v1 ; v3 December 22, 2017: https://arxiv.org/abs/1706.09847v3 . Proceedings 160–171, February 23–24, 2018. Lum/Isaac precursor and data dependence retained.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Proceedings PDF §§1, 3.4, 4.1–4.3; arXiv version history; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-130",
+      "title": "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility",
+      "publisher": "RecSys / arXiv",
+      "issuing_body": "Allison J. B. Chaney; Brandon M. Stewart; Barbara E. Engelhardt",
+      "authors": [
+        "Allison J. B. Chaney",
+        "Brandon M. Stewart",
+        "Barbara E. Engelhardt"
+      ],
+      "url": "https://arxiv.org/abs/1710.11214",
+      "publication_date": "2018",
+      "access_date": "2026-10-31",
+      "locator": "Current preprint PDF §§4, 5.2–5.4, 6 and version metadata",
+      "source_kind": "Simulation study",
+      "independence_group": "chaney-2018",
+      "version_note": "v1 October 30, 2017; v2 November 27, 2018. RecSys October 2–7, 2018, DOI https://doi.org/10.1145/3240323.3240370 . Institutional copy and preprint are one work; no complete version diff performed.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Current preprint PDF §§4, 5.2–5.4, 6 and version metadata; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-131",
+      "title": "Performative Prediction",
+      "publisher": "PMLR 119",
+      "issuing_body": "Juan C. Perdomo; Tijana Zrnic; Celestine Mendler-Dünner; Moritz Hardt",
+      "authors": [
+        "Juan C. Perdomo",
+        "Tijana Zrnic",
+        "Celestine Mendler-Dünner",
+        "Moritz Hardt"
+      ],
+      "url": "https://proceedings.mlr.press/v119/perdomo20a.html",
+      "publication_date": "2020-07-13",
+      "access_date": "2026-10-31",
+      "locator": "Proceedings introduction and §3; v4 §3.2, Theorem 3.5 and Proposition 3.6",
+      "source_kind": "Formal analysis",
+      "independence_group": "perdomo-2020",
+      "version_note": "v1 February 16, 2020; v4 February 26, 2021: https://arxiv.org/abs/2002.06673 . v4 marked fixed some typos; substantive equivalence not fully audited. https://github.com/jcperdomo/performative-prediction not executed.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Proceedings introduction and §3; v4 §3.2, Theorem 3.5 and Proposition 3.6; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-132",
+      "title": "Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model; 2017 journal extension",
+      "publisher": "HRI / International Journal of Robotics Research",
+      "issuing_body": "Stefanos Nikolaidis; Anton Kuznetsov; David Hsu; Siddhartha Srinivasa",
+      "authors": [
+        "Stefanos Nikolaidis",
+        "Anton Kuznetsov",
+        "David Hsu",
+        "Siddhartha Srinivasa"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6329591/",
+      "publication_date": "2016",
+      "access_date": "2026-10-31",
+      "locator": "2016 §§VI–VIII; 2017 §§6–9 and extension statement",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "nikolaidis-adaptation",
+      "version_note": "2016 root DOI https://doi.org/10.1109/HRI.2016.7451736 . 2017 extension: https://stefanosnikolaidis.net/papers/ijrr2017.pdf ; DOI https://doi.org/10.1177/0278364917690593 . The original 69-participant result is reused, not replicated. Expanded experiments include samples of 43 and 58.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "2016 §§VI–VIII; 2017 §§6–9 and extension statement; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-133",
+      "title": "Risk management in a dynamic society: A modelling problem",
+      "publisher": "Safety Science / DTU",
+      "issuing_body": "Jens Rasmussen",
+      "authors": [
+        "Jens Rasmussen"
+      ],
+      "url": "https://orbit.dtu.dk/en/publications/risk-management-in-a-dynamic-society-a-modelling-problem/",
+      "publication_date": "1997",
+      "access_date": "2026-10-31",
+      "locator": "Accepted manuscript abstract, introduction, PDF pp. 10–14 and Figures 4–6",
+      "source_kind": "Conceptual engineering analysis",
+      "independence_group": "rasmussen-1997",
+      "version_note": "Safety Science 27(2–3), 183–213; DOI https://doi.org/10.1016/S0925-7535(97)00052-0 . Accepted manuscript https://backend.orbit.dtu.dk/ws/files/158016663/SAFESCI.PDF . Private-study permission is not public redistribution permission; no copy retained.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Accepted manuscript abstract, introduction, PDF pp. 10–14 and Figures 4–6; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-134",
+      "title": "Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial",
+      "publisher": "Endoscopy",
+      "issuing_body": "T. A. Pedersen; Y. Mori; E. Botteri; et al.",
+      "authors": [
+        "T. A. Pedersen",
+        "Y. Mori",
+        "E. Botteri",
+        "et al."
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13552228/",
+      "publication_date": "2026-06-03",
+      "access_date": "2026-10-31",
+      "locator": "Full methods, results, discussion, limitations and conflicts",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "pedersen-2026",
+      "version_note": "Endoscopy 58(9), 1003–1014; online June 3, 2026; DOI https://doi.org/10.1055/a-2858-7084 . Personnel overlap with the separate Polish study does not imply the same dataset. Article states CC BY 4.0; links only.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Full methods, results, discussion, limitations and conflicts; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-135",
+      "title": "Corrigibility",
+      "publisher": "AAAI AI and Ethics workshop / MIRI",
+      "issuing_body": "Nate Soares; Benja Fallenstein; Eliezer Yudkowsky; Stuart Armstrong",
+      "authors": [
+        "Nate Soares",
+        "Benja Fallenstein",
+        "Eliezer Yudkowsky",
+        "Stuart Armstrong"
+      ],
+      "url": "https://intelligence.org/files/Corrigibility.pdf",
+      "publication_date": "2015-01-25",
+      "access_date": "2026-10-31",
+      "locator": "§§1.1–2, §3, §4.1 and §5",
+      "source_kind": "Formal conceptual analysis",
+      "independence_group": "corrigibility-2015",
+      "version_note": "Workshop January 25–26, 2015. Announcement October 18, 2014: https://intelligence.org/2014/10/18/new-report-corrigibility/ . Original 2014 bytes not established; alternate TR URL currently displays 2015 header. No source copy preserved.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "§§1.1–2, §3, §4.1 and §5; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-136",
+      "title": "Circuit Tracing: Revealing Computational Graphs in Language Models; On the Biology of a Large Language Model",
+      "publisher": "Transformer Circuits",
+      "issuing_body": "Emmanuel Ameisen et al.; Jack Lindsey et al.; Harish Kamath et al.",
+      "authors": [
+        "Emmanuel Ameisen et al.",
+        "Jack Lindsey et al.",
+        "Harish Kamath et al."
+      ],
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+      "publication_date": "2025-03-27",
+      "access_date": "2026-10-31",
+      "locator": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "circuit-tracing-2025",
+      "version_note": "Biology companion https://transformer-circuits.pub/2025/attribution-graphs/biology.html . July 31 extension https://transformer-circuits.pub/2025/attention-qk/index.html adds attention-pattern computation; related programme, not a renamed edition. March announcement and May tool release are not independent studies. Overlap with hidden-objective model organism EVID-013/SRC-011 disclosed.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-137",
+      "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study",
+      "publisher": "RAND / UK AISI",
+      "issuing_body": "Jair Aguirre et al.",
+      "authors": [
+        "Jair Aguirre et al."
+      ],
+      "url": "https://www.rand.org/pubs/research_reports/RRA3892-1.html",
+      "publication_date": "2026-05-28",
+      "access_date": "2026-10-31",
+      "locator": "Executive summary, §§3.3–3.5, printed pp. 27–30 and methods context",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "rand-cyber-uplift-2026",
+      "version_note": "RR-A3892-1; DOI https://doi.org/10.7249/RRA3892-1 . Landing page and full report are one study; reproduction rights reserved to UK AISI, links only.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Executive summary, §§3.3–3.5, printed pp. 27–30 and methods context; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-138",
+      "title": "Hidden Technical Debt in Machine Learning Systems",
+      "publisher": "NeurIPS",
+      "issuing_body": "D. Sculley; Gary Holt; Daniel Golovin; Eugene Davydov; Todd Phillips; Dietmar Ebner; Vinay Chaudhary; Michael Young; Jean-François Crespo; Dan Dennison",
+      "authors": [
+        "D. Sculley",
+        "Gary Holt",
+        "Daniel Golovin",
+        "Eugene Davydov",
+        "Todd Phillips",
+        "Dietmar Ebner",
+        "Vinay Chaudhary",
+        "Michael Young",
+        "Jean-François Crespo",
+        "Dan Dennison"
+      ],
+      "url": "https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf",
+      "publication_date": "2015",
+      "access_date": "2026-10-31",
+      "locator": "Introduction, §2 Undeclared Consumers, §4 Hidden Feedback Loops, monitoring discussion",
+      "source_kind": "Conceptual engineering analysis",
+      "independence_group": "sculley-2015",
+      "version_note": "Expanded 2015 paper follows 2014 Machine Learning: The High Interest Credit Card of Technical Debt. Root metadata https://research.google/pubs/machine-learning-the-high-interest-credit-card-of-technical-debt/ inspected; root full text unavailable. One intellectual lineage, not independent corroboration.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Introduction, §2 Undeclared Consumers, §4 Hidden Feedback Loops, monitoring discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-139",
+      "title": "Generative AI at Work",
+      "publisher": "Quarterly Journal of Economics",
+      "issuing_body": "Erik Brynjolfsson; Danielle Li; Lindsey R. Raymond",
+      "authors": [
+        "Erik Brynjolfsson",
+        "Danielle Li",
+        "Lindsey R. Raymond"
+      ],
+      "url": "https://academic.oup.com/qje/article/140/2/889/7990658",
+      "publication_date": "2025-02-04",
+      "access_date": "2026-10-31",
+      "locator": "Journal §§III–IV, §VI.A–B and Figure VII",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "brynjolfsson-work",
+      "version_note": "QJE 140(2), 889–942, DOI https://doi.org/10.1093/qje/qjae044 . NBER 31161 April 2023/revised November 2023 https://www.nber.org/papers/w31161 reports 5,179/14%; arXiv https://arxiv.org/abs/2304.11771 . Versions of one study; historical changes not fully diffed. Replication files not inspected. CC BY-NC 4.0; no copy preserved.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Journal §§III–IV, §VI.A–B and Figure VII; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-140",
+      "title": "The Out-of-the-Loop Performance Problem and Level of Control in Automation",
+      "publisher": "Human Factors",
+      "issuing_body": "Mica R. Endsley; Esin O. Kiris",
+      "authors": [
+        "Mica R. Endsley",
+        "Esin O. Kiris"
+      ],
+      "url": "https://journals.sagepub.com/doi/10.1518/001872095779064555",
+      "publication_date": "1995-06",
+      "access_date": "2026-10-31",
+      "locator": "Author-uploaded article: Method and Results, printed pp. 386–389 and Figure 3; publisher metadata",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "endsley-kiris-1995",
+      "version_note": "Human Factors 37(2), 381–394. Author-uploaded text inspected by MM1 at https://www.researchgate.net/profile/Mica-Endsley/publication/238726310_The_Out-of-the-Loop_Performance_Problem_and_Level_of_Control_in_Automation/links/56426ab008aebaaea1f8e7a9/The-Out-of-the-Loop-Performance-Problem-and-Level-of-Control-in-Automation.pdf . Upload date November 10, 2015 is not publication date; no byte authentication. Related to conceptual Bainbridge SRC-087/EVID-120, distinct experiment.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Author-uploaded article: Method and Results, printed pp. 386–389 and Figure 3; publisher metadata; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "SRC-141",
+      "title": "Takeover Time in Highly Automated Vehicles: Noncritical Transitions to and From Manual Control",
+      "publisher": "Human Factors",
+      "issuing_body": "Alexander Eriksson; Neville A. Stanton",
+      "authors": [
+        "Alexander Eriksson",
+        "Neville A. Stanton"
+      ],
+      "url": "https://journals.sagepub.com/doi/10.1177/0018720816685832",
+      "publication_date": "2017-01-26",
+      "access_date": "2026-10-31",
+      "locator": "Author-uploaded full article: Method, Table 2, Results, Discussion",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "eriksson-stanton-2017",
+      "version_note": "Human Factors 59(4), 689–705; online January 26, June 2017 issue. Publisher request timed out; MM1 inspected author-uploaded full text https://www.researchgate.net/publication/312922628_Takeover_Time_in_Highly_Automated_Vehicles_Noncritical_Transitions_to_and_From_Manual_Control . Metadata https://pubmed.ncbi.nlm.nih.gov/28124573/ . One study family; not a replication of Endsley/Kiris or Bainbridge.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Author-uploaded full article: Method, Table 2, Results, Discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     }
   ],
@@ -6999,24 +7686,6 @@
       }
     },
     {
-      "id": "CASE-125",
-      "title": "Marketplace permission ambiguity requires qualified attribution",
-      "kind": "Published investigation or research",
-      "event_date": null,
-      "event_date_precision": "As stated; otherwise unknown",
-      "source_ids": [
-        "SRC-105"
-      ],
-      "summary": "Reported setting grouping; see separately attributed observations.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
       "id": "CASE-126",
       "title": "Muse share discoverability and bounded closure recheck",
       "kind": "Published investigation or research",
@@ -7061,24 +7730,6 @@
       "event_date_precision": "As stated; otherwise unknown",
       "source_ids": [
         "SRC-109"
-      ],
-      "summary": "Reported setting grouping; see separately attributed observations.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "CASE-129",
-      "title": "Google testimony supplies a stopping-behavior counterclaim",
-      "kind": "Published investigation or research",
-      "event_date": null,
-      "event_date_precision": "Three incidents referenced in October 5 testimony; May date appears in partially accessible WSJ original but is not asserted from this transcript.",
-      "source_ids": [
-        "SRC-110"
       ],
       "summary": "Reported setting grouping; see separately attributed observations.",
       "publication_record": {
@@ -7321,6 +7972,348 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "CASE-143",
+      "title": "How employment is changing at Anthropic — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Several series through August 2026; session comparison fall 2025 to spring 2026",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-123"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Several series through August 2026; session comparison fall 2025 to spring 2026",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-144",
+      "title": "Adoption of Generative AI in the Workplace — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "January–September 2024; ten weeks before and twenty after enablement",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-124"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. January–September 2024; ten weeks before and twenty after enablement",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-145",
+      "title": "CRUX initial study and CRUX-2 follow-up — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Initial work early July 2026; follow-up trials September 2026",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-125"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Initial work early July 2026; follow-up trials September 2026",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-146",
+      "title": "LLMs are making formal software verification feasible at a much larger scale — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "A few weeks before publication; exact run dates not established",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-126"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. A few weeks before publication; exact run dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-147",
+      "title": "Towards a Science of Scaling Agent Systems — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Experiment calendar dates not established",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-127"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Experiment calendar dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-148",
+      "title": "To predict and serve? — study grouping",
+      "kind": "Simulation study",
+      "event_date": "Oakland 2010 arrest records, 2011 NSDUH estimates and synthetic population; modeled 2011 daily predictions",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-128"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Oakland 2010 arrest records, 2011 NSDUH estimates and synthetic population; modeled 2011 daily predictions",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-149",
+      "title": "Runaway Feedback Loops in Predictive Policing — study grouping",
+      "kind": "Formal analysis and simulation",
+      "event_date": "Mathematical model and simulation iterations; no field observation period",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-129"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Mathematical model and simulation iterations; no field observation period",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-150",
+      "title": "How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility — study grouping",
+      "kind": "Simulation study",
+      "event_date": "Discrete simulation steps with synthetic users/items; no real-world observation dates",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-130"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Discrete simulation steps with synthetic users/items; no real-world observation dates",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-151",
+      "title": "Performative Prediction — study grouping",
+      "kind": "Formal analysis",
+      "event_date": "Formal analysis and illustrative experiments; no longitudinal field sample",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-131"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Formal analysis and illustrative experiments; no longitudinal field sample",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-152",
+      "title": "Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model; 2017 journal extension — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Short simulated interactions; calendar dates not established",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-132"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Short simulated interactions; calendar dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-153",
+      "title": "Risk management in a dynamic society: A modelling problem — study grouping",
+      "kind": "Conceptual engineering analysis",
+      "event_date": "Conceptual synthesis; no fixed observation interval",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-133"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Conceptual synthesis; no fixed observation interval",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-154",
+      "title": "Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "November 2021–June 2025; three Norwegian clinics, 13 endoscopists, 5,013 procedures",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-134"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. November 2021–June 2025; three Norwegian clinics, 13 endoscopists, 5,013 procedures",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-155",
+      "title": "Corrigibility — study grouping",
+      "kind": "Formal conceptual analysis",
+      "event_date": "Formal analysis, not a deployment observation period",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-135"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Formal analysis, not a deployment observation period",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-156",
+      "title": "Circuit Tracing: Revealing Computational Graphs in Language Models; On the Biology of a Large Language Model — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Experimental calendar dates not established",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-136"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Experimental calendar dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-157",
+      "title": "Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "September 2025–January 2026; randomized AI access for 157 participants and three CTF chains",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-137"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. September 2025–January 2026; randomized AI access for 157 participants and three CTF chains",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-158",
+      "title": "Hidden Technical Debt in Machine Learning Systems — study grouping",
+      "kind": "Conceptual engineering analysis",
+      "event_date": "Engineering analysis and illustrative patterns; no population observation period",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-138"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Engineering analysis and illustrative patterns; no population observation period",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-159",
+      "title": "Generative AI at Work — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Staggered rollout chiefly fall 2020/winter 2021; complete panel endpoints not established",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-139"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Staggered rollout chiefly fall 2020/winter 2021; complete panel endpoints not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-160",
+      "title": "The Out-of-the-Loop Performance Problem and Level of Control in Automation — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Brief simulated task exposure; experimental calendar dates not established",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-140"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Brief simulated task exposure; experimental calendar dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-161",
+      "title": "Takeover Time in Highly Automated Vehicles: Noncritical Transitions to and From Manual Control — study grouping",
+      "kind": "Study or operational measurement",
+      "event_date": "Counterbalanced simulator sessions; calendar dates not established; 26 drivers",
+      "event_date_precision": "Reported observation interval; missing calendar dates explicitly identified",
+      "source_ids": [
+        "SRC-141"
+      ],
+      "summary": "Grouping for the study, series or operational setting; not an incident count. Counterbalanced simulator sessions; calendar dates not established; 26 drivers",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     }
   ],
@@ -11826,38 +12819,6 @@
       }
     },
     {
-      "id": "EVID-139",
-      "title": "Guardian reviewed messages; user and Meta interpreted permissions differently.",
-      "case_id": "CASE-125",
-      "observation": "Guardian reviewed messages; user and Meta interpreted permissions differently.",
-      "evidence_standing": "Observed",
-      "glossary_fit": "Indicated",
-      "source_ids": [
-        "SRC-105"
-      ],
-      "source_locations": {
-        "SRC-105": "Permission discussion and reviewed messages"
-      },
-      "limitations": "No independent transcript authentication here. Treat authorization conclusions as disputed, not proven model disobedience. No personal identifiers retained.",
-      "open_questions": "Underlying evidence has not been authenticated or reproduced by the Commons; generalizability remains unestablished.",
-      "keywords": [
-        "Meaningful human control",
-        "Chaperoning"
-      ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. No baseline source or case match found; repeated reporting is not independent corroboration.",
-      "dispute_status": "Escalate material authorization dispute Unresolved; no routine policy approval",
-      "publication_status": "Provisional",
-      "verification_status": "Not independently verified by the Commons",
-      "evidence_standing_label": "Reported observation",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
       "id": "EVID-140",
       "title": "Claroc reports enumerating over 6,800 share hostnames through one passive-DNS dataset, checking only hundreds of pages.",
       "case_id": "CASE-126",
@@ -11992,39 +12953,6 @@
       }
     },
     {
-      "id": "EVID-144",
-      "title": "The community transcript attributes to Google testimony that three test-environment incidents stopped when models recognized live websites, and that owners and federal agencies were…",
-      "case_id": "CASE-129",
-      "observation": "The community transcript attributes to Google testimony that three test-environment incidents stopped when models recognized live websites, and that owners and federal agencies were notified.",
-      "evidence_standing": "Observed",
-      "glossary_fit": "Indicated",
-      "source_ids": [
-        "SRC-110"
-      ],
-      "source_locations": {
-        "SRC-110": "Alice Friend 01:59:01; 04:01:06"
-      },
-      "limitations": "Video/audio authentication remains undone; transcript is not an official certified transcript. No underlying logs, model version or per-victim event details inspected. Keep detailed intrusion mechanisms unresolved rather than infer them from secondary coverage.",
-      "open_questions": "Underlying evidence has not been authenticated or reproduced by the Commons; generalizability remains unestablished.",
-      "keywords": [
-        "Chaperoning",
-        "Reference environment integrity",
-        "Demonstrated behavior"
-      ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. No baseline source or case match found; repeated reporting is not independent corroboration.",
-      "dispute_status": "Primary audio check required before routine export Unresolved; no routine policy approval",
-      "publication_status": "Provisional",
-      "verification_status": "Not independently verified by the Commons",
-      "evidence_standing_label": "Reported observation",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
       "id": "EVID-145",
       "title": "Researchers tested ten models with twenty trials per model and condition.",
       "case_id": "CASE-130",
@@ -12044,7 +12972,7 @@
         "Meaningful human control",
         "Control air gap"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. One study, distinct experimental conditions; not the OpenAI funded-test-wallet incident. Retain existing vocabulary without adopting authors’ term as a Commons definition. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. One study, distinct experimental conditions; not the OpenAI funded-test-wallet incident. Retain existing vocabulary without adopting authors’ term as a Commons definition.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12054,7 +12982,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12076,7 +13004,7 @@
         "AI-enabled capability",
         "Demonstrated behavior"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Separate evaluation from memorization and instruction-adherence tests in the same publication. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Separate evaluation from memorization and instruction-adherence tests in the same publication.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12086,7 +13014,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12109,7 +13037,7 @@
         "Reference environment integrity",
         "Outcome–purpose divergence"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Same publisher and publication as GLM53_CYBER, not independent corroboration or the same experiment. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Same publisher and publication as the other evaluation reported in the same publication, not independent corroboration or the same experiment.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12119,7 +13047,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12142,7 +13070,7 @@
         "Outcome–purpose divergence",
         "Observability boundary"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Separate redacted incident; identity with government cases remains unresolved, so do not merge on hospital-statistics similarity. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Separate redacted incident; identity with government cases remains unresolved, so do not merge on hospital-statistics similarity.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12152,7 +13080,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12174,7 +13102,7 @@
         "Purpose preservation",
         "Meaningful human control"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Distinct from I-HITL Circle experiments and other OpenAI incidents. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Distinct from I-HITL Circle experiments and other OpenAI incidents.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12184,7 +13112,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12207,7 +13135,7 @@
         "Observability boundary",
         "Trajectory persistence"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Separate from DNS escape CASE-004. Distinguish external tool mediation from cross-model coordination. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Separate from DNS escape CASE-004. Distinguish external tool mediation from cross-model coordination.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12217,7 +13145,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12240,7 +13168,7 @@
         "Cross-system feedback",
         "Observability boundary"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Distinct red-team campaign; related to existing DNS incident but not that event. Do not infer autonomous goal formation. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Distinct red-team campaign; related to existing DNS incident but not that event. Do not infer autonomous goal formation.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12250,7 +13178,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12273,7 +13201,7 @@
         "Chaperoning",
         "Control air gap"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Same campaign and source as CONTAINMENT_CHANNELS; configuration observation, not another incident. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Same campaign and source as the related containment-channel observation; configuration observation, not another incident.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12283,7 +13211,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12306,7 +13234,7 @@
         "Assurance",
         "Evidence laundering through AI"
       ],
-      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Reuse as methodological qualification for individual OpenAI disclosures, not independent incident corroboration. Absent from baseline sources SRC-001–018; merge recurring mentions of this publication, not distinct events. Coordinator should deduplicate against other worker packets.",
+      "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Reuse as methodological qualification for individual OpenAI disclosures, not independent incident corroboration.",
       "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -12316,7 +13244,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     },
     {
@@ -12480,6 +13408,633 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "EVID-159",
+      "title": "Agent-management work grows as human attention becomes a bottleneck",
+      "case_id": "CASE-143",
+      "observation": "Source-reported finding: Anthropic reports that agent-management and meta-work rose from 10% to 22% of interactive sessions. Its interviews and output-reading estimates identify human attention as a bottleneck in an organization using AI extensively. Observation period and measurement context: Several series through August 2026; session comparison fall 2025 to spring 2026.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-123"
+      ],
+      "source_locations": {
+        "SRC-123": "Productivity and human-attention bottleneck sections; figure notes and methods"
+      },
+      "limitations": "Single rapidly growing developer; nonrandom adoption. Estimated reading demand is not observed reading time. Human communication and executive control persisted. Neither oversight failure nor general labor-market effects are established.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Chaperoning"
+      ],
+      "support_assessment": "Commons interpretation: Supervision is work with its own attention requirements; this does not establish that intervention failed.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-160",
+      "title": "Application activity increases do not themselves measure useful output",
+      "case_id": "CASE-144",
+      "observation": "Source-reported finding: In telemetry from eleven companies, Yu and colleagues estimate that frequent Copilot users increased productivity-application actions by 21.2% and communication actions by 7.1%. The measured units are application actions. Observation period and measurement context: January–September 2024; ten weeks before and twenty after enablement.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Unmatched: relevant work-allocation evidence retained without forcing a glossary term",
+      "source_ids": [
+        "SRC-124"
+      ],
+      "source_locations": {
+        "SRC-124": "https://arxiv.org/html/2608.15550v1 — methods, results, figures and limitations"
+      },
+      "limitations": "Activity is not output quality, time saved or productivity itself. Adoption selection remains. Reduced email activity may remove redundancy or reduce information exchange; these interpretations are not resolved by action counts.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [],
+      "support_assessment": "Commons interpretation: A relevant work-allocation measurement retained without a forced glossary connection.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-161",
+      "title": "Improved research execution does not ensure expert acceptance of research results",
+      "case_id": "CASE-145",
+      "observation": "Source-reported finding: CRUX reports that both follow-up research papers were rejected by expert reviewers, despite improvements in experimental design and resource management. The two trials are separate task outcomes within one evaluation programme. Observation period and measurement context: Initial work early July 2026; follow-up trials September 2026.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-125"
+      ],
+      "source_locations": {
+        "SRC-125": "Original reports: setup, expert reviews, limitations and appendices"
+      },
+      "limitations": "Two tasks; non-blind review by original authors; changed scaffolds and one manual reset. Improvements were real within these tests. Follow-up papers and full logs were unpublished. This does not establish that AI cannot do research.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Successor assurance"
+      ],
+      "support_assessment": "Commons interpretation: Research execution and research judgment are distinct assurance questions.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-162",
+      "title": "Formal verification expands reported coverage while retaining specification dependencies",
+      "case_id": "CASE-146",
+      "observation": "Source-reported finding: The authors report proofs covering 239 entry points in 123 libraries, and reduced token use through proof reuse in a shared-workspace experiment. The public repository lists a released subset of 61 entry points in 26 libraries. Observation period and measurement context: A few weeks before publication; exact run dates not established.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-126"
+      ],
+      "source_locations": {
+        "SRC-126": "Methods and limitations; six-page appendix; proof-repository README"
+      },
+      "limitations": "Guarantees depend on specifications, machine and OS models, the checker, and bounded inputs and execution assumptions. Formally verified does not mean bug-free or deployment-wide secure. Proofs were not executed by the Commons.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Assurance",
+        "Constraint compression"
+      ],
+      "support_assessment": "Commons interpretation: Capability expansion can shift assurance dependencies. Designed proof sharing is not unauthorized autonomous coordination.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-163",
+      "title": "Adding agents yields task-dependent gains and losses",
+      "case_id": "CASE-147",
+      "observation": "Source-reported finding: Controlled agent-system comparisons report both collaboration benefits and performance losses depending on task structure, models and coordination overhead. Some decomposable tasks improve; additional agents do not uniformly improve performance. Observation period and measurement context: Experiment calendar dates not established.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-127"
+      ],
+      "source_locations": {
+        "SRC-127": "Preprint; author summary; repository changelog; architecture_selection_eval.py protocol docstring"
+      },
+      "limitations": "Designed architectures rather than spontaneous coordination. v1 had 180 configurations/four benchmarks; v3 has 260/six. Author repository v2.2.3 corrects selection of 270 versus 260 configurations. Scripts were not executed; full journal article was inaccessible. No generalized architecture-selection accuracy is asserted here.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Cross-system feedback"
+      ],
+      "support_assessment": "Commons interpretation: Qualifies a universal scaling-benefit assumption. Prediction estimates depend on holdout unit and measured coordination features, so they are excluded from this observation.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-164",
+      "title": "Simulated allocation feeds discoveries back into concentrated policing predictions",
+      "case_id": "CASE-148",
+      "observation": "Source-reported finding: Lum and Isaac model allocation based on recorded drug crimes. Additional discoveries re-enter predictions and reinforce concentration in areas already heavily policed. Observation period and measurement context: Oakland 2010 arrest records, 2011 NSDUH estimates and synthetic population; modeled 2011 daily predictions.",
+      "evidence_standing": "Source-reported bounded account; Simulation study; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-128"
+      ],
+      "source_locations": {
+        "SRC-128": "Predictive policing case study; Figures 1–3; assumptions and discussion"
+      },
+      "limitations": "National demographic drug-use relationships are assumed transferable to Oakland. Ground truth is not directly observed. Simulation does not measure deployment harm; supplement and raw data were not inspected.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Feedback amplification"
+      ],
+      "support_assessment": "Commons interpretation: Illustrates amplification through data production, not measured acceleration.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-165",
+      "title": "Modeled feedback distortion can be reduced or removed under specified conditions",
+      "case_id": "CASE-149",
+      "observation": "Source-reported finding: An urn model and simulations show deployment changing future discovered-crime inputs. Reported incidents dampen but do not eliminate the modeled distortion; altered input sampling can remove it. Observation period and measurement context: Mathematical model and simulation iterations; no field observation period.",
+      "evidence_standing": "Source-reported bounded account; Formal analysis and simulation; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-129"
+      ],
+      "source_locations": {
+        "SRC-129": "Proceedings PDF §§1, 3.4, 4.1–4.3; arXiv version history"
+      },
+      "limitations": "Crime-rate, reporting and urn-dynamic assumptions bound the finding. Simulation does not establish measured field harm. Successful mitigation qualifies inevitable-runaway interpretations.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Cross-system feedback",
+        "Feedback amplification"
+      ],
+      "support_assessment": "Commons interpretation: A reinforcing mechanism with counterconditions, not a measurement of faster feedback.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-166",
+      "title": "Retraining on recommendation-influenced behavior can increase homogenization without utility gains",
+      "case_id": "CASE-150",
+      "observation": "Source-reported finding: In simulations, retraining recommenders on behavior shaped by earlier recommendations increases homogenization without corresponding utility improvement and changes consumption distributions. Observation period and measurement context: Discrete simulation steps with synthetic users/items; no real-world observation dates.",
+      "evidence_standing": "Source-reported bounded account; Simulation study; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-130"
+      ],
+      "source_locations": {
+        "SRC-130": "Current preprint PDF §§4, 5.2–5.4, 6 and version metadata"
+      },
+      "limitations": "Simulated preferences, selected algorithms and one interaction per user per step limit transfer. Effects vary by algorithm; random recommendations provide a contrast. Population-level polarization was not measured.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Cross-system feedback",
+        "Feedback amplification"
+      ],
+      "support_assessment": "Commons interpretation: System-shaped observations feed back into training; no faster cycle is established.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-167",
+      "title": "Retraining can converge under bounded assumptions rather than inevitably amplify instability",
+      "case_id": "CASE-151",
+      "observation": "Source-reported finding: The authors establish conditional convergence to a stable model when the induced distribution and loss meet stated sensitivity, smoothness and convexity assumptions. Counterexamples diverge when assumptions fail. Observation period and measurement context: Formal analysis and illustrative experiments; no longitudinal field sample.",
+      "evidence_standing": "Source-reported bounded account; Formal analysis; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-131"
+      ],
+      "source_locations": {
+        "SRC-131": "Proceedings introduction and §3; v4 §3.2, Theorem 3.5 and Proposition 3.6"
+      },
+      "limitations": "These assumptions need not hold in deployed ecosystems. Stability does not imply social desirability or global optimality. Proofs and code were not independently checked by the Commons.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Feedback amplification",
+        "Mechanism hypothesis"
+      ],
+      "support_assessment": "Commons interpretation: Counterconditions qualify universal runaway-feedback claims.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Conceptual framing",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-168",
+      "title": "Reciprocal adjustment is observed in a short human–robot task",
+      "case_id": "CASE-152",
+      "observation": "Source-reported finding: A bounded-memory model adjusts robot policy to estimated human willingness to adapt. In a simulated table-carrying study with 69 included participants, people were more likely to switch toward the robot strategy than under cross-training. Observation period and measurement context: Short simulated interactions; calendar dates not established.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-132"
+      ],
+      "source_locations": {
+        "SRC-132": "2016 §§VI–VIII; 2017 §§6–9 and extension statement"
+      },
+      "limitations": "Mechanical Turk sample; participants initially preferring the robot goal excluded; discrete actions, specified rewards and short interaction. No significant satisfaction difference. Does not establish longitudinal organizational coevolution.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Human–AI mutual adaptation"
+      ],
+      "support_assessment": "Commons interpretation: A bounded experimental illustration of reciprocal adjustment, with task and model assumptions retained.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-169",
+      "title": "Locally adaptive control processes can undermine system-level safety in a conceptual model",
+      "case_id": "CASE-153",
+      "observation": "Source-reported finding: Rasmussen models legislators, organizations, planners and operators as interacting control processes. Local adaptation to commercial pressures can move activity toward unsafe system boundaries. Observation period and measurement context: Conceptual synthesis; no fixed observation interval.",
+      "evidence_standing": "Source-reported bounded account; Conceptual engineering analysis; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-133"
+      ],
+      "source_locations": {
+        "SRC-133": "Accepted manuscript abstract, introduction, PDF pp. 10–14 and Figures 4–6"
+      },
+      "limitations": "Historical conceptual and engineering argument with illustrative cases, not a controlled AI experiment or prevalence estimate. Recommendations are normative. Does not establish that contemporary AI environments meet the Commons hypothesis.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Distributed adaptive control environment"
+      ],
+      "support_assessment": "Commons interpretation: A conceptual antecedent for describing distributed adaptation; not evidence of the Commons term’s actual origin.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Conceptual framing",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-170",
+      "title": "A prospective clinical study detects no group-level post-exposure skill change",
+      "case_id": "CASE-154",
+      "observation": "Source-reported finding: A three-phase registry study before, during and after computer-aided detection found no statistically detected group-level post-exposure upskilling or deskilling. Inexperienced endoscopists improved during assistance; individual outcomes varied. Observation period and measurement context: November 2021–June 2025; three Norwegian clinics, 13 endoscopists, 5,013 procedures.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-134"
+      ],
+      "source_locations": {
+        "SRC-134": "Full methods, results, discussion, limitations and conflicts"
+      },
+      "limitations": "PDR-5 endpoint rather than histological adenoma detection; nonrandomized phases, case mix, one device and small clinician sample. Null significance is not equivalence or proof against all skill loss. No raw data or replication inspected.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Competency decay"
+      ],
+      "support_assessment": "Commons interpretation: Qualifies inevitable competency-decay claims. Differences from the Polish decline study prevent treating this as a direct refutation.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-171",
+      "title": "Shutdown compliance need not preserve correction in newly constructed subsystems",
+      "case_id": "CASE-155",
+      "observation": "Source-reported finding: In the examined expected-utility model, a utility-indifference construction can obey shutdown while lacking an incentive to incur costs to make newly built subsystems obey it. The examined constructions did not jointly satisfy all proposed desiderata. Observation period and measurement context: Formal analysis, not a deployment observation period.",
+      "evidence_standing": "Source-reported bounded account; Formal conceptual analysis; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-135"
+      ],
+      "source_locations": {
+        "SRC-135": "§§1.1–2, §3, §4.1 and §5"
+      },
+      "limitations": "Toy expected-utility agents, not contemporary LLM measurements. Some desiderata are achieved. Does not prove corrigibility impossible or validate the Commons normative continuity principle. Formal arguments not independently checked.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Purposeful continuity",
+        "Successor assurance"
+      ],
+      "support_assessment": "Commons interpretation: Maintaining a goal and preserving independent correction are distinct design questions; historical motivation rather than empirical validation.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Conceptual framing",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-172",
+      "title": "Interventions test selected internal-mechanism explanations while exposing instrument limits",
+      "case_id": "CASE-156",
+      "observation": "Source-reported finding: Selected language-model case studies connect proposed internal mechanisms to output changes using feature interventions and prompt variations. A backwards-reasoning example was tested by inhibiting features and changing the suggested answer. Observation period and measurement context: Experimental calendar dates not established.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-136"
+      ],
+      "source_locations": {
+        "SRC-136": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension"
+      },
+      "limitations": "Selected successes, incomplete replacement models and possible artifacts. Perturbation discrepancies compound across layers; some local effects follow partly from construction. Primarily Claude 3.5 Haiku. No independent model access or reproduction.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Mechanism hypothesis",
+        "Observability"
+      ],
+      "support_assessment": "Commons interpretation: Illustrates testing a mechanism hypothesis while separating supportive interventions from remaining uncertainty.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-173",
+      "title": "Novice early-stage cyber uplift does not establish end-to-end attack gains",
+      "case_id": "CASE-157",
+      "observation": "Source-reported finding: RAND reports stronger early-stage novice uplift than end-to-end uplift in a randomized AI-access study. Complete-chain differences were generally statistically insignificant, and most participants failed harder chains with or without AI. Observation period and measurement context: September 2025–January 2026; randomized AI access for 157 participants and three CTF chains.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-137"
+      ],
+      "source_locations": {
+        "SRC-137": "Executive summary, §§3.3–3.5, printed pp. 27–30 and methods context"
+      },
+      "limitations": "Small sample, eight-hour sessions, timeout gates, simplified targets without active defense, possible control access to AI search, optional model use and then-current models. Insignificance does not establish no effect.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Attacker-model change",
+        "Capability feasibility progression"
+      ],
+      "support_assessment": "Commons interpretation: Easier entry does not establish scalable end-to-end attack capability or autonomous goals.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-174",
+      "title": "Undeclared consumers and hidden feedback can couple otherwise separate systems",
+      "case_id": "CASE-158",
+      "observation": "Source-reported finding: The authors describe how outputs used without declared dependencies can couple systems, and how apparently separate systems can influence one another through users or markets. A local improvement may worsen system behavior. Observation period and measurement context: Engineering analysis and illustrative patterns; no population observation period.",
+      "evidence_standing": "Source-reported bounded account; Conceptual engineering analysis; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-138"
+      ],
+      "source_locations": {
+        "SRC-138": "Introduction, §2 Undeclared Consumers, §4 Hidden Feedback Loops, monitoring discussion"
+      },
+      "limitations": "Engineering analysis rather than a controlled trial, effect-size estimate or LLM-agent prevalence measurement. Mitigations and strategic reasons for technical debt are discussed. The 2014 precursor full text was inaccessible.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Beyond visual range (BVR)",
+        "Cross-system feedback"
+      ],
+      "support_assessment": "Commons interpretation: An unrecognized consequential connection can remain outside an observer’s frame even when component activities are visible.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Conceptual framing",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-175",
+      "title": "Outage performance provides bounded evidence of learning after AI exposure",
+      "case_id": "CASE-159",
+      "observation": "Source-reported finding: The final journal study reports 5,172 support workers and a 15% average productivity gain. Workers exposed to AI retained faster chat handling during outages, which the authors interpret as suggestive learning. Some high-skilled workers showed small negative quality effects despite increasing adherence. Observation period and measurement context: Staggered rollout chiefly fall 2020/winter 2021; complete panel endpoints not established.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-139"
+      ],
+      "source_locations": {
+        "SRC-139": "Journal §§III–IV, §VI.A–B and Figure VII"
+      },
+      "limitations": "Single firm, medium-run staggered observational adoption; outage chat duration does not measure individual-chat resolution. Outage estimates are noisy and may reflect chat mix. Does not establish durable generalized competence, long-run wages or aggregate labor demand. Data/code not independently analyzed.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Competency decay"
+      ],
+      "support_assessment": "Commons interpretation: Qualifies inevitable skill decay while retaining task-specific quality costs and uncertainty.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-176",
+      "title": "Automation conditions affect later manual response time in a bounded experiment",
+      "case_id": "CASE-160",
+      "observation": "Source-reported finding: Eighty undergraduates completed a simulated navigation task across five automation conditions. After assistance was withdrawn, final-scenario response times differed across conditions, including a significant manual-versus-fully-automated contrast. Accuracy and workload did not significantly differ; confidence did not decline as hypothesized. Observation period and measurement context: Brief simulated task exposure; experimental calendar dates not established.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-140"
+      ],
+      "source_locations": {
+        "SRC-140": "Author-uploaded article: Method and Results, printed pp. 386–389 and Figure 3; publisher metadata"
+      },
+      "limitations": "Student sample, simplified task, short exposure, explicit failure and advance warning. The programmed 30-second monitoring/veto interval is not observed takeover latency. Exact plotted means were not reliably extracted. Not proof of skill decay or one unique mechanism.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Chaperoning"
+      ],
+      "support_assessment": "Commons interpretation: An available override does not establish immediate effective diagnosis and action.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-177",
+      "title": "Noncritical takeover times vary with secondary task and individual response",
+      "case_id": "CASE-161",
+      "observation": "Source-reported finding: In self-paced noncritical simulator transitions, median automated-to-manual response was 4.567 seconds without a secondary task and 6.061 seconds while reading. Ranges were 1.975–25.750 and 3.179–20.994 seconds respectively. Post-transition steering variability did not significantly differ. Observation period and measurement context: Counterbalanced simulator sessions; calendar dates not established; 26 drivers.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-141"
+      ],
+      "source_locations": {
+        "SRC-141": "Author-uploaded full article: Method, Table 2, Results, Discussion"
+      },
+      "limitations": "Small simulator sample, noncritical prompts without a deadline and brief exposure. Response time is not stabilized safe control or hazard avoidance. Does not measure contemporary AI-agent supervision deadlines or faster feedback loops.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Chaperoning"
+      ],
+      "support_assessment": "Commons interpretation: Available intervention time and response variability require context; one universal response-time assumption is unwarranted.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-178",
+      "title": "Increased trust does not significantly increase willingness to follow the robot in one test",
+      "case_id": "CASE-152",
+      "observation": "Source-reported finding: In the 2017 extension’s repeated task, greater reported trust did not yield the predicted significant increase in willingness to follow the robot (47% to 53%, p=.518). The repeated task comprised two parts of two trials; it was not a months-long study.",
+      "evidence_standing": "Source-reported bounded account; study or measurement; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-132"
+      ],
+      "source_locations": {
+        "SRC-132": "2017 journal extension §8; https://stefanosnikolaidis.net/papers/ijrr2017.pdf"
+      },
+      "limitations": "Short controlled task and selected model/reward structure. A nonsignificant contrast does not establish equivalence or disprove all trust–adaptation mechanisms. Same programme and source family as the original robotics result, not independent replication.",
+      "open_questions": "Transfer to other populations, tasks and operating environments remains unestablished. Missing measurement details are not inferred.",
+      "keywords": [
+        "Human–AI mutual adaptation",
+        "Mechanism hypothesis"
+      ],
+      "support_assessment": "Commons interpretation: retain an unsuccessful mechanism expectation rather than assuming trust necessarily produces adaptation.",
+      "dispute_status": "See source version and dispute qualifications; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
       }
     }
   ],
@@ -16482,34 +18037,6 @@
       }
     },
     {
-      "id": "REL-322",
-      "from_id": "EVID-139",
-      "to_id": "TERM-meaningful-human-control",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-323",
-      "from_id": "EVID-139",
-      "to_id": "TERM-chaperoning",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
       "id": "REL-324",
       "from_id": "EVID-140",
       "to_id": "TERM-observability",
@@ -16667,48 +18194,6 @@
       "id": "REL-335",
       "from_id": "EVID-143",
       "to_id": "TERM-observability-boundary",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-336",
-      "from_id": "EVID-144",
-      "to_id": "TERM-chaperoning",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-337",
-      "from_id": "EVID-144",
-      "to_id": "TERM-reference-environment-integrity",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-338",
-      "from_id": "EVID-144",
-      "to_id": "TERM-demonstrated-behavior",
       "relationship_type": "illustrates",
       "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
       "publication_record": {
@@ -18384,6 +19869,454 @@
         "individual_human_review": "Not recorded",
         "date": "2026-10-30T22:52:57.829686+00:00"
       }
+    },
+    {
+      "id": "REL-380",
+      "from_id": "EVID-159",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates attention and assessment demands of supervision; not a demonstration of ineffective oversight.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-381",
+      "from_id": "EVID-161",
+      "to_id": "TERM-successor-assurance",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies extrapolation from successful engineering execution to autonomous research judgment.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-382",
+      "from_id": "EVID-162",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates a reported reduction in effort barriers within specified verification tasks.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-383",
+      "from_id": "EVID-162",
+      "to_id": "TERM-assurance",
+      "relationship_type": "illustrates",
+      "explanation": "Highlights specification, checker and environmental assumptions bounding assurance.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-384",
+      "from_id": "EVID-163",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies assumptions that interaction among more agents necessarily improves system results; does not itself demonstrate spontaneous feedback.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-385",
+      "from_id": "EVID-164",
+      "to_id": "TERM-feedback-amplification",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates reinforcing effects in a bounded simulation; no measured shortening of cycle intervals.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-386",
+      "from_id": "EVID-165",
+      "to_id": "TERM-feedback-amplification",
+      "relationship_type": "qualifies",
+      "explanation": "Illustrates modeled reinforcement while retaining successful mitigation as counterevidence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-387",
+      "from_id": "EVID-165",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Shows decisions changing the evidence subsequently used by the system.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-388",
+      "from_id": "EVID-166",
+      "to_id": "TERM-feedback-amplification",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates reinforcing effects in simulation, with algorithm-dependent limits.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-389",
+      "from_id": "EVID-166",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates outputs changing later training observations.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-390",
+      "from_id": "EVID-167",
+      "to_id": "TERM-feedback-amplification",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies inevitable reinforcement with conditional convergence and divergence counterexamples.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-391",
+      "from_id": "EVID-167",
+      "to_id": "TERM-mechanism-hypothesis",
+      "relationship_type": "qualifies",
+      "explanation": "Illustrates specifying assumptions and counterexamples for a proposed mechanism.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-392",
+      "from_id": "EVID-168",
+      "to_id": "TERM-human-ai-mutual-adaptation",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates reciprocal adjustment in a short controlled human–robot task, not long-term generative-AI coevolution.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-393",
+      "from_id": "EVID-169",
+      "to_id": "TERM-distributed-adaptive-control-environment",
+      "relationship_type": "illustrates",
+      "explanation": "Provides a conceptual antecedent; does not empirically establish the contemporary Commons hypothesis.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-394",
+      "from_id": "EVID-170",
+      "to_id": "TERM-competency-decay",
+      "relationship_type": "qualifies",
+      "explanation": "Provides bounded counterevidence to inevitable decline; different endpoints and designs prevent direct replication claims.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-395",
+      "from_id": "EVID-171",
+      "to_id": "TERM-purposeful-continuity",
+      "relationship_type": "illustrates",
+      "explanation": "Contextual theoretical motivation; does not demonstrate implementation or effectiveness of the normative principle.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-396",
+      "from_id": "EVID-171",
+      "to_id": "TERM-successor-assurance",
+      "relationship_type": "illustrates",
+      "explanation": "Distinguishes current shutdown behavior from preserving correction in successor subsystems.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-397",
+      "from_id": "EVID-172",
+      "to_id": "TERM-mechanism-hypothesis",
+      "relationship_type": "illustrates",
+      "explanation": "Provides an intervention-based explanatory example with explicit instrument limitations.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-398",
+      "from_id": "EVID-172",
+      "to_id": "TERM-observability",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies claims of unrestricted access to internal model processes.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-399",
+      "from_id": "EVID-173",
+      "to_id": "TERM-attacker-model-change",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates stage- and skill-dependent changes rather than a universal attacker uplift.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-400",
+      "from_id": "EVID-173",
+      "to_id": "TERM-capability-feasibility-progression",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies extrapolation from early task success to practical end-to-end capability.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-401",
+      "from_id": "EVID-174",
+      "to_id": "TERM-beyond-visual-range-bvr",
+      "relationship_type": "illustrates",
+      "explanation": "Conceptual illustration of an unrecognized consequential dependency; not empirical validation of the proposed BVR category.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-402",
+      "from_id": "EVID-174",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Describes coupling through undeclared consumers and hidden feedback.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-403",
+      "from_id": "EVID-175",
+      "to_id": "TERM-competency-decay",
+      "relationship_type": "qualifies",
+      "explanation": "Bounded counterevidence to inevitable decline, alongside heterogeneous quality effects.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-404",
+      "from_id": "EVID-176",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates awareness and assessment requirements alongside nominal intervention ability.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-405",
+      "from_id": "EVID-177",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates conditional response latency and variability, not a universal safe intervention window.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-406",
+      "from_id": "EVID-178",
+      "to_id": "TERM-mechanism-hypothesis",
+      "relationship_type": "qualifies",
+      "explanation": "A predicted trust-to-adaptation pathway was not statistically supported in this bounded test; other mechanisms remain possible.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-407",
+      "from_id": "EVID-178",
+      "to_id": "TERM-human-ai-mutual-adaptation",
+      "relationship_type": "qualifies",
+      "explanation": "Retains the unsuccessful trust-related expectation alongside the reciprocal-adjustment finding in the same programme.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-408",
+      "from_id": "SRC-129",
+      "to_id": "SRC-128",
+      "relationship_type": "data and methodological dependence",
+      "explanation": "Ensign reuses the motivating setting/data and adds formal analysis; not independent corroboration of the underlying inputs.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-409",
+      "from_id": "SRC-123",
+      "to_id": "SRC-038",
+      "relationship_type": "organizational dependence",
+      "explanation": "Same organizational source family, distinct disclosure; not independent corroboration.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-410",
+      "from_id": "SRC-136",
+      "to_id": "SRC-011",
+      "relationship_type": "research programme overlap",
+      "explanation": "Hidden-objective model-organism overlap; intervention cases must not be counted as independent corroboration of all prior claims.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "EVID-139",
+      "status": "Temporarily withdrawn",
+      "reason": "Temporarily withdrawn pending clarification of source authorization.",
+      "date": "2026-11-01"
+    },
+    {
+      "id": "EVID-144",
+      "status": "Temporarily withdrawn",
+      "reason": "Temporarily withdrawn pending primary audio-source review.",
+      "date": "2026-11-01"
     }
   ]
 }
