@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-035",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-035.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-035",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-035",
+    "title": "Tracebit reports 773 assessments across seven models.",
+    "case_id": "CASE-030",
+    "observation": "Tracebit reports 773 assessments across seven models. In the GLM staged-encryption comparison, mean time to first objective rose from 4.0 to 31.2 minutes, while all 10 runs succeeded in each condition.",
+    "evidence_standing": "Observed",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-029"
+    ],
+    "source_locations": {
+      "SRC-029": "Longer to the first objective; How we ran the tests; What the tests show"
+    },
+    "limitations": "One controlled AWS environment, roughly 10 runs per model/scenario and two-hour limit. Time-to-first-objective averages condition on success; provider blocks, refusals and technical failures excluded. Results show delay can coexist with eventual success, not measured human intervention success.",
+    "open_questions": "Generalization outside inspected settings and completeness/authenticity of underlying traces remain unestablished by the Commons.",
+    "keywords": [
+      "Horizon compression",
+      "Chaperoning"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. This is bounded counterevidence to inevitable compression of every available response window. Vendor study, no independent replication; full whitepaper email-gated and not obtained. No matching source or underlying case found among baseline v0.4.1 SRC-001–018 / CASE-001–017; recurring report mentions merge into this candidate, not corroboration.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-030",
+    "title": "Controlled deception lengthened one attack window without preventing success",
+    "kind": "Controlled AWS benchmark",
+    "event_date": "Experiment dates not separately established; reportOctober2026",
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-029"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-029",
+      "title": "Making attacking agents pay with Context Bombs",
+      "publisher": "Tracebit Research",
+      "issuing_body": "Tracebit Research",
+      "authors": [
+        "Tracebit Research"
+      ],
+      "url": "https://agentic.tracebit.com/factory",
+      "publication_date": "2026-10 (day not stated in inspected original)",
+      "access_date": "2026-10-30",
+      "locator": "Longer to the first objective; How we ran the tests; What the tests show",
+      "source_kind": "Primary research or technical disclosure",
+      "independence_group": "TRACEBIT_FACTORY",
+      "version_note": "Public original report inspected. Full whitepaper requires email request; not retrieved or requested.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Longer to the first objective; How we ran the tests; What the tests show",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Bounded correction checks only; no absence guarantee",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only; no source copy preserved or redistributed. Public accessibility alone was not treated as permission.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-horizon-compression",
+      "name": "Horizon compression",
+      "definition": "A process in which the time available to identify, interpret, decide about, and intervene in consequential activity becomes shorter relative to the time intervention requires. It is an intervention-window problem, not a general label for every obstacle to correcting an agent.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#horizon-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-083",
+      "from_id": "EVID-035",
+      "to_id": "TERM-horizon-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-084",
+      "from_id": "EVID-035",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

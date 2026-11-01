@@ -1,0 +1,19 @@
+# Machine-access contract 1.0 — release 0.5.0
+
+This is a static file collection, not a live query API. HTTPS GET requests require no account or token. Directory paths and filename case are significant. Existing human record anchors and the public evidence.json are retained. The complete existing dataset has format_version 1.0; the new envelope has contract_version 1.0. Dataset, presentation, contract and machine-release versions have different purposes.
+
+Start at catalog.json. It links the full public dataset, its JSON Schema, record/source navigation indexes, bundle schemas, metadata, fields, rights and exports. The new schemas use JSON Schema Draft 2020-12. Required structure is validated separately from evidence truth. Schema identifiers are versioned; a shape change requires a new declared contract/schema, not a silent reinterpretation of existing fields.
+
+records/EVID-NNN.json contains a finding plus its case/grouping, cited sources, source-dependency context, term contexts and explanatory relationships. Other evidence referenced by an edge is retrieved separately through its stable bundle URL. sources/SRC-NNN.json contains the full published source record, source-dependency edges and ID/URL references to findings; it does not reproduce claim-only summaries.
+
+Navigation indexes list identifiers, statuses and URLs. They are discovery aids, not standalone evidence. A withdrawal uses the same stable record path, HTTP 200 and an explicit temporarily_withdrawn status. Its evidence/case are null and associated content arrays are empty. Never treat a successful HTTP response as publication approval. Unknown IDs return the host’s normal missing-file response.
+
+Canonical evidence objects and the source dataset remain unchanged. Missing/qualified dates retain their original precision. Do not infer ISO dates, time series, licenses, independent verification or human approval. Evidence source_ids identify direct citations; the bundle sources array may additionally include dependency endpoints, which are not extra direct support. Source/term url fields retain their original citation semantics; envelope url is the Commons machine URL, and human_url is the website locator.
+
+For repeated research, retrieve the aggregate once and work locally. For targeted use, retrieve the catalog and the specific bundle. Cache downloaded bytes and compare dataset_version and dataset_sha256 before refetching large files. Respect host 429 responses and back off. No particular request rate, uptime, authentication service or server-side search is promised. Avoid repeated bulk polling; machine access shares the GitHub Pages hosting allowance with human readers.
+
+checksums.json lists byte-level SHA-256 values for the generated machine files, evidence.json and glossary.json, excluding the checksum document itself. A hash verifies consistency of held bytes, not source authenticity or factual correctness. The manifest is not a signed trust anchor. Files can be cached separately during deployment: if hashes or versions disagree, retry later rather than mixing releases.
+
+Historical evidence changes and dates are not fabricated. This release establishes the machine-access baseline only. Dated immutable snapshots, full record-level history and correction feeds are a separately staged second phase. Existing versioned private checkpoints and Git history remain the recovery record. No automatic inference of a record’s original creation or last revision date is added.
+
+CSV evidence rows retain full findings and limits; nested context uses JSON cells. Withdrawal rows contain notices with no held claims. Formula-like leading characters are prefixed with an apostrophe for spreadsheet safety. The JSON views retain exact strings. Bibliography exports use general-source types, recorded author strings, and a publication year only when established; version/date uncertainty is retained in notes.

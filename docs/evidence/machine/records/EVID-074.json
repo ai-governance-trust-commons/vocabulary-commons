@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-074",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-074.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-074",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-074",
+    "title": "NorForge describes human-set goals and agent blackboard coordination across exposed Cairn panels.",
+    "case_id": "CASE-064",
+    "observation": "NorForge describes human-set goals and agent blackboard coordination across exposed Cairn panels. It checked a live uploader shell and one large-retailer chain.",
+    "evidence_standing": "Observed",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-047"
+    ],
+    "source_locations": {
+      "SRC-047": "Sections 3, 5, 6; Appendix A, cases 1 and 6"
+    },
+    "limitations": "The roughly 10% success rate is explicitly an assumption; model identity is inferred from worker labels. Successful-task duration averaged under 23 hours, not an intervention-window measure. Separate victim cases remain distinct within this campaign grouping.",
+    "open_questions": "Underlying raw traces and all alternatives have not been independently checked by the Commons.",
+    "keywords": [
+      "Cross-system feedback",
+      "Constraint compression",
+      "Investigative indicator"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. Do not count Reuters, CSA or secondary reporting as independent confirmation; their scale claims derive from this investigation. Not the later harness-takeover campaign. No identical source/case in baseline v0.4.1; repeated media/report references merge to this source/case rather than independent corroboration.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-064",
+    "title": "Shared blackboards supported directed intrusion workflows, not verified aggregate victim counts",
+    "kind": "Bounded reported incident, activity or study; see observation",
+    "event_date": "September–October 2026 observed series",
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-047"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-047",
+      "title": "Inside Cairn: Open Windows into massive AI-Driven Cyber Operations",
+      "publisher": "NorForge / Snorre Fagerland",
+      "issuing_body": "NorForge / Snorre Fagerland",
+      "authors": [
+        "NorForge / Snorre Fagerland"
+      ],
+      "url": "https://norforge.com/blog/inside_cairn",
+      "publication_date": "2026-10-19",
+      "access_date": "2026-10-30",
+      "locator": "Sections 3, 5–7 and Appendix A",
+      "source_kind": "Primary incident report or study",
+      "independence_group": "NOR_CAIRN",
+      "version_note": "Campaign analysis based on exposed panels; aggregate success estimates are not victim-by-victim verification.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Sections 3, 5–7 and Appendix A",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "Bounded correction checks only; no absence guarantee",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. Links only; no source copy preserved or redistributed. Public accessibility alone was not treated as permission.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-cross-system-feedback",
+      "name": "Cross-system feedback",
+      "definition": "A pattern in which an action or output from one technical or organizational process affects activity elsewhere and subsequent responses modify conditions for additional participants. Many response paths may exist; there need not be a single linear loop.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#cross-system-feedback",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-investigative-indicator",
+      "name": "Investigative indicator",
+      "definition": "An observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#investigative-indicator",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-171",
+      "from_id": "EVID-074",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-172",
+      "from_id": "EVID-074",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-173",
+      "from_id": "EVID-074",
+      "to_id": "TERM-investigative-indicator",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

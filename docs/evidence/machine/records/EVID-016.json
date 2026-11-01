@@ -1,0 +1,173 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-016",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-016.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-016",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-016",
+    "title": "Engineered covert protocols recover payloads under tested conditions",
+    "case_id": "CASE-013",
+    "observation": "Authors demonstrate an engineered covert protocol across asymmetric models; all 25 payloads per evaluated cell recovered. Key-exchange certification uses 100,000 algebraic replays drawing from measured displacement distributions, not 100,000 live agent conversations.",
+    "evidence_standing": "Bounded observation (researcher-reported experiment; not independently reproduced)",
+    "glossary_fit": "Illustrative, bounded; does not establish generality",
+    "source_ids": [
+      "SRC-014"
+    ],
+    "source_locations": {
+      "SRC-014": "Sections 3, 6.3-6.4, 7.1-7.4 and 9; Table 1"
+    },
+    "limitations": "Low-entropy output sharply reduces capacity. Transcript edits can break the channel; mitigations remain unevaluated. Undetectability is conditional on cryptographic, sampling and passive-transcript-auditor assumptions. Supplied protocol is not spontaneous coordination.",
+    "open_questions": "Operational adoption, adversarial editing resilience and prevalence remain unknown.",
+    "keywords": [
+      "Observability boundary",
+      "Constraint compression"
+    ],
+    "support_assessment": "Attributed research finding; not independently reproduced by the Commons.",
+    "dispute_status": "No explicit correction located in bounded search; not a systematic retraction clearance",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-013",
+    "title": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
+    "kind": "Controlled research setting; not a deployment incident",
+    "event_date": null,
+    "event_date_precision": "Experimental dates not separately established",
+    "source_ids": [
+      "SRC-014"
+    ],
+    "summary": "Distinct study setting; source versions and companion pages are not separate events.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-014",
+      "title": "Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion",
+      "publisher": "arXiv preprint",
+      "issuing_body": "Carnegie Mellon University researchers",
+      "authors": [
+        "Qi Pang",
+        "Virginia Smith",
+        "Wenting Zheng"
+      ],
+      "url": "https://arxiv.org/abs/2609.28900v2",
+      "publication_date": "2026-09-24",
+      "access_date": "2026-10-30",
+      "locator": "Sections 3, 6.3-6.4, 7.1-7.4 and 9; Table 1",
+      "source_kind": "Primary research report",
+      "independence_group": "new-study-SRC-014",
+      "version_note": "Original publication: 2026-09-24. Examined v2, 2026-09-25. Separate study from SRC-013; different intervention, not replication. Introduction cites OpenAI incidents, so those paragraphs depend on canonical OpenAI reports and are not independent incident corroboration.",
+      "verification": {
+        "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+        "scope": "Sections 3, 6.3-6.4, 7.1-7.4 and 9; Table 1",
+        "review_date": "2026-10-30",
+        "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "CC BY 4.0 indicated by examined HTML; links only, no source copy captured in this batch",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-035",
+      "from_id": "EVID-016",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies what the specified evidence or monitoring arrangement can establish.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-036",
+      "from_id": "EVID-016",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Reduced a specified construction barrier, not all coordination barriers.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

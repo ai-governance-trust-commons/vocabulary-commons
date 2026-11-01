@@ -1,0 +1,203 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-069",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-069.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-069",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-069",
+    "title": "Transect links structural events and fallible model labels to original turns; its case study analyzes nearly13million tokens.",
+    "case_id": "CASE-059",
+    "observation": "Transect links structural events and fallible model labels to original turns; its case study analyzes nearly13million tokens.",
+    "evidence_standing": "Bounded original-source report; not independently verified by the Commons",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-042"
+    ],
+    "source_locations": {
+      "SRC-042": "Sections 2.1, 3.1, 3.5, 4; AppendixA.5"
+    },
+    "limitations": "Agreement and repeatability do not establish validity; independent expert annotations and multiple runs would be needed for stronger conclusions. Single descriptive case, not confirmed causal analysis or validated judge accuracy; missing labels need not imply missing behavior.",
+    "open_questions": "Underlying records, alternatives and generalization have not been independently verified by the Commons.",
+    "keywords": [
+      "Observability boundary",
+      "Assurance",
+      "Evidence laundering through AI"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-059",
+    "title": "Source-linked analysis improves inspectability without certifying interpretations",
+    "kind": "Method demonstration on one evaluation run; not incident",
+    "event_date": null,
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-042"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-042",
+      "title": "Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations",
+      "publisher": "Toby D. Pilditch, Konstantinos Voudouris, Alexandra Abbas, Cozmin Ududec",
+      "issuing_body": "Toby D. Pilditch, Konstantinos Voudouris, Alexandra Abbas, Cozmin Ududec",
+      "authors": [
+        "Toby D. Pilditch, Konstantinos Voudouris, Alexandra Abbas, Cozmin Ududec"
+      ],
+      "url": "https://arxiv.org/html/2610.08364v2",
+      "publication_date": "2026-10-06",
+      "access_date": "2026-10-30",
+      "locator": "Sections 2.1, 3.1, 3.5, 4; AppendixA.5",
+      "source_kind": "Primary publication or technical disclosure; see cited scope",
+      "independence_group": "arxiv:2610.08364",
+      "version_note": "v2 October8 fixes corresponding-author address typo per arXiv history. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Sections2.1,3.1,3.5,4; AppendixA.5",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "v2 October8 fixes corresponding-author address typo per arXiv history.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. No source copy retained. Preservation permission unestablished unless otherwise specified.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-evidence-laundering-through-ai",
+      "name": "Evidence laundering through AI",
+      "definition": "The appearance of credibility or corroboration acquired by low-integrity material when AI systems retrieve, summarize, cite, or re-present it. Multiple apparently agreeing outputs may share the same original, manipulated source.",
+      "vocabulary": "Working",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#evidence-laundering-through-ai",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-159",
+      "from_id": "EVID-069",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-160",
+      "from_id": "EVID-069",
+      "to_id": "TERM-assurance",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-161",
+      "from_id": "EVID-069",
+      "to_id": "TERM-evidence-laundering-through-ai",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

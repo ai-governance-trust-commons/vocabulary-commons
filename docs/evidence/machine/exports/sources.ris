@@ -1,0 +1,1558 @@
+TY  - GEN
+ID  - SRC-001
+TI  - Alignment faking in large language models
+PB  - Anthropic
+AU  - Anthropic and Redwood Research
+PY  - 2024
+UR  - https://www.anthropic.com/research/alignment-faking
+N1  - Source ID SRC-001. Publication date as recorded: 2024-12-18. Live webpage accessed 30 October 2026; no full-text archive stored Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-002
+TI  - Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity
+PB  - METR
+AU  - METR
+PY  - 2025
+UR  - https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/
+N1  - Source ID SRC-002. Publication date as recorded: 2025-07-10. Live webpage; includes link to February 2026 update Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-003
+TI  - Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity v2
+PB  - arXiv
+AU  - Becker
+AU  - Rush
+AU  - Barnes
+AU  - Rein
+PY  - 2025
+UR  - https://arxiv.org/abs/2507.09089v2
+N1  - Source ID SRC-003. Publication date as recorded: 2025-07-25. Version 2 identified on arXiv; abstract inspected, not full paper Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-004
+TI  - We are Changing our Developer Productivity Experiment Design
+PB  - METR
+AU  - METR
+PY  - 2026
+UR  - https://metr.org/blog/2026-02-24-uplift-update/
+N1  - Source ID SRC-004. Publication date as recorded: 2026-02-24. Live webpage accessed 30 October 2026 Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-005
+TI  - The Hugging Face incident and the road ahead
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/hugging-face-incident-and-the-road-ahead/
+N1  - Source ID SRC-005. Publication date as recorded: 2026-08-26. Issuer account; external report linked but not separately assessed in this pilot Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-006
+TI  - How we detect frontier model misalignment
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/how-we-detect-frontier-model-misalignment/
+N1  - Source ID SRC-006. Publication date as recorded: 2026-10-29. Opened page displays October 29; search index displayed October 28, so opened-page date retained Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-007
+TI  - An agent used DNS to reach an external chatbot
+PB  - OpenAI Alignment
+AU  - OpenAI
+UR  - https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot/
+N1  - Source ID SRC-007. Publication date as recorded: None. Sample and discovery September 20, 2026; report updated September 25, 2026. Separate initial publication date unverified. Same event as CASE-004 and SRC-006. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-008
+TI  - Suppressing misalignment monitoring alerts and disabling misalignment monitoring
+PB  - OpenAI Alignment
+AU  - OpenAI
+UR  - https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/
+N1  - Source ID SRC-008. Publication date as recorded: None. MM1 records event/discovery dates October 3 and 6, report updated October 20, 2026; first publication date unverified. Date-to-event assignment not rechecked in this update. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-009
+TI  - Reasoning Models Don’t Always Say What They Think
+PB  - Anthropic Alignment Science Team
+AU  - Yanda Chen
+AU  - Joe Benton
+AU  - Ansh Radhakrishnan
+AU  - Jonathan Uesato
+AU  - Carson Denison
+AU  - John Schulman
+AU  - Arushi Somani
+AU  - Peter Hase
+AU  - Misha Wagner
+AU  - Fabien Roger
+AU  - Vlad Mikulik
+AU  - Samuel R. Bowman
+AU  - Jan Leike
+AU  - Jared Kaplan
+AU  - Ethan Perez
+PY  - 2025
+UR  - https://assets.anthropic.com/m/71876fabef0f0ed4/original/reasoning_models_paper.pdf
+N1  - Source ID SRC-009. Publication date as recorded: 2025-04-03. Official announcement 2025-04-03; arXiv v1 2025-05-08 (only listed version checked 2026-10-30). Examined official PDF has no explicit revision identifier; byte identity with arXiv not established. Official blog and PDF are one source family/experiment, not independent corroboration. Distinct from canonical alignment-faking and OpenAI monitor-suppression cases; references to those works are background dependencies only. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-010
+TI  - PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models
+PB  - USENIX Association, 34th USENIX Security Symposium, pp. 3827–3844
+AU  - Wei Zou
+AU  - Runpeng Geng
+AU  - Binghui Wang
+AU  - Jinyuan Jia
+PY  - 2025
+UR  - https://www.usenix.org/system/files/usenixsecurity25-zou-poisonedrag.pdf
+N1  - Source ID SRC-010. Publication date as recorded: 2025-08. 2025-08 proceedings; conference 2025-08-13–15; preprint v1 2024-02-12, v3 2024-08-13. Proceedings PDF, publisher page, preprint and author repository belong to one study family; not four corroborators. Preserve final proceedings as preferred citation; link preprint as version history, not a second event. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-011
+TI  - Auditing language models for hidden objectives
+PB  - Anthropic / arXiv
+AU  - Samuel Marks et al.
+PY  - 2025
+UR  - https://arxiv.org/html/2503.10965v2
+N1  - Source ID SRC-011. Publication date as recorded: 2025-03-14. Official announcement 2025-03-13; arXiv v1 2025-03-14; examined v2 2025-03-28. Blog/abstract/HTML/PDF are same research family. Related to but separate from canonical alignment-faking experiment. SRC-012 is a later related model-organism replication, not an independent replication of the human auditing outcome. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-012
+TI  - Open Source Replication of the Auditing Game Model Organism
+PB  - Anthropic Alignment Science Blog
+AU  - Abhay Sheshadri
+AU  - Rohan Gupta
+AU  - Kei Nishimura-Gasparian
+AU  - Sam Marks
+AU  - Rowan Wang
+AU  - Johannes Treutlein
+PY  - 2025
+UR  - https://alignment.anthropic.com/2025/auditing-mo-replication/
+N1  - Source ID SRC-012. Publication date as recorded: 2025-12-12. 2025-12-12; no explicit revision identifier visible Explicitly depends on SRC-011's synthetic corpus and protocol; overlapping authors and Anthropic publication. Separate experiment/model, but not independent corroboration or replication of the human audit. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-013
+TI  - Tool Use Enables Undetectable Steganography in Multi-Agent LLM Systems
+PB  - arXiv preprint
+AU  - Jimmy Laurence Rippin
+AU  - Simon C. Marshall
+AU  - David Demitri Africa
+AU  - Christian Schroeder de Witt
+PY  - 2026
+UR  - https://arxiv.org/abs/2606.28425v1
+N1  - Source ID SRC-013. Publication date as recorded: 2026-06-25. Original publication: 2026-06-25. Examined v1, 2026-06-25. Compare SRC-014 as a separate engineered interoperability result, not replication. No new case link to OpenAI incidents established. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-014
+TI  - Codetta: High-Capacity, Keyless, and Undetectable Multi-Agent Collusion
+PB  - arXiv preprint
+AU  - Qi Pang
+AU  - Virginia Smith
+AU  - Wenting Zheng
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.28900v2
+N1  - Source ID SRC-014. Publication date as recorded: 2026-09-24. Original publication: 2026-09-24. Examined v2, 2026-09-25. Separate study from SRC-013; different intervention, not replication. Introduction cites OpenAI incidents, so those paragraphs depend on canonical OpenAI reports and are not independent incident corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-015
+TI  - Why Do Multi-Agent LLM Systems Fail?
+PB  - NeurIPS 2025 Datasets and Benchmarks proceedings; arXiv versioned manuscript
+AU  - Mert Cemri
+AU  - Melissa Z. Pan
+AU  - Shuyi Yang
+AU  - Lakshya A. Agrawal
+AU  - Bhavya Chopra
+AU  - Rishabh Tiwari
+AU  - Kurt Keutzer
+AU  - Aditya Parameswaran
+AU  - Dan Klein
+AU  - Kannan Ramchandran
+AU  - Matei Zaharia
+AU  - Joseph E. Gonzalez
+AU  - Ion Stoica
+PY  - 2025
+UR  - https://arxiv.org/abs/2503.13657v3
+N1  - Source ID SRC-015. Publication date as recorded: 2025-03-17. Original publication: 2025-03-17 (first preprint); proceedings year 2025, exact proceedings day not established. Examined v3, 2025-10-26; v2 2025-04-22. Independent counterweight to overgeneralized coordination capability, not replication of SRC-013/B. Code/dataset/proceedings/preprint share this study's provenance. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-016
+TI  - To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making
+PB  - Association for Computing Machinery; author preprint on arXiv
+AU  - Zana Buçinca
+AU  - Maja Barbara Malaya
+AU  - Krzysztof Z. Gajos
+PY  - 2021
+UR  - https://arxiv.org/abs/2102.09692v1
+N1  - Source ID SRC-016. Publication date as recorded: 2021-02-19. Inspected arXiv v1, first submitted 2021-02-19; journal publication April 2021, exact day not established. One experiment/source family. ACM article, author copies, arXiv versions are not separate corroboration; no canonical duplicate. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-017
+TI  - Explanations Can Reduce Overreliance on AI Systems During Decision-Making
+PB  - Association for Computing Machinery; author preprint on arXiv
+AU  - Helena Vasconcelos
+AU  - Matthew Jörke
+AU  - Madeleine Grunde-McLaughlin
+AU  - Tobias Gerstenberg
+AU  - Michael S. Bernstein
+AU  - Ranjay Krishna
+PY  - 2022
+UR  - https://arxiv.org/abs/2212.06823v2
+N1  - Source ID SRC-017. Publication date as recorded: 2022-12-13. Inspected arXiv v2 revised 2023-01-26; journal publication April 2023, exact day not established. New study-series case distinct from SRC-016 and canonical collection; within-paper data reuse explicit. Journal/preprint/author copies one source family. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-018
+TI  - When combinations of humans and AI are useful: A systematic review and meta-analysis
+PB  - Nature Human Behaviour
+AU  - Michelle Vaccaro
+AU  - Abdullah Almaatouq
+AU  - Thomas Malone
+PY  - 2024
+UR  - https://www.nature.com/articles/s41562-024-02024-1
+N1  - Source ID SRC-018. Publication date as recorded: 2024-10-28. Published journal article, read via identifiable PMC primary-article mirror No canonical source duplicate. Synthesis is not independent corroboration of SRC-016/SRC-017; exact inclusion weights remain unverified. Publisher/PMC mirror same article. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-019
+TI  - Guide to Computer Security Log Management
+PB  - NIST
+AU  - Karen Kent and Murugiah Souppaya
+PY  - 2006
+UR  - https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf
+N1  - Source ID SRC-019. Publication date as recorded: 2006-09-13. NIST project publications list still identifies 2006 final and 2023 Revision1 draft. Do not treat draft as finalized replacement. https://csrc.nist.gov/Projects/log-management/publications Official PDF case-variant URLs, DOI and catalogue are manifestations of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-020
+TI  - Red-Teaming OpenAI’s Internal Agent Monitoring Systems
+PB  - METR
+AU  - David Rein and Adam Kaufman
+PY  - 2026
+UR  - https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/
+N1  - Source ID SRC-020. Publication date as recorded: 2026-10-22. October29 revised remediation wording: most vulnerabilities reportedly patched; one fix remains in progress. Assessors had not evaluated remediation claims. Separate exercise from Hugging Face CASE-003; shares OpenAI system context with SRC-006 but not a new operational incident or independent reproduction of that disclosure. New publication and assessment grouping, not duplicate incident count; original and Oct29 update same source. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-021
+TI  - Safety and alignment in an era of long-horizon models
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/safety-alignment-long-horizon-models/
+N1  - Source ID SRC-021. Publication date as recorded: 2026-07-20. No explicit update log or correction located on inspected original or exact-title correction query. This is not proof none exists. Same issuer as SRC-005/006, but disclosed NanoGPT and credential-scanner episodes are distinct from canonical Hugging Face/DNS events. One publication supporting separate episodes and one remediation evaluation grouping, not three independent publications. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-022
+TI  - Brief independent investigation of agents’ behavior, reasoning and collaboration in the OpenAI / Hugging Face hacking incident
+PB  - METR
+AU  - Ryan Greenblatt, Ajeya Cotra, Hjalmar Wijk
+PY  - 2026
+UR  - https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/
+N1  - Source ID SRC-022. Publication date as recorded: 2026-08-26. Inspected current original including stated prepublication edits/redactions; no separate dated correction log found. Same CASE-003. Independent analysts, not independently acquired raw evidence; OpenAI SRC-005 was partly informed by this investigation. Qualifying source for existing CASE-003; neither second incident nor wholly independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-023
+TI  - Investigating alignment failures in AISI’s incident
+PB  - UK AI Security Institute
+AU  - UK AI Security Institute
+PY  - 2026
+UR  - https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident
+N1  - Source ID SRC-023. Publication date as recorded: 2026-10-23 (paired-publication date; date not displayed in extracted blog body). Same July incident as Anthropic assessment; analysis shared transcripts and collaboration, not independent incident corroboration. Linked technical PDF fetch failed; blog inspected. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-024
+TI  - An alignment assessment of the UK AISI cybertesting incident
+PB  - Anthropic
+AU  - Anthropic
+PY  - 2026
+UR  - https://www.anthropic.com/research/alignment-assessment-ukaisi
+N1  - Source ID SRC-024. Publication date as recorded: 2026-10-23. Current page inspected. Summary/detailed internal-model stopping percentages conflict (67%/62%); statistic withheld pending correction. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-025
+TI  - Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks
+PB  - Microsoft Security Research
+AU  - Microsoft Security Research
+PY  - 2026
+UR  - https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/
+N1  - Source ID SRC-025. Publication date as recorded: 2026-10-23. Artifact and endpoint analysis; initial upstream compromise account attributed to maintainers, not independently established by Microsoft. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-026
+TI  - The attack chain behind the v1.107.0 LiteLLM release
+PB  - LiteLLM
+AU  - LiteLLM
+PY  - 2026
+UR  - https://docs.litellm.ai/blog/security-incident-oct-21-2026-attack-chain
+N1  - Source ID SRC-026. Publication date as recorded: 2026-10-23. Same October 21 release compromise as Microsoft analysis; maintainer account is not a second incident. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-027
+TI  - INC and The Gentlemen Ransomware: Exposed AI Infrastructure
+PB  - SOCRadar Threat Research Unit
+AU  - SOCRadar Threat Research Unit
+PY  - 2026
+UR  - https://socradar.io/blog/inc-gentlemen-ransomware-ai-infrastructure/
+N1  - Source ID SRC-027. Publication date as recorded: 2026-10-20. Updated 2026-10-23. Operator-record claims and analyst assessments distinguished from independently confirmed outcomes. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-028
+TI  - “Next Exploit Opportunities”: How a Threat Actor Used AI to Help Plan and Execute Multiple Types of Cybercrime Activities
+PB  - Palo Alto Networks Unit 42
+AU  - Palo Alto Networks Unit 42
+PY  - 2026
+UR  - https://unit42.paloaltonetworks.com/ai-assisted-cybercrime-analysis/
+N1  - Source ID SRC-028. Publication date as recorded: 2026-10-21. Single investigative source covering multiple activities; planning and confirmed intrusion must not be merged into one success claim. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-029
+TI  - Making attacking agents pay with Context Bombs
+PB  - Tracebit Research
+AU  - Tracebit Research
+PY  - 2026
+UR  - https://agentic.tracebit.com/factory
+N1  - Source ID SRC-029. Publication date as recorded: 2026-10 (day not stated in inspected original). Public original report inspected. Full whitepaper requires email request; not retrieved or requested. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-030
+TI  - Simulated Control Evals
+PB  - Redwood Research
+AU  - Redwood Research
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.31593v1
+N1  - Source ID SRC-030. Publication date as recorded: 2026-10-22. arXiv v1 only listed. Author blog October24 and Substack October 23 describe same study, not replication. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-031
+TI  - Disrupting the first reported AI-orchestrated cyber espionage campaign
+PB  - Anthropic
+AU  - Anthropic
+PY  - 2025
+UR  - https://www.anthropic.com/news/disrupting-AI-espionage
+N1  - Source ID SRC-031. Publication date as recorded: 2025-11-13. Blog edited November 14: speed corrected to thousands of requests, often multiple per second. Linked full PDF is same investigation, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-032
+TI  - AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise
+PB  - Microsoft Security Research and Microsoft Threat Intelligence
+AU  - Microsoft Security Research and Microsoft Threat Intelligence
+PY  - 2026
+UR  - https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/
+N1  - Source ID SRC-032. Publication date as recorded: 2026-10-21. Current inspected article. No explicit correction notice located in bounded checks. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-033
+TI  - ARTEX in the Wild: Storm-0940 Expands Targeting of IT and Software Vendors
+PB  - Wiz Research
+AU  - Sapir Federovsky
+AU  - Rami McCarthy
+PY  - 2026
+UR  - https://www.wiz.io/blog/artex-in-the-wild-storm0940-expands-targeting-of-it-and-software-vendors
+N1  - Source ID SRC-033. Publication date as recorded: 2026-10-22. Wiz describes additional observed environments but cites Microsoft for overlapping attribution. No explicit correction located. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-034
+TI  - Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance
+PB  - CrowdStrike Intelligence
+AU  - CrowdStrike Intelligence
+PY  - 2026
+UR  - https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/
+N1  - Source ID SRC-034. Publication date as recorded: 2026-10-07. Open-directory artifacts analyzed by publisher; victim outcome reporting partly derives from industry reports. Do not infer the model from the Claude Code client name. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-035
+TI  - VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign
+PB  - CrowdStrike OverWatch and Intelligence
+AU  - CrowdStrike OverWatch and Intelligence
+PY  - 2026
+UR  - https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/
+N1  - Source ID SRC-035. Publication date as recorded: 2026-10-29. Related current update found while checking Oct 7 ARTEX source; explicitly distinct from Storm 0940 and earlier financially motivated activity. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-036
+TI  - Investigating unintended model actions in our evaluations and internal use
+PB  - Anthropic
+AU  - Anthropic
+PY  - 2026
+UR  - https://www.anthropic.com/research/investigating-unintended-model-actions
+N1  - Source ID SRC-036. Publication date as recorded: 2026-10-09. October 12 correction: URL-length limits were not designed to prevent SQL or command injection. Several distinct episodes share this publication. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-037
+TI  - Introducing Claude Opus 5.5
+PB  - Anthropic
+AU  - Anthropic
+PY  - 2026
+UR  - https://www.anthropic.com/claude-opus-5-5
+N1  - Source ID SRC-037. Publication date as recorded: 2026-09-22. Launch publication inspected. Linked system card fetch failed: tool reported content length too large (17, 795, 106 bytes). Do not claim full-card inspection. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-038
+TI  - Measurements for understanding the pace of AI development inside frontier labs
+PB  - Anthropic Institute
+AU  - Anthropic Institute
+PY  - 2026
+UR  - https://www.anthropic.com/institute/measuring-pace-of-ai-development
+N1  - Source ID SRC-038. Publication date as recorded: 2026-09-17. Official Institute index dates linked Illuminating the frontier publication September 17. Measurements describe August 2026 snapshot, not all platforms. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-039
+TI  - An alignment assessment of recent cybersecurity incidents
+PB  - Anthropic
+AU  - Anthropic
+PY  - 2026
+UR  - https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents
+N1  - Source ID SRC-039. Publication date as recorded: 2026-09-09. Four original incidents plus retrospective and simulated experiments. Single-agent episodes; no reported inter-agent coordination. Earlier July 30 account is same incident family, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-040
+TI  - Detecting and countering misuse of AI: September 2026
+PB  - Anthropic Threat Intelligence
+AU  - Anthropic Threat Intelligence
+PY  - 2026
+UR  - https://www.anthropic.com/threat-intelligence-report-september-2026
+N1  - Source ID SRC-040. Publication date as recorded: 2026-09. Primary page title establishes publication month; exact September 10 day appears in secondary indexes but was not confirmed from visible primary date. Selected cases, not representative misuse sample. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-041
+TI  - Agentic Self-Modification in Open-Weights Systems
+PB  - Irregular
+AU  - Irregular
+PY  - 2026
+UR  - https://www.irregular.com/research/agentic-self-modification-in-open-weights-systems
+N1  - Source ID SRC-041. Publication date as recorded: 2026-09-16. No explicit correction located in bounded exact-title search. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-042
+TI  - Transect: Retaining Observability for Long-Horizon LLM Agent Evaluations
+PB  - Toby D. Pilditch, Konstantinos Voudouris, Alexandra Abbas, Cozmin Ududec
+AU  - Toby D. Pilditch, Konstantinos Voudouris, Alexandra Abbas, Cozmin Ududec
+PY  - 2026
+UR  - https://arxiv.org/html/2610.08364v2
+N1  - Source ID SRC-042. Publication date as recorded: 2026-10-06. v2 October8 fixes corresponding-author address typo per arXiv history. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-043
+TI  - DIVD-2026-00014 — When, not if…
+PB  - DIVD Crisis Management Team
+AU  - DIVD Crisis Management Team
+PY  - 2026
+UR  - https://csirt.divd.nl/cases/DIVD-2026-00014/
+N1  - Source ID SRC-043. Publication date as recorded: 2026-09-29. Case modified October9 2026 20:01CEST. Overview inspected alongside casefile. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-044
+TI  - How We Hijacked an AI Agent With a Single Email
+PB  - Salt Labs Research Team
+AU  - Salt Labs Research Team
+PY  - 2026
+UR  - https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email
+N1  - Source ID SRC-044. Publication date as recorded: 2026-10-01. Original says resolved; issuer release reports later reproduction attempts unsuccessful. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-045
+TI  - Salt Labs Research: A Single Email Could Hijack an AI Agent and Reach a User's Connected Accounts
+PB  - Salt Security via PRNewswire
+AU  - Salt Security via PRNewswire
+PY  - 2026
+UR  - https://www.prnewswire.com/news-releases/salt-labs-research-a-single-email-could-hijack-an-ai-agent-and-reach-a-users-connected-accounts-302895317.html
+N1  - Source ID SRC-045. Publication date as recorded: 2026-10-01. Reported failed retests after Meta triage/remediation; no newer explicit correction located. Same Salt experiment as OPS-SALT; release derives from technical disclosure. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-046
+TI  - AI Agents as Attack Vectors: Unauthorized Access by Agents under Evaluation and Misuse of Open-Source Agentic AI Tools Targeting Indian ICT Assets
+PB  - CERT-In
+AU  - CERT-In
+PY  - 2026
+UR  - https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02
+N1  - Source ID SRC-046. Publication date as recorded: 2026-10-15. Same substantive notice inspected at CICA-2026-3630 and CIAD-2026-0049. Site footer says October31 despite examinationOctober30; not treated as substantive advisory revision. New to baseline v0.4.1; same-source syndications and URL parameters are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-047
+TI  - Inside Cairn: Open Windows into massive AI-Driven Cyber Operations
+PB  - NorForge / Snorre Fagerland
+AU  - NorForge / Snorre Fagerland
+PY  - 2026
+UR  - https://norforge.com/blog/inside_cairn
+N1  - Source ID SRC-047. Publication date as recorded: 2026-10-19. Campaign analysis based on exposed panels; aggregate success estimates are not victim-by-victim verification. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-048
+TI  - Automated Subversion and Attempted Takeover of AI Pentesting Harnesses
+PB  - NorForge / Snorre Fagerland
+AU  - NorForge / Snorre Fagerland
+PY  - 2026
+UR  - https://norforge.com/blog/automated-subversion-attempted-takeover
+N1  - Source ID SRC-048. Publication date as recorded: 2026-10-26. Later attacks against exposed harnesses, distinct from earlier attacks conducted through those harnesses. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-049
+TI  - How we will do better for Australia
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/how-we-will-do-better-for-australia/
+N1  - Source ID SRC-049. Publication date as recorded: 2026-09-28. Updated October 4, 2026 with separate NPWS activity; five agency interactions remain distinct. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-050
+TI  - Updated: OpenAI incident - a statement from the AIHW
+PB  - Australian Institute of Health and Welfare
+AU  - Australian Institute of Health and Welfare
+PY  - 2026
+UR  - https://www.aihw.gov.au/news-media/media-releases/2026/september/a-statement-from-the-australian-institute-of-health-and-welfare
+N1  - Source ID SRC-050. Publication date as recorded: 2026-09-25. Agency-side investigation with ASD; updated September 25, v9.0. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-051
+TI  - Press Conference, Sydney: OpenAI incident
+PB  - Australian Government Defence Ministers
+AU  - Australian Government Defence Ministers
+PY  - 2026
+UR  - https://www.minister.defence.gov.au/transcripts/2026-09-24/press-conference-sydney
+N1  - Source ID SRC-051. Publication date as recorded: 2026-09-24. Contemporaneous preliminary government account, not final forensic report. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-052
+TI  - The Hugging Face incident and other third-party impacts from misaligned models
+PB  - OpenAI
+AU  - OpenAI
+UR  - https://openai.com/hugging-face-incident-and-misalignment/
+N1  - Source ID SRC-052. Publication date as recorded: Rolling page; retained entries2026-09-11 and2026-09-25. Direct page text omits timeline; complete primary-domain indexed text inspected via targeted web search. Do not imply direct HTML timeline readback. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-053
+TI  - AI Agents Targeted U.S. and Canadian Government Websites
+PB  - Transluce and named collaborators
+AU  - Transluce and named collaborators
+PY  - 2026
+UR  - https://transluce.org/us-canada-gov
+N1  - Source ID SRC-053. Publication date as recorded: 2026-09-30. Public intermediary-record investigation; actor attribution varies. Same dataset and authors underlie follow-on media. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-054
+TI  - OpenAI “rogue” agent activities found on Wikimedia projects
+PB  - Wikimedia Foundation / Selena Deckelmann
+AU  - Wikimedia Foundation / Selena Deckelmann
+PY  - 2026
+UR  - https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/
+N1  - Source ID SRC-054. Publication date as recorded: 2026-10-05. Victim/operator-side account; expressly no evidence of compromise or agent coordination. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-055
+TI  - Evaluating Whether GPT-6 Astra Performs Unsanctioned Supply-Chain Attacks
+PB  - UK AI Security Institute
+AU  - UK AI Security Institute
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.38415v1
+N1  - Source ID SRC-055. Publication date as recorded: 2026-09-29. arXiv v1 original full text and AISI blog inspected; all actions simulated; cyber classifiers disabled. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-056
+TI  - EvilTokens packaged AI-assisted organizational reconnaissance
+PB  - Steven Masada / Microsoft
+AU  - Steven Masada / Microsoft
+PY  - 2026
+UR  - https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime/
+N1  - Source ID SRC-056. Publication date as recorded: 2026-09-22. No explicit correction located in bounded original-page and title search; not proof none exists. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-057
+TI  - Plugin4Shell: requested commit versus executed plugin
+PB  - Or Nevo, Dor Granat, Niv Hoffman / AIR Security
+AU  - Or Nevo, Dor Granat, Niv Hoffman / AIR Security
+PY  - 2026
+UR  - https://www.air.security/blog-posts/plugin4shell
+N1  - Source ID SRC-057. Publication date as recorded: 2026-09-17. Inspected mitigation timeline and host restrictions; earlier broad digest framing qualified by original conditions. No independent patch retest performed. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-058
+TI  - PHP vulnerability exploitability and disclosure constraints
+PB  - The PHP Foundation
+AU  - The PHP Foundation
+PY  - 2026
+UR  - https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security/
+N1  - Source ID SRC-058. Publication date as recorded: 2026-10-21. Original corrects circulated CVSS10.0 to9.2 and describes release moving forward one day. No mass exploitation conclusion retained. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-059
+TI  - Hacktron OpenAI exploit chain with human-guided AI assistance
+PB  - Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron
+AU  - Harsh Jaiswal, Mohan Pedhapati, Rahul Maini / Hacktron
+PY  - 2026
+UR  - https://www.hacktron.ai/blog/hacking-openai
+N1  - Source ID SRC-059. Publication date as recorded: 2026-09-13. Includes OpenAI scope clarification and fix timeline. Publication displays Sep13; secondary reporting appeared Sep18. No claim those are identical dates. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-060
+TI  - Muse local access amplification proof of concept
+PB  - Patrick Wardle
+AU  - Patrick Wardle
+UR  - https://github.com/pwardle/not-a-mused
+N1  - Source ID SRC-060. Publication date as recorded: None. Repository inspected as ofOct30; secondary reports mention a fix, but exact patched-build verification remains unperformed. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-061
+TI  - NVIDIA proposes external runtime enforcement for agents
+PB  - NVIDIA
+AU  - NVIDIA
+PY  - 2026
+UR  - https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment/
+N1  - Source ID SRC-061. Publication date as recorded: 2026-09-28. Later Oct21 reference-architecture announcements located; no benchmark or independent field validation inspected. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-062
+TI  - Corrupt Plans, Clean Traces: Evading Chain-of-Thought Monitoring with Plan Injection
+PB  - arXiv
+AU  - Keertana Chidambaram
+AU  - Andrew Ilyas
+AU  - Vasilis Syrgkanis
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.15989v1
+N1  - Source ID SRC-062. Publication date as recorded: 2026-09-14. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-063
+TI  - Divide, Consult, Conquer: Capability Laundering Through Aligned LLMs
+PB  - arXiv
+AU  - Mark Russinovich
+AU  - Blake Bullwinkel
+AU  - Giorgio Severi
+AU  - Cristian Ovadiuc
+AU  - Ahmed Salem
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.15383v2
+N1  - Source ID SRC-063. Publication date as recorded: 2026-09-14. v2, revised 2026-10-12. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-064
+TI  - Agentic Societies Need a Social Harness
+PB  - arXiv
+AU  - Tapan Chugh
+AU  - Vidushi Singh
+AU  - Krish Jain
+AU  - Arvind Krishnamurthy
+AU  - Ratul Mahajan
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.17527v2
+N1  - Source ID SRC-064. Publication date as recorded: 2026-09-15. v2, revised 2026-10-24. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-065
+TI  - GlossoGen: Emergent Language in Complex Multi-Agent LLM Interactions
+PB  - arXiv
+AU  - Elias Stengel-Eskin
+AU  - Newton Sander
+AU  - Carlos Bonetti
+AU  - Sasha Boguraev
+AU  - James Bowler
+AU  - Hale Sirin
+AU  - Simon Kirby
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.01491v1
+N1  - Source ID SRC-065. Publication date as recorded: 2026-09-01. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-066
+TI  - Security of Agent-Integrated Software: When Human Operations and Agent Actions Coexist
+PB  - arXiv
+AU  - Ding Yang
+AU  - Yuchen Ling
+AU  - Shengcheng Yu
+AU  - Zhenyu Chen
+AU  - Chunrong Fang
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.23226v1
+N1  - Source ID SRC-066. Publication date as recorded: 2026-09-19. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-067
+TI  - Anticipatory Human Oversight of Agentic AI: A Philosophical Account
+PB  - arXiv
+AU  - Kevin Baum
+AU  - Maximilian Kiener
+AU  - Markus Langer
+AU  - Johann Laux
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.24242v1
+N1  - Source ID SRC-067. Publication date as recorded: 2026-09-21. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-068
+TI  - CAVEAT: Towards Robust Computer-Use Agents in Incentive-Misaligned Environments
+PB  - arXiv
+AU  - Yuxuan Li
+AU  - Will Epperson
+AU  - Wesley Deng
+AU  - Zezhou Huang
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.27273v2
+N1  - Source ID SRC-068. Publication date as recorded: 2026-09-23. v2, revised 2026-09-27. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-069
+TI  - When Honesty is Not Enough in AI Debate
+PB  - arXiv
+AU  - Rayne Holland
+AU  - Liming Zhu
+AU  - Jason Xue
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.29189v1
+N1  - Source ID SRC-069. Publication date as recorded: 2026-09-24. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-070
+TI  - A Competing-Hazards Systematization of Loss of Control in Autonomous Agents
+PB  - arXiv
+AU  - Mohamed Aly Bouke
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.38411v1
+N1  - Source ID SRC-070. Publication date as recorded: 2026-09-29. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-071
+TI  - Covert Assistance: Helpful LLM Agents Evade Oversight in Multi-Agent Systems
+PB  - arXiv
+AU  - Deema Alnuhait
+AU  - Gengyu Wang
+AU  - Muhammad Khalifa
+AU  - Hao Peng
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.39050v1
+N1  - Source ID SRC-071. Publication date as recorded: 2026-09-30. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-072
+TI  - Sapien: A Stateful Policy Engine for Autonomous AI Agents
+PB  - arXiv
+AU  - Corinn Tiffany
+AU  - Wen Zhang
+AU  - Eugene Bagdasarian
+AU  - Lillian Tsai
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.00797v1
+N1  - Source ID SRC-072. Publication date as recorded: 2026-09-30. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-073
+TI  - Global Coherence: When Every Agent Is Right and the Team Is Still Wrong — A Local-to-Global Semantic Foundation for Multi-Agent Collaboration
+PB  - arXiv
+AU  - Xin Heng
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.02036v2
+N1  - Source ID SRC-073. Publication date as recorded: 2026-10-01. v2, revised 2026-10-15. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-074
+TI  - Argo-Bench: Evaluating Data Agents on Enterprise-Scale Workflows
+PB  - arXiv
+AU  - Gabriel Tomitsuka
+AU  - Arman Raayatsanati
+AU  - Emma Xing
+AU  - Duke Gand
+AU  - Joseph J Ma
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.02122v1
+N1  - Source ID SRC-074. Publication date as recorded: 2026-10-01. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-075
+TI  - Self-Propagating Misalignment in LLM Agents, and Why Auditing or Disabling Memory Is Not Enough
+PB  - arXiv
+AU  - Debeshee Das
+AU  - Jacqueline Tay
+AU  - Bruce Tsai
+AU  - David Huang
+AU  - Javier Rando
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.04083v1
+N1  - Source ID SRC-075. Publication date as recorded: 2026-10-02. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-076
+TI  - Compromise Is Not Consequence: Evaluating Task-Scoped Authorization in LLM Agents with Paired Replay
+PB  - arXiv
+AU  - Tural Hagverdiyev
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.05840v1
+N1  - Source ID SRC-076. Publication date as recorded: 2026-10-05. v1, initial version. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-077
+TI  - Constitutive vs. Corrective: A Causal Taxonomy of Human Runtime Involvement in AI Systems
+PB  - arXiv
+AU  - Kevin Baum
+AU  - Johann Laux
+PY  - 2026
+UR  - https://arxiv.org/abs/2603.19213v2
+N1  - Source ID SRC-077. Publication date as recorded: 2026-03-19. v2, revised 2026-08-20. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-078
+TI  - The Two Boundaries: Why Behavioral AI Governance Fails Structurally
+PB  - arXiv
+AU  - Alan L. McCann
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.27292v3
+N1  - Source ID SRC-078. Publication date as recorded: 2026-04-30. v3, revised 2026-05-26. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-079
+TI  - Unaccountable Delegation, Fading Skills: Mapping the Risks of Workplace AI Agents
+PB  - arXiv
+AU  - Gabriele La Malfa
+AU  - Lakmal Meegahapola
+AU  - Edyta Bogucka
+AU  - Jie M. Zhang
+AU  - Michael Luck
+AU  - Elizabeth Black
+AU  - Daniele Quercia
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.08601v2
+N1  - Source ID SRC-079. Publication date as recorded: 2026-08-09. v2, revised 2026-08-16. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-080
+TI  - Despite Instructions: Frontier Agents Improvise Covert Channels at Test Time
+PB  - arXiv
+AU  - Jacob Dineen
+AU  - Silei Ren
+AU  - Muhao Chen
+AU  - Dan Roth
+AU  - Ben Zhou
+PY  - 2026
+UR  - https://arxiv.org/abs/2609.32701v2
+N1  - Source ID SRC-080. Publication date as recorded: 2026-09-26. v2, revised 2026-10-06. Abstract, HTML, PDF and third-party summaries are manifestations/reporting of one publication, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-081
+TI  - CLOSEDQUORUM: designed multi-model C2 without observed end-to-end operation
+PB  - Ryan Fetterman / Cisco Talos
+AU  - Ryan Fetterman / Cisco Talos
+PY  - 2026
+UR  - https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant/
+N1  - Source ID SRC-081. Publication date as recorded: 2026-09-22. No explicit correction located in bounded original-page and title search; not proof none exists. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-082
+TI  - SalesBleed: data retrieval and rendering compose into a DNS leak
+PB  - Alex Apostolov and colleagues / Zenity Labs
+AU  - Alex Apostolov and colleagues / Zenity Labs
+PY  - 2026
+UR  - https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce
+N1  - Source ID SRC-082. Publication date as recorded: 2026-09-24. No explicit correction located in bounded original-page and title search; not proof none exists. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-083
+TI  - SalesBleed: missing confirmation and invoker attribution in Slack replies
+PB  - João Donato and colleagues / Zenity Labs
+AU  - João Donato and colleagues / Zenity Labs
+PY  - 2026
+UR  - https://labs.zenity.io/post/salesbleed-hijacking-agentforce-in-slack-for-anonymous-phishing
+N1  - Source ID SRC-083. Publication date as recorded: 2026-09-24. No explicit correction located in bounded original-page and title search; not proof none exists. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-084
+TI  - Wiz PHP2Shell research and exploitability qualification
+PB  - Sagi Tzadik, Shir Tamari, Nir Ohfeld, Tomer Schwartz / Wiz
+AU  - Sagi Tzadik, Shir Tamari, Nir Ohfeld, Tomer Schwartz / Wiz
+PY  - 2026
+UR  - https://www.wiz.io/blog/php2shell-php-rce
+N1  - Source ID SRC-084. Publication date as recorded: 2026-10-21. No explicit correction located in bounded original-page and title search; not proof none exists. Same PHP vulnerability family as ROOT-PHP; separate researcher publication, shared coordination not automatically independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-085
+TI  - Maintainer-led response to AI-assisted vulnerability findings
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/
+N1  - Source ID SRC-085. Publication date as recorded: 2026-10-21. No explicit correction located in bounded original-page and title search; not proof none exists. Same PHP case; participant in coordinated response with maintainers and Wiz. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-086
+TI  - Microsoft describes independent controls around agentic insiders
+PB  - Hayete Gallot / Microsoft
+AU  - Hayete Gallot / Microsoft
+PY  - 2026
+UR  - https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/
+N1  - Source ID SRC-086. Publication date as recorded: 2026-10-19. No explicit correction located in bounded original-page and title search; not proof none exists. Primary publisher account; news retellings do not independently corroborate it. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-087
+TI  - Ironies of Automation
+PB  - Automatica / IFAC
+AU  - Lisanne Bainbridge
+PY  - 1983
+UR  - https://doi.org/10.1016/0005-1098(83)90046-8
+N1  - Source ID SRC-087. Publication date as recorded: 1983-11. Publisher403; complete five-page original inspected at https://tc.ifac-control.org/4/1/newsletter/ironies-of-automation/@@download/file/Bainbridge1983_Automatica_Ironies%20of%20automation.pdf . Published month only; no invented day. Rights holder IFAC; no copy retained. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-088
+TI  - On Controllability in Agentic AI: A Survey
+PB  - Minds and Machines
+AU  - My H. Nguyen
+AU  - Duc-Hai Nguyen
+AU  - Barry O’Sullivan
+AU  - Hoang D. Nguyen
+PY  - 2026
+UR  - https://link.springer.com/article/10.1007/s11023-026-09783-y
+N1  - Source ID SRC-088. Publication date as recorded: 2026-05-26. Publisher full text inspected; no source copy retained. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-089
+TI  - Human-AI governance (HAIG): A trust-utility approach
+PB  - Journal of Responsible Technology
+AU  - Zeynep Engin
+PY  - 2026
+UR  - https://doi.org/10.1016/j.jrt.2026.100167
+N1  - Source ID SRC-089. Publication date as recorded: 2026-04-28. DOI403; published version inspected at https://discovery.ucl.ac.uk/id/eprint/10228987/1/1-s2.0-S266665962600020X-main-3.pdf ; CC BY-NC-ND4.0 displayed; no copy retained. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-090
+TI  - Towards a sociotechnical ecology of artificial intelligence: power, accountability, and governance in a global context
+PB  - AI and Ethics
+AU  - Andrés Domínguez Hernández
+AU  - Antonella Maia Perini
+AU  - Semeli Hadjiloizou
+AU  - Ann Borda
+AU  - Sabeehah Mahomed
+AU  - David Leslie
+PY  - 2025
+UR  - https://link.springer.com/article/10.1007/s43681-025-00902-6
+N1  - Source ID SRC-090. Publication date as recorded: 2025-12-05. Publisher full text inspected; online2025 versus volume2026 distinguished; no copy retained. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-091
+TI  - The Age of AI in the Life Sciences: Benefits and Biosecurity Considerations
+PB  - National Academies Press
+AU  - National Academies of Sciences, Engineering, and Medicine
+PY  - 2025
+UR  - https://www.nationalacademies.org/read/28868
+N1  - Source ID SRC-091. Publication date as recorded: 2025. Front matter and complete Summary inspected at https://www.nationalacademies.org/read/28868/chapter/2 ; year-only date. Full book not comprehensively inspected. All rights reserved; links only. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-092
+TI  - The AI risk repository: A meta-review, database, and taxonomy of risks from artificial intelligence
+PB  - Patterns
+AU  - Peter Slattery
+AU  - Alexander K. Saeri
+AU  - Emily A. C. Grundy
+AU  - Jess Graham
+AU  - Michael Noetel
+AU  - Risto Uuk
+AU  - James Dao
+AU  - Soroush Pour
+AU  - Stephen Casper
+AU  - Neil Thompson
+PY  - 2026
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13161690/
+N1  - Source ID SRC-092. Publication date as recorded: 2026-03-30. Full original journal article inspected; March30 publication, May8 issue collection; CC BY4.0 displayed; links only. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-093
+TI  - The generative AI learning penalty in secondary school
+PB  - CEPR / VoxEU
+AU  - David Strömberg
+AU  - Victor Lei
+AU  - Yanhui Wu
+PY  - 2026
+UR  - https://cepr.org/voxeu/columns/generative-ai-learning-penalty-secondary-school
+N1  - Source ID SRC-093. Publication date as recorded: 2026-09-04. CEPR DP21577 abstract inspected: https://cepr.org/publications/dp21577 , June2 2026; authors’ detailed report inspected. SSRN PDF403 at https://papers.ssrn.com/sol3/Delivery.cfm/6868618.pdf?abstractid=6868618&mirid=1 . Original study identified, full-paper check remains a gap. Not MIT study. No copies retained; redistribution permission not established. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-094
+TI  - AI models may be capable of self-replicating without access to a datacenter
+PB  - Anthropic Frontier Red Team
+AU  - William Zhou
+AU  - Daniel Freeman
+PY  - 2026
+UR  - https://www.anthropic.com/research/self-replicating-ai
+N1  - Source ID SRC-094. Publication date as recorded: 2026-10-12. Original post inspected, dated Oct12 not Oct13 reporting date. Distinct study from Self-Propagating Misalignment. Links only; preservation permission not established. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-095
+TI  - What Should Frontier AI Developers Disclose About Internal Deployments?
+PB  - arXiv
+AU  - Jacob Charnock
+AU  - Raja Mehta Moreno
+AU  - Justin Miller
+AU  - William L. Anderson
+PY  - 2026
+UR  - https://arxiv.org/abs/2604.23065v2
+N1  - Source ID SRC-095. Publication date as recorded: 2026-04-24. Full original https://arxiv.org/html/2604.23065v2 inspected; v2 revised July1 2026; links only. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-096
+TI  - Why Language Models Hallucinate
+PB  - arXiv / OpenAI authors
+AU  - Adam Tauman Kalai
+AU  - Ofir Nachum
+AU  - Santosh S. Vempala
+AU  - Edwin Zhang
+PY  - 2025
+UR  - https://arxiv.org/abs/2509.04664v1
+N1  - Source ID SRC-096. Publication date as recorded: 2025-09-04. Original full text https://arxiv.org/html/2509.04664v1 and dependent OpenAI Sept5 2025 article inspected. Blog is a separate publication explaining same study, not independent corroboration. Links only. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-097
+TI  - Why Language Models Hallucinate
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2025
+UR  - https://openai.com/index/why-language-models-hallucinate/
+N1  - Source ID SRC-097. Publication date as recorded: 2025-09-05. Dependent explanation of arXiv2509.04664; separate publication, same underlying study, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-098
+TI  - The Generative AI Learning Penalty: Evidence from Chinese Secondary Education
+PB  - CEPR Discussion Paper 21577
+AU  - David Strömberg
+AU  - Victor Lei
+AU  - Yanhui Wu
+PY  - 2026
+UR  - https://cepr.org/publications/dp21577
+N1  - Source ID SRC-098. Publication date as recorded: 2026-06-02. Working paper underlying the September4 author column. CEPR states published/revised June2 2026. SSRN full PDF returned403; methods/results beyond original abstract not directly inspected. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-099
+TI  - An update on independent evaluators
+PB  - Anthropic
+AU  - Anthropic
+PY  - 2026
+UR  - https://www.anthropic.com/news/an-update-on-independent-evaluators
+N1  - Source ID SRC-099. Publication date as recorded: 2026-10-15. Footnote2 explicitly updated October16 to clarify current METR terms; footnote3 October15 SecureBio clarification. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-100
+TI  - Beijing Will Not Pace the Frontier: China’s Speed-First AI Safety Regime
+PB  - Mark Chen, Doug, Dylan Patel / SemiAnalysis
+AU  - Mark Chen, Doug, Dylan Patel / SemiAnalysis
+PY  - 2026
+UR  - https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier
+N1  - Source ID SRC-100. Publication date as recorded: 2026-10-08. No explicit correction located in inspected original. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-101
+TI  - Sound Practices for Responsible Adoption of Artificial Intelligence (AI): Final report
+PB  - Financial Stability Board
+AU  - Financial Stability Board
+PY  - 2026
+UR  - https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report/
+N1  - Source ID SRC-101. Publication date as recorded: 2026-10-15. No explicit correction located in inspected original. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-102
+TI  - Accredited Testers under AI Tester Accreditation Programme
+PB  - AI Verify Foundation
+AU  - AI Verify Foundation
+UR  - https://aiverifyfoundation.sg/ai-assurance/accredited-testers/
+N1  - Source ID SRC-102. Publication date as recorded: None. No explicit correction located in inspected original. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-103
+TI  - Advisory Committee on Evidence Rules October15 2026 agenda book
+PB  - US Courts / Advisory Committee on Evidence Rules
+AU  - US Courts / Advisory Committee on Evidence Rules
+PY  - 2026
+UR  - https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf
+N1  - Source ID SRC-103. Publication date as recorded: 2026-10-15. The inspected agenda contains prior May7 minutes and later draft discussions; no October15 outcome verified. New source to baseline. Secondary reports and repeated citations are dependencies, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-104
+TI  - Inside ZCode: Silently Uploading Your Entire Git History to the Cloud
+PB  - ferstar
+AU  - ferstar
+PY  - 2026
+UR  - https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/
+N1  - Source ID SRC-104. Publication date as recorded: 2026-09-18. Updated September 23. AI-translated English; author-reviewed site. CC BY-NC-SA 4.0 site license visible; no copy retained this pass. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-106
+TI  - GhostShares: Muse share-link discovery investigation
+PB  - Claroc Research Team
+AU  - Claroc Research Team
+PY  - 2026
+UR  - https://blog.claroc.io/ghostshares-muse-passive-dns/
+N1  - Source ID SRC-106. Publication date as recorded: 2026-10-18. Updated October 20; original research underlying Ars and syndicated WIRED report. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-107
+TI  - Sharing AI progress in mathematics
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/sharing-ai-progress-in-mathematics/
+N1  - Source ID SRC-107. Publication date as recorded: 2026-10-06. October 15 funding update. Source release is not independent confirmation of mathematical results. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-108
+TI  - Mathematics release README and correction history
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://github.com/openai/math
+N1  - Source ID SRC-108. Publication date as recorded: 2026-10-06. Read-only inspection. History https://github.com/openai/math/blob/main/history.md . Current catalogue 721 manuscripts / 373 families; earlier 719 count is date-specific, not independent cases. Apache-2.0 license displayed; no file copy retained. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-109
+TI  - We found a Tencent agent fleet
+PB  - Swarmchasers
+AU  - Swarmchasers
+PY  - 2026
+UR  - https://swarmcha.se/posts/chinese-agent-fleet-full-report
+N1  - Source ID SRC-109. Publication date as recorded: 2026-10-14. Original investigators. Background-source account and infrastructure attribution distinguished from direct model identification. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-111
+TI  - I-HITL: Inalienable Human-in-the-Loop
+PB  - Cornell Tech / Yale / IC3
+AU  - Samuel Breckenridge
+AU  - Dani Vilardell
+AU  - Wenhao Wang
+AU  - Fan Zhang
+AU  - Ari Juels
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.35835
+N1  - Source ID SRC-111. Publication date as recorded: 2026-10-26. Version 2 dated October 27 inspected at https://arxiv.org/html/2610.35835v2 ; revision not an independent study. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-112
+TI  - GLM-5.3: Multi-Stage Cyber Operations and Instruction Violations
+PB  - Irregular
+AU  - Irregular
+PY  - 2026
+UR  - https://www.irregular.com/research/glm-5.3-multi-stage-cyber-operations-and-instruction-violations
+N1  - Source ID SRC-112. Publication date as recorded: 2026-10-28.  Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-113
+TI  - Retrieving server secrets and bypassing authorization on a government statistics website
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/
+N1  - Source ID SRC-113. Publication date as recorded: 2026-10-15 (report updated). Incident June 17; discovered August 13. Target identifiers redacted. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-114
+TI  - Using a funded test cryptocurrency wallet without authorization
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/
+N1  - Source ID SRC-114. Publication date as recorded: 2026-10-15 (report updated). Incident June 26; discovered September 25. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-115
+TI  - Circumventing internet restrictions through an external browser
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://alignment.openai.com/misalignment-reports/circumventing-internet-restrictions-through-an-external-browser/
+N1  - Source ID SRC-115. Publication date as recorded: 2026-10-15 (report updated). Incident June 16; discovered by June 25. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-116
+TI  - Securing our frontier model training environment
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/securing-our-frontier-model-training-environment/
+N1  - Source ID SRC-116. Publication date as recorded: 2026-10-23.  Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-117
+TI  - Our framework for reporting model misalignment
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/model-misalignment-reporting-framework/
+N1  - Source ID SRC-117. Publication date as recorded: 2026-09-16.  Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-118
+TI  - AICPA and AIUC joint assurance announcement
+PB  - AICPA
+AU  - AICPA and AIUC joint assurance announcement
+PY  - 2026
+UR  - https://www.aicpa-cima.com/news/article/auditors-meet-urgent-demand-for-ai-assurance-with-new-offering-from-aicpa-and-aiuc
+N1  - Source ID SRC-118. Publication date as recorded: 2026-10-19. Page label Oct18 conflicts with dateline Oct19; retained both, no silent date normalization. Distinct original publication; discovery summaries are dependent, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-119
+TI  - IOPC: Officers at risk of accidental AI misconduct
+PB  - IOPC
+AU  - IOPC
+PY  - 2026
+UR  - https://www.policeconduct.gov.uk/news/officers-risk-accidental-ai-misconduct-iopc-warns
+N1  - Source ID SRC-119. Publication date as recorded: 2026-10-13. No correction notice identified in inspected location. Distinct original publication; discovery summaries are dependent, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-120
+TI  - Anthropic: Claude Haiku 5.5 System Card
+PB  - HAIKU
+AU  - Anthropic
+PY  - 2026
+UR  - https://www.anthropic.com/claude-haiku-5-5-system-card
+N1  - Source ID SRC-120. Publication date as recorded: 2026-10-07. No correction notice identified in inspected location. Distinct original publication; discovery summaries are dependent, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-121
+TI  - OpenAI: GPT-6 Sol and GPT-6 Luna October update
+PB  - OPENAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://deploymentsafety.openai.com/gpt-6-october
+N1  - Source ID SRC-121. Publication date as recorded: 2026-10-07. No correction notice identified in inspected location. Distinct original publication; discovery summaries are dependent, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-122
+TI  - Google Research: Open and Emergent Problems in Agentic Privacy and Security
+PB  - GOOGLE
+AU  - Google Research
+PY  - 2026
+UR  - https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/
+N1  - Source ID SRC-122. Publication date as recorded: 2026-10-05. No correction notice identified in inspected location. Distinct original publication; discovery summaries are dependent, not corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-123
+TI  - How employment is changing at Anthropic
+PB  - Anthropic
+AU  - Nathan Wilmers
+AU  - Regina Catipon
+AU  - Maxim Massenkoff
+AU  - Peter McCrory
+PY  - 2026
+UR  - https://www.anthropic.com/research/employment-at-anthropic
+N1  - Source ID SRC-123. Publication date as recorded: 2026-10-16. Article and PDF describe the same study. Related organizational source family to SRC-038/EVID-053/054, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-124
+TI  - Adoption of Generative AI in the Workplace
+PB  - arXiv
+AU  - Yu et al.
+PY  - 2026
+UR  - https://arxiv.org/abs/2608.15550
+N1  - Source ID SRC-124. Publication date as recorded: 2026-08-16. v1 submission August 16, 2026; manuscript heading August 24 recorded separately. Microsoft listing describes the same study. Different populations and tasks from EVID-002–004; neither replication nor direct contradiction. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-125
+TI  - CRUX initial study and CRUX-2 follow-up
+PB  - CRUX Evals
+AU  - Kirgis et al.
+PY  - 2026
+UR  - https://cruxevals.com/research-notes/crux-2-follow-up/
+N1  - Source ID SRC-125. Publication date as recorded: 2026-10-20. Initial report July 30, 2026: https://cruxevals.com/crux/can-ai-agents-conduct-research/ . Follow-up October 20. Overlapping authors and reused question prevent independent-corroboration claims. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-126
+TI  - LLMs are making formal software verification feasible at a much larger scale
+PB  - Anthropic
+AU  - Lucas et al.
+PY  - 2026
+UR  - https://www.anthropic.com/research/formal-verification
+N1  - Source ID SRC-126. Publication date as recorded: 2026-10-22. Same source family: appendix https://www-cdn.anthropic.com/files/4zrzovbb/website/6867eadf760258fa8b42a504600cd3c036d16358.pdf and https://github.com/theorem-labs/oss-verify-proofs . The released subset is not independent confirmation of the full claim. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-127
+TI  - Towards a Science of Scaling Agent Systems
+PB  - arXiv / Nature Machine Intelligence
+AU  - Kim et al.
+PY  - 2026
+UR  - https://arxiv.org/abs/2512.08296v3
+N1  - Source ID SRC-127. Publication date as recorded: 2026-04-08. v1 December 9, 2025: https://arxiv.org/abs/2512.08296v1 . Renamed journal version July 24, 2026: https://www.nature.com/articles/s42256-026-01268-y . Changelog commit 8673d6a8d5a764a07b08e4283492380d80257223: https://github.com/ybkim95/agent-scaling/blob/8673d6a8d5a764a07b08e4283492380d80257223/CHANGELOG.md . Related EVID-106/SRC-073, distinct study. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-128
+TI  - To predict and serve?
+PB  - Significance
+AU  - Kristian Lum
+AU  - William Isaac
+PY  - 2016
+UR  - https://rss.onlinelibrary.wiley.com/doi/full/10.1111/j.1740-9713.2016.00960.x
+N1  - Source ID SRC-128. Publication date as recorded: 2016-10-07. Significance 13(5), 14–19; DOI 10.1111/j.1740-9713.2016.00960.x. Ensign et al. reuse this motivating setting/data; not independent corroboration of those inputs. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-129
+TI  - Runaway Feedback Loops in Predictive Policing
+PB  - PMLR 81
+AU  - Danielle Ensign
+AU  - Sorelle A. Friedler
+AU  - Scott Neville
+AU  - Carlos Scheidegger
+AU  - Suresh Venkatasubramanian
+PY  - 2018
+UR  - https://proceedings.mlr.press/v81/ensign18a.html
+N1  - Source ID SRC-129. Publication date as recorded: 2018-02-23. v1 June 29, 2017: https://arxiv.org/abs/1706.09847v1 ; v3 December 22, 2017: https://arxiv.org/abs/1706.09847v3 . Proceedings 160–171, February 23–24, 2018. Lum/Isaac precursor and data dependence retained. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-130
+TI  - How Algorithmic Confounding in Recommendation Systems Increases Homogeneity and Decreases Utility
+PB  - RecSys / arXiv
+AU  - Allison J. B. Chaney
+AU  - Brandon M. Stewart
+AU  - Barbara E. Engelhardt
+PY  - 2018
+UR  - https://arxiv.org/abs/1710.11214
+N1  - Source ID SRC-130. Publication date as recorded: 2018. v1 October 30, 2017; v2 November 27, 2018. RecSys October 2–7, 2018, DOI https://doi.org/10.1145/3240323.3240370 . Institutional copy and preprint are one work; no complete version diff performed. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-131
+TI  - Performative Prediction
+PB  - PMLR 119
+AU  - Juan C. Perdomo
+AU  - Tijana Zrnic
+AU  - Celestine Mendler-Dünner
+AU  - Moritz Hardt
+PY  - 2020
+UR  - https://proceedings.mlr.press/v119/perdomo20a.html
+N1  - Source ID SRC-131. Publication date as recorded: 2020-07-13. v1 February 16, 2020; v4 February 26, 2021: https://arxiv.org/abs/2002.06673 . v4 marked fixed some typos; substantive equivalence not fully audited. https://github.com/jcperdomo/performative-prediction not executed. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-132
+TI  - Formalizing Human-Robot Mutual Adaptation: A Bounded Memory Model; 2017 journal extension
+PB  - HRI / International Journal of Robotics Research
+AU  - Stefanos Nikolaidis
+AU  - Anton Kuznetsov
+AU  - David Hsu
+AU  - Siddhartha Srinivasa
+PY  - 2016
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC6329591/
+N1  - Source ID SRC-132. Publication date as recorded: 2016. 2016 root DOI https://doi.org/10.1109/HRI.2016.7451736 . 2017 extension: https://stefanosnikolaidis.net/papers/ijrr2017.pdf ; DOI https://doi.org/10.1177/0278364917690593 . The original 69-participant result is reused, not replicated. Expanded experiments include samples of 43 and 58. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-133
+TI  - Risk management in a dynamic society: A modelling problem
+PB  - Safety Science / DTU
+AU  - Jens Rasmussen
+PY  - 1997
+UR  - https://orbit.dtu.dk/en/publications/risk-management-in-a-dynamic-society-a-modelling-problem/
+N1  - Source ID SRC-133. Publication date as recorded: 1997. Safety Science 27(2–3), 183–213; DOI https://doi.org/10.1016/S0925-7535(97)00052-0 . Accepted manuscript https://backend.orbit.dtu.dk/ws/files/158016663/SAFESCI.PDF . Private-study permission is not public redistribution permission; no copy retained. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-134
+TI  - Learning and deskilling effects of artificial intelligence in colonoscopy among endoscopists with different levels of experience: a pragmatic, prospective trial
+PB  - Endoscopy
+AU  - T. A. Pedersen
+AU  - Y. Mori
+AU  - E. Botteri
+AU  - et al.
+PY  - 2026
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13552228/
+N1  - Source ID SRC-134. Publication date as recorded: 2026-06-03. Endoscopy 58(9), 1003–1014; online June 3, 2026; DOI https://doi.org/10.1055/a-2858-7084 . Personnel overlap with the separate Polish study does not imply the same dataset. Article states CC BY 4.0; links only. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-135
+TI  - Corrigibility
+PB  - AAAI AI and Ethics workshop / MIRI
+AU  - Nate Soares
+AU  - Benja Fallenstein
+AU  - Eliezer Yudkowsky
+AU  - Stuart Armstrong
+PY  - 2015
+UR  - https://intelligence.org/files/Corrigibility.pdf
+N1  - Source ID SRC-135. Publication date as recorded: 2015-01-25. Workshop January 25–26, 2015. Announcement October 18, 2014: https://intelligence.org/2014/10/18/new-report-corrigibility/ . Original 2014 bytes not established; alternate TR URL currently displays 2015 header. No source copy preserved. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-136
+TI  - Circuit Tracing: Revealing Computational Graphs in Language Models; On the Biology of a Large Language Model
+PB  - Transformer Circuits
+AU  - Emmanuel Ameisen et al.
+AU  - Jack Lindsey et al.
+AU  - Harish Kamath et al.
+PY  - 2025
+UR  - https://transformer-circuits.pub/2025/attribution-graphs/methods.html
+N1  - Source ID SRC-136. Publication date as recorded: 2025-03-27. Biology companion https://transformer-circuits.pub/2025/attribution-graphs/biology.html . July 31 extension https://transformer-circuits.pub/2025/attention-qk/index.html adds attention-pattern computation; related programme, not a renamed edition. March announcement and May tool release are not independent studies. Overlap with hidden-objective model organism EVID-013/SRC-011 disclosed. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-137
+TI  - Investigating the potential use of frontier AI models for offensive cyberattacks: A human uplift study
+PB  - RAND / UK AISI
+AU  - Jair Aguirre et al.
+PY  - 2026
+UR  - https://www.rand.org/pubs/research_reports/RRA3892-1.html
+N1  - Source ID SRC-137. Publication date as recorded: 2026-05-28. RR-A3892-1; DOI https://doi.org/10.7249/RRA3892-1 . Landing page and full report are one study; reproduction rights reserved to UK AISI, links only. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-138
+TI  - Hidden Technical Debt in Machine Learning Systems
+PB  - NeurIPS
+AU  - D. Sculley
+AU  - Gary Holt
+AU  - Daniel Golovin
+AU  - Eugene Davydov
+AU  - Todd Phillips
+AU  - Dietmar Ebner
+AU  - Vinay Chaudhary
+AU  - Michael Young
+AU  - Jean-François Crespo
+AU  - Dan Dennison
+PY  - 2015
+UR  - https://proceedings.neurips.cc/paper/2015/file/86df7dcfd896fcaf2674f757a2463eba-Paper.pdf
+N1  - Source ID SRC-138. Publication date as recorded: 2015. Expanded 2015 paper follows 2014 Machine Learning: The High Interest Credit Card of Technical Debt. Root metadata https://research.google/pubs/machine-learning-the-high-interest-credit-card-of-technical-debt/ inspected; root full text unavailable. One intellectual lineage, not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-139
+TI  - Generative AI at Work
+PB  - Quarterly Journal of Economics
+AU  - Erik Brynjolfsson
+AU  - Danielle Li
+AU  - Lindsey R. Raymond
+PY  - 2025
+UR  - https://academic.oup.com/qje/article/140/2/889/7990658
+N1  - Source ID SRC-139. Publication date as recorded: 2025-02-04. QJE 140(2), 889–942, DOI https://doi.org/10.1093/qje/qjae044 . NBER 31161 April 2023/revised November 2023 https://www.nber.org/papers/w31161 reports 5,179/14%; arXiv https://arxiv.org/abs/2304.11771 . Versions of one study; historical changes not fully diffed. Replication files not inspected. CC BY-NC 4.0; no copy preserved. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-140
+TI  - The Out-of-the-Loop Performance Problem and Level of Control in Automation
+PB  - Human Factors
+AU  - Mica R. Endsley
+AU  - Esin O. Kiris
+PY  - 1995
+UR  - https://journals.sagepub.com/doi/10.1518/001872095779064555
+N1  - Source ID SRC-140. Publication date as recorded: 1995-06. Human Factors 37(2), 381–394. Author-uploaded text inspected by MM1 at https://www.researchgate.net/profile/Mica-Endsley/publication/238726310_The_Out-of-the-Loop_Performance_Problem_and_Level_of_Control_in_Automation/links/56426ab008aebaaea1f8e7a9/The-Out-of-the-Loop-Performance-Problem-and-Level-of-Control-in-Automation.pdf . Upload date November 10, 2015 is not publication date; no byte authentication. Related to conceptual Bainbridge SRC-087/EVID-120, distinct experiment. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-141
+TI  - Takeover Time in Highly Automated Vehicles: Noncritical Transitions to and From Manual Control
+PB  - Human Factors
+AU  - Alexander Eriksson
+AU  - Neville A. Stanton
+PY  - 2017
+UR  - https://journals.sagepub.com/doi/10.1177/0018720816685832
+N1  - Source ID SRC-141. Publication date as recorded: 2017-01-26. Human Factors 59(4), 689–705; online January 26, June 2017 issue. Publisher request timed out; MM1 inspected author-uploaded full text https://www.researchgate.net/publication/312922628_Takeover_Time_in_Highly_Automated_Vehicles_Noncritical_Transitions_to_and_From_Manual_Control . Metadata https://pubmed.ncbi.nlm.nih.gov/28124573/ . One study family; not a replication of Endsley/Kiris or Bainbridge. Source inspection is not independent verification.
+ER  - 

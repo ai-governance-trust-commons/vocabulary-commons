@@ -1,0 +1,174 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-012",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-012.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-012",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-012",
+    "title": "Injected documents redirect answers despite duplicate filtering",
+    "case_id": "CASE-009",
+    "observation": "The authors report that small injected document sets could redirect RAG answers in controlled evaluations. Byte-identical duplicate filtering left attack success unchanged because the malicious texts differed. This supports treating textual diversity as distinct from provenance independence.",
+    "evidence_standing": "Bounded observation (researcher-reported experiment; not independently reproduced)",
+    "glossary_fit": "Illustrative, bounded; does not establish generality",
+    "source_ids": [
+      "SRC-010"
+    ],
+    "source_locations": {
+      "SRC-010": "Abstract; sections 7.3–7.4 and 8, printed pp. 3839–3840 (PDF pages 14–15), Table 13; section 6.2–6.3 for application tests."
+    },
+    "limitations": "Requires attacker-supplied documents to enter the retrieved corpus; not evidence of an actual production compromise. Retrieval expansion reduced success but did not eliminate it: the HotpotQA test with 50 retrieved texts retained 41%/43% success. Failures and limited nontarget effects are reported; results do not establish all RAG deployments vulnerable.",
+    "open_questions": "Operational prevalence, modern defenses and semantic/provenance-aware dedup effectiveness remain unresolved.",
+    "keywords": [
+      "Reference environment integrity",
+      "Environmental redirection"
+    ],
+    "support_assessment": "Attributed research finding; not independently reproduced by the Commons.",
+    "dispute_status": "No explicit correction located in bounded search; not a systematic retraction clearance",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-009",
+    "title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+    "kind": "Controlled research setting; not a deployment incident",
+    "event_date": null,
+    "event_date_precision": "Experimental dates not separately established",
+    "source_ids": [
+      "SRC-010"
+    ],
+    "summary": "Distinct study setting; source versions and companion pages are not separate events.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-010",
+      "title": "PoisonedRAG: Knowledge Corruption Attacks to Retrieval-Augmented Generation of Large Language Models",
+      "publisher": "USENIX Association, 34th USENIX Security Symposium, pp. 3827–3844",
+      "issuing_body": "USENIX Association, 34th USENIX Security Symposium, pp. 3827–3844",
+      "authors": [
+        "Wei Zou",
+        "Runpeng Geng",
+        "Binghui Wang",
+        "Jinyuan Jia"
+      ],
+      "url": "https://www.usenix.org/system/files/usenixsecurity25-zou-poisonedrag.pdf",
+      "publication_date": "2025-08",
+      "access_date": "2026-10-30",
+      "locator": "Abstract; sections 7.3–7.4 and 8, printed pp. 3839–3840 (PDF pages 14–15), Table 13; section 6.2–6.3 for application tests.",
+      "source_kind": "Primary research report",
+      "independence_group": "new-study-SRC-010",
+      "version_note": "2025-08 proceedings; conference 2025-08-13–15; preprint v1 2024-02-12, v3 2024-08-13. Proceedings PDF, publisher page, preprint and author repository belong to one study family; not four corroborators. Preserve final proceedings as preferred citation; link preprint as version history, not a second event.",
+      "verification": {
+        "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+        "scope": "Abstract; sections 7.3–7.4 and 8, printed pp.3839–3840 (PDF pages14–15), Table13; section6.2–6.3 for application tests.",
+        "review_date": "2026-10-30",
+        "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-environmental-redirection",
+      "name": "Environmental redirection",
+      "definition": "A change in an agent’s actions, methods, beliefs, or priorities arising from information, artifacts, tools, constraints, or incentives encountered while performing a task. Such redirection can be beneficial or harmful; an altered belief, selected method, and adopted objective are not the same outcome.",
+      "vocabulary": "Extended",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#environmental-redirection",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-reference-environment-integrity",
+      "name": "Reference environment integrity",
+      "definition": "The reliability, provenance, completeness, and resistance to manipulation of information used to make operational or assurance judgments, including documents, logs, telemetry, evidence, and monitoring outputs.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#reference-environment-integrity",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-027",
+      "from_id": "EVID-012",
+      "to_id": "TERM-reference-environment-integrity",
+      "relationship_type": "illustrates",
+      "explanation": "Evidence availability, completeness and provenance condition the inference.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-028",
+      "from_id": "EVID-012",
+      "to_id": "TERM-environmental-redirection",
+      "relationship_type": "illustrates",
+      "explanation": "Externally supplied material changed outputs in the tested setting.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

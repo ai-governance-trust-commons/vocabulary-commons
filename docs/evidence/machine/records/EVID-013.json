@@ -1,0 +1,283 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-013",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-013.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-013",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-013",
+    "title": "Auditor access affects detection of a deliberately hidden objective",
+    "case_id": "CASE-010",
+    "observation": "Researchers report that all three blinded teams with model/data access identified a deliberately trained reward-model-sycophancy objective; the API-only fourth team did not. Additional access and methods sometimes narrowed this constructed observability boundary.",
+    "evidence_standing": "Bounded observation (researcher-reported experiment; not independently reproduced)",
+    "glossary_fit": "Illustrative, bounded; does not establish generality",
+    "source_ids": [
+      "SRC-011"
+    ],
+    "source_locations": {
+      "SRC-011": "Sections 4 (blind auditing game), 5 (auditing techniques), 7 (limitations), 8 (conclusion)."
+    },
+    "limitations": "Unequal access prevents treating four teams as equivalent trials. Explicit synthetic training descriptions, data artifacts, limited concealment training and small sample limit generalization. Recovering this planted objective establishes neither audit completeness nor a general success rate.",
+    "open_questions": "Performance on naturally arising objectives without explicit training descriptions remains unresolved.",
+    "keywords": [
+      "Observability boundary",
+      "Assurance"
+    ],
+    "support_assessment": "Attributed research finding; not independently reproduced by the Commons.",
+    "dispute_status": "No explicit correction located in bounded search; not a systematic retraction clearance",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-010",
+    "title": "Auditing language models for hidden objectives",
+    "kind": "Controlled research setting; not a deployment incident",
+    "event_date": null,
+    "event_date_precision": "Experimental dates not separately established",
+    "source_ids": [
+      "SRC-011"
+    ],
+    "summary": "Distinct study setting; source versions and companion pages are not separate events.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-011",
+      "title": "Auditing language models for hidden objectives",
+      "publisher": "Anthropic / arXiv",
+      "issuing_body": "Anthropic / arXiv",
+      "authors": [
+        "Samuel Marks et al."
+      ],
+      "url": "https://arxiv.org/html/2503.10965v2",
+      "publication_date": "2025-03-14",
+      "access_date": "2026-10-30",
+      "locator": "Sections 4 (blind auditing game), 5 (auditing techniques), 7 (limitations), 8 (conclusion).",
+      "source_kind": "Primary research report",
+      "independence_group": "auditing-model-organism-lineage",
+      "version_note": "Official announcement 2025-03-13; arXiv v1 2025-03-14; examined v2 2025-03-28. Blog/abstract/HTML/PDF are same research family. Related to but separate from canonical alignment-faking experiment. SRC-012 is a later related model-organism replication, not an independent replication of the human auditing outcome.",
+      "verification": {
+        "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+        "scope": "Sections4 (blind auditing game),5 (auditing techniques),7 (limitations),8 (conclusion).",
+        "review_date": "2026-10-30",
+        "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-012",
+      "title": "Open Source Replication of the Auditing Game Model Organism",
+      "publisher": "Anthropic Alignment Science Blog",
+      "issuing_body": "Anthropic Alignment Science Blog",
+      "authors": [
+        "Abhay Sheshadri",
+        "Rohan Gupta",
+        "Kei Nishimura-Gasparian",
+        "Sam Marks",
+        "Rowan Wang",
+        "Johannes Treutlein"
+      ],
+      "url": "https://alignment.anthropic.com/2025/auditing-mo-replication/",
+      "publication_date": "2025-12-12",
+      "access_date": "2026-10-30",
+      "locator": "Introduction; Replication Procedure; Reward Model Sycophancy and Red-Teaming Evaluations / Automated Red-Teaming; baseline-auditing discussion.",
+      "source_kind": "Primary research report",
+      "independence_group": "auditing-model-organism-lineage",
+      "version_note": "2025-12-12; no explicit revision identifier visible Explicitly depends on SRC-011's synthetic corpus and protocol; overlapping authors and Anthropic publication. Separate experiment/model, but not independent corroboration or replication of the human audit.",
+      "verification": {
+        "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+        "scope": "Introduction; Replication Procedure; Reward Model Sycophancy and Red-Teaming Evaluations / Automated Red-Teaming; baseline-auditing discussion.",
+        "review_date": "2026-10-30",
+        "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
+        "independent_corroboration": "Not established by this batch",
+        "dispute_status": "Bounded correction search; no explicit correction located, not an exhaustive clearance",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; source-copy permission unassessed for this batch; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "SRC-136",
+      "title": "Circuit Tracing: Revealing Computational Graphs in Language Models; On the Biology of a Large Language Model",
+      "publisher": "Transformer Circuits",
+      "issuing_body": "Emmanuel Ameisen et al.; Jack Lindsey et al.; Harish Kamath et al.",
+      "authors": [
+        "Emmanuel Ameisen et al.",
+        "Jack Lindsey et al.",
+        "Harish Kamath et al."
+      ],
+      "url": "https://transformer-circuits.pub/2025/attribution-graphs/methods.html",
+      "publication_date": "2025-03-27",
+      "access_date": "2026-10-31",
+      "locator": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension",
+      "source_kind": "Original research or operational measurement",
+      "independence_group": "circuit-tracing-2025",
+      "version_note": "Biology companion https://transformer-circuits.pub/2025/attribution-graphs/biology.html . July 31 extension https://transformer-circuits.pub/2025/attention-qk/index.html adds attention-pattern computation; related programme, not a renamed edition. March announcement and May tool release are not independent studies. Overlap with hidden-objective model organism EVID-013/SRC-011 disclosed.",
+      "verification": {
+        "status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+        "scope": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+        "review_date": "2026-10-31",
+        "authenticity": "Publisher, author or repository location recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
+        "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+      },
+      "preservation": {
+        "status": "Link-only; no source copy captured",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-029",
+      "from_id": "EVID-013",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies what the specified evidence or monitoring arrangement can establish.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-030",
+      "from_id": "EVID-013",
+      "to_id": "TERM-assurance",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies confidence outside the tested conditions; success or failure is not universal.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [
+    {
+      "id": "REL-039",
+      "from_id": "SRC-012",
+      "to_id": "SRC-011",
+      "relationship_type": "derived experimental protocol",
+      "explanation": "Later model-organism experiment reuses the earlier synthetic corpus/protocol and overlaps authors; not independent replication of the human audit outcome.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-410",
+      "from_id": "SRC-136",
+      "to_id": "SRC-011",
+      "relationship_type": "research programme overlap",
+      "explanation": "Hidden-objective model-organism overlap; intervention cases must not be counted as independent corroboration of all prior claims.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    }
+  ],
+  "withdrawal": null
+}

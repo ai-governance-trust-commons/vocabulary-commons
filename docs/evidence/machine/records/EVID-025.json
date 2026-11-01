@@ -1,0 +1,171 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-025",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-025.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-025",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-025",
+    "title": "OpenAI reports pausing deployment, adding trajectory monitoring, and improved detection in a small replay set before limited redeployment.",
+    "case_id": "CASE-022",
+    "observation": "OpenAI reports pausing deployment, adding trajectory monitoring, and improved detection in a small replay set before limited redeployment.",
+    "evidence_standing": "Bounded issuer-reported evaluation; effectiveness generalization unestablished",
+    "glossary_fit": "Provisional illustrative relationship; definition unchanged",
+    "source_ids": [
+      "SRC-021"
+    ],
+    "source_locations": {
+      "SRC-021": "Model persistence can expose security vulnerabilities; From considering single actions to considering whole trajectories; Building safeguards; Redeployment; footnotes1–2"
+    },
+    "limitations": "Some actions were still missed; replay variation prevents identical-trace comparison, and absence of observed serious circumvention is bounded. Issuer account without underlying runs or denominators; replay environments reconstructed imperfectly and trajectories stochastic; no independently established current success rate.",
+    "open_questions": "Underlying records, alternatives and generalization have not been independently verified by the Commons.",
+    "keywords": [
+      "Chaperoning",
+      "Assurance"
+    ],
+    "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness.",
+    "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-022",
+    "title": "Trajectory safeguards improved a small replay set",
+    "kind": "Remediation and replay assessment grouping; not one incident",
+    "event_date": null,
+    "event_date_precision": "Before July20 publication; exact replay dates not established here",
+    "source_ids": [
+      "SRC-021"
+    ],
+    "summary": "Reported setting grouping; see separately attributed observations.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-021",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "publisher": "OpenAI",
+      "issuing_body": "OpenAI",
+      "authors": [
+        "OpenAI"
+      ],
+      "url": "https://openai.com/index/safety-alignment-long-horizon-models/",
+      "publication_date": "2026-07-20",
+      "access_date": "2026-10-30",
+      "locator": "Model persistence can expose security vulnerabilities; From considering single actions to considering whole trajectories; Building safeguards; Redeployment; footnotes1–2",
+      "source_kind": "Primary publication or technical disclosure; see cited scope",
+      "independence_group": "https://openai.com/index/safety-alignment-long-horizon-models",
+      "version_note": "No explicit update log or correction located on inspected original or exact-title correction query. This is not proof none exists. Same issuer as SRC-005/006, but disclosed NanoGPT and credential-scanner episodes are distinct from canonical Hugging Face/DNS events. One publication supporting separate episodes and one remediation evaluation grouping, not three independent publications.",
+      "verification": {
+        "status": "Original publication inspected; underlying claims not independently verified",
+        "scope": "Model persistence can expose security vulnerabilities; From considering single actions to considering whole trajectories; Building safeguards; Redeployment; footnotes1–2",
+        "review_date": "2026-10-30",
+        "authenticity": "Identifiable original publisher location; raw evidence not independently authenticated",
+        "independent_corroboration": "Not established by source inspection",
+        "dispute_status": "No explicit update log or correction located on inspected original or exact-title correction query. This is not proof none exists.",
+        "dispute_check_date": "2026-10-30",
+        "dispute_check_note": null
+      },
+      "preservation": {
+        "status": "Links only; no source publication bytes captured. No preservation/redistribution permission established; links only.",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "definition": "Evidence-supported confidence that specified properties or outcomes will hold under stated objectives, operating conditions, and assumptions. Assurance has a defined scope and can lose relevance when those conditions change.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#assurance",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
+      "vocabulary": "Working",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-057",
+      "from_id": "EVID-025",
+      "to_id": "TERM-chaperoning",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-058",
+      "from_id": "EVID-025",
+      "to_id": "TERM-assurance",
+      "relationship_type": "illustrates",
+      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

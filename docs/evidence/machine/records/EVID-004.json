@@ -1,0 +1,126 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.0",
+  "dataset_version": "0.4.5",
+  "dataset_sha256": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+  "id": "EVID-004",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-004.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-004",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-004",
+    "title": "Later productivity estimates face participation and timing bias",
+    "case_id": "CASE-002",
+    "observation": "METR reports that later study participation, task selection, and concurrent-agent time measurement make its updated productivity estimate unreliable.",
+    "evidence_standing": "Indicated (methodological assessment by authors)",
+    "glossary_fit": "Awaiting clear fit",
+    "source_ids": [
+      "SRC-004"
+    ],
+    "source_locations": {
+      "SRC-004": "Opening findings; selection issues; Details of the productivity study"
+    },
+    "limitations": "The authors consider greater speedup plausible but say their data weakly identifies its size. This is not a clean reversal of the earlier randomized result.",
+    "open_questions": "How should AI-driven changes in who and what can be measured be described without forcing a new term?",
+    "keywords": [
+      "selection bias",
+      "participation",
+      "measurement",
+      "concurrent agents",
+      "unmatched",
+      "study design"
+    ],
+    "support_assessment": "Attributed summary of the cited author or provider account. Source inspection supports traceability; the Commons has not independently replicated or verified the underlying finding.",
+    "dispute_status": "Disputes and retractions not systematically checked",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Indication",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-002",
+    "title": "METR developer productivity research series",
+    "kind": "Research series",
+    "event_date": "2025-02/2026-02",
+    "event_date_precision": "range",
+    "source_ids": [
+      "SRC-002",
+      "SRC-003",
+      "SRC-004"
+    ],
+    "summary": "Related early-2025 trial and later follow-up. Separate cohorts and methods must remain distinguishable.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-004",
+      "title": "We are Changing our Developer Productivity Experiment Design",
+      "publisher": "METR",
+      "issuing_body": "METR",
+      "authors": [],
+      "url": "https://metr.org/blog/2026-02-24-uplift-update/",
+      "publication_date": "2026-02-24",
+      "access_date": "2026-10-30",
+      "locator": "Opening findings; numbered selection issues; Details of the productivity study",
+      "source_kind": "Research update",
+      "independence_group": "metr-productivity-2026",
+      "version_note": "Live webpage accessed 30 October 2026",
+      "verification": {
+        "status": "AI source inspection recorded; underlying claims not independently verified",
+        "scope": "Cited publication and supporting locations",
+        "review_date": "2026-10-30",
+        "authenticity": "Publisher URL recorded; underlying records not independently authenticated",
+        "independent_corroboration": "Not established by this pilot",
+        "dispute_status": "Disputes and retractions not systematically checked",
+        "dispute_check_date": null,
+        "dispute_check_note": "No dated systematic dispute/retraction check recorded; null does not mean none exist."
+      },
+      "preservation": {
+        "status": "Linked source only; full source bytes not archived",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "terms": [],
+  "relationships": [
+    {
+      "id": "REL-010",
+      "from_id": "EVID-004",
+      "to_id": "EVID-002",
+      "relationship_type": "updates context",
+      "explanation": "Later research adds temporal and methodological context; preserves the early-2025 result.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}
