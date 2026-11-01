@@ -1,6 +1,6 @@
 {
   "dataset_version": "0.5.1",
-  "presentation_version": "0.5.2",
+  "presentation_version": "0.5.3",
   "generated_at": "2026-11-01T18:38:34.584202+00:00",
   "evidence_count": 182,
   "source_count": 145,
@@ -9,7 +9,7 @@
     "EVID-144"
   ],
   "files_sha256": {
-    "index.html": "6ddefde9b22db83f963dd9a1241c1be261b39dd636aa672276e121d4e906cc99",
+    "index.html": "0f915ef46e7e847a22609ee27bf27a8fe7cdd10ebf2331a8ac93f960bc492c7f",
     "evidence.json": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
     "policy.html": "9558c90c8622108e53fe32acd727e09e3fb191d0257b332a4771f224c44ed744",
     "evidence.js": "b00425211d7e07bfcc9b3c061e35713bf5bd9d017cb2eb2200b7d68b7623cf3e",
@@ -29,6 +29,25 @@
       "coverage.js": "33429ad734567b3ae59b07aa7ec582037eb47f1c9d201da0a68943c1f6e484b1",
       "coverage.json": "79b0f0cbec7fa84185b9e204f7d8b4455c3f28ee2954ca8dbe519092d4503fb3",
       "index.html": "56af314f0c47dbc1f9b8723e99940f026ab27c1465e77078bb13e26055619c18"
+    }
+  },
+  "research_paths": {
+    "editorial_version": "0.5.3",
+    "dataset_version": "0.5.1",
+    "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+    "files_sha256": {
+      "questions/barriers-to-action/index.html": "7b15d45d93393aa54f6dcb0cf9ba67701c8661d8e00a7f1abf069973ea9dd488",
+      "questions/change-and-continuity/index.html": "711f775602ac95165faad2168545987b926d4676ab7e64290a62310b41e9b93c",
+      "questions/evidence-and-provenance/index.html": "d8e40725ea2bc36e9412dbbbe79a5396301bfcf2e431024890c46faba6d3007b",
+      "questions/feedback-and-interaction/index.html": "d3c541c1bcae37300fa32cd05cba5ade0903967c282bba18c3b751ff39c31197",
+      "questions/governability-across-systems/index.html": "76dfa23438c935b0cae89a5a5d69ee112375730d75cd1c7d9c494026a9f0f8d3",
+      "questions/human-oversight/index.html": "9fb49ac37333339b9cf29221f9e84fe8a63f7a19fb330308211ce5af8a2c107e",
+      "questions/index.html": "98674c0b9f563ad9ba0f8fb9fb28b03a8f5ea5d2a95fff040217d578ae14f30d",
+      "questions/monitoring-and-visibility/index.html": "e9fadf5a161e97359adbac17cd25589cfb5f2a91bd4bfbcc24738e8876734e41",
+      "questions/paths.css": "a2763fc7bf596d1ea7cde6c3e21b2117f5be1cd99be4257fb66bf633419b558c",
+      "questions/paths.js": "d2b084dc72bd337b0aa615dae73291aa32bd6852ce3d2a00841c5dbaee8ef398",
+      "questions/paths.json": "acd3a582222c7903aecac38f5373714b23199db485ce9e7cc4f8909a1bba55b7",
+      "questions/reliance-and-competence/index.html": "79e27946dc4aa05b1c63403905bbc94f9e1cc72fa139b6e9e46e400d461b001a"
     }
   }
 }

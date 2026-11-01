@@ -1,0 +1,107 @@
+{
+  "editorial_version": "0.5.3",
+  "scope": "Editorial reading paths through already published evidence. Selections are starting points, not exhaustive reviews, evidence rankings or new canonical relationships.",
+  "paths": [
+    {
+      "slug": "human-oversight", "label": "Human oversight",
+      "question": "When is human oversight more than an approval step?",
+      "intro": "Separate who makes a decision from who can recognize, assess and correct it—and whether there is time to act.",
+      "terms": ["TERM-chaperoning", "TERM-meaningful-human-control", "TERM-horizon-compression", "TERM-trajectory-persistence"],
+      "prompts": ["Does human input constitute the decision, or provide an opportunity to correct it?", "What do the measurements establish about awareness, response time and intervention?", "Which parts are conceptual distinctions, and which were observed in a task?"],
+      "caution": "A taxonomy does not demonstrate effective oversight. A short simulated task does not establish field takeover performance or long-term competence.",
+      "readings": [
+        {"id": "EVID-110", "heading": "Distinguish decision-making from correction", "why": "Start with a proposed causal taxonomy that separates different kinds of human involvement."},
+        {"id": "EVID-176", "heading": "Examine response after automation is withdrawn", "why": "Then compare that vocabulary with a bounded experiment measuring later manual responses. The task and timing assumptions matter."}
+      ]
+    },
+    {
+      "slug": "monitoring-and-visibility", "label": "Monitoring and visibility",
+      "question": "How can monitoring miss consequential relationships?",
+      "intro": "Examine the difference between what a monitor can see, what a trace reports, and what an investigator can infer.",
+      "terms": ["TERM-observability", "TERM-observability-boundary", "TERM-beyond-visual-range-bvr", "TERM-sleight-of-hand-effect"],
+      "prompts": ["Was relevant activity outside monitoring coverage, or present but hard to interpret?", "Does a reasoning trace reveal all influences on an answer?", "What missing instrumentation prevents an estimate from becoming an exact count?"],
+      "caution": "Incomplete visibility does not establish deliberate concealment. Historical coverage gaps do not establish current exposure or successful exploitation.",
+      "readings": [
+        {"id": "EVID-022", "heading": "Inspect a reported coverage gap and its repair", "why": "This assessment distinguishes estimated historical monitoring omissions from later verified context visibility."},
+        {"id": "EVID-011", "heading": "Ask what generated reasoning leaves out", "why": "Constructed hint tests examine incomplete disclosure, while retaining the limits of transfer to other tasks."}
+      ]
+    },
+    {
+      "slug": "barriers-to-action", "label": "Barriers to action",
+      "question": "What changes when AI lowers the barriers to action?",
+      "intro": "Distinguish easier entry, faster task completion and end-to-end capability. Improvement at one stage need not remove the next bottleneck.",
+      "terms": ["TERM-constraint-compression", "TERM-capability-feasibility-progression", "TERM-attacker-model-change"],
+      "prompts": ["Which stage became easier, and for which users and tools?", "Did a measured gain extend to a complete objective?", "What physical, organizational or technical constraints remained?"],
+      "caution": "These sources examine different populations and tasks; they are comparisons of boundaries, not directly comparable effect sizes. Statistical insignificance does not prove no effect.",
+      "readings": [
+        {"id": "EVID-173", "heading": "Separate early-stage uplift from complete attacks", "why": "A randomized novice study distinguishes progress at an early stage from completion of harder chains."},
+        {"id": "EVID-002", "heading": "Retain evidence of slowdown", "why": "A randomized developer trial challenges automatic acceleration in its tested setting. Its two cited publications describe the same trial."},
+        {"id": "EVID-124", "heading": "Look for bottlenecks beyond design", "why": "A technical assessment separates design acceleration from physical experimental validation; this is a review, not a new misuse incident."}
+      ]
+    },
+    {
+      "slug": "feedback-and-interaction", "label": "Feedback and interaction",
+      "question": "How can interacting activities affect pace and consequences?",
+      "intro": "Follow the return path: how can an output change the environment, data or input that shapes later behavior?",
+      "terms": ["TERM-cross-system-feedback", "TERM-feedback-acceleration", "TERM-feedback-amplification", "TERM-horizon-compression"],
+      "prompts": ["What passes from one activity into another, and what comes back?", "Is the result faster activity, amplified effects, or a changed distribution?", "Under what assumptions might feedback stabilize rather than amplify instability?"],
+      "caution": "These are simulations, formal results and a constructed ecosystem, not evidence of an uncontrolled outbreak. Feedback acceleration still has no recorded term relationship; these selections do not fill that gap or measure faster cycles.",
+      "readings": [
+        {"id": "EVID-166", "heading": "Trace a recommender feedback mechanism", "why": "Simulation shows how recommendations can shape later training data and homogenize consumption without matching utility gains."},
+        {"id": "EVID-167", "heading": "Compare conditions for convergence", "why": "A formal analysis offers a boundary to inevitable-instability claims. Stability itself is not a judgment of desirability."},
+        {"id": "EVID-180", "heading": "Examine propagation in a constructed ecosystem", "why": "The email-assistant demonstration makes the application’s recipient choices a crucial boundary on what the prompt controls."}
+      ]
+    },
+    {
+      "slug": "reliance-and-competence", "label": "Reliance and competence",
+      "question": "How does organizational reliance affect the ability to evaluate work?",
+      "intro": "Compare assistance during work with the ability to evaluate or perform work after assistance ends. Retain evidence of learning and null results alongside concerns about lost practice.",
+      "terms": ["TERM-organizational-dependency", "TERM-operational-trust", "TERM-competency-decay", "TERM-assurance-independence"],
+      "prompts": ["What changed while assistance was available, and what persisted afterward?", "Was competence measured directly, or inferred from a performance proxy?", "Do the population, task and observation period support the proposed interpretation?"],
+      "caution": "Industrial-process synthesis, clinical assistance and workplace software concern different settings. They do not establish a universal direction of skill change from AI use.",
+      "readings": [
+        {"id": "EVID-120", "heading": "Start with the lost-practice concern", "why": "Bainbridge’s historical synthesis describes demanding recovery work and reduced practice; it is not modern LLM measurement."},
+        {"id": "EVID-170", "heading": "Retain a study detecting no group-level skill change", "why": "The clinical registry study supplies a bounded null result. No statistically detected change is not proof of equivalence."},
+        {"id": "EVID-175", "heading": "Examine suggestive evidence of learning", "why": "Outage performance after workplace AI exposure offers a different possibility, with noisy estimates and limits on what chat duration measures."}
+      ]
+    },
+    {
+      "slug": "evidence-and-provenance", "label": "Evidence and provenance",
+      "question": "What can make apparently credible evidence unreliable?",
+      "intro": "Follow information from its origin into a later answer or plan. Ask whether its source remains visible and whether a bounded defense changes the result.",
+      "terms": ["TERM-reference-environment-integrity", "TERM-evidence-laundering-through-ai", "TERM-environmental-redirection"],
+      "prompts": ["Which upstream material influenced the output, and was it attributed?", "Did a monitor see the source material, a paraphrase, or only the final action?", "Which payloads, models and adaptive attacks were included in a defense test?"],
+      "caution": "These studies use different tasks and attacks. They are not a head-to-head test, prevalence estimate or proof of universal defenses.",
+      "readings": [
+        {"id": "EVID-095", "heading": "Follow an injected plan into a later trace", "why": "Controlled tasks examine paraphrasing without attribution and monitor evasion, while preserving evidence that thinking monitors performed better on average."},
+        {"id": "EVID-183", "heading": "Compare a bounded source-marking defense", "why": "Source-marking transformations reduced tested injection success, with synthetic payloads and specified older models limiting transfer."}
+      ]
+    },
+    {
+      "slug": "change-and-continuity", "label": "Change and continuity",
+      "question": "What should be examined when AI-enabled capabilities evolve?",
+      "intro": "Separate improvement on a target task from preservation of other behaviors, constraints and opportunities for correction.",
+      "terms": ["TERM-successor-assurance", "TERM-outcome-purpose-divergence", "TERM-purpose-preservation", "TERM-purposeful-continuity"],
+      "prompts": ["What improved, and what other behavior was tested before and after the change?", "Are multiple findings different outcomes from one study family?", "Does a formal model illuminate a question without establishing it in deployed LLMs?"],
+      "caution": "EVID-066 and EVID-068 share one source family and controlled setup; they are not independent replications. EVID-171 is a formal toy model. None establishes unaided removal of real safety policies or malicious intent.",
+      "readings": [
+        {"id": "EVID-066", "heading": "Examine improvement after agent-led training", "why": "The controlled account reports improved held-out performance after a checkpoint change, with substantial setup and execution limits."},
+        {"id": "EVID-068", "heading": "Inspect another behavior from the same study", "why": "A benign synthetic refusal test changed after training. Read it alongside the performance finding, preserving operator assistance and family overlap."},
+        {"id": "EVID-171", "heading": "Ask whether correction persists into subsystems", "why": "A formal analysis distinguishes shutdown compliance from incentives to make newly constructed subsystems correctable."}
+      ]
+    },
+    {
+      "slug": "governability-across-systems", "label": "Governability across systems",
+      "question": "What does governability mean beyond one agent or control?",
+      "intro": "Distinguish reconstructed coordination from parallel activity, then ask what a wider system description reveals about local adaptation.",
+      "terms": ["TERM-governability", "TERM-distributed-adaptive-control-environment", "TERM-system-level-autonomy", "TERM-control-air-gap"],
+      "prompts": ["What observations connect messages, shared state and consequential actions?", "Could similar activity reflect shared tasks or infrastructure without collaboration?", "What remains a conceptual analogy rather than a measured AI-system property?"],
+      "caution": "Observed coordination retains a human evaluation context. Failure to observe coordination does not rule it out. The historical conceptual model does not validate a contemporary AI hypothesis.",
+      "readings": [
+        {"id": "EVID-026", "heading": "Inspect reconstructed coordination", "why": "Investigators describe a message board and collective workstreams, with missing communications and conflicting coordination retained as limits."},
+        {"id": "EVID-142", "heading": "Compare parallel activity without observed coordination", "why": "A separate account explicitly distinguishes shared infrastructure and similar tasks from demonstrated collaboration."},
+        {"id": "EVID-169", "heading": "Widen the frame to interacting control processes", "why": "Rasmussen’s conceptual account offers a way to examine local adaptation across organizations, without treating the analogy as AI field evidence."}
+      ]
+    }
+  ]
+}
