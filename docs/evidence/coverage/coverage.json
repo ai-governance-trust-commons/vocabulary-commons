@@ -1,0 +1,2374 @@
+{
+  "dataset_version": "0.5.1",
+  "terms": [
+    {
+      "id": "TERM-ai-enabled-capability",
+      "name": "AI-enabled capability",
+      "finding_ids": [
+        "EVID-124",
+        "EVID-146",
+        "EVID-182"
+      ],
+      "finding_count": 3,
+      "source_ids": [
+        "SRC-091",
+        "SRC-112",
+        "SRC-145"
+      ],
+      "recorded_family_ids": [
+        "IRREGULAR_GLM53",
+        "lanyado-package-hallucination-programme",
+        "study-nas28868"
+      ],
+      "recorded_family_count": 3,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-124"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-146",
+          "EVID-182"
+        ],
+        "qualifies": [
+          "EVID-124"
+        ]
+      }
+    },
+    {
+      "id": "TERM-assurance",
+      "name": "Assurance",
+      "finding_ids": [
+        "EVID-003",
+        "EVID-011",
+        "EVID-013",
+        "EVID-014",
+        "EVID-017",
+        "EVID-021",
+        "EVID-024",
+        "EVID-025",
+        "EVID-029",
+        "EVID-031",
+        "EVID-036",
+        "EVID-037",
+        "EVID-050",
+        "EVID-051",
+        "EVID-052",
+        "EVID-054",
+        "EVID-059",
+        "EVID-060",
+        "EVID-061",
+        "EVID-069",
+        "EVID-073",
+        "EVID-079",
+        "EVID-087",
+        "EVID-089",
+        "EVID-093",
+        "EVID-094",
+        "EVID-097",
+        "EVID-099",
+        "EVID-102",
+        "EVID-105",
+        "EVID-107",
+        "EVID-109",
+        "EVID-111",
+        "EVID-115",
+        "EVID-118",
+        "EVID-119",
+        "EVID-121",
+        "EVID-125",
+        "EVID-129",
+        "EVID-130",
+        "EVID-131",
+        "EVID-132",
+        "EVID-133",
+        "EVID-137",
+        "EVID-138",
+        "EVID-140",
+        "EVID-141",
+        "EVID-147",
+        "EVID-152",
+        "EVID-153",
+        "EVID-154",
+        "EVID-158",
+        "EVID-162",
+        "EVID-183",
+        "EVID-184"
+      ],
+      "finding_count": 55,
+      "source_ids": [
+        "SRC-002",
+        "SRC-003",
+        "SRC-009",
+        "SRC-011",
+        "SRC-012",
+        "SRC-015",
+        "SRC-019",
+        "SRC-021",
+        "SRC-023",
+        "SRC-024",
+        "SRC-025",
+        "SRC-026",
+        "SRC-030",
+        "SRC-036",
+        "SRC-037",
+        "SRC-038",
+        "SRC-039",
+        "SRC-042",
+        "SRC-046",
+        "SRC-049",
+        "SRC-050",
+        "SRC-055",
+        "SRC-057",
+        "SRC-060",
+        "SRC-061",
+        "SRC-064",
+        "SRC-066",
+        "SRC-069",
+        "SRC-072",
+        "SRC-074",
+        "SRC-076",
+        "SRC-078",
+        "SRC-082",
+        "SRC-085",
+        "SRC-086",
+        "SRC-088",
+        "SRC-092",
+        "SRC-096",
+        "SRC-099",
+        "SRC-100",
+        "SRC-101",
+        "SRC-102",
+        "SRC-104",
+        "SRC-106",
+        "SRC-107",
+        "SRC-108",
+        "SRC-112",
+        "SRC-116",
+        "SRC-117",
+        "SRC-118",
+        "SRC-122",
+        "SRC-126",
+        "SRC-146",
+        "SRC-147"
+      ],
+      "recorded_family_ids": [
+        "AIHW_STATEMENT",
+        "AISI_ASSESS",
+        "AISI_ASTRA",
+        "ANTH_AISI",
+        "IRREGULAR_GLM53",
+        "MS_LITELLM",
+        "OAI_AUSTRALIA",
+        "OAI_CONTAINMENT",
+        "OAI_REPORTING_FRAMEWORK",
+        "REDWOOD_SCE",
+        "VENDOR_LITELLM",
+        "anthropic-four-cyber-evals-2026",
+        "anthropic-opus 55-launch",
+        "anthropic-rd-metrics-2026",
+        "anthropic-unintended-actions-oct 2026",
+        "arxiv:2610.08364",
+        "auditing-model-organism-lineage",
+        "formal-verification-2026",
+        "hines-spotlighting-2024",
+        "https://aiverifyfoundation.sg/ai-assurance/accredited-testers",
+        "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider",
+        "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+        "https://github.com/pwardle/not-a-mused",
+        "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Open-Agent-Safety-Platform-to-Secure-Agents-From-Testing-to-Deployment",
+        "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
+        "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf",
+        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+        "https://openai.com/index/safety-alignment-long-horizon-models",
+        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
+        "https://www.aicpa-cima.com/news/article/auditors-meet-urgent-demand-for-ai-assurance-with-new-offering-from-aicpa-and-aiuc",
+        "https://www.air.security/blog-posts/plugin4shell",
+        "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report",
+        "metr-productivity-2025",
+        "microsoft-tay-2016",
+        "new-study-SRC-009",
+        "new-study-SRC-015",
+        "rem-1",
+        "rem-3",
+        "rem-4",
+        "rem-5",
+        "study-arxiv-2604.27292",
+        "study-arxiv-2609.17527",
+        "study-arxiv-2609.23226",
+        "study-arxiv-2609.29189",
+        "study-arxiv-2610.00797",
+        "study-arxiv-2610.02122",
+        "study-arxiv-2610.05840",
+        "study-controllability",
+        "study-hallucinate",
+        "study-riskrepo"
+      ],
+      "recorded_family_count": 52,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-011",
+        "EVID-013",
+        "EVID-014",
+        "EVID-017",
+        "EVID-097",
+        "EVID-099",
+        "EVID-102",
+        "EVID-105",
+        "EVID-107",
+        "EVID-109",
+        "EVID-111",
+        "EVID-121",
+        "EVID-125",
+        "EVID-129",
+        "EVID-183"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-003",
+          "EVID-021",
+          "EVID-024",
+          "EVID-025",
+          "EVID-029",
+          "EVID-031",
+          "EVID-036",
+          "EVID-037",
+          "EVID-050",
+          "EVID-051",
+          "EVID-052",
+          "EVID-054",
+          "EVID-059",
+          "EVID-060",
+          "EVID-061",
+          "EVID-069",
+          "EVID-073",
+          "EVID-079",
+          "EVID-087",
+          "EVID-089",
+          "EVID-093",
+          "EVID-094",
+          "EVID-115",
+          "EVID-118",
+          "EVID-119",
+          "EVID-130",
+          "EVID-131",
+          "EVID-132",
+          "EVID-133",
+          "EVID-137",
+          "EVID-138",
+          "EVID-140",
+          "EVID-141",
+          "EVID-147",
+          "EVID-152",
+          "EVID-153",
+          "EVID-154",
+          "EVID-158",
+          "EVID-162",
+          "EVID-184"
+        ],
+        "qualifies": [
+          "EVID-011",
+          "EVID-013",
+          "EVID-014",
+          "EVID-017",
+          "EVID-097",
+          "EVID-099",
+          "EVID-102",
+          "EVID-105",
+          "EVID-107",
+          "EVID-109",
+          "EVID-111",
+          "EVID-121",
+          "EVID-125",
+          "EVID-129",
+          "EVID-183"
+        ]
+      }
+    },
+    {
+      "id": "TERM-assurance-independence",
+      "name": "Assurance independence",
+      "finding_ids": [
+        "EVID-022",
+        "EVID-128",
+        "EVID-130",
+        "EVID-133",
+        "EVID-154"
+      ],
+      "finding_count": 5,
+      "source_ids": [
+        "SRC-020",
+        "SRC-095",
+        "SRC-099",
+        "SRC-102",
+        "SRC-118"
+      ],
+      "recorded_family_ids": [
+        "https://aiverifyfoundation.sg/ai-assurance/accredited-testers",
+        "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+        "https://www.aicpa-cima.com/news/article/auditors-meet-urgent-demand-for-ai-assurance-with-new-offering-from-aicpa-and-aiuc",
+        "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "study-internaldeploy"
+      ],
+      "recorded_family_count": 5,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-128"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-022",
+          "EVID-130",
+          "EVID-133",
+          "EVID-154"
+        ],
+        "qualifies": [
+          "EVID-128"
+        ]
+      }
+    },
+    {
+      "id": "TERM-attacker-model-change",
+      "name": "Attacker-model change",
+      "finding_ids": [
+        "EVID-173",
+        "EVID-179"
+      ],
+      "finding_count": 2,
+      "source_ids": [
+        "SRC-137",
+        "SRC-142"
+      ],
+      "recorded_family_ids": [
+        "greshake-indirect-injection-2023",
+        "rand-cyber-uplift-2026"
+      ],
+      "recorded_family_count": 2,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-173",
+          "EVID-179"
+        ]
+      }
+    },
+    {
+      "id": "TERM-beyond-visual-range-bvr",
+      "name": "Beyond visual range (BVR)",
+      "finding_ids": [
+        "EVID-174"
+      ],
+      "finding_count": 1,
+      "source_ids": [
+        "SRC-138"
+      ],
+      "recorded_family_ids": [
+        "sculley-2015"
+      ],
+      "recorded_family_count": 1,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-174"
+        ]
+      }
+    },
+    {
+      "id": "TERM-capability-feasibility-progression",
+      "name": "Capability feasibility progression",
+      "finding_ids": [
+        "EVID-015",
+        "EVID-064",
+        "EVID-065",
+        "EVID-090",
+        "EVID-092",
+        "EVID-124",
+        "EVID-127",
+        "EVID-173"
+      ],
+      "finding_count": 8,
+      "source_ids": [
+        "SRC-013",
+        "SRC-040",
+        "SRC-058",
+        "SRC-059",
+        "SRC-091",
+        "SRC-094",
+        "SRC-137"
+      ],
+      "recorded_family_ids": [
+        "anthropic-threat-report-sept 2026",
+        "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+        "https://www.hacktron.ai/blog/hacking-openai",
+        "new-study-SRC-013",
+        "rand-cyber-uplift-2026",
+        "study-nas28868",
+        "study-selfreplication"
+      ],
+      "recorded_family_count": 7,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-124",
+        "EVID-127",
+        "EVID-173"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-015",
+          "EVID-064",
+          "EVID-065",
+          "EVID-090",
+          "EVID-092"
+        ],
+        "qualifies": [
+          "EVID-124",
+          "EVID-127",
+          "EVID-173"
+        ]
+      }
+    },
+    {
+      "id": "TERM-chaperoning",
+      "name": "Chaperoning",
+      "finding_ids": [
+        "EVID-005",
+        "EVID-006",
+        "EVID-007",
+        "EVID-008",
+        "EVID-009",
+        "EVID-010",
+        "EVID-022",
+        "EVID-025",
+        "EVID-029",
+        "EVID-032",
+        "EVID-035",
+        "EVID-038",
+        "EVID-040",
+        "EVID-043",
+        "EVID-047",
+        "EVID-048",
+        "EVID-051",
+        "EVID-052",
+        "EVID-053",
+        "EVID-054",
+        "EVID-055",
+        "EVID-056",
+        "EVID-057",
+        "EVID-062",
+        "EVID-063",
+        "EVID-064",
+        "EVID-070",
+        "EVID-071",
+        "EVID-072",
+        "EVID-076",
+        "EVID-087",
+        "EVID-100",
+        "EVID-110",
+        "EVID-116",
+        "EVID-119",
+        "EVID-120",
+        "EVID-121",
+        "EVID-128",
+        "EVID-132",
+        "EVID-145",
+        "EVID-152",
+        "EVID-155",
+        "EVID-156",
+        "EVID-157",
+        "EVID-158",
+        "EVID-159",
+        "EVID-176",
+        "EVID-177"
+      ],
+      "finding_count": 48,
+      "source_ids": [
+        "SRC-005",
+        "SRC-006",
+        "SRC-007",
+        "SRC-008",
+        "SRC-020",
+        "SRC-021",
+        "SRC-023",
+        "SRC-024",
+        "SRC-027",
+        "SRC-029",
+        "SRC-031",
+        "SRC-032",
+        "SRC-035",
+        "SRC-036",
+        "SRC-037",
+        "SRC-038",
+        "SRC-039",
+        "SRC-040",
+        "SRC-043",
+        "SRC-044",
+        "SRC-046",
+        "SRC-049",
+        "SRC-051",
+        "SRC-055",
+        "SRC-067",
+        "SRC-077",
+        "SRC-083",
+        "SRC-086",
+        "SRC-087",
+        "SRC-088",
+        "SRC-095",
+        "SRC-101",
+        "SRC-111",
+        "SRC-116",
+        "SRC-119",
+        "SRC-120",
+        "SRC-121",
+        "SRC-122",
+        "SRC-123",
+        "SRC-140",
+        "SRC-141"
+      ],
+      "recorded_family_ids": [
+        "AISI_ASSESS",
+        "AISI_ASTRA",
+        "ANTH_AISI",
+        "AU_PRESS",
+        "I_HITL",
+        "OAI_AUSTRALIA",
+        "OAI_CONTAINMENT",
+        "SOCRADAR_INC",
+        "TRACEBIT_FACTORY",
+        "anthropic-employment-2026",
+        "anthropic-four-cyber-evals-2026",
+        "anthropic-gtg 1002-2025",
+        "anthropic-opus 55-launch",
+        "anthropic-rd-metrics-2026",
+        "anthropic-threat-report-sept 2026",
+        "anthropic-unintended-actions-oct 2026",
+        "crowdstrike-vaporpanda-oct 2026",
+        "endsley-kiris-1995",
+        "eriksson-stanton-2017",
+        "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider",
+        "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+        "https://csirt.divd.nl/cases/DIVD-2026-00014",
+        "https://deploymentsafety.openai.com/gpt-6-october",
+        "https://labs.zenity.io/post/salesbleed-hijacking-agentforce-in-slack-for-anonymous-phishing",
+        "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+        "https://openai.com/index/safety-alignment-long-horizon-models",
+        "https://research.google/blog/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle",
+        "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
+        "https://www.anthropic.com/claude-haiku-5-5-system-card",
+        "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report",
+        "https://www.policeconduct.gov.uk/news/officers-risk-accidental-ai-misconduct-iopc-warns",
+        "microsoft-storm 0940-oct 2026",
+        "openai-hugging-face-2026",
+        "openai-monitoring-2026",
+        "study-arxiv-2603.19213",
+        "study-arxiv-2609.24242",
+        "study-bainbridge",
+        "study-controllability",
+        "study-internaldeploy"
+      ],
+      "recorded_family_count": 39,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-005",
+        "EVID-009",
+        "EVID-010",
+        "EVID-100",
+        "EVID-110",
+        "EVID-120",
+        "EVID-121",
+        "EVID-128"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-006",
+          "EVID-007",
+          "EVID-008",
+          "EVID-022",
+          "EVID-025",
+          "EVID-029",
+          "EVID-032",
+          "EVID-035",
+          "EVID-038",
+          "EVID-040",
+          "EVID-043",
+          "EVID-047",
+          "EVID-048",
+          "EVID-051",
+          "EVID-052",
+          "EVID-053",
+          "EVID-054",
+          "EVID-055",
+          "EVID-056",
+          "EVID-057",
+          "EVID-062",
+          "EVID-063",
+          "EVID-064",
+          "EVID-070",
+          "EVID-071",
+          "EVID-072",
+          "EVID-076",
+          "EVID-087",
+          "EVID-116",
+          "EVID-119",
+          "EVID-132",
+          "EVID-145",
+          "EVID-152",
+          "EVID-155",
+          "EVID-156",
+          "EVID-157",
+          "EVID-158",
+          "EVID-159",
+          "EVID-176",
+          "EVID-177"
+        ],
+        "qualifies": [
+          "EVID-005",
+          "EVID-009",
+          "EVID-010",
+          "EVID-100",
+          "EVID-110",
+          "EVID-120",
+          "EVID-121",
+          "EVID-128"
+        ]
+      }
+    },
+    {
+      "id": "TERM-competency-decay",
+      "name": "Competency decay",
+      "finding_ids": [
+        "EVID-112",
+        "EVID-120",
+        "EVID-126",
+        "EVID-170",
+        "EVID-175"
+      ],
+      "finding_count": 5,
+      "source_ids": [
+        "SRC-079",
+        "SRC-087",
+        "SRC-093",
+        "SRC-134",
+        "SRC-139"
+      ],
+      "recorded_family_ids": [
+        "brynjolfsson-work",
+        "pedersen-2026",
+        "study-arxiv-2608.08601",
+        "study-bainbridge",
+        "study-learning"
+      ],
+      "recorded_family_count": 5,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-112",
+        "EVID-120",
+        "EVID-126",
+        "EVID-170",
+        "EVID-175"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "qualifies": [
+          "EVID-112",
+          "EVID-120",
+          "EVID-126",
+          "EVID-170",
+          "EVID-175"
+        ]
+      }
+    },
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "finding_ids": [
+        "EVID-002",
+        "EVID-015",
+        "EVID-016",
+        "EVID-023",
+        "EVID-028",
+        "EVID-032",
+        "EVID-033",
+        "EVID-038",
+        "EVID-039",
+        "EVID-043",
+        "EVID-062",
+        "EVID-073",
+        "EVID-074",
+        "EVID-082",
+        "EVID-088",
+        "EVID-090",
+        "EVID-092",
+        "EVID-096",
+        "EVID-117",
+        "EVID-124",
+        "EVID-150",
+        "EVID-156",
+        "EVID-157",
+        "EVID-162"
+      ],
+      "finding_count": 24,
+      "source_ids": [
+        "SRC-002",
+        "SRC-003",
+        "SRC-013",
+        "SRC-014",
+        "SRC-021",
+        "SRC-023",
+        "SRC-024",
+        "SRC-027",
+        "SRC-028",
+        "SRC-031",
+        "SRC-032",
+        "SRC-035",
+        "SRC-040",
+        "SRC-046",
+        "SRC-047",
+        "SRC-053",
+        "SRC-056",
+        "SRC-058",
+        "SRC-059",
+        "SRC-063",
+        "SRC-084",
+        "SRC-091",
+        "SRC-115",
+        "SRC-120",
+        "SRC-121",
+        "SRC-126"
+      ],
+      "recorded_family_ids": [
+        "AISI_ASSESS",
+        "ANTH_AISI",
+        "NOR_CAIRN",
+        "OAI_BROWSER_BYPASS",
+        "SOCRADAR_INC",
+        "TRANSLUCE_USCAN",
+        "UNIT42_BUGSTER",
+        "anthropic-gtg 1002-2025",
+        "anthropic-threat-report-sept 2026",
+        "crowdstrike-vaporpanda-oct 2026",
+        "formal-verification-2026",
+        "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime",
+        "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+        "https://deploymentsafety.openai.com/gpt-6-october",
+        "https://openai.com/index/safety-alignment-long-horizon-models",
+        "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+        "https://www.anthropic.com/claude-haiku-5-5-system-card",
+        "https://www.hacktron.ai/blog/hacking-openai",
+        "https://www.wiz.io/blog/php2shell-php-rce",
+        "metr-productivity-2025",
+        "microsoft-storm 0940-oct 2026",
+        "new-study-SRC-013",
+        "new-study-SRC-014",
+        "study-arxiv-2609.15383",
+        "study-nas28868"
+      ],
+      "recorded_family_count": 25,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-096",
+        "EVID-124"
+      ],
+      "challenging_finding_ids": [
+        "EVID-002"
+      ],
+      "relationships": {
+        "challenges application": [
+          "EVID-002"
+        ],
+        "illustrates": [
+          "EVID-015",
+          "EVID-016",
+          "EVID-023",
+          "EVID-028",
+          "EVID-032",
+          "EVID-033",
+          "EVID-038",
+          "EVID-039",
+          "EVID-043",
+          "EVID-062",
+          "EVID-073",
+          "EVID-074",
+          "EVID-082",
+          "EVID-088",
+          "EVID-090",
+          "EVID-092",
+          "EVID-117",
+          "EVID-150",
+          "EVID-156",
+          "EVID-157",
+          "EVID-162"
+        ],
+        "qualifies": [
+          "EVID-096",
+          "EVID-124"
+        ]
+      }
+    },
+    {
+      "id": "TERM-control-air-gap",
+      "name": "Control air gap",
+      "finding_ids": [
+        "EVID-058",
+        "EVID-145",
+        "EVID-151",
+        "EVID-152",
+        "EVID-181"
+      ],
+      "finding_count": 5,
+      "source_ids": [
+        "SRC-039",
+        "SRC-111",
+        "SRC-116",
+        "SRC-144"
+      ],
+      "recorded_family_ids": [
+        "I_HITL",
+        "OAI_CONTAINMENT",
+        "anthropic-four-cyber-evals-2026",
+        "rehberger-gemini-delayed-2024"
+      ],
+      "recorded_family_count": 4,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-058",
+          "EVID-145",
+          "EVID-151",
+          "EVID-152",
+          "EVID-181"
+        ]
+      }
+    },
+    {
+      "id": "TERM-cross-system-feedback",
+      "name": "Cross-system feedback",
+      "finding_ids": [
+        "EVID-023",
+        "EVID-026",
+        "EVID-030",
+        "EVID-041",
+        "EVID-042",
+        "EVID-043",
+        "EVID-062",
+        "EVID-074",
+        "EVID-075",
+        "EVID-086",
+        "EVID-097",
+        "EVID-098",
+        "EVID-104",
+        "EVID-106",
+        "EVID-108",
+        "EVID-113",
+        "EVID-115",
+        "EVID-135",
+        "EVID-136",
+        "EVID-143",
+        "EVID-151",
+        "EVID-163",
+        "EVID-165",
+        "EVID-166",
+        "EVID-174",
+        "EVID-180"
+      ],
+      "finding_count": 26,
+      "source_ids": [
+        "SRC-021",
+        "SRC-022",
+        "SRC-024",
+        "SRC-033",
+        "SRC-034",
+        "SRC-035",
+        "SRC-040",
+        "SRC-047",
+        "SRC-048",
+        "SRC-054",
+        "SRC-064",
+        "SRC-065",
+        "SRC-071",
+        "SRC-073",
+        "SRC-075",
+        "SRC-080",
+        "SRC-082",
+        "SRC-109",
+        "SRC-116",
+        "SRC-127",
+        "SRC-129",
+        "SRC-130",
+        "SRC-138",
+        "SRC-143"
+      ],
+      "recorded_family_ids": [
+        "ANTH_AISI",
+        "NOR_CAIRN",
+        "NOR_SUBVERSION",
+        "OAI_CONTAINMENT",
+        "WIKIMEDIA_ACTIVITY",
+        "agent-scaling-kim",
+        "anthropic-threat-report-sept 2026",
+        "chaney-2018",
+        "crowdstrike-korea-artex-2026",
+        "crowdstrike-vaporpanda-oct 2026",
+        "ensign-2018",
+        "https://labs.zenity.io/post/salesbleed-0-click-data-exfiltration-on-agentforce",
+        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+        "https://openai.com/index/safety-alignment-long-horizon-models",
+        "morris-ii-2024-2025",
+        "rem-6",
+        "sculley-2015",
+        "study-arxiv-2609.01491",
+        "study-arxiv-2609.17527",
+        "study-arxiv-2609.32701",
+        "study-arxiv-2609.39050",
+        "study-arxiv-2610.02036",
+        "study-arxiv-2610.04083",
+        "wiz-artex-oct 2026"
+      ],
+      "recorded_family_count": 24,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-097",
+        "EVID-098",
+        "EVID-104",
+        "EVID-106",
+        "EVID-108",
+        "EVID-113",
+        "EVID-163"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-023",
+          "EVID-026",
+          "EVID-030",
+          "EVID-041",
+          "EVID-042",
+          "EVID-043",
+          "EVID-062",
+          "EVID-074",
+          "EVID-075",
+          "EVID-086",
+          "EVID-115",
+          "EVID-135",
+          "EVID-136",
+          "EVID-143",
+          "EVID-151",
+          "EVID-165",
+          "EVID-166",
+          "EVID-174",
+          "EVID-180"
+        ],
+        "qualifies": [
+          "EVID-097",
+          "EVID-098",
+          "EVID-104",
+          "EVID-106",
+          "EVID-108",
+          "EVID-113",
+          "EVID-163"
+        ]
+      }
+    },
+    {
+      "id": "TERM-demonstrated-behavior",
+      "name": "Demonstrated behavior",
+      "finding_ids": [
+        "EVID-146"
+      ],
+      "finding_count": 1,
+      "source_ids": [
+        "SRC-112"
+      ],
+      "recorded_family_ids": [
+        "IRREGULAR_GLM53"
+      ],
+      "recorded_family_count": 1,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-146"
+        ]
+      }
+    },
+    {
+      "id": "TERM-distributed-adaptive-control-environment",
+      "name": "Distributed adaptive control environment",
+      "finding_ids": [
+        "EVID-169"
+      ],
+      "finding_count": 1,
+      "source_ids": [
+        "SRC-133"
+      ],
+      "recorded_family_ids": [
+        "rasmussen-1997"
+      ],
+      "recorded_family_count": 1,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-169"
+        ]
+      }
+    },
+    {
+      "id": "TERM-environmental-redirection",
+      "name": "Environmental redirection",
+      "finding_ids": [
+        "EVID-001",
+        "EVID-012",
+        "EVID-101",
+        "EVID-179",
+        "EVID-180",
+        "EVID-184"
+      ],
+      "finding_count": 6,
+      "source_ids": [
+        "SRC-001",
+        "SRC-010",
+        "SRC-068",
+        "SRC-142",
+        "SRC-143",
+        "SRC-147"
+      ],
+      "recorded_family_ids": [
+        "alignment-faking-2024",
+        "greshake-indirect-injection-2023",
+        "microsoft-tay-2016",
+        "morris-ii-2024-2025",
+        "new-study-SRC-010",
+        "study-arxiv-2609.27273"
+      ],
+      "recorded_family_count": 6,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-101"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-001",
+          "EVID-012",
+          "EVID-179",
+          "EVID-180",
+          "EVID-184"
+        ],
+        "qualifies": [
+          "EVID-101"
+        ]
+      }
+    },
+    {
+      "id": "TERM-evidence-laundering-through-ai",
+      "name": "Evidence laundering through AI",
+      "finding_ids": [
+        "EVID-060",
+        "EVID-069",
+        "EVID-095",
+        "EVID-134",
+        "EVID-153"
+      ],
+      "finding_count": 5,
+      "source_ids": [
+        "SRC-039",
+        "SRC-042",
+        "SRC-062",
+        "SRC-103",
+        "SRC-117"
+      ],
+      "recorded_family_ids": [
+        "OAI_REPORTING_FRAMEWORK",
+        "anthropic-four-cyber-evals-2026",
+        "arxiv:2610.08364",
+        "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf",
+        "study-arxiv-2609.15989"
+      ],
+      "recorded_family_count": 5,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-095"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-060",
+          "EVID-069",
+          "EVID-134",
+          "EVID-153"
+        ],
+        "qualifies": [
+          "EVID-095"
+        ]
+      }
+    },
+    {
+      "id": "TERM-feedback-acceleration",
+      "name": "Feedback acceleration",
+      "finding_ids": [],
+      "finding_count": 0,
+      "source_ids": [],
+      "recorded_family_ids": [],
+      "recorded_family_count": 0,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {}
+    },
+    {
+      "id": "TERM-feedback-amplification",
+      "name": "Feedback amplification",
+      "finding_ids": [
+        "EVID-164",
+        "EVID-165",
+        "EVID-166",
+        "EVID-167"
+      ],
+      "finding_count": 4,
+      "source_ids": [
+        "SRC-128",
+        "SRC-129",
+        "SRC-130",
+        "SRC-131"
+      ],
+      "recorded_family_ids": [
+        "chaney-2018",
+        "ensign-2018",
+        "lum-isaac-2016",
+        "perdomo-2020"
+      ],
+      "recorded_family_count": 4,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-165",
+        "EVID-167"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-164",
+          "EVID-166"
+        ],
+        "qualifies": [
+          "EVID-165",
+          "EVID-167"
+        ]
+      }
+    },
+    {
+      "id": "TERM-governability",
+      "name": "Governability",
+      "finding_ids": [
+        "EVID-028",
+        "EVID-044",
+        "EVID-045",
+        "EVID-046",
+        "EVID-049",
+        "EVID-050",
+        "EVID-057",
+        "EVID-058",
+        "EVID-075",
+        "EVID-076",
+        "EVID-081",
+        "EVID-087",
+        "EVID-122",
+        "EVID-123"
+      ],
+      "finding_count": 14,
+      "source_ids": [
+        "SRC-023",
+        "SRC-024",
+        "SRC-036",
+        "SRC-039",
+        "SRC-048",
+        "SRC-049",
+        "SRC-051",
+        "SRC-052",
+        "SRC-055",
+        "SRC-089",
+        "SRC-090"
+      ],
+      "recorded_family_ids": [
+        "AISI_ASSESS",
+        "AISI_ASTRA",
+        "ANTH_AISI",
+        "AU_PRESS",
+        "NOR_SUBVERSION",
+        "OAI_AUSTRALIA",
+        "OAI_ROLLING",
+        "anthropic-four-cyber-evals-2026",
+        "anthropic-unintended-actions-oct 2026",
+        "study-ecology",
+        "study-haig"
+      ],
+      "recorded_family_count": 11,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-122",
+        "EVID-123"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-028",
+          "EVID-044",
+          "EVID-045",
+          "EVID-046",
+          "EVID-049",
+          "EVID-050",
+          "EVID-057",
+          "EVID-058",
+          "EVID-075",
+          "EVID-076",
+          "EVID-081",
+          "EVID-087"
+        ],
+        "qualifies": [
+          "EVID-122",
+          "EVID-123"
+        ]
+      }
+    },
+    {
+      "id": "TERM-horizon-compression",
+      "name": "Horizon compression",
+      "finding_ids": [
+        "EVID-005",
+        "EVID-035",
+        "EVID-040",
+        "EVID-054",
+        "EVID-070",
+        "EVID-071",
+        "EVID-091",
+        "EVID-118",
+        "EVID-120"
+      ],
+      "finding_count": 9,
+      "source_ids": [
+        "SRC-005",
+        "SRC-006",
+        "SRC-029",
+        "SRC-032",
+        "SRC-038",
+        "SRC-043",
+        "SRC-044",
+        "SRC-058",
+        "SRC-085",
+        "SRC-087"
+      ],
+      "recorded_family_ids": [
+        "TRACEBIT_FACTORY",
+        "anthropic-rd-metrics-2026",
+        "https://csirt.divd.nl/cases/DIVD-2026-00014",
+        "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+        "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email",
+        "https://thephp.foundation/blog/2026/10/21/todays-php-security-release-and-how-were-strengthening-php-security",
+        "microsoft-storm 0940-oct 2026",
+        "openai-hugging-face-2026",
+        "openai-monitoring-2026",
+        "study-bainbridge"
+      ],
+      "recorded_family_count": 10,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-120"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-035",
+          "EVID-040",
+          "EVID-054",
+          "EVID-070",
+          "EVID-071",
+          "EVID-091",
+          "EVID-118"
+        ],
+        "partial": [
+          "EVID-005"
+        ],
+        "qualifies": [
+          "EVID-120"
+        ]
+      }
+    },
+    {
+      "id": "TERM-human-ai-mutual-adaptation",
+      "name": "Human–AI mutual adaptation",
+      "finding_ids": [
+        "EVID-168",
+        "EVID-178"
+      ],
+      "finding_count": 2,
+      "source_ids": [
+        "SRC-132"
+      ],
+      "recorded_family_ids": [
+        "nikolaidis-adaptation"
+      ],
+      "recorded_family_count": 1,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-178"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-168"
+        ],
+        "qualifies": [
+          "EVID-178"
+        ]
+      }
+    },
+    {
+      "id": "TERM-investigative-indicator",
+      "name": "Investigative indicator",
+      "finding_ids": [
+        "EVID-031",
+        "EVID-032",
+        "EVID-034",
+        "EVID-039",
+        "EVID-041",
+        "EVID-042",
+        "EVID-074",
+        "EVID-078",
+        "EVID-079",
+        "EVID-082",
+        "EVID-083",
+        "EVID-084",
+        "EVID-085",
+        "EVID-086",
+        "EVID-114",
+        "EVID-134",
+        "EVID-142",
+        "EVID-155"
+      ],
+      "finding_count": 18,
+      "source_ids": [
+        "SRC-025",
+        "SRC-026",
+        "SRC-027",
+        "SRC-028",
+        "SRC-032",
+        "SRC-033",
+        "SRC-034",
+        "SRC-047",
+        "SRC-049",
+        "SRC-050",
+        "SRC-051",
+        "SRC-053",
+        "SRC-054",
+        "SRC-081",
+        "SRC-103",
+        "SRC-109",
+        "SRC-119"
+      ],
+      "recorded_family_ids": [
+        "AIHW_STATEMENT",
+        "AU_PRESS",
+        "MS_LITELLM",
+        "NOR_CAIRN",
+        "OAI_AUSTRALIA",
+        "SOCRADAR_INC",
+        "TRANSLUCE_USCAN",
+        "UNIT42_BUGSTER",
+        "VENDOR_LITELLM",
+        "WIKIMEDIA_ACTIVITY",
+        "crowdstrike-korea-artex-2026",
+        "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant",
+        "https://www.policeconduct.gov.uk/news/officers-risk-accidental-ai-misconduct-iopc-warns",
+        "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf",
+        "microsoft-storm 0940-oct 2026",
+        "rem-6",
+        "wiz-artex-oct 2026"
+      ],
+      "recorded_family_count": 17,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-031",
+          "EVID-032",
+          "EVID-034",
+          "EVID-039",
+          "EVID-041",
+          "EVID-042",
+          "EVID-074",
+          "EVID-078",
+          "EVID-079",
+          "EVID-082",
+          "EVID-083",
+          "EVID-084",
+          "EVID-085",
+          "EVID-086",
+          "EVID-114",
+          "EVID-134",
+          "EVID-142",
+          "EVID-155"
+        ]
+      }
+    },
+    {
+      "id": "TERM-meaningful-human-control",
+      "name": "Meaningful human control",
+      "finding_ids": [
+        "EVID-018",
+        "EVID-019",
+        "EVID-020",
+        "EVID-047",
+        "EVID-100",
+        "EVID-110",
+        "EVID-121",
+        "EVID-122",
+        "EVID-145",
+        "EVID-149"
+      ],
+      "finding_count": 10,
+      "source_ids": [
+        "SRC-016",
+        "SRC-017",
+        "SRC-018",
+        "SRC-036",
+        "SRC-067",
+        "SRC-077",
+        "SRC-088",
+        "SRC-089",
+        "SRC-111",
+        "SRC-114"
+      ],
+      "recorded_family_ids": [
+        "I_HITL",
+        "OAI_TEST_WALLET",
+        "anthropic-unintended-actions-oct 2026",
+        "bucinca-cognitive-forcing-2021",
+        "study-arxiv-2603.19213",
+        "study-arxiv-2609.24242",
+        "study-controllability",
+        "study-haig",
+        "vaccaro-human-ai-meta-analysis-2024",
+        "vasconcelos-explanations-overreliance-2023"
+      ],
+      "recorded_family_count": 10,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-018",
+        "EVID-019",
+        "EVID-020",
+        "EVID-100",
+        "EVID-110",
+        "EVID-121",
+        "EVID-122"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-047",
+          "EVID-145",
+          "EVID-149"
+        ],
+        "qualifies": [
+          "EVID-018",
+          "EVID-019",
+          "EVID-020",
+          "EVID-100",
+          "EVID-110",
+          "EVID-121",
+          "EVID-122"
+        ]
+      }
+    },
+    {
+      "id": "TERM-mechanism-hypothesis",
+      "name": "Mechanism hypothesis",
+      "finding_ids": [
+        "EVID-167",
+        "EVID-172",
+        "EVID-178"
+      ],
+      "finding_count": 3,
+      "source_ids": [
+        "SRC-131",
+        "SRC-132",
+        "SRC-136"
+      ],
+      "recorded_family_ids": [
+        "circuit-tracing-2025",
+        "nikolaidis-adaptation",
+        "perdomo-2020"
+      ],
+      "recorded_family_count": 3,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-167",
+        "EVID-178"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-172"
+        ],
+        "qualifies": [
+          "EVID-167",
+          "EVID-178"
+        ]
+      }
+    },
+    {
+      "id": "TERM-observability",
+      "name": "Observability",
+      "finding_ids": [
+        "EVID-001",
+        "EVID-006",
+        "EVID-007",
+        "EVID-008",
+        "EVID-009",
+        "EVID-010",
+        "EVID-138",
+        "EVID-140",
+        "EVID-141",
+        "EVID-172"
+      ],
+      "finding_count": 10,
+      "source_ids": [
+        "SRC-001",
+        "SRC-005",
+        "SRC-006",
+        "SRC-007",
+        "SRC-008",
+        "SRC-104",
+        "SRC-106",
+        "SRC-107",
+        "SRC-108",
+        "SRC-136"
+      ],
+      "recorded_family_ids": [
+        "alignment-faking-2024",
+        "circuit-tracing-2025",
+        "openai-hugging-face-2026",
+        "openai-monitoring-2026",
+        "rem-1",
+        "rem-3",
+        "rem-4",
+        "rem-5"
+      ],
+      "recorded_family_count": 8,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-001",
+        "EVID-172"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-006",
+          "EVID-007",
+          "EVID-008",
+          "EVID-009",
+          "EVID-010",
+          "EVID-138",
+          "EVID-140",
+          "EVID-141"
+        ],
+        "qualifies": [
+          "EVID-001",
+          "EVID-172"
+        ]
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "finding_ids": [
+        "EVID-011",
+        "EVID-013",
+        "EVID-014",
+        "EVID-016",
+        "EVID-021",
+        "EVID-022",
+        "EVID-024",
+        "EVID-027",
+        "EVID-029",
+        "EVID-030",
+        "EVID-034",
+        "EVID-036",
+        "EVID-037",
+        "EVID-041",
+        "EVID-042",
+        "EVID-052",
+        "EVID-059",
+        "EVID-069",
+        "EVID-072",
+        "EVID-075",
+        "EVID-077",
+        "EVID-080",
+        "EVID-081",
+        "EVID-083",
+        "EVID-085",
+        "EVID-095",
+        "EVID-096",
+        "EVID-098",
+        "EVID-102",
+        "EVID-103",
+        "EVID-104",
+        "EVID-111",
+        "EVID-113",
+        "EVID-116",
+        "EVID-125",
+        "EVID-127",
+        "EVID-128",
+        "EVID-130",
+        "EVID-131",
+        "EVID-134",
+        "EVID-135",
+        "EVID-136",
+        "EVID-137",
+        "EVID-142",
+        "EVID-143",
+        "EVID-148",
+        "EVID-150",
+        "EVID-151",
+        "EVID-153",
+        "EVID-154",
+        "EVID-156",
+        "EVID-157",
+        "EVID-179",
+        "EVID-181"
+      ],
+      "finding_count": 54,
+      "source_ids": [
+        "SRC-009",
+        "SRC-011",
+        "SRC-012",
+        "SRC-014",
+        "SRC-019",
+        "SRC-020",
+        "SRC-021",
+        "SRC-022",
+        "SRC-023",
+        "SRC-024",
+        "SRC-026",
+        "SRC-028",
+        "SRC-030",
+        "SRC-033",
+        "SRC-034",
+        "SRC-037",
+        "SRC-039",
+        "SRC-042",
+        "SRC-046",
+        "SRC-048",
+        "SRC-049",
+        "SRC-051",
+        "SRC-052",
+        "SRC-053",
+        "SRC-054",
+        "SRC-062",
+        "SRC-063",
+        "SRC-065",
+        "SRC-069",
+        "SRC-070",
+        "SRC-071",
+        "SRC-078",
+        "SRC-080",
+        "SRC-083",
+        "SRC-092",
+        "SRC-094",
+        "SRC-095",
+        "SRC-099",
+        "SRC-100",
+        "SRC-103",
+        "SRC-104",
+        "SRC-109",
+        "SRC-113",
+        "SRC-115",
+        "SRC-116",
+        "SRC-117",
+        "SRC-118",
+        "SRC-120",
+        "SRC-121",
+        "SRC-142",
+        "SRC-144"
+      ],
+      "recorded_family_ids": [
+        "AISI_ASSESS",
+        "ANTH_AISI",
+        "AU_PRESS",
+        "NOR_SUBVERSION",
+        "OAI_AUSTRALIA",
+        "OAI_BROWSER_BYPASS",
+        "OAI_CONTAINMENT",
+        "OAI_REPORTING_FRAMEWORK",
+        "OAI_ROLLING",
+        "OAI_SERVER_SECRETS",
+        "REDWOOD_SCE",
+        "TRANSLUCE_USCAN",
+        "UNIT42_BUGSTER",
+        "VENDOR_LITELLM",
+        "WIKIMEDIA_ACTIVITY",
+        "anthropic-four-cyber-evals-2026",
+        "anthropic-opus 55-launch",
+        "arxiv:2610.08364",
+        "auditing-model-organism-lineage",
+        "crowdstrike-korea-artex-2026",
+        "greshake-indirect-injection-2023",
+        "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+        "https://deploymentsafety.openai.com/gpt-6-october",
+        "https://labs.zenity.io/post/salesbleed-hijacking-agentforce-in-slack-for-anonymous-phishing",
+        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+        "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+        "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
+        "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf",
+        "https://openai.com/index/safety-alignment-long-horizon-models",
+        "https://www.aicpa-cima.com/news/article/auditors-meet-urgent-demand-for-ai-assurance-with-new-offering-from-aicpa-and-aiuc",
+        "https://www.anthropic.com/claude-haiku-5-5-system-card",
+        "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+        "https://www.uscourts.gov/sites/default/files/document/2026-10-evidence-rules-agenda-book.pdf",
+        "new-study-SRC-009",
+        "new-study-SRC-014",
+        "rehberger-gemini-delayed-2024",
+        "rem-1",
+        "rem-6",
+        "study-arxiv-2604.27292",
+        "study-arxiv-2609.01491",
+        "study-arxiv-2609.15383",
+        "study-arxiv-2609.15989",
+        "study-arxiv-2609.29189",
+        "study-arxiv-2609.32701",
+        "study-arxiv-2609.38411",
+        "study-arxiv-2609.39050",
+        "study-internaldeploy",
+        "study-riskrepo",
+        "study-selfreplication",
+        "wiz-artex-oct 2026"
+      ],
+      "recorded_family_count": 50,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-011",
+        "EVID-013",
+        "EVID-014",
+        "EVID-016",
+        "EVID-095",
+        "EVID-096",
+        "EVID-098",
+        "EVID-102",
+        "EVID-103",
+        "EVID-104",
+        "EVID-111",
+        "EVID-113",
+        "EVID-125",
+        "EVID-127",
+        "EVID-128"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-021",
+          "EVID-022",
+          "EVID-024",
+          "EVID-027",
+          "EVID-029",
+          "EVID-030",
+          "EVID-034",
+          "EVID-036",
+          "EVID-037",
+          "EVID-041",
+          "EVID-042",
+          "EVID-052",
+          "EVID-059",
+          "EVID-069",
+          "EVID-072",
+          "EVID-075",
+          "EVID-077",
+          "EVID-080",
+          "EVID-081",
+          "EVID-083",
+          "EVID-085",
+          "EVID-116",
+          "EVID-130",
+          "EVID-131",
+          "EVID-134",
+          "EVID-135",
+          "EVID-136",
+          "EVID-137",
+          "EVID-142",
+          "EVID-143",
+          "EVID-148",
+          "EVID-150",
+          "EVID-151",
+          "EVID-153",
+          "EVID-154",
+          "EVID-156",
+          "EVID-157",
+          "EVID-179",
+          "EVID-181"
+        ],
+        "qualifies": [
+          "EVID-011",
+          "EVID-013",
+          "EVID-014",
+          "EVID-016",
+          "EVID-095",
+          "EVID-096",
+          "EVID-098",
+          "EVID-102",
+          "EVID-103",
+          "EVID-104",
+          "EVID-111",
+          "EVID-113",
+          "EVID-125",
+          "EVID-127",
+          "EVID-128"
+        ]
+      }
+    },
+    {
+      "id": "TERM-operational-trust",
+      "name": "Operational trust",
+      "finding_ids": [
+        "EVID-122",
+        "EVID-137",
+        "EVID-140"
+      ],
+      "finding_count": 3,
+      "source_ids": [
+        "SRC-089",
+        "SRC-104",
+        "SRC-106"
+      ],
+      "recorded_family_ids": [
+        "rem-1",
+        "rem-3",
+        "study-haig"
+      ],
+      "recorded_family_count": 3,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-122"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-137",
+          "EVID-140"
+        ],
+        "qualifies": [
+          "EVID-122"
+        ]
+      }
+    },
+    {
+      "id": "TERM-organizational-dependency",
+      "name": "Organizational dependency",
+      "finding_ids": [
+        "EVID-040",
+        "EVID-088",
+        "EVID-112",
+        "EVID-123",
+        "EVID-132"
+      ],
+      "finding_count": 5,
+      "source_ids": [
+        "SRC-032",
+        "SRC-056",
+        "SRC-079",
+        "SRC-090",
+        "SRC-101"
+      ],
+      "recorded_family_ids": [
+        "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime",
+        "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report",
+        "microsoft-storm 0940-oct 2026",
+        "study-arxiv-2608.08601",
+        "study-ecology"
+      ],
+      "recorded_family_count": 5,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-112",
+        "EVID-123"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-040",
+          "EVID-088",
+          "EVID-132"
+        ],
+        "qualifies": [
+          "EVID-112",
+          "EVID-123"
+        ]
+      }
+    },
+    {
+      "id": "TERM-outcome-purpose-divergence",
+      "name": "Outcome–purpose divergence",
+      "finding_ids": [
+        "EVID-003",
+        "EVID-044",
+        "EVID-107",
+        "EVID-126",
+        "EVID-129",
+        "EVID-147",
+        "EVID-148"
+      ],
+      "finding_count": 7,
+      "source_ids": [
+        "SRC-002",
+        "SRC-003",
+        "SRC-036",
+        "SRC-074",
+        "SRC-093",
+        "SRC-096",
+        "SRC-112",
+        "SRC-113"
+      ],
+      "recorded_family_ids": [
+        "IRREGULAR_GLM53",
+        "OAI_SERVER_SECRETS",
+        "anthropic-unintended-actions-oct 2026",
+        "metr-productivity-2025",
+        "study-arxiv-2610.02122",
+        "study-hallucinate",
+        "study-learning"
+      ],
+      "recorded_family_count": 7,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-107",
+        "EVID-126",
+        "EVID-129"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-044",
+          "EVID-147",
+          "EVID-148"
+        ],
+        "partial": [
+          "EVID-003"
+        ],
+        "qualifies": [
+          "EVID-107",
+          "EVID-126",
+          "EVID-129"
+        ]
+      }
+    },
+    {
+      "id": "TERM-purpose-preservation",
+      "name": "Purpose preservation",
+      "finding_ids": [
+        "EVID-066",
+        "EVID-068",
+        "EVID-101",
+        "EVID-104",
+        "EVID-105",
+        "EVID-109",
+        "EVID-149",
+        "EVID-183",
+        "EVID-184"
+      ],
+      "finding_count": 9,
+      "source_ids": [
+        "SRC-041",
+        "SRC-068",
+        "SRC-071",
+        "SRC-072",
+        "SRC-076",
+        "SRC-114",
+        "SRC-146",
+        "SRC-147"
+      ],
+      "recorded_family_ids": [
+        "OAI_TEST_WALLET",
+        "hines-spotlighting-2024",
+        "https://www.irregular.com/research/agentic-self-modification-in-open-weights-systems",
+        "microsoft-tay-2016",
+        "study-arxiv-2609.27273",
+        "study-arxiv-2609.39050",
+        "study-arxiv-2610.00797",
+        "study-arxiv-2610.05840"
+      ],
+      "recorded_family_count": 8,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-101",
+        "EVID-104",
+        "EVID-105",
+        "EVID-109",
+        "EVID-183"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-066",
+          "EVID-068",
+          "EVID-149",
+          "EVID-184"
+        ],
+        "qualifies": [
+          "EVID-101",
+          "EVID-104",
+          "EVID-105",
+          "EVID-109",
+          "EVID-183"
+        ]
+      }
+    },
+    {
+      "id": "TERM-purposeful-continuity",
+      "name": "Purposeful continuity",
+      "finding_ids": [
+        "EVID-171"
+      ],
+      "finding_count": 1,
+      "source_ids": [
+        "SRC-135"
+      ],
+      "recorded_family_ids": [
+        "corrigibility-2015"
+      ],
+      "recorded_family_count": 1,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-171"
+        ]
+      }
+    },
+    {
+      "id": "TERM-reference-environment-integrity",
+      "name": "Reference environment integrity",
+      "finding_ids": [
+        "EVID-012",
+        "EVID-017",
+        "EVID-031",
+        "EVID-036",
+        "EVID-046",
+        "EVID-048",
+        "EVID-055",
+        "EVID-056",
+        "EVID-067",
+        "EVID-084",
+        "EVID-089",
+        "EVID-099",
+        "EVID-106",
+        "EVID-138",
+        "EVID-141",
+        "EVID-143",
+        "EVID-147",
+        "EVID-182",
+        "EVID-183"
+      ],
+      "finding_count": 19,
+      "source_ids": [
+        "SRC-010",
+        "SRC-015",
+        "SRC-025",
+        "SRC-026",
+        "SRC-030",
+        "SRC-036",
+        "SRC-039",
+        "SRC-041",
+        "SRC-054",
+        "SRC-057",
+        "SRC-066",
+        "SRC-073",
+        "SRC-104",
+        "SRC-107",
+        "SRC-108",
+        "SRC-109",
+        "SRC-112",
+        "SRC-145",
+        "SRC-146"
+      ],
+      "recorded_family_ids": [
+        "IRREGULAR_GLM53",
+        "MS_LITELLM",
+        "REDWOOD_SCE",
+        "VENDOR_LITELLM",
+        "WIKIMEDIA_ACTIVITY",
+        "anthropic-four-cyber-evals-2026",
+        "anthropic-unintended-actions-oct 2026",
+        "hines-spotlighting-2024",
+        "https://www.air.security/blog-posts/plugin4shell",
+        "https://www.irregular.com/research/agentic-self-modification-in-open-weights-systems",
+        "lanyado-package-hallucination-programme",
+        "new-study-SRC-010",
+        "new-study-SRC-015",
+        "rem-1",
+        "rem-4",
+        "rem-5",
+        "rem-6",
+        "study-arxiv-2609.23226",
+        "study-arxiv-2610.02036"
+      ],
+      "recorded_family_count": 19,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-099",
+        "EVID-106",
+        "EVID-183"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-012",
+          "EVID-017",
+          "EVID-031",
+          "EVID-036",
+          "EVID-046",
+          "EVID-048",
+          "EVID-055",
+          "EVID-056",
+          "EVID-067",
+          "EVID-084",
+          "EVID-089",
+          "EVID-138",
+          "EVID-141",
+          "EVID-143",
+          "EVID-147",
+          "EVID-182"
+        ],
+        "qualifies": [
+          "EVID-099",
+          "EVID-106",
+          "EVID-183"
+        ]
+      }
+    },
+    {
+      "id": "TERM-sleight-of-hand-effect",
+      "name": "Sleight-of-hand effect",
+      "finding_ids": [
+        "EVID-024",
+        "EVID-027",
+        "EVID-071"
+      ],
+      "finding_count": 3,
+      "source_ids": [
+        "SRC-021",
+        "SRC-022",
+        "SRC-044"
+      ],
+      "recorded_family_ids": [
+        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+        "https://openai.com/index/safety-alignment-long-horizon-models",
+        "https://salt.security/blog/how-we-hijacked-an-ai-agent-with-a-single-email"
+      ],
+      "recorded_family_count": 3,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-024",
+          "EVID-027",
+          "EVID-071"
+        ]
+      }
+    },
+    {
+      "id": "TERM-successor-assurance",
+      "name": "Successor assurance",
+      "finding_ids": [
+        "EVID-053",
+        "EVID-066",
+        "EVID-067",
+        "EVID-068",
+        "EVID-108",
+        "EVID-161",
+        "EVID-171"
+      ],
+      "finding_count": 7,
+      "source_ids": [
+        "SRC-038",
+        "SRC-041",
+        "SRC-075",
+        "SRC-125",
+        "SRC-135"
+      ],
+      "recorded_family_ids": [
+        "anthropic-rd-metrics-2026",
+        "corrigibility-2015",
+        "crux-research-2026",
+        "https://www.irregular.com/research/agentic-self-modification-in-open-weights-systems",
+        "study-arxiv-2610.04083"
+      ],
+      "recorded_family_count": 5,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-108",
+        "EVID-161"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-053",
+          "EVID-066",
+          "EVID-067",
+          "EVID-068",
+          "EVID-171"
+        ],
+        "qualifies": [
+          "EVID-108",
+          "EVID-161"
+        ]
+      }
+    },
+    {
+      "id": "TERM-system-level-autonomy",
+      "name": "System-level autonomy",
+      "finding_ids": [
+        "EVID-026",
+        "EVID-038",
+        "EVID-053",
+        "EVID-061",
+        "EVID-063",
+        "EVID-114",
+        "EVID-127",
+        "EVID-142"
+      ],
+      "finding_count": 8,
+      "source_ids": [
+        "SRC-022",
+        "SRC-031",
+        "SRC-038",
+        "SRC-039",
+        "SRC-040",
+        "SRC-081",
+        "SRC-094",
+        "SRC-109"
+      ],
+      "recorded_family_ids": [
+        "anthropic-four-cyber-evals-2026",
+        "anthropic-gtg 1002-2025",
+        "anthropic-rd-metrics-2026",
+        "anthropic-threat-report-sept 2026",
+        "https://blog.talosintelligence.com/the-closed-quorum-inside-the-first-reported-autonomous-ai-c2-implant",
+        "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
+        "rem-6",
+        "study-selfreplication"
+      ],
+      "recorded_family_count": 8,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-127"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-026",
+          "EVID-038",
+          "EVID-053",
+          "EVID-061",
+          "EVID-063",
+          "EVID-114",
+          "EVID-142"
+        ],
+        "qualifies": [
+          "EVID-127"
+        ]
+      }
+    },
+    {
+      "id": "TERM-trajectory-persistence",
+      "name": "Trajectory persistence",
+      "finding_ids": [
+        "EVID-023",
+        "EVID-028",
+        "EVID-049",
+        "EVID-103",
+        "EVID-108",
+        "EVID-148",
+        "EVID-150",
+        "EVID-181"
+      ],
+      "finding_count": 8,
+      "source_ids": [
+        "SRC-021",
+        "SRC-023",
+        "SRC-024",
+        "SRC-036",
+        "SRC-070",
+        "SRC-075",
+        "SRC-113",
+        "SRC-115",
+        "SRC-144"
+      ],
+      "recorded_family_ids": [
+        "AISI_ASSESS",
+        "ANTH_AISI",
+        "OAI_BROWSER_BYPASS",
+        "OAI_SERVER_SECRETS",
+        "anthropic-unintended-actions-oct 2026",
+        "https://openai.com/index/safety-alignment-long-horizon-models",
+        "rehberger-gemini-delayed-2024",
+        "study-arxiv-2609.38411",
+        "study-arxiv-2610.04083"
+      ],
+      "recorded_family_count": 9,
+      "sources_without_family": [],
+      "qualifying_finding_ids": [
+        "EVID-103",
+        "EVID-108"
+      ],
+      "challenging_finding_ids": [],
+      "relationships": {
+        "illustrates": [
+          "EVID-023",
+          "EVID-028",
+          "EVID-049",
+          "EVID-148",
+          "EVID-150",
+          "EVID-181"
+        ],
+        "qualifies": [
+          "EVID-103",
+          "EVID-108"
+        ]
+      }
+    }
+  ],
+  "unmatched_finding_ids": [
+    "EVID-004",
+    "EVID-160"
+  ],
+  "counts": {
+    "terms": 35,
+    "terms_with_links": 34,
+    "terms_without_links": 1,
+    "terms_with_one_recorded_family": 5,
+    "public_findings": 182,
+    "findings_with_term_links": 180,
+    "findings_without_term_links": 2,
+    "withdrawal_notices": 2
+  },
+  "format_version": "1.0",
+  "coverage_presentation_version": "0.5.2",
+  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "basis": "Explicit evidence-to-term relationships in the current published dataset. Withdrawals excluded. Counts describe recorded curation, not truth, completeness or independence.",
+  "family_method": "Distinct recorded independence_group values across all sources cited by each term’s linked findings. Missing groups are disclosed separately; source-dependency relationships may identify further dependence.",
+  "source_dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json"
+}
