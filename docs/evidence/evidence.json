@@ -2,8 +2,8 @@
   "format_version": "1.0",
   "title": "Vocabulary Commons Evidence Library",
   "status": "Provisional public evidence collection",
-  "dataset_version": "0.4.5",
-  "generated_at": "2026-11-01T11:31:38.163077+00:00",
+  "dataset_version": "0.5.1",
+  "generated_at": "2026-11-01T18:38:34.584202+00:00",
   "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
   "sources": [
     {
@@ -5437,6 +5437,246 @@
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T11:31:38.032439+00:00"
       }
+    },
+    {
+      "id": "SRC-142",
+      "title": "Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection",
+      "publisher": "arXiv; research authors",
+      "issuing_body": "Kai Greshake; Sahar Abdelnabi; Shailesh Mishra; Christoph Endres; Thorsten Holz; Mario Fritz",
+      "authors": [
+        "Kai Greshake",
+        "Sahar Abdelnabi",
+        "Shailesh Mishra",
+        "Christoph Endres",
+        "Thorsten Holz",
+        "Mario Fritz"
+      ],
+      "url": "https://arxiv.org/html/2302.12173v2",
+      "publication_date": "2023-05-05",
+      "access_date": "2026-11-01",
+      "locator": "§4 Evaluation; §5.2 Limitations; §5.5 Potential vs. Current Harms",
+      "source_kind": "Original research demonstration",
+      "independence_group": "greshake-indirect-injection-2023",
+      "version_note": "arXiv:2302.12173v2; first submitted 23 February 2023, revised 5 May 2023. Root/source: https://arxiv.org/html/2302.12173v2 Discovery credit: AIID EchoLeak trail → later case study → Greshake et al.; related ATLAS AML.CS0020; https://incidentdatabase.ai/reports/5307/; https://arxiv.org/html/2509.10540v1; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-001, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "§4 Evaluation; §5.2 Limitations; §5.5 Potential vs. Current Harms; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "SRC-143",
+      "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications",
+      "publisher": "arXiv; research authors",
+      "issuing_body": "Stav Cohen; Ron Bitton; Ben Nassi",
+      "authors": [
+        "Stav Cohen",
+        "Ron Bitton",
+        "Ben Nassi"
+      ],
+      "url": "https://arxiv.org/html/2403.02817v2",
+      "publication_date": "2025-01-30",
+      "access_date": "2026-11-01",
+      "locator": "§III-C attack steps and Clarification; §IV-A experimental setup; §IV-E propagation; §V guardrails; §VI limitations",
+      "source_kind": "Original research demonstration",
+      "independence_group": "morris-ii-2024-2025",
+      "version_note": "arXiv:2403.02817v2; first submitted 5 March 2024, revised 30 January 2025. This entry uses v2 rather than the v1 screened initially. Root/source: https://arxiv.org/html/2403.02817v2 Discovery credit: MITRE ATLAS AML.CS0024 → original research; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-002, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "§III-C attack steps and Clarification; §IV-A experimental setup; §IV-E propagation; §V guardrails; §VI limitations; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "SRC-144",
+      "title": "Google Gemini: Planting Instructions For Delayed Automatic Tool Invocation",
+      "publisher": "Embrace The Red",
+      "issuing_body": "Johann Rehberger (wunderwuzzi)",
+      "authors": [
+        "Johann Rehberger (wunderwuzzi)"
+      ],
+      "url": "https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/",
+      "publication_date": "2024-02-22",
+      "access_date": "2026-11-01",
+      "locator": "Google’s Mitigations; Planting Instructions To Invoke Tools; Attack Overview; Impact and Mitigations",
+      "source_kind": "Original researcher disclosure",
+      "independence_group": "rehberger-gemini-delayed-2024",
+      "version_note": "Original researcher disclosure dated 22 February 2024; main text inspected; embedded video not independently replayed. Root/source: https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/ Discovery credit: MITRE ATLAS AML.CS0038 → original researcher disclosure; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-003, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "Google’s Mitigations; Planting Instructions To Invoke Tools; Attack Overview; Impact and Mitigations; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "SRC-145",
+      "title": "Diving Deeper into AI Package Hallucinations",
+      "publisher": "Lasso Security",
+      "issuing_body": "Bar Lanyado",
+      "authors": [
+        "Bar Lanyado"
+      ],
+      "url": "https://www.lasso.security/blog/ai-package-hallucinations",
+      "publication_date": "2024-03-28",
+      "access_date": "2026-11-01",
+      "locator": "How — Research Process; Cross models hallucinations; Hallucinated Package Case Study; registerability qualifications",
+      "source_kind": "Original vendor research",
+      "independence_group": "lanyado-package-hallucination-programme",
+      "version_note": "Original vendor follow-up research dated 28 March 2024; methods and package case inspected. Numeric hallucination rates are not adopted because denominator comparability needs further reconciliation. Root/source: https://www.lasso.security/blog/ai-package-hallucinations Discovery credit: MITRE ATLAS AML.CS0022 → Lasso original follow-up research; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-004, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "How — Research Process; Cross models hallucinations; Hallucinated Package Case Study; registerability qualifications; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "SRC-146",
+      "title": "Defending Against Indirect Prompt Injection Attacks With Spotlighting",
+      "publisher": "arXiv; Microsoft research authors",
+      "issuing_body": "Keegan Hines; Gary Lopez; Matthew Hall; Federico Zarfati; Yonatan Zunger; Emre Kıcıman",
+      "authors": [
+        "Keegan Hines",
+        "Gary Lopez",
+        "Matthew Hall",
+        "Federico Zarfati",
+        "Yonatan Zunger",
+        "Emre Kıcıman"
+      ],
+      "url": "https://arxiv.org/html/2403.14720v1",
+      "publication_date": "2024-03-20",
+      "access_date": "2026-11-01",
+      "locator": "§IV Experimental Methodology; §V-A/V-B Results; §V-D Additional Considerations; Appendix",
+      "source_kind": "Original defensive experiment",
+      "independence_group": "hines-spotlighting-2024",
+      "version_note": "arXiv:2403.14720v1; 20 March 2024. Original research, not independent reproduction of EchoLeak. Root/source: https://arxiv.org/html/2403.14720v1 Discovery credit: AIID EchoLeak trail → later case-study bibliography → original Microsoft research; https://incidentdatabase.ai/reports/5307/; https://arxiv.org/html/2509.10540v1. Commons identification: citation-trail review, CAN-005, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "§IV Experimental Methodology; §V-A/V-B Results; §V-D Additional Considerations; Appendix; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "SRC-147",
+      "title": "Learning from Tay’s introduction",
+      "publisher": "Microsoft",
+      "issuing_body": "Peter Lee",
+      "authors": [
+        "Peter Lee"
+      ],
+      "url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/",
+      "publication_date": "2016-03-25",
+      "access_date": "2026-11-01",
+      "locator": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement",
+      "source_kind": "Original developer incident account",
+      "independence_group": "microsoft-tay-2016",
+      "version_note": "Original developer statement dated 25 March 2016. Historical incident account; not a current product assessment. Root/source: https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/ Discovery credit: MITRE ATLAS AML.CS0009 → Microsoft original statement; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-006, 1 November 2026. Index references identify discovery, not verification or endorsement.",
+      "verification": {
+        "status": "Original public source inspected; underlying claims not independently verified",
+        "scope": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement; direct public full text inspected by Mike AI on 2026-11-01",
+        "review_date": "2026-11-01",
+        "authenticity": "Author, publisher or author-deposited repository location recorded; raw underlying records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons; discovery indexes are not independent corroboration",
+        "dispute_status": "Bounded version/source check only; no systematic absence-of-dispute assertion",
+        "dispute_check_date": null,
+        "dispute_check_note": "Current arXiv version listings checked for the three papers; source text and explicit qualifications inspected. No comprehensive dispute/retraction clearance."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
     }
   ],
   "cases": [
@@ -8314,6 +8554,114 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "CASE-162",
+      "title": "Not what you’ve signed up for: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection — study or setting grouping",
+      "kind": "Original research demonstration",
+      "event_date": "Research demonstrations reported in 2023; exact experiment dates not established",
+      "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+      "source_ids": [
+        "SRC-142"
+      ],
+      "summary": "Grouping for the reported study, disclosure or setting; not an incident count. Research demonstrations reported in 2023; exact experiment dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "CASE-163",
+      "title": "Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications — study or setting grouping",
+      "kind": "Original research demonstration",
+      "event_date": "Constructed email-assistant experiments; exact session dates not established",
+      "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+      "source_ids": [
+        "SRC-143"
+      ],
+      "summary": "Grouping for the reported study, disclosure or setting; not an incident count. Constructed email-assistant experiments; exact session dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "CASE-164",
+      "title": "Google Gemini: Planting Instructions For Delayed Automatic Tool Invocation — study or setting grouping",
+      "kind": "Original researcher disclosure",
+      "event_date": "Researcher reports testing in November 2023; disclosure 22 February 2024",
+      "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+      "source_ids": [
+        "SRC-144"
+      ],
+      "summary": "Grouping for the reported study, disclosure or setting; not an incident count. Researcher reports testing in November 2023; disclosure 22 February 2024",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "CASE-165",
+      "title": "Diving Deeper into AI Package Hallucinations — study or setting grouping",
+      "kind": "Original vendor research",
+      "event_date": "Study and three-month package observation reported March 2024; exact interval boundaries not established",
+      "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+      "source_ids": [
+        "SRC-145"
+      ],
+      "summary": "Grouping for the reported study, disclosure or setting; not an incident count. Study and three-month package observation reported March 2024; exact interval boundaries not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "CASE-166",
+      "title": "Defending Against Indirect Prompt Injection Attacks With Spotlighting — study or setting grouping",
+      "kind": "Original defensive experiment",
+      "event_date": "Experiments using specified older GPT models; exact session dates not established",
+      "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+      "source_ids": [
+        "SRC-146"
+      ],
+      "summary": "Grouping for the reported study, disclosure or setting; not an incident count. Experiments using specified older GPT models; exact session dates not established",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "CASE-167",
+      "title": "Learning from Tay’s introduction — study or setting grouping",
+      "kind": "Original developer incident account",
+      "event_date": "First 24 hours after Tay’s March 2016 launch, as described by Microsoft",
+      "event_date_precision": "Reported observation interval; missing experiment dates not inferred",
+      "source_ids": [
+        "SRC-147"
+      ],
+      "summary": "Grouping for the reported study, disclosure or setting; not an incident count. First 24 hours after Tay’s March 2016 launch, as described by Microsoft",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
       }
     }
   ],
@@ -14035,6 +14383,202 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "EVID-179",
+      "title": "Retrieved instructions redirected behavior in bounded LLM-application demonstrations",
+      "case_id": "CASE-162",
+      "observation": "Source-reported finding: Greshake and colleagues demonstrate that instructions embedded in processed external material can redirect LLM-application behavior.",
+      "evidence_standing": "Source-reported bounded demonstration; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-142"
+      ],
+      "source_locations": {
+        "SRC-142": "§4 Evaluation; §5.2 Limitations; §5.5 Potential vs. Current Harms; https://arxiv.org/html/2302.12173v2"
+      },
+      "limitations": "Synthetic applications and local HTML with Bing sidebar were used. Not a measurement of attacks on other users or current systems; broad success rates were not established.",
+      "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+      "keywords": [
+        "Environmental redirection",
+        "Attacker-model change",
+        "Observability boundary"
+      ],
+      "support_assessment": "Commons interpretation: Illustrates environmental redirection and a changed attack surface. The observed processing boundary may differ from the user’s assumed boundary.",
+      "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Demonstrated (bounded)",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "EVID-180",
+      "title": "Self-replicating prompts propagated through a constructed email-assistant ecosystem",
+      "case_id": "CASE-163",
+      "observation": "Source-reported finding: Cohen and colleagues demonstrate prompt propagation and confidential-data extraction in a constructed retrieval-based email-assistant ecosystem.",
+      "evidence_standing": "Source-reported bounded demonstration; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-143"
+      ],
+      "source_locations": {
+        "SRC-143": "§III-C attack steps and Clarification; §IV-A experimental setup; §IV-E propagation; §V guardrails; §VI limitations; https://arxiv.org/html/2403.02817v2"
+      },
+      "limitations": "The prompt changes generated content; the application determines recipients. This is not evidence of arbitrary autonomous recipient selection or an uncontrolled outbreak. The revised paper also evaluates a guardrail; adaptive attacks on that guardrail were not tested.",
+      "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+      "keywords": [
+        "Cross-system feedback",
+        "Environmental redirection"
+      ],
+      "support_assessment": "Commons interpretation: Illustrates consequences that cross connected applications. Propagation depends on the surrounding workflow; it does not establish inevitable propagation or general system-level autonomy.",
+      "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Demonstrated (bounded)",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "EVID-181",
+      "title": "Planted instructions triggered a tool on a later conversation turn",
+      "case_id": "CASE-164",
+      "observation": "Source-reported finding: The researcher reports later-turn Workspace invocation after a same-turn restriction, bringing a document into the conversation.",
+      "evidence_standing": "Source-reported bounded account; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-144"
+      ],
+      "source_locations": {
+        "SRC-144": "Google’s Mitigations; Planting Instructions To Invoke Tools; Attack Overview; Impact and Mitigations; https://embracethered.com/blog/posts/2024/llm-context-pollution-and-delayed-automated-tool-invocation/"
+      },
+      "limitations": "Bounded historical behavior. The disclosure says the image-based exfiltration route had been fixed; retrieval is not demonstrated exfiltration. No independent replay was performed.",
+      "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+      "keywords": [
+        "Trajectory persistence",
+        "Control air gap",
+        "Observability boundary"
+      ],
+      "support_assessment": "Commons interpretation: Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass.",
+      "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "EVID-182",
+      "title": "Nonexistent package recommendations created a potential dependency pathway",
+      "case_id": "CASE-165",
+      "observation": "Source-reported finding: Lanyado reports recurring nonexistent package recommendations and downloads of an empty package registered during the study.",
+      "evidence_standing": "Source-reported bounded account; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-145"
+      ],
+      "source_locations": {
+        "SRC-145": "How — Research Process; Cross models hallucinations; Hallucinated Package Case Study; registerability qualifications; https://www.lasso.security/blog/ai-package-hallucinations"
+      },
+      "limitations": "Downloads do not establish each downloader’s route or malicious execution. Some names could not be registered. Model selection, prompts and registry conditions constrain transfer; ambiguous denominators preclude adopting comparative rates here.",
+      "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+      "keywords": [
+        "AI-enabled capability",
+        "Reference environment integrity"
+      ],
+      "support_assessment": "Commons interpretation: Illustrates how recommendations can affect dependencies outside the model. The report does not establish that every download resulted from AI advice or caused compromise.",
+      "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "EVID-183",
+      "title": "Source-marking transformations reduced injection success in a bounded experiment",
+      "case_id": "CASE-166",
+      "observation": "Source-reported finding: Hines and colleagues report reduced prompt-injection success using input-source marking transformations.",
+      "evidence_standing": "Source-reported bounded demonstration; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-146"
+      ],
+      "source_locations": {
+        "SRC-146": "§IV Experimental Methodology; §V-A/V-B Results; §V-D Additional Considerations; Appendix; https://arxiv.org/html/2403.14720v1"
+      },
+      "limitations": "Synthetic corpus of 1,000 documents with a simple keyword payload and specified older GPT models; not proof of universal resilience against adaptive attacks or unchanged performance on all tasks.",
+      "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+      "keywords": [
+        "Assurance",
+        "Purpose preservation",
+        "Reference environment integrity"
+      ],
+      "support_assessment": "Commons interpretation: Qualifies blanket claims that provenance-oriented defenses cannot help. The result concerns the tested conditions, not a general assurance guarantee.",
+      "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Demonstrated (bounded)",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "EVID-184",
+      "title": "Coordinated abuse exposed a gap despite pre-release testing",
+      "case_id": "CASE-167",
+      "observation": "Source-reported finding: Microsoft reports that coordinated abuse exploited an overlooked vulnerability, producing offensive outputs; Tay was taken offline despite prior filtering and testing.",
+      "evidence_standing": "Source-reported bounded account; not independently reproduced",
+      "glossary_fit": "Illustrative or qualifying; does not validate a definition",
+      "source_ids": [
+        "SRC-147"
+      ],
+      "source_locations": {
+        "SRC-147": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement; https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/"
+      },
+      "limitations": "Developer account without independently authenticated logs. It does not establish the learning mechanism, autonomous goal formation, or current-model behavior.",
+      "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
+      "keywords": [
+        "Environmental redirection",
+        "Purpose preservation",
+        "Assurance"
+      ],
+      "support_assessment": "Commons interpretation: Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable.",
+      "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
       }
     }
   ],
@@ -20302,6 +20846,230 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T11:31:38.032439+00:00"
+      }
+    },
+    {
+      "id": "REL-411",
+      "from_id": "EVID-179",
+      "to_id": "TERM-environmental-redirection",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and a changed attack surface. The observed processing boundary may differ from the user’s assumed boundary. Proposed link to Environmental redirection is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-412",
+      "from_id": "EVID-179",
+      "to_id": "TERM-attacker-model-change",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and a changed attack surface. The observed processing boundary may differ from the user’s assumed boundary. Proposed link to Attacker-model change is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-413",
+      "from_id": "EVID-179",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and a changed attack surface. The observed processing boundary may differ from the user’s assumed boundary. Proposed link to Observability boundary is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-414",
+      "from_id": "EVID-180",
+      "to_id": "TERM-cross-system-feedback",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates consequences that cross connected applications. Propagation depends on the surrounding workflow; it does not establish inevitable propagation or general system-level autonomy. Proposed link to Cross-system feedback is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-415",
+      "from_id": "EVID-180",
+      "to_id": "TERM-environmental-redirection",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates consequences that cross connected applications. Propagation depends on the surrounding workflow; it does not establish inevitable propagation or general system-level autonomy. Proposed link to Environmental redirection is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-416",
+      "from_id": "EVID-181",
+      "to_id": "TERM-trajectory-persistence",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass. Proposed link to Trajectory persistence is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-417",
+      "from_id": "EVID-181",
+      "to_id": "TERM-control-air-gap",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass. Proposed link to Control air gap is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-418",
+      "from_id": "EVID-181",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass. Proposed link to Observability boundary is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-419",
+      "from_id": "EVID-182",
+      "to_id": "TERM-ai-enabled-capability",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates how recommendations can affect dependencies outside the model. The report does not establish that every download resulted from AI advice or caused compromise. Proposed link to AI-enabled capability is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-420",
+      "from_id": "EVID-182",
+      "to_id": "TERM-reference-environment-integrity",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates how recommendations can affect dependencies outside the model. The report does not establish that every download resulted from AI advice or caused compromise. Proposed link to Reference environment integrity is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-421",
+      "from_id": "EVID-183",
+      "to_id": "TERM-assurance",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies blanket claims that provenance-oriented defenses cannot help. The result concerns the tested conditions, not a general assurance guarantee. Proposed link to Assurance is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-422",
+      "from_id": "EVID-183",
+      "to_id": "TERM-purpose-preservation",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies blanket claims that provenance-oriented defenses cannot help. The result concerns the tested conditions, not a general assurance guarantee. Proposed link to Purpose preservation is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-423",
+      "from_id": "EVID-183",
+      "to_id": "TERM-reference-environment-integrity",
+      "relationship_type": "qualifies",
+      "explanation": "Qualifies blanket claims that provenance-oriented defenses cannot help. The result concerns the tested conditions, not a general assurance guarantee. Proposed link to Reference environment integrity is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-424",
+      "from_id": "EVID-184",
+      "to_id": "TERM-environmental-redirection",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable. Proposed link to Environmental redirection is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-425",
+      "from_id": "EVID-184",
+      "to_id": "TERM-purpose-preservation",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable. Proposed link to Purpose preservation is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-426",
+      "from_id": "EVID-184",
+      "to_id": "TERM-assurance",
+      "relationship_type": "illustrates",
+      "explanation": "Illustrates environmental redirection and limits to pre-release assurance. Withdrawal was an intervention; the statement does not establish when every harmful output became detectable. Proposed link to Assurance is Commons interpretation; not source-author endorsement.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-01T18:38:34.386143+00:00"
       }
     }
   ],
