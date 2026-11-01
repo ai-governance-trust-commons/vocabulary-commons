@@ -87,3 +87,12 @@ a:hover { color: #182743; }
 .term-card:focus-within{outline:3px solid #ed9b42;outline-offset:3px}
 .term-card h2 a:focus-visible{outline:none}
 
+
+/* Presentation 0.4.6: four entry routes and more discoverable evidence links. */
+.four-card{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.four-card .feature{min-height:260px}.four-card .feature-number{margin-bottom:24px}
+.four-card .library-feature{background:#eef2e9;border-color:#a5b39a}
+.related-evidence details>summary{font-size:17px;font-weight:750;line-height:1.5;color:#35513b;background:#eef1e7;border:1px solid #ccd5c2;border-radius:5px;padding:13px 17px;cursor:pointer;list-style-position:inside}
+.related-evidence details>summary:hover{background:#e4eadc;border-color:#8fa17f}.related-evidence details>summary:focus-visible{outline:3px solid #94622f;outline-offset:3px}
+.related-evidence details[open]>summary{margin-bottom:18px}.related-evidence li p{font-size:15px}
+@media(max-width:750px){.four-card{grid-template-columns:1fr}.four-card .feature{min-height:215px}.related-evidence details>summary{font-size:16px;padding:12px 14px}}
