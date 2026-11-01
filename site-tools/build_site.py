@@ -87,7 +87,7 @@ def relink_markup(text, prefix):
 
 # Globally shared page elements.
 def nav(prefix, active=''):
-    menu=[('Home',prefix),('Glossary',prefix+'terms/'),('Evidence Locker',prefix+'evidence/'),('Explore questions',prefix+'questions/'),('How to read',prefix+'method/'),('Participate',prefix+'participate/')]
+    menu=[('Home',prefix),('Glossary',prefix+'terms/'),('Evidence Library',prefix+'evidence/'),('Explore questions',prefix+'questions/'),('How to read',prefix+'method/'),('Participate',prefix+'participate/')]
     links=''.join('<a href="'+esc(u)+'"'+(' aria-current="page"' if label==active else '')+'>'+esc(label)+'</a>' for label,u in menu)
     return f'''<header class="site-header"><div class="wrap masthead">
 <a class="brand" href="{prefix}" aria-label="Governance and Trust Vocabulary Commons, home"><span class="mark" aria-hidden="true"><span></span><span></span><span></span></span><span class="brand-name">Governance <em>&amp;</em> Trust <small>Vocabulary Commons</small></span></a>
@@ -140,14 +140,14 @@ def group_terms(names,prefix):return ''.join('<span class="related">'+link(n,pre
 def related_evidence(t):
     path=SITE/'evidence/evidence.json'
     if not path.exists():
-        return '<section class="related-evidence"><h2>Related evidence</h2><p><a href="../../evidence/">Explore the Evidence Locker</a>.</p></section>'
+        return '<section class="related-evidence"><h2>Related evidence</h2><p><a href="../../evidence/">Explore the Evidence Library</a>.</p></section>'
     data=json.loads(path.read_text(encoding='utf-8'))
     ids={x['id'] for x in data['terms'] if x['name']==t['name']}
     records={x['id']:x for x in data['evidence']}
     edges=[x for x in data['relationships'] if x['to_id'] in ids and x['from_id'] in records]
     intro='<section class="related-evidence"><h2>Related evidence</h2><p>These provisional records are linked by published relationships. A relationship may illustrate, qualify, or challenge a concept; it does not validate the definition or establish general prevalence.</p>'
     if not edges:
-        return intro+'<p>No evidence relationship has been published for this term yet. <a href="../../evidence/">Explore the full Evidence Locker</a>, including unmatched items.</p></section>'
+        return intro+'<p>No evidence relationship has been published for this term yet. <a href="../../evidence/">Explore the full Evidence Library</a>, including unmatched items.</p></section>'
     items=''.join('<li><a href="../../evidence/#'+esc(e['from_id'])+'">'+esc(e['from_id']+' · '+records[e['from_id']]['title'])+'</a><p>'+esc(e['relationship_type']+': '+e['explanation'])+'</p></li>' for e in edges)
     return intro+'<details><summary>View '+str(len(edges))+' related evidence '+('record' if len(edges)==1 else 'records')+'</summary><ul>'+items+'</ul></details></section>'
 

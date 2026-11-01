@@ -1,12 +1,16 @@
 {
-  "dataset_version": "0.4.3",
-  "generated_at": "2026-10-30T22:52:57.829686+00:00",
-  "evidence_count": 158,
+  "dataset_version": "0.4.5",
+  "presentation_version": "0.4.5",
+  "generated_at": "2026-11-01T11:31:38.032439+00:00",
+  "evidence_count": 176,
+  "source_count": 139,
+  "withdrawn_ids": [
+    "EVID-139",
+    "EVID-144"
+  ],
   "files_sha256": {
-    "policy.html": "521084a85286123525856fd8ddfc33daf644f773d8eb2f8562cbdf69ce44849d",
-    "evidence.json": "d23880877fa243ebe54a2943daa3316a2c39b063b986dbfc5d012e6197c85cdd",
-    "index.html": "dbbe01a92460941848043257111f087b8fc7cffae02c655850a8637ad22ea328"
-  },
-  "presentation_version": "0.4.4",
-  "presentation_updated_at": "2026-10-31T02:44:34.873463+00:00"
+    "index.html": "7c0bae1862d76a8f19538ee4ffefdcd2f524a28c8e54018c0d0e12ea9fcca4fd",
+    "evidence.json": "3d0493cccc0a752a062deb5a885e385e4343db7a9930a914b7b8ce9534593795",
+    "policy.html": "9558c90c8622108e53fe32acd727e09e3fb191d0257b332a4771f224c44ed744"
+  }
 }
