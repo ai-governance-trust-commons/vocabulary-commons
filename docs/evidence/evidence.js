@@ -91,6 +91,7 @@
     checkbox.setAttribute('aria-label', 'Select ' + r.id + ' for export');
     checkbox.addEventListener('change', () => { checkbox.checked ? selected.add(r.id) : selected.delete(r.id); selectionStatus(); });
     const heading = el('div', undefined, head); el('p', r.id + ' · ' + r.evidence_standing_label, heading, 'record-label');
+    el('p', 'Provisional publication · ' + r.publication_record.authority_policy_id + ' · Individual human review: ' + r.publication_record.individual_human_review, heading, 'record-publication');
     el('h2', r.title, heading);
     const ss = sources(r);
     el('p', ss.map(s => s.publisher + ' · ' + (s.publication_date || 'publication date not established')).join(' / '), a, 'record-source');
@@ -103,7 +104,7 @@
     el('p', 'Provisional · ' + (r.verification_status || 'Independent verification not established'), details, 'record-status');
     el('p', r.observation, details);
     const dl = el('dl', undefined, details);
-    for (const [name, key] of [['Limits', 'limitations'], ['Commons support assessment', 'support_assessment'], ['Dispute status', 'dispute_status'], ['Open questions', 'open_questions'], ['Original assessment', 'evidence_standing'], ['Relationship scope', 'glossary_fit']]) addField(dl, name, r[key]);
+    for (const [name, key] of [['Limits', 'limitations'], ['Commons support assessment', 'support_assessment'], ['Dispute status', 'dispute_status'], ['Open questions', 'open_questions'], ['Detailed reporting assessment', 'evidence_standing'], ['Relationship scope', 'glossary_fit']]) addField(dl, name, r[key]);
     const c = byId.get(r.case_id); addField(dl, 'Study or case grouping', c.title + ' · ' + c.kind); addField(dl, 'Grouping context', c.summary);
     el('h3', 'Glossary relationships', details);
     const ee = edges(r.id);

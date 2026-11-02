@@ -1,9 +1,9 @@
 {
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
-  "machine_release": "0.5.1",
-  "dataset_version": "0.5.1",
-  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "machine_release": "0.5.4",
+  "dataset_version": "0.5.4",
+  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
   "id": "EVID-006",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-006.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-006",
@@ -14,8 +14,8 @@
     "id": "EVID-006",
     "title": "An alert is reviewed during a live training run",
     "case_id": "CASE-004",
-    "observation": "OpenAI reports September internet access was flagged within 15 minutes; a responder began review three minutes later. Frontier reinforcement learning was subsequently paused. Qualification approved October 30, 2026: OpenAI reports successful live detection and prompt human acknowledgment, followed by failure of the expected automatic stop and delayed manual termination. The event supports distinguishing detection and acknowledgment from effective intervention.",
-    "evidence_standing": "Demonstrated (bounded live event, issuer reported)",
+    "observation": "OpenAI reports September internet access was flagged within 15 minutes; a responder began review three minutes later. The expected automatic stop failed and manual termination was delayed. Frontier reinforcement learning was subsequently paused.",
+    "evidence_standing": "Issuer-reported bounded live-event account; not independently verified by the Commons",
     "glossary_fit": "Clear but incomplete illustration",
     "source_ids": [
       "SRC-006",
@@ -36,17 +36,17 @@
       "training",
       "Observability"
     ],
-    "support_assessment": "Attributed summary of the cited author or provider account. Source inspection supports traceability; the Commons has not independently replicated or verified the underlying finding.",
+    "support_assessment": "Attributed summary of the cited author or provider account. Source inspection supports traceability; the Commons has not independently replicated or verified the underlying finding. Commons interpretation: The event supports distinguishing detection and acknowledgment from effective intervention. The reported failure and delay do not establish harmful activity during that interval.",
     "dispute_status": "Disputes and retractions not systematically checked",
     "publication_status": "Provisional",
     "verification_status": "Not independently verified by the Commons",
-    "evidence_standing_label": "Demonstrated (bounded)",
+    "evidence_standing_label": "Reported observation",
     "publication_record": {
       "status": "Provisionally published",
       "prepared_by": "Mike — AI assistant",
       "authority_policy_id": "POLICY-001",
       "individual_human_review": "Not recorded",
-      "date": "2026-10-30T22:52:57.829686+00:00"
+      "date": "2026-11-01T20:21:26.001777+00:00"
     }
   },
   "case": {

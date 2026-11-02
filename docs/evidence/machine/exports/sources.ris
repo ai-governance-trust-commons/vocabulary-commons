@@ -185,7 +185,7 @@ AU  - Joseph E. Gonzalez
 AU  - Ion Stoica
 PY  - 2025
 UR  - https://arxiv.org/abs/2503.13657v3
-N1  - Source ID SRC-015. Publication date as recorded: 2025-03-17. Original publication: 2025-03-17 (first preprint); proceedings year 2025, exact proceedings day not established. Examined v3, 2025-10-26; v2 2025-04-22. Independent counterweight to overgeneralized coordination capability, not replication of SRC-013/B. Code/dataset/proceedings/preprint share this study's provenance. Source inspection is not independent verification.
+N1  - Source ID SRC-015. Publication date as recorded: 2025-03-17. Original publication: 2025-03-17 (first preprint); proceedings year 2025, exact proceedings day not established. Examined v3, 2025-10-26; v2 2025-04-22. A separate study of multi-agent failures; not a replication of the covert-communication study recorded as SRC-013. Code/dataset/proceedings/preprint share this study's provenance. Source inspection is not independent verification.
 ER  - 
 
 TY  - GEN
