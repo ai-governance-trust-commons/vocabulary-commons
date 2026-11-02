@@ -1,9 +1,9 @@
 {
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
   "contract_version": "1.0",
-  "machine_release": "0.5.1",
-  "dataset_version": "0.5.1",
-  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "machine_release": "0.5.4",
+  "dataset_version": "0.5.4",
+  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
   "id": "SRC-015",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-015.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
@@ -36,7 +36,7 @@
     "locator": "Sections 3-5; Appendix B.3, H.1-H.3 and J.1; Tables 2, 5 and 7",
     "source_kind": "Primary research report",
     "independence_group": "new-study-SRC-015",
-    "version_note": "Original publication: 2025-03-17 (first preprint); proceedings year 2025, exact proceedings day not established. Examined v3, 2025-10-26; v2 2025-04-22. Independent counterweight to overgeneralized coordination capability, not replication of SRC-013/B. Code/dataset/proceedings/preprint share this study's provenance.",
+    "version_note": "Original publication: 2025-03-17 (first preprint); proceedings year 2025, exact proceedings day not established. Examined v3, 2025-10-26; v2 2025-04-22. A separate study of multi-agent failures; not a replication of the covert-communication study recorded as SRC-013. Code/dataset/proceedings/preprint share this study's provenance.",
     "verification": {
       "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
       "scope": "Sections 3-5; Appendix B.3, H.1-H.3 and J.1; Tables 2, 5 and 7",
@@ -57,7 +57,7 @@
       "prepared_by": "Mike — AI assistant",
       "authority_policy_id": "POLICY-001",
       "individual_human_review": "Not recorded",
-      "date": "2026-10-30T22:52:57.829686+00:00"
+      "date": "2026-11-01T20:21:26.001777+00:00"
     }
   },
   "relationships": [],

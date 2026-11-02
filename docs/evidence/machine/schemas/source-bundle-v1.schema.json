@@ -12,7 +12,7 @@
       "const": "1.0"
     },
     "machine_release": {
-      "const": "0.5.1"
+      "const": "0.5.4"
     },
     "dataset_version": {
       "type": "string"
