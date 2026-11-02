@@ -10,7 +10,7 @@ from datetime import datetime,timezone
 
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs';M=DOCS/'evidence/machine'
 HOST='https://ai-governance-trust-commons.github.io/vocabulary-commons/'
-BASE=HOST+'evidence/machine/';VERSION='0.5.1';CONTRACT='1.0';PRESENTATION_VERSION='0.5.3'
+BASE=HOST+'evidence/machine/';VERSION='0.5.4';CONTRACT='1.0';PRESENTATION_VERSION='0.5.4'
 DATA=DOCS/'evidence/evidence.json';d=json.loads(DATA.read_text());g=json.loads((DOCS/'data/glossary.json').read_text())
 STAMP=datetime.now(timezone.utc).isoformat();DATA_SHA=hashlib.sha256(DATA.read_bytes()).hexdigest()
 for folder,expected in [('records',{r['id']+'.json' for r in d['evidence']+d['withdrawals']}|{'index.json'}),('sources',{r['id']+'.json' for r in d['sources']}|{'index.json'})]:
@@ -121,7 +121,7 @@ FIELD_NOTES={
  'observation':'Attributed source finding. It may include context; it is not an independently verified Commons fact.',
  'limitations':'Scope, uncertainty and contrary conditions that must accompany the finding.',
  'support_assessment':'Commons assessment/interpretation, distinct from the source finding.',
- 'evidence_standing':'Original detailed assessment, retained without promoting its claim.',
+ 'evidence_standing':'Detailed reporting assessment with attribution and scope; historical wording is retained in private version history when corrected.',
  'evidence_standing_label':'Controlled reporting category; separate from glossary claim standing and publication permission.',
  'glossary_fit':'Scope/fit assessment; a relationship does not validate a definition.',
  'source_locations':'Source ID to inspected supporting section/page/location as recorded; not proof of independent reproduction.',
@@ -179,13 +179,13 @@ records/EVID-NNN.json contains a finding plus its case/grouping, cited sources, 
 
 Navigation indexes list identifiers, statuses and URLs. They are discovery aids, not standalone evidence. A withdrawal uses the same stable record path, HTTP 200 and an explicit temporarily_withdrawn status. Its evidence/case are null and associated content arrays are empty. Never treat a successful HTTP response as publication approval. Unknown IDs return the host’s normal missing-file response.
 
-Canonical evidence objects and the source dataset remain unchanged. Missing/qualified dates retain their original precision. Do not infer ISO dates, time series, licenses, independent verification or human approval. Evidence source_ids identify direct citations; the bundle sources array may additionally include dependency endpoints, which are not extra direct support. Source/term url fields retain their original citation semantics; envelope url is the Commons machine URL, and human_url is the website locator.
+Each release reflects its approved public dataset. Any editorial corrections are versioned; bundles preserve the current source objects and their recorded qualifications. Missing/qualified dates retain their original precision. Do not infer ISO dates, time series, licenses, independent verification or human approval. Evidence source_ids identify direct citations; the bundle sources array may additionally include dependency endpoints, which are not extra direct support. Source/term url fields retain their original citation semantics; envelope url is the Commons machine URL, and human_url is the website locator.
 
 For repeated research, retrieve the aggregate once and work locally. For targeted use, retrieve the catalog and the specific bundle. Cache downloaded bytes and compare dataset_version and dataset_sha256 before refetching large files. Respect host 429 responses and back off. No particular request rate, uptime, authentication service or server-side search is promised. Avoid repeated bulk polling; machine access shares the GitHub Pages hosting allowance with human readers.
 
 checksums.json lists byte-level SHA-256 values for the generated machine files, evidence.json and glossary.json, excluding the checksum document itself. A hash verifies consistency of held bytes, not source authenticity or factual correctness. The manifest is not a signed trust anchor. Files can be cached separately during deployment: if hashes or versions disagree, retry later rather than mixing releases.
 
-Historical evidence changes and dates are not fabricated. This release establishes the machine-access baseline only. Dated immutable snapshots, full record-level history and correction feeds are a separately staged second phase. Existing versioned private checkpoints and Git history remain the recovery record. No automatic inference of a record’s original creation or last revision date is added.
+Historical evidence changes and dates are not fabricated. The machine-access baseline was established in 0.5.0; this release refreshes current content and presentation. Dated immutable snapshots, full record-level history and correction feeds are a separately staged second phase. Existing versioned private checkpoints and Git history remain the recovery record. No automatic inference of a record’s original creation or last revision date is added.
 
 CSV evidence rows retain full findings and limits; nested context uses JSON cells. Withdrawal rows contain notices with no held claims. Formula-like leading characters are prefixed with an apostrophe for spreadsheet safety. The JSON views retain exact strings. Bibliography exports use general-source types, recorded author strings, and a publication year only when established; version/date uncertainty is retained in notes.
 ''')
@@ -225,7 +225,7 @@ for folder,expected in [('records',expected_records),('sources',expected_sources
 checks={str(p.relative_to(DOCS)):sha(p) for p in sorted(M.rglob('*')) if p.is_file() and p.name!='checksums.json'}
 checks.update({'evidence/evidence.json':DATA_SHA,'data/glossary.json':sha(DOCS/'data/glossary.json')})
 write(M/'checksums.json',{'algorithm':'SHA-256','scope':'Exact file bytes; excludes this manifest. Not signed, not independent source authentication.','dataset_version':d['dataset_version'],'machine_release':VERSION,'files':checks})
-manifest=DOCS/'evidence/release-manifest.json';m=json.loads(manifest.read_text());m.update(presentation_version=PRESENTATION_VERSION,machine_release=VERSION,machine_contract_version=CONTRACT,machine_catalog=BASE+'catalog.json',machine_checksums_sha256=sha(M/'checksums.json'),presentation_updated_at=STAMP)
+manifest=DOCS/'evidence/release-manifest.json';m=json.loads(manifest.read_text());m.update(dataset_version=d["dataset_version"],presentation_version=PRESENTATION_VERSION,machine_release=VERSION,machine_contract_version=CONTRACT,machine_catalog=BASE+'catalog.json',machine_checksums_sha256=sha(M/'checksums.json'),presentation_updated_at=STAMP)
 m['files_sha256']={name:sha(DOCS/'evidence'/name) for name in ['index.html','evidence.json','policy.html','evidence.js','evidence.css']};write(manifest,m)
 print(json.dumps({'machine_release':VERSION,'published_evidence':len(d['evidence']),'withdrawals':len(held),'sources':len(source_index),'machine_files':len([p for p in M.rglob('*') if p.is_file()])}))
 
@@ -235,3 +235,6 @@ subprocess.run([sys.executable,str(ROOT/"site-tools/build_coverage.py")],check=T
 
 # Refresh editorial reading paths from the same approved public dataset.
 subprocess.run([sys.executable,str(ROOT/"site-tools/build_research_paths.py")],check=True)
+
+# Refresh term navigation and reviewed reading aids after all public views.
+subprocess.run([sys.executable,str(ROOT/"site-tools/build_review_cleanup.py")],check=True)

@@ -1,8 +1,8 @@
 {
   "format_version": "1.0",
-  "editorial_version": "0.5.3",
-  "dataset_version": "0.5.1",
-  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "editorial_version": "0.5.4",
+  "dataset_version": "0.5.4",
+  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
   "scope": "Editorial reading paths through already published evidence. Selections are starting points, not exhaustive reviews, evidence rankings or new canonical relationships.",
   "verification_note": "Approved public projection, not independent verification. Editorial selection does not create a new evidence-to-term relationship. Source inspection dates are historical; path generation does not re-inspect sources.",
   "paths": [
@@ -402,7 +402,7 @@
           "why": "A randomized developer trial challenges automatic acceleration in its tested setting. Its two cited publications describe the same trial.",
           "observation": "In a randomized trial, 16 experienced developers completed 246 tasks. Allowing early-2025 AI tools increased completion time by 19% in that setting.",
           "limitations": "Familiar mature repositories and then-current tools limit generalization. The result does not establish that AI never accelerates work. The blog and paper describe the same trial, not independent replications.",
-          "evidence_standing_label": "Demonstrated (bounded)",
+          "evidence_standing_label": "Reported observation",
           "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-002",
           "source_ids": [
             "SRC-002",
@@ -496,7 +496,7 @@
             "prepared_by": "Mike — AI assistant",
             "authority_policy_id": "POLICY-001",
             "individual_human_review": "Not recorded",
-            "date": "2026-10-30T22:52:57.829686+00:00"
+            "date": "2026-11-01T20:21:26.001777+00:00"
           }
         },
         {
@@ -720,7 +720,7 @@
           "why": "The email-assistant demonstration makes the application’s recipient choices a crucial boundary on what the prompt controls.",
           "observation": "Source-reported finding: Cohen and colleagues demonstrate prompt propagation and confidential-data extraction in a constructed retrieval-based email-assistant ecosystem.",
           "limitations": "The prompt changes generated content; the application determines recipients. This is not evidence of arbitrary autonomous recipient selection or an uncontrolled outbreak. The revised paper also evaluates a guardrail; adaptive attacks on that guardrail were not tested.",
-          "evidence_standing_label": "Demonstrated (bounded)",
+          "evidence_standing_label": "Reported observation",
           "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-180",
           "source_ids": [
             "SRC-143"
@@ -776,7 +776,7 @@
             "prepared_by": "Mike — AI assistant",
             "authority_policy_id": "POLICY-001",
             "individual_human_review": "Not recorded",
-            "date": "2026-11-01T18:38:34.386143+00:00"
+            "date": "2026-11-01T20:21:26.001777+00:00"
           }
         }
       ],
@@ -1085,7 +1085,7 @@
           "why": "Source-marking transformations reduced tested injection success, with synthetic payloads and specified older models limiting transfer.",
           "observation": "Source-reported finding: Hines and colleagues report reduced prompt-injection success using input-source marking transformations.",
           "limitations": "Synthetic corpus of 1,000 documents with a simple keyword payload and specified older GPT models; not proof of universal resilience against adaptive attacks or unchanged performance on all tasks.",
-          "evidence_standing_label": "Demonstrated (bounded)",
+          "evidence_standing_label": "Reported observation",
           "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-183",
           "source_ids": [
             "SRC-146"
@@ -1144,7 +1144,7 @@
             "prepared_by": "Mike — AI assistant",
             "authority_policy_id": "POLICY-001",
             "individual_human_review": "Not recorded",
-            "date": "2026-11-01T18:38:34.386143+00:00"
+            "date": "2026-11-01T20:21:26.001777+00:00"
           }
         }
       ],
