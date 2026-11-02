@@ -33,7 +33,7 @@
     "evidence": {
       "case_id": "Stable identifier of the published study, series, incident or operational grouping.",
       "dispute_status": "Recorded qualification/dispute assessment, not systematic clearance.",
-      "evidence_standing": "Original detailed assessment, retained without promoting its claim.",
+      "evidence_standing": "Detailed reporting assessment with attribution and scope; historical wording is retained in private version history when corrected.",
       "evidence_standing_label": "Controlled reporting category; separate from glossary claim standing and publication permission.",
       "glossary_fit": "Scope/fit assessment; a relationship does not validate a definition.",
       "id": "Stable Commons identifier. Identifiers are not reused for unrelated records.",
@@ -79,7 +79,7 @@
     "observation": "Attributed source finding. It may include context; it is not an independently verified Commons fact.",
     "limitations": "Scope, uncertainty and contrary conditions that must accompany the finding.",
     "support_assessment": "Commons assessment/interpretation, distinct from the source finding.",
-    "evidence_standing": "Original detailed assessment, retained without promoting its claim.",
+    "evidence_standing": "Detailed reporting assessment with attribution and scope; historical wording is retained in private version history when corrected.",
     "evidence_standing_label": "Controlled reporting category; separate from glossary claim standing and publication permission.",
     "glossary_fit": "Scope/fit assessment; a relationship does not validate a definition.",
     "source_locations": "Source ID to inspected supporting section/page/location as recorded; not proof of independent reproduction.",

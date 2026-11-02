@@ -1,9 +1,9 @@
 {
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
-  "machine_release": "0.5.1",
-  "dataset_version": "0.5.1",
-  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "machine_release": "0.5.4",
+  "dataset_version": "0.5.4",
+  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
   "id": "EVID-020",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-020.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-020",
@@ -15,8 +15,8 @@
     "title": "Human–AI combinations underperform their better constituent on average",
     "case_id": "CASE-017",
     "observation": "Preregistered synthesis covers 106 experiments and 370 effect sizes from publications January 2020–June 2023. Joint systems underperformed the better standalone constituent on average (Hedges’ g −0.23, 95% CI −0.39 to −0.07).",
-    "evidence_standing": "Bounded observation (researcher-reported experiment; not independently reproduced)",
-    "glossary_fit": "Illustrative, bounded; does not establish generality",
+    "evidence_standing": "Researcher-reported preregistered systematic review and meta-analysis; not independently reanalysed by the Commons",
+    "glossary_fit": "Qualifying comparison for meaningful human control: comparative human–AI task performance does not by itself measure effective oversight or intervention.",
     "source_ids": [
       "SRC-018"
     ],
@@ -40,7 +40,7 @@
       "prepared_by": "Mike — AI assistant",
       "authority_policy_id": "POLICY-001",
       "individual_human_review": "Not recorded",
-      "date": "2026-10-30T22:52:57.829686+00:00"
+      "date": "2026-11-01T20:21:26.001777+00:00"
     }
   },
   "case": {
@@ -52,13 +52,13 @@
     "source_ids": [
       "SRC-018"
     ],
-    "summary": "Distinct study or synthesis, not an operational incident.",
+    "summary": "Preregistered systematic review and meta-analysis of human–AI task performance, reporting 106 experiments and 370 effect sizes. This is a synthesis of heterogeneous configurations, not a single experiment or an operational incident.",
     "publication_record": {
       "status": "Provisionally published",
       "prepared_by": "Mike — AI assistant",
       "authority_policy_id": "POLICY-001",
       "individual_human_review": "Not recorded",
-      "date": "2026-10-30T22:52:57.829686+00:00"
+      "date": "2026-11-01T20:21:26.001777+00:00"
     }
   },
   "sources": [

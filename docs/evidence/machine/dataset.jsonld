@@ -5,8 +5,8 @@
   "name": "Vocabulary Commons Evidence Library",
   "description": "Provisional attributed findings, sources, qualifications, glossary relationships and public withdrawal notices about the changing human–AI operating environment. Inclusion is not independent verification.",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
-  "version": "0.5.1",
-  "dateModified": "2026-11-01T18:38:34.584202+00:00",
+  "version": "0.5.4",
+  "dateModified": "2026-11-01T20:21:26.185094+00:00",
   "isAccessibleForFree": true,
   "publisher": {
     "@type": "Organization",

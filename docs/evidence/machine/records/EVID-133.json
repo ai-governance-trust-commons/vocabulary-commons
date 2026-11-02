@@ -1,9 +1,9 @@
 {
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
-  "machine_release": "0.5.1",
-  "dataset_version": "0.5.1",
-  "dataset_sha256": "14752b9f1b05c3331f29824ed8655cb3dd464f01b21a27a937933e032fb08bde",
+  "machine_release": "0.5.4",
+  "dataset_version": "0.5.4",
+  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
   "id": "EVID-133",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-133.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-133",
