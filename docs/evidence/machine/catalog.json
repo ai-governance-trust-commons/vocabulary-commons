@@ -1,9 +1,9 @@
 {
   "contract_version": "1.0",
-  "machine_release": "0.5.4",
-  "dataset_version": "0.5.4",
-  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
-  "prepared_at": "2026-11-01T20:25:59.244759+00:00",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "prepared_at": "2026-11-02T17:21:28.143278+00:00",
   "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
   "dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json",
   "dataset_schema_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/dataset-v1.schema.json",
@@ -21,9 +21,9 @@
   "glossary_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/data/glossary.json",
   "glossary_schema_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/glossary-v1.schema.json",
   "counts": {
-    "published_evidence": 182,
+    "published_evidence": 186,
     "withdrawal_notices": 2,
-    "source_records": 145,
+    "source_records": 149,
     "founding_terms": 35
   },
   "exports": {

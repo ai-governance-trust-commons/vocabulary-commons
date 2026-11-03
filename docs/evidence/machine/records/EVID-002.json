@@ -1,9 +1,9 @@
 {
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
-  "machine_release": "0.5.4",
-  "dataset_version": "0.5.4",
-  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
   "id": "EVID-002",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-002.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-002",
@@ -194,6 +194,20 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "REL-434",
+      "from_id": "EVID-188",
+      "to_id": "EVID-002",
+      "relationship_type": "contrasting task context",
+      "explanation": "These studies used different developer populations, tasks, tools and periods. A completion-time benefit in Peng does not reverse or replicate the METR mature-repository slowdown; retain both settings and their limitations.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
       }
     }
   ],
