@@ -1,0 +1,177 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "id": "EVID-185",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-185.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-185",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-185",
+    "title": "Assisted mathematics performance and later unaided learning diverge in a bounded trial",
+    "case_id": "CASE-168",
+    "observation": "Source-reported finding: Bastani and colleagues report a classroom-randomized study of nearly 1,000 Turkish high-school students across four mathematics sessions. GPT Base and teacher-informed GPT Tutor increased assisted practice scores by 48% and 127% relative to control. Subsequent unassisted examination scores were 17% lower with Base; Tutor scores were statistically indistinguishable from control. Observation context: Fall semester of academic year 2023–2024.",
+    "evidence_standing": "Author-reported bounded study; not independently reproduced by the Commons",
+    "glossary_fit": "Illustrative or qualifying comparison; founding definitions and classifications unchanged",
+    "source_ids": [
+      "SRC-148"
+    ],
+    "source_locations": {
+      "SRC-148": "Experimental Design; Main Results, Table 1; Discussion"
+    },
+    "limitations": "One school, grades 9–11, short exposure; assisted scores and immediate unassisted learning are different outcomes. Reduced acquisition does not establish erosion of established skills. Tutor required labor-intensive teacher inputs. Reported percentages are relative changes, not percentage points; no long-term outcome established. A statistically indistinguishable Tutor result does not establish equivalence or a positive unaided learning benefit.",
+    "open_questions": "Which results transfer to other populations, tool versions, longer periods and operational governance settings? No such transfer is established by inclusion.",
+    "keywords": [
+      "competency decay",
+      "outcome purpose divergence",
+      "Bastani"
+    ],
+    "support_assessment": "Commons interpretation: The learning-acquisition boundary limits interpretation as established-skill decay. Better assisted practice need not imply better unassisted learning.",
+    "dispute_status": "See recorded source-version qualifications and finding limits; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-168",
+    "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+    "kind": "Controlled study; not an incident",
+    "event_date": "Fall semester of academic year 2023–2024",
+    "event_date_precision": "Fall semester of academic year 2023–2024",
+    "source_ids": [
+      "SRC-148"
+    ],
+    "summary": "Study setting: Fall semester of academic year 2023–2024. One study family; related reports or findings are not independent replications.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-148",
+      "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+      "publisher": "PNAS 122(26), e2422633122",
+      "issuing_body": "Listed study authors",
+      "authors": [
+        "Hamsa Bastani",
+        "Osbert Bastani",
+        "Alp Sungu",
+        "Haosen Ge",
+        "Özge Kabakcı",
+        "Rei Mariman"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+      "publication_date": "2025-06-25",
+      "access_date": "2026-11-02",
+      "locator": "Experimental Design; Main Results, Table 1; Discussion",
+      "source_kind": "Original public research article",
+      "independence_group": "bastani-math-tutoring-2025",
+      "version_note": "Final article dated 25 June 2025. Affiliation-only correction dated 20 August 2025 inspected: https://pmc.ncbi.nlm.nih.gov/articles/PMC12403119/; that notice states no results revision. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+      "verification": {
+        "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+        "scope": "Experimental Design; Main Results, Table 1; Discussion; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+        "review_date": "2026-11-02",
+        "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+        "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "The affiliation-only correction was inspected; no results revision stated in that notice."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-competency-decay",
+      "name": "Competency decay",
+      "definition": "A decline in the human or organizational expertise needed to perform, verify, contest, or recover work that is repeatedly delegated to AI-enabled systems. It is especially consequential when skills needed for independent judgment are lost.",
+      "vocabulary": "Extended",
+      "claim": "Indicated",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#competency-decay",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-outcome-purpose-divergence",
+      "name": "Outcome–purpose divergence",
+      "definition": "A condition in which meeting an immediate objective or metric degrades the benefit or purpose that justified pursuing it. The divergence can occur through narrow measures or indirect consequences without an intent to deceive.",
+      "vocabulary": "Extended",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#outcomepurpose-divergence",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-427",
+      "from_id": "EVID-185",
+      "to_id": "TERM-competency-decay",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: The learning-acquisition boundary limits interpretation as established-skill decay. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-428",
+      "from_id": "EVID-185",
+      "to_id": "TERM-outcome-purpose-divergence",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: Better assisted practice need not imply better unassisted learning. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

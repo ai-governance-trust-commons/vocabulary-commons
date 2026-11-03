@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "dataset_version": "0.5.4",
+  "dataset_version": "0.5.5",
   "notice": "Navigation index only. Retrieve the complete bundle before interpreting or citing a finding. Withdrawals are not evidence.",
   "records": [
     {
@@ -1106,6 +1106,30 @@
       "status": "provisionally_published",
       "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-184.json",
       "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-184"
+    },
+    {
+      "id": "EVID-185",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-185.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-185"
+    },
+    {
+      "id": "EVID-186",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-186.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-186"
+    },
+    {
+      "id": "EVID-187",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-187.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-187"
+    },
+    {
+      "id": "EVID-188",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-188.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-188"
     }
   ]
 }
