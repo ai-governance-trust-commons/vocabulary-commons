@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.4",
+  "dataset_version": "0.5.5",
   "terms": [
     {
       "id": "TERM-ai-enabled-capability",
@@ -651,31 +651,35 @@
         "EVID-120",
         "EVID-126",
         "EVID-170",
-        "EVID-175"
+        "EVID-175",
+        "EVID-185"
       ],
-      "finding_count": 5,
+      "finding_count": 6,
       "source_ids": [
         "SRC-079",
         "SRC-087",
         "SRC-093",
         "SRC-134",
-        "SRC-139"
+        "SRC-139",
+        "SRC-148"
       ],
       "recorded_family_ids": [
+        "bastani-math-tutoring-2025",
         "brynjolfsson-work",
         "pedersen-2026",
         "study-arxiv-2608.08601",
         "study-bainbridge",
         "study-learning"
       ],
-      "recorded_family_count": 5,
+      "recorded_family_count": 6,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-112",
         "EVID-120",
         "EVID-126",
         "EVID-170",
-        "EVID-175"
+        "EVID-175",
+        "EVID-185"
       ],
       "challenging_finding_ids": [],
       "relationships": {
@@ -684,7 +688,8 @@
           "EVID-120",
           "EVID-126",
           "EVID-170",
-          "EVID-175"
+          "EVID-175",
+          "EVID-185"
         ]
       }
     },
@@ -715,9 +720,11 @@
         "EVID-150",
         "EVID-156",
         "EVID-157",
-        "EVID-162"
+        "EVID-162",
+        "EVID-186",
+        "EVID-188"
       ],
-      "finding_count": 24,
+      "finding_count": 26,
       "source_ids": [
         "SRC-002",
         "SRC-003",
@@ -744,7 +751,9 @@
         "SRC-115",
         "SRC-120",
         "SRC-121",
-        "SRC-126"
+        "SRC-126",
+        "SRC-149",
+        "SRC-151"
       ],
       "recorded_family_ids": [
         "AISI_ASSESS",
@@ -757,6 +766,7 @@
         "anthropic-gtg 1002-2025",
         "anthropic-threat-report-sept 2026",
         "crowdstrike-vaporpanda-oct 2026",
+        "dellacqua-jagged-frontier-2023-2026",
         "formal-verification-2026",
         "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime",
         "https://cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
@@ -770,14 +780,16 @@
         "microsoft-storm 0940-oct 2026",
         "new-study-SRC-013",
         "new-study-SRC-014",
+        "peng-copilot-controlled-task-2022",
         "study-arxiv-2609.15383",
         "study-nas28868"
       ],
-      "recorded_family_count": 25,
+      "recorded_family_count": 27,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-096",
-        "EVID-124"
+        "EVID-124",
+        "EVID-186"
       ],
       "challenging_finding_ids": [
         "EVID-002"
@@ -807,11 +819,13 @@
           "EVID-150",
           "EVID-156",
           "EVID-157",
-          "EVID-162"
+          "EVID-162",
+          "EVID-188"
         ],
         "qualifies": [
           "EVID-096",
-          "EVID-124"
+          "EVID-124",
+          "EVID-186"
         ]
       }
     },
@@ -1438,9 +1452,10 @@
         "EVID-121",
         "EVID-122",
         "EVID-145",
-        "EVID-149"
+        "EVID-149",
+        "EVID-187"
       ],
-      "finding_count": 10,
+      "finding_count": 11,
       "source_ids": [
         "SRC-016",
         "SRC-017",
@@ -1451,13 +1466,15 @@
         "SRC-088",
         "SRC-089",
         "SRC-111",
-        "SRC-114"
+        "SRC-114",
+        "SRC-150"
       ],
       "recorded_family_ids": [
         "I_HITL",
         "OAI_TEST_WALLET",
         "anthropic-unintended-actions-oct 2026",
         "bucinca-cognitive-forcing-2021",
+        "gaube-advice-source-label-2021",
         "study-arxiv-2603.19213",
         "study-arxiv-2609.24242",
         "study-controllability",
@@ -1465,7 +1482,7 @@
         "vaccaro-human-ai-meta-analysis-2024",
         "vasconcelos-explanations-overreliance-2023"
       ],
-      "recorded_family_count": 10,
+      "recorded_family_count": 11,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-018",
@@ -1474,7 +1491,8 @@
         "EVID-100",
         "EVID-110",
         "EVID-121",
-        "EVID-122"
+        "EVID-122",
+        "EVID-187"
       ],
       "challenging_finding_ids": [],
       "relationships": {
@@ -1490,7 +1508,8 @@
           "EVID-100",
           "EVID-110",
           "EVID-121",
-          "EVID-122"
+          "EVID-122",
+          "EVID-187"
         ]
       }
     },
@@ -1844,20 +1863,23 @@
       "finding_ids": [
         "EVID-122",
         "EVID-137",
-        "EVID-140"
+        "EVID-140",
+        "EVID-187"
       ],
-      "finding_count": 3,
+      "finding_count": 4,
       "source_ids": [
         "SRC-089",
         "SRC-104",
-        "SRC-106"
+        "SRC-106",
+        "SRC-150"
       ],
       "recorded_family_ids": [
+        "gaube-advice-source-label-2021",
         "rem-1",
         "rem-3",
         "study-haig"
       ],
-      "recorded_family_count": 3,
+      "recorded_family_count": 4,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-122"
@@ -1866,7 +1888,8 @@
       "relationships": {
         "illustrates": [
           "EVID-137",
-          "EVID-140"
+          "EVID-140",
+          "EVID-187"
         ],
         "qualifies": [
           "EVID-122"
@@ -1927,9 +1950,11 @@
         "EVID-126",
         "EVID-129",
         "EVID-147",
-        "EVID-148"
+        "EVID-148",
+        "EVID-185",
+        "EVID-186"
       ],
-      "finding_count": 7,
+      "finding_count": 9,
       "source_ids": [
         "SRC-002",
         "SRC-003",
@@ -1938,18 +1963,22 @@
         "SRC-093",
         "SRC-096",
         "SRC-112",
-        "SRC-113"
+        "SRC-113",
+        "SRC-148",
+        "SRC-149"
       ],
       "recorded_family_ids": [
         "IRREGULAR_GLM53",
         "OAI_SERVER_SECRETS",
         "anthropic-unintended-actions-oct 2026",
+        "bastani-math-tutoring-2025",
+        "dellacqua-jagged-frontier-2023-2026",
         "metr-productivity-2025",
         "study-arxiv-2610.02122",
         "study-hallucinate",
         "study-learning"
       ],
-      "recorded_family_count": 7,
+      "recorded_family_count": 9,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-107",
@@ -1961,7 +1990,9 @@
         "illustrates": [
           "EVID-044",
           "EVID-147",
-          "EVID-148"
+          "EVID-148",
+          "EVID-185",
+          "EVID-186"
         ],
         "partial": [
           "EVID-003"
@@ -2360,14 +2391,14 @@
     "terms_with_links": 34,
     "terms_without_links": 1,
     "terms_with_one_recorded_family": 5,
-    "public_findings": 182,
-    "findings_with_term_links": 180,
+    "public_findings": 186,
+    "findings_with_term_links": 184,
     "findings_without_term_links": 2,
     "withdrawal_notices": 2
   },
   "format_version": "1.0",
-  "coverage_presentation_version": "0.5.4",
-  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
+  "coverage_presentation_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
   "basis": "Explicit evidence-to-term relationships in the current published dataset. Withdrawals excluded. Counts describe recorded curation, not truth, completeness or independence.",
   "family_method": "Distinct recorded independence_group values across all sources cited by each term’s linked findings. Missing groups are disclosed separately; source-dependency relationships may identify further dependence.",
   "source_dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json"

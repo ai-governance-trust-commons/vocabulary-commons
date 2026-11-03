@@ -3,3 +3,5 @@
 
 /* Cards now contain several distinct links; remove the earlier full-card hit target. */
 .term-card h2 a::after{content:none}.term-card{cursor:default}.term-card p.citation-bearing,.term-card .card-reading-aid p{display:block;-webkit-line-clamp:unset;-webkit-box-orient:initial;overflow:visible}
+
+.term-detail .current-evidence-example p{font-size:16px;line-height:1.7}.term-detail .related-evidence>p{font-size:15px;line-height:1.7}.term-detail .related-evidence li p{font-size:14px;line-height:1.65}

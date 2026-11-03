@@ -1,0 +1,181 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "id": "EVID-187",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-187.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-187",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-187",
+    "title": "Advice quality and observed reliance differ from responses to an AI label",
+    "case_id": "CASE-170",
+    "observation": "Source-reported finding: Gaube and colleagues report an online eight-case chest-X-ray experiment with radiologists and other physicians. All advice was human-authored but labeled either AI or experienced radiologist. Diagnostic accuracy was lower with inaccurate advice, without a significant purported-source effect. Experts rated AI-labeled advice less favorably, but that attitude did not prevent susceptibility; some participants rejected every inaccurate recommendation. Observation context: Recruitment/experiment dates not established from inspected text.",
+    "evidence_standing": "Author-reported bounded study; not independently reproduced by the Commons",
+    "glossary_fit": "Illustrative or qualifying comparison; founding definitions and classifications unchanged",
+    "source_ids": [
+      "SRC-150"
+    ],
+    "source_locations": {
+      "SRC-150": "Results: Diagnostic accuracy and advice quality; Discussion limitations; Methods: Participants and study design; Table 3"
+    },
+    "limitations": "Simulated cases, no actual AI output or patient outcomes, and no unassisted baseline: this does not demonstrate AI-caused clinical harm. Prose reports 138 radiologists and 127 other physicians, while Table 3 totals 264; that internal denominator discrepancy remains unresolved. Experience skew and few incorrect-advice cases restrict generalization.",
+    "open_questions": "Which results transfer to other populations, tool versions, longer periods and operational governance settings? No such transfer is established by inclusion.",
+    "keywords": [
+      "operational trust",
+      "meaningful human control",
+      "Gaube"
+    ],
+    "support_assessment": "Commons interpretation: Expressed attitudes and observed reliance can differ. Expert participation alone did not ensure rejection of incorrect advice.",
+    "dispute_status": "See recorded source-version qualifications and finding limits; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-170",
+    "title": "Do as AI say: susceptibility in deployment of clinical decision-aids",
+    "kind": "Controlled study; not an incident",
+    "event_date": null,
+    "event_date_precision": "Recruitment/experiment dates not established from inspected text",
+    "source_ids": [
+      "SRC-150"
+    ],
+    "summary": "Study setting: Recruitment/experiment dates not established from inspected text. One study family; related reports or findings are not independent replications.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-150",
+      "title": "Do as AI say: susceptibility in deployment of clinical decision-aids",
+      "publisher": "npj Digital Medicine 4, 31",
+      "issuing_body": "Listed study authors",
+      "authors": [
+        "Susanne Gaube",
+        "Harini Suresh",
+        "Martina Raue",
+        "Alexander Merritt",
+        "Seth J. Berkowitz",
+        "Eva Lermer",
+        "Joseph F. Coughlin",
+        "John V. Guttag",
+        "Errol Colak",
+        "Marzyeh Ghassemi"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/",
+      "publication_date": "2021-02-19",
+      "access_date": "2026-11-02",
+      "locator": "Results: Diagnostic accuracy and advice quality; Discussion limitations; Methods: Participants and study design; Table 3",
+      "source_kind": "Original public research article",
+      "independence_group": "gaube-advice-source-label-2021",
+      "version_note": "Original 2021 journal article deposited in PubMed Central; no correction notice encountered in the bounded inspection. Internal sample-count inconsistency is retained in the finding limits. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+      "verification": {
+        "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+        "scope": "Results: Diagnostic accuracy and advice quality; Discussion limitations; Methods: Participants and study design; Table 3; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+        "review_date": "2026-11-02",
+        "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+        "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Known limitations and reporting ambiguities are retained in the finding. No absence-of-dispute claim."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-meaningful-human-control",
+      "name": "Meaningful human control",
+      "definition": "A condition in which people retain adequate information, independent judgment, authority, and practical means to redirect consequential activity. A nominal human-in-the-loop approval does not, by itself, demonstrate this capacity.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#meaningful-human-control",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-operational-trust",
+      "name": "Operational trust",
+      "definition": "Reliance placed in an AI-enabled capability through actual use, decisions, and delegation, whether or not users express subjective confidence in it. Trust in this sense is operational behavior, not a reliability certification.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#operational-trust",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-431",
+      "from_id": "EVID-187",
+      "to_id": "TERM-operational-trust",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: Expressed attitudes and observed reliance can differ. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-432",
+      "from_id": "EVID-187",
+      "to_id": "TERM-meaningful-human-control",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: Expert participation alone did not ensure rejection of incorrect advice. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

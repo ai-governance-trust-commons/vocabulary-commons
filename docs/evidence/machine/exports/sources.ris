@@ -1628,3 +1628,68 @@ PY  - 2016
 UR  - https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/
 N1  - Source ID SRC-147. Publication date as recorded: 2016-03-25. Original developer statement dated 25 March 2016. Historical incident account; not a current product assessment. Root/source: https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/ Discovery credit: MITRE ATLAS AML.CS0009 → Microsoft original statement; https://github.com/mitre-atlas/atlas-data/blob/main/dist/v6/ATLAS-2026.10.yaml. Commons identification: citation-trail review, CAN-006, 1 November 2026. Index references identify discovery, not verification or endorsement. Source inspection is not independent verification.
 ER  - 
+
+TY  - GEN
+ID  - SRC-148
+TI  - Generative AI without guardrails can harm learning: Evidence from high school mathematics
+PB  - PNAS 122(26), e2422633122
+AU  - Hamsa Bastani
+AU  - Osbert Bastani
+AU  - Alp Sungu
+AU  - Haosen Ge
+AU  - Özge Kabakcı
+AU  - Rei Mariman
+PY  - 2025
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/
+N1  - Source ID SRC-148. Publication date as recorded: 2025-06-25. Final article dated 25 June 2025. Affiliation-only correction dated 20 August 2025 inspected: https://pmc.ncbi.nlm.nih.gov/articles/PMC12403119/; that notice states no results revision. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-149
+TI  - Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality
+PB  - Organization Science 37(2), 403–423
+AU  - Fabrizio Dell’Acqua
+AU  - Edward McFowland III
+AU  - Ethan Mollick
+AU  - Hila Lifshitz
+AU  - Katherine C. Kellogg
+AU  - Saran Rajendran
+AU  - Lisa Krayer
+AU  - François Candelon
+AU  - Karim R. Lakhani
+PY  - 2026
+UR  - https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838
+N1  - Source ID SRC-149. Publication date as recorded: 2026-03-11. Final journal article published 11 March 2026; earlier 2023 working paper is the same family, not corroboration. Root/source: https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838 Discovery credit: https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-150
+TI  - Do as AI say: susceptibility in deployment of clinical decision-aids
+PB  - npj Digital Medicine 4, 31
+AU  - Susanne Gaube
+AU  - Harini Suresh
+AU  - Martina Raue
+AU  - Alexander Merritt
+AU  - Seth J. Berkowitz
+AU  - Eva Lermer
+AU  - Joseph F. Coughlin
+AU  - John V. Guttag
+AU  - Errol Colak
+AU  - Marzyeh Ghassemi
+PY  - 2021
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/
+N1  - Source ID SRC-150. Publication date as recorded: 2021-02-19. Original 2021 journal article deposited in PubMed Central; no correction notice encountered in the bounded inspection. Internal sample-count inconsistency is retained in the finding limits. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-151
+TI  - The Impact of AI on Developer Productivity: Evidence from GitHub Copilot
+PB  - arXiv preprint 2302.06590v1
+AU  - Sida Peng
+AU  - Eirini Kalliamvakou
+AU  - Peter Cihon
+AU  - Mert Demirer
+PY  - 2023
+UR  - https://arxiv.org/html/2302.06590v1
+N1  - Source ID SRC-151. Publication date as recorded: 2023-02-13. arXiv submission history lists v1, 13 February 2023. Root/source: https://arxiv.org/html/2302.06590v1 Discovery credit: https://www.microsoft.com/en-us/research/publication/the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration. Source inspection is not independent verification.
+ER  - 

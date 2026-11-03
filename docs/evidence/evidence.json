@@ -2,8 +2,8 @@
   "format_version": "1.0",
   "title": "Vocabulary Commons Evidence Library",
   "status": "Provisional public evidence collection",
-  "dataset_version": "0.5.4",
-  "generated_at": "2026-11-01T20:21:26.185094+00:00",
+  "dataset_version": "0.5.5",
+  "generated_at": "2026-11-02T17:19:55.552763+00:00",
   "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
   "sources": [
     {
@@ -5677,6 +5677,183 @@
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T18:38:34.386143+00:00"
       }
+    },
+    {
+      "id": "SRC-148",
+      "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+      "publisher": "PNAS 122(26), e2422633122",
+      "issuing_body": "Listed study authors",
+      "authors": [
+        "Hamsa Bastani",
+        "Osbert Bastani",
+        "Alp Sungu",
+        "Haosen Ge",
+        "Özge Kabakcı",
+        "Rei Mariman"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+      "publication_date": "2025-06-25",
+      "access_date": "2026-11-02",
+      "locator": "Experimental Design; Main Results, Table 1; Discussion",
+      "source_kind": "Original public research article",
+      "independence_group": "bastani-math-tutoring-2025",
+      "version_note": "Final article dated 25 June 2025. Affiliation-only correction dated 20 August 2025 inspected: https://pmc.ncbi.nlm.nih.gov/articles/PMC12403119/; that notice states no results revision. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+      "verification": {
+        "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+        "scope": "Experimental Design; Main Results, Table 1; Discussion; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+        "review_date": "2026-11-02",
+        "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+        "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "The affiliation-only correction was inspected; no results revision stated in that notice."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "SRC-149",
+      "title": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality",
+      "publisher": "Organization Science 37(2), 403–423",
+      "issuing_body": "Listed study authors",
+      "authors": [
+        "Fabrizio Dell’Acqua",
+        "Edward McFowland III",
+        "Ethan Mollick",
+        "Hila Lifshitz",
+        "Katherine C. Kellogg",
+        "Saran Rajendran",
+        "Lisa Krayer",
+        "François Candelon",
+        "Karim R. Lakhani"
+      ],
+      "url": "https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838",
+      "publication_date": "2026-03-11",
+      "access_date": "2026-11-02",
+      "locator": "Sections 3–4; Tables 7–9; Section 6 Discussion; endnotes 5–6",
+      "source_kind": "Original public research article",
+      "independence_group": "dellacqua-jagged-frontier-2023-2026",
+      "version_note": "Final journal article published 11 March 2026; earlier 2023 working paper is the same family, not corroboration. Root/source: https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838 Discovery credit: https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+      "verification": {
+        "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+        "scope": "Sections 3–4; Tables 7–9; Section 6 Discussion; endnotes 5–6; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+        "review_date": "2026-11-02",
+        "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+        "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Known limitations and reporting ambiguities are retained in the finding. No absence-of-dispute claim."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "SRC-150",
+      "title": "Do as AI say: susceptibility in deployment of clinical decision-aids",
+      "publisher": "npj Digital Medicine 4, 31",
+      "issuing_body": "Listed study authors",
+      "authors": [
+        "Susanne Gaube",
+        "Harini Suresh",
+        "Martina Raue",
+        "Alexander Merritt",
+        "Seth J. Berkowitz",
+        "Eva Lermer",
+        "Joseph F. Coughlin",
+        "John V. Guttag",
+        "Errol Colak",
+        "Marzyeh Ghassemi"
+      ],
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/",
+      "publication_date": "2021-02-19",
+      "access_date": "2026-11-02",
+      "locator": "Results: Diagnostic accuracy and advice quality; Discussion limitations; Methods: Participants and study design; Table 3",
+      "source_kind": "Original public research article",
+      "independence_group": "gaube-advice-source-label-2021",
+      "version_note": "Original 2021 journal article deposited in PubMed Central; no correction notice encountered in the bounded inspection. Internal sample-count inconsistency is retained in the finding limits. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+      "verification": {
+        "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+        "scope": "Results: Diagnostic accuracy and advice quality; Discussion limitations; Methods: Participants and study design; Table 3; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+        "review_date": "2026-11-02",
+        "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+        "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Known limitations and reporting ambiguities are retained in the finding. No absence-of-dispute claim."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "SRC-151",
+      "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+      "publisher": "arXiv preprint 2302.06590v1",
+      "issuing_body": "Listed study authors",
+      "authors": [
+        "Sida Peng",
+        "Eirini Kalliamvakou",
+        "Peter Cihon",
+        "Mert Demirer"
+      ],
+      "url": "https://arxiv.org/html/2302.06590v1",
+      "publication_date": "2023-02-13",
+      "access_date": "2026-11-02",
+      "locator": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history",
+      "source_kind": "Original public research preprint",
+      "independence_group": "peng-copilot-controlled-task-2022",
+      "version_note": "arXiv submission history lists v1, 13 February 2023. Root/source: https://arxiv.org/html/2302.06590v1 Discovery credit: https://www.microsoft.com/en-us/research/publication/the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+      "verification": {
+        "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+        "scope": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+        "review_date": "2026-11-02",
+        "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+        "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Known limitations and reporting ambiguities are retained in the finding. No absence-of-dispute claim."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
     }
   ],
   "cases": [
@@ -8662,6 +8839,78 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "CASE-168",
+      "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+      "kind": "Controlled study; not an incident",
+      "event_date": "Fall semester of academic year 2023–2024",
+      "event_date_precision": "Fall semester of academic year 2023–2024",
+      "source_ids": [
+        "SRC-148"
+      ],
+      "summary": "Study setting: Fall semester of academic year 2023–2024. One study family; related reports or findings are not independent replications.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "CASE-169",
+      "title": "Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on Knowledge Worker Productivity and Quality",
+      "kind": "Controlled study; not an incident",
+      "event_date": "2023 GPT-4 study context; precise execution dates not established in this inspection",
+      "event_date_precision": "2023 GPT-4 study context; precise execution dates not established in this inspection",
+      "source_ids": [
+        "SRC-149"
+      ],
+      "summary": "Study setting: 2023 GPT-4 study context; precise execution dates not established in this inspection. One study family; related reports or findings are not independent replications.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "CASE-170",
+      "title": "Do as AI say: susceptibility in deployment of clinical decision-aids",
+      "kind": "Controlled study; not an incident",
+      "event_date": null,
+      "event_date_precision": "Recruitment/experiment dates not established from inspected text",
+      "source_ids": [
+        "SRC-150"
+      ],
+      "summary": "Study setting: Recruitment/experiment dates not established from inspected text. One study family; related reports or findings are not independent replications.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "CASE-171",
+      "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+      "kind": "Controlled study; not an incident",
+      "event_date": "May–June 2022",
+      "event_date_precision": "May–June 2022",
+      "source_ids": [
+        "SRC-151"
+      ],
+      "summary": "Study setting: May–June 2022. One study family; related reports or findings are not independent replications.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
       }
     }
   ],
@@ -14579,6 +14828,137 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "EVID-185",
+      "title": "Assisted mathematics performance and later unaided learning diverge in a bounded trial",
+      "case_id": "CASE-168",
+      "observation": "Source-reported finding: Bastani and colleagues report a classroom-randomized study of nearly 1,000 Turkish high-school students across four mathematics sessions. GPT Base and teacher-informed GPT Tutor increased assisted practice scores by 48% and 127% relative to control. Subsequent unassisted examination scores were 17% lower with Base; Tutor scores were statistically indistinguishable from control. Observation context: Fall semester of academic year 2023–2024.",
+      "evidence_standing": "Author-reported bounded study; not independently reproduced by the Commons",
+      "glossary_fit": "Illustrative or qualifying comparison; founding definitions and classifications unchanged",
+      "source_ids": [
+        "SRC-148"
+      ],
+      "source_locations": {
+        "SRC-148": "Experimental Design; Main Results, Table 1; Discussion"
+      },
+      "limitations": "One school, grades 9–11, short exposure; assisted scores and immediate unassisted learning are different outcomes. Reduced acquisition does not establish erosion of established skills. Tutor required labor-intensive teacher inputs. Reported percentages are relative changes, not percentage points; no long-term outcome established. A statistically indistinguishable Tutor result does not establish equivalence or a positive unaided learning benefit.",
+      "open_questions": "Which results transfer to other populations, tool versions, longer periods and operational governance settings? No such transfer is established by inclusion.",
+      "keywords": [
+        "competency decay",
+        "outcome purpose divergence",
+        "Bastani"
+      ],
+      "support_assessment": "Commons interpretation: The learning-acquisition boundary limits interpretation as established-skill decay. Better assisted practice need not imply better unassisted learning.",
+      "dispute_status": "See recorded source-version qualifications and finding limits; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "EVID-186",
+      "title": "Consultant performance gains depend on task fit, and coherence need not mean correctness",
+      "case_id": "CASE-169",
+      "observation": "Source-reported finding: Dell’Acqua and colleagues report randomized task experiments with 758 BCG consultants. On an 18-task workflow within the tested capability frontier, GPT-4 access increased task completion and quality while reducing time. On a separate complex managerial task, assisted participants were faster but less often correct; even incorrect assisted answers received higher coherence ratings. Observation context: 2023 GPT-4 study context; precise execution dates not established in this inspection.",
+      "evidence_standing": "Author-reported bounded study; not independently reproduced by the Commons",
+      "glossary_fit": "Illustrative or qualifying comparison; founding definitions and classifications unchanged",
+      "source_ids": [
+        "SRC-149"
+      ],
+      "source_locations": {
+        "SRC-149": "Sections 3–4; Tables 7–9; Section 6 Discussion; endnotes 5–6"
+      },
+      "limitations": "One firm, mostly early-career consultants, constructed tasks and June 2023 GPT-4. One outside-frontier task cannot establish a general boundary. Speed, coherence and correctness are separate measures. Findings are paired settings within one study, not independent replications. The preregistration omitted the later jagged-frontier framing and detailed task descriptions.",
+      "open_questions": "Which results transfer to other populations, tool versions, longer periods and operational governance settings? No such transfer is established by inclusion.",
+      "keywords": [
+        "outcome purpose divergence",
+        "constraint compression",
+        "Dellacqua"
+      ],
+      "support_assessment": "Commons interpretation: Speed and persuasive coherence can diverge from correctness. Reduced task barriers depended on task/model fit.",
+      "dispute_status": "See recorded source-version qualifications and finding limits; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "EVID-187",
+      "title": "Advice quality and observed reliance differ from responses to an AI label",
+      "case_id": "CASE-170",
+      "observation": "Source-reported finding: Gaube and colleagues report an online eight-case chest-X-ray experiment with radiologists and other physicians. All advice was human-authored but labeled either AI or experienced radiologist. Diagnostic accuracy was lower with inaccurate advice, without a significant purported-source effect. Experts rated AI-labeled advice less favorably, but that attitude did not prevent susceptibility; some participants rejected every inaccurate recommendation. Observation context: Recruitment/experiment dates not established from inspected text.",
+      "evidence_standing": "Author-reported bounded study; not independently reproduced by the Commons",
+      "glossary_fit": "Illustrative or qualifying comparison; founding definitions and classifications unchanged",
+      "source_ids": [
+        "SRC-150"
+      ],
+      "source_locations": {
+        "SRC-150": "Results: Diagnostic accuracy and advice quality; Discussion limitations; Methods: Participants and study design; Table 3"
+      },
+      "limitations": "Simulated cases, no actual AI output or patient outcomes, and no unassisted baseline: this does not demonstrate AI-caused clinical harm. Prose reports 138 radiologists and 127 other physicians, while Table 3 totals 264; that internal denominator discrepancy remains unresolved. Experience skew and few incorrect-advice cases restrict generalization.",
+      "open_questions": "Which results transfer to other populations, tool versions, longer periods and operational governance settings? No such transfer is established by inclusion.",
+      "keywords": [
+        "operational trust",
+        "meaningful human control",
+        "Gaube"
+      ],
+      "support_assessment": "Commons interpretation: Expressed attitudes and observed reliance can differ. Expert participation alone did not ensure rejection of incorrect advice.",
+      "dispute_status": "See recorded source-version qualifications and finding limits; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "EVID-188",
+      "title": "Copilot access reduced completion time among task completers in an early controlled study",
+      "case_id": "CASE-171",
+      "observation": "Source-reported finding: Peng and colleagues report randomizing 95 recruited professional developers to a JavaScript HTTP-server task with or without Copilot access. Conditional on completing the task, mean completion time was 55.8% lower with access (reported 95% interval: 21%–89%). The seven-percentage-point success-rate difference was not statistically significant. Five treated participants did not complete tool setup. Observation context: May–June 2022.",
+      "evidence_standing": "Author-reported bounded study; not independently reproduced by the Commons",
+      "glossary_fit": "Illustrative or qualifying comparison; founding definitions and classifications unchanged",
+      "source_ids": [
+        "SRC-151"
+      ],
+      "source_locations": {
+        "SRC-151": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history"
+      },
+      "limitations": "One standardized task, recruited population, and early Copilot version. The time estimate conditions on completion, rather than all randomized developers; it is not a universal productivity gain. Tests checked task correctness, not security or broader code quality. Paper wording about completer count is ambiguous; no count is inferred. This is not a matched replication of METR.",
+      "open_questions": "Which results transfer to other populations, tool versions, longer periods and operational governance settings? No such transfer is established by inclusion.",
+      "keywords": [
+        "constraint compression",
+        "Peng"
+      ],
+      "support_assessment": "Commons interpretation: A bounded example of reduced completion time, alongside a non-significant success-rate difference.",
+      "dispute_status": "See recorded source-version qualifications and finding limits; no systematic clearance claimed.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "evidence_standing_label": "Reported observation",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
       }
     }
   ],
@@ -21070,6 +21450,118 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-01T18:38:34.386143+00:00"
+      }
+    },
+    {
+      "id": "REL-427",
+      "from_id": "EVID-185",
+      "to_id": "TERM-competency-decay",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: The learning-acquisition boundary limits interpretation as established-skill decay. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-428",
+      "from_id": "EVID-185",
+      "to_id": "TERM-outcome-purpose-divergence",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: Better assisted practice need not imply better unassisted learning. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-429",
+      "from_id": "EVID-186",
+      "to_id": "TERM-outcome-purpose-divergence",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: Speed and persuasive coherence can diverge from correctness. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-430",
+      "from_id": "EVID-186",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: Reduced task barriers depended on task/model fit. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-431",
+      "from_id": "EVID-187",
+      "to_id": "TERM-operational-trust",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: Expressed attitudes and observed reliance can differ. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-432",
+      "from_id": "EVID-187",
+      "to_id": "TERM-meaningful-human-control",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: Expert participation alone did not ensure rejection of incorrect advice. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-433",
+      "from_id": "EVID-188",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: A bounded example of reduced completion time, alongside a non-significant success-rate difference. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-434",
+      "from_id": "EVID-188",
+      "to_id": "EVID-002",
+      "relationship_type": "contrasting task context",
+      "explanation": "These studies used different developer populations, tasks, tools and periods. A completion-time benefit in Peng does not reverse or replicate the METR mature-repository slowdown; retain both settings and their limitations.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
       }
     }
   ],

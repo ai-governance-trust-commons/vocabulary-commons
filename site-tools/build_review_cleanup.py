@@ -2,7 +2,7 @@
 """Refresh public navigation/reading aids, preserving frozen glossary content."""
 from pathlib import Path
 import json,re,html,hashlib
-ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs';VERSION='0.5.4'
+ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs';VERSION='0.5.5'
 def esc(s):return html.escape(str(s),quote=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def aid(t):
@@ -59,7 +59,7 @@ def build():
  # Current per-record status is visible in the collapsed Library card, not only in its expanded metadata.
  p=D/'evidence/policy.html';s=p.read_text()
  s=s.replace('Demonstrated (bounded) retains an explicitly recorded bounded finding; it does not imply independent reproduction.','Attributed author and issuer accounts, including controlled demonstrations, are labeled Reported observation in this release. The glossary’s Demonstrated (bounded) standing is a different classification and is not a verification label for a Library record.')
- note='<section id="release-054"><h2>Reading this release</h2><p>Dataset 0.5.4 corrects reporting labels and editorial wording; it adds no findings or sources. Reporting labels for EVID-001–003, EVID-005–006, EVID-179–180 and EVID-183 now read Reported observation. EVID-006 separates the source account from the Commons interpretation and removes workflow wording. EVID-020 and its CASE-017 grouping identify a systematic review and meta-analysis; SRC-015 removes obsolete internal shorthand. Source inspection dates and independent-verification status are unchanged. Founding glossary v1.0.2 remains fixed. Website presentation 0.5.4 identifies the interface release; machine contract 1.0 identifies the data structure, not the strength of evidence.</p><p>Provisional publication under POLICY-001 is separate from individual human review, source inspection and independent verification. Repeated timestamps can reflect one publication batch; they do not establish individual human review. Historical withdrawal-version references below describe when the holds were recorded, not the current dataset version.</p></section>'
+ note='<section id="release-054"><h2>Release 0.5.4 corrections</h2><p>Dataset 0.5.4 corrects reporting labels and editorial wording; it adds no findings or sources. Reporting labels for EVID-001–003, EVID-005–006, EVID-179–180 and EVID-183 now read Reported observation. EVID-006 separates the source account from the Commons interpretation and removes workflow wording. EVID-020 and its CASE-017 grouping identify a systematic review and meta-analysis; SRC-015 removes obsolete internal shorthand. Source inspection dates and independent-verification status are unchanged. Founding glossary v1.0.2 remains fixed. Website presentation 0.5.4 identifies the interface release; machine contract 1.0 identifies the data structure, not the strength of evidence.</p><p>Provisional publication under POLICY-001 is separate from individual human review, source inspection and independent verification. Repeated timestamps can reflect one publication batch; they do not establish individual human review. Historical withdrawal-version references below describe when the holds were recorded, not the current dataset version.</p></section>'
  if 'id="release-054"' not in s:s=s.replace('</main>',note+'</main>')
  p.write_text(s)
  # Record content-to-page hashes after all presentation modifications.

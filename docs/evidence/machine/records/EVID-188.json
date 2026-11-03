@@ -1,0 +1,157 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "id": "EVID-188",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-188.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-188",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-188",
+    "title": "Copilot access reduced completion time among task completers in an early controlled study",
+    "case_id": "CASE-171",
+    "observation": "Source-reported finding: Peng and colleagues report randomizing 95 recruited professional developers to a JavaScript HTTP-server task with or without Copilot access. Conditional on completing the task, mean completion time was 55.8% lower with access (reported 95% interval: 21%–89%). The seven-percentage-point success-rate difference was not statistically significant. Five treated participants did not complete tool setup. Observation context: May–June 2022.",
+    "evidence_standing": "Author-reported bounded study; not independently reproduced by the Commons",
+    "glossary_fit": "Illustrative or qualifying comparison; founding definitions and classifications unchanged",
+    "source_ids": [
+      "SRC-151"
+    ],
+    "source_locations": {
+      "SRC-151": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history"
+    },
+    "limitations": "One standardized task, recruited population, and early Copilot version. The time estimate conditions on completion, rather than all randomized developers; it is not a universal productivity gain. Tests checked task correctness, not security or broader code quality. Paper wording about completer count is ambiguous; no count is inferred. This is not a matched replication of METR.",
+    "open_questions": "Which results transfer to other populations, tool versions, longer periods and operational governance settings? No such transfer is established by inclusion.",
+    "keywords": [
+      "constraint compression",
+      "Peng"
+    ],
+    "support_assessment": "Commons interpretation: A bounded example of reduced completion time, alongside a non-significant success-rate difference.",
+    "dispute_status": "See recorded source-version qualifications and finding limits; no systematic clearance claimed.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "evidence_standing_label": "Reported observation",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-171",
+    "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+    "kind": "Controlled study; not an incident",
+    "event_date": "May–June 2022",
+    "event_date_precision": "May–June 2022",
+    "source_ids": [
+      "SRC-151"
+    ],
+    "summary": "Study setting: May–June 2022. One study family; related reports or findings are not independent replications.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-151",
+      "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+      "publisher": "arXiv preprint 2302.06590v1",
+      "issuing_body": "Listed study authors",
+      "authors": [
+        "Sida Peng",
+        "Eirini Kalliamvakou",
+        "Peter Cihon",
+        "Mert Demirer"
+      ],
+      "url": "https://arxiv.org/html/2302.06590v1",
+      "publication_date": "2023-02-13",
+      "access_date": "2026-11-02",
+      "locator": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history",
+      "source_kind": "Original public research preprint",
+      "independence_group": "peng-copilot-controlled-task-2022",
+      "version_note": "arXiv submission history lists v1, 13 February 2023. Root/source: https://arxiv.org/html/2302.06590v1 Discovery credit: https://www.microsoft.com/en-us/research/publication/the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+      "verification": {
+        "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+        "scope": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+        "review_date": "2026-11-02",
+        "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+        "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+        "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Known limitations and reporting ambiguities are retained in the finding. No absence-of-dispute claim."
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-constraint-compression",
+      "name": "Constraint compression",
+      "definition": "A reduction, often AI-enabled, in the practical barriers of knowledge, expertise, labor, cost, time, or coordination that once limited an activity. It describes the change in constraints, not the eventual impact of the activity.",
+      "vocabulary": "Working",
+      "claim": "Demonstrated (bounded)",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#constraint-compression",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-433",
+      "from_id": "EVID-188",
+      "to_id": "TERM-constraint-compression",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: A bounded example of reduced completion time, alongside a non-significant success-rate difference. This describes a bounded application, not validation or general prevalence.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    },
+    {
+      "id": "REL-434",
+      "from_id": "EVID-188",
+      "to_id": "EVID-002",
+      "relationship_type": "contrasting task context",
+      "explanation": "These studies used different developer populations, tasks, tools and periods. A completion-time benefit in Peng does not reverse or replicate the METR mature-repository slowdown; retain both settings and their limitations.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-02T17:19:55.273187+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}
