@@ -1,8 +1,8 @@
 {
   "format_version": "1.0",
-  "editorial_version": "0.5.4",
-  "dataset_version": "0.5.4",
-  "dataset_sha256": "b8d18417e08f26200a1eb13f04ec8978e5b45d7f4d904709e7df8eb01f68b6bf",
+  "editorial_version": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
   "scope": "Editorial reading paths through already published evidence. Selections are starting points, not exhaustive reviews, evidence rankings or new canonical relationships.",
   "verification_note": "Approved public projection, not independent verification. Editorial selection does not create a new evidence-to-term relationship. Source inspection dates are historical; path generation does not re-inspect sources.",
   "paths": [
@@ -331,7 +331,7 @@
         "Did a measured gain extend to a complete objective?",
         "What physical, organizational or technical constraints remained?"
       ],
-      "caution": "These sources examine different populations and tasks; they are comparisons of boundaries, not directly comparable effect sizes. Statistical insignificance does not prove no effect.",
+      "caution": "These studies use different populations, tasks and tool versions; their effect sizes are not directly comparable or a chronological trend. A completion-time benefit among completers does not establish a higher success rate or better security.",
       "readings": [
         {
           "id": "EVID-173",
@@ -500,44 +500,47 @@
           }
         },
         {
-          "id": "EVID-124",
-          "heading": "Look for bottlenecks beyond design",
-          "why": "A technical assessment separates design acceleration from physical experimental validation; this is a review, not a new misuse incident.",
-          "observation": "Committee distinguishes AI-enabled design acceleration from physical experimental validation and identifies remaining practical bottlenecks in assessing capability uplift.",
-          "limitations": "2025 technical assessment, not a current exhaustive capability inventory or new misuse incident. Design predictions do not establish validated biological outcomes; future automation reducing bottlenecks is a contingency, not demonstrated removal of constraints.",
-          "evidence_standing_label": "Conceptual framing",
-          "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-124",
+          "id": "EVID-188",
+          "heading": "Compare a bounded completion-time benefit",
+          "why": "The early Copilot study supplies a benefit in a different developer task and population from METR. Its time estimate is conditional on completion, not a universal productivity effect.",
+          "observation": "Source-reported finding: Peng and colleagues report randomizing 95 recruited professional developers to a JavaScript HTTP-server task with or without Copilot access. Conditional on completing the task, mean completion time was 55.8% lower with access (reported 95% interval: 21%–89%). The seven-percentage-point success-rate difference was not statistically significant. Five treated participants did not complete tool setup. Observation context: May–June 2022.",
+          "limitations": "One standardized task, recruited population, and early Copilot version. The time estimate conditions on completion, rather than all randomized developers; it is not a universal productivity gain. Tests checked task correctness, not security or broader code quality. Paper wording about completer count is ambiguous; no count is inferred. This is not a matched replication of METR.",
+          "evidence_standing_label": "Reported observation",
+          "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-188",
           "source_ids": [
-            "SRC-091"
+            "SRC-151"
           ],
           "sources": [
             {
-              "id": "SRC-091",
-              "title": "The Age of AI in the Life Sciences: Benefits and Biosecurity Considerations",
-              "publisher": "National Academies Press",
-              "issuing_body": "National Academies Press",
+              "id": "SRC-151",
+              "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+              "publisher": "arXiv preprint 2302.06590v1",
+              "issuing_body": "Listed study authors",
               "authors": [
-                "National Academies of Sciences, Engineering, and Medicine"
+                "Sida Peng",
+                "Eirini Kalliamvakou",
+                "Peter Cihon",
+                "Mert Demirer"
               ],
-              "url": "https://www.nationalacademies.org/read/28868",
-              "publication_date": "2025",
-              "access_date": "2026-10-30",
-              "locator": "Summary, pp. 1–8, especially pp. 2–3 and Figure S-1",
-              "source_kind": "Consensus technical assessment",
-              "independence_group": "study-nas28868",
-              "version_note": "Front matter and complete Summary inspected at https://www.nationalacademies.org/read/28868/chapter/2 ; year-only date. Full book not comprehensively inspected. All rights reserved; links only.",
+              "url": "https://arxiv.org/html/2302.06590v1",
+              "publication_date": "2023-02-13",
+              "access_date": "2026-11-02",
+              "locator": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history",
+              "source_kind": "Original public research preprint",
+              "independence_group": "peng-copilot-controlled-task-2022",
+              "version_note": "arXiv submission history lists v1, 13 February 2023. Root/source: https://arxiv.org/html/2302.06590v1 Discovery credit: https://www.microsoft.com/en-us/research/publication/the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
               "verification": {
-                "status": "Original publication inspected; not independently verified",
-                "scope": "Summary, pp.1–8, especially pp.2–3 and Figure S-1",
-                "review_date": "2026-10-30",
-                "authenticity": "Identifiable original author/institution publication inspected; underlying claims not independently authenticated",
-                "independent_corroboration": "Not established by this inspection",
-                "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
-                "dispute_check_date": "2026-10-30",
-                "dispute_check_note": null
+                "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+                "scope": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+                "review_date": "2026-11-02",
+                "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+                "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+                "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+                "dispute_check_date": null,
+                "dispute_check_note": "Known limitations and reporting ambiguities are retained in the finding. No absence-of-dispute claim."
               },
               "preservation": {
-                "status": "Links only; no source publication bytes captured.",
+                "status": "Link-only; no source publication copy captured or redistributed",
                 "sha256": null,
                 "captured_at": null
               },
@@ -546,12 +549,12 @@
                 "prepared_by": "Mike — AI assistant",
                 "authority_policy_id": "POLICY-001",
                 "individual_human_review": "Not recorded",
-                "date": "2026-10-30T22:52:57.829686+00:00"
+                "date": "2026-11-02T17:19:55.273187+00:00"
               }
             }
           ],
           "recorded_family_ids": [
-            "study-nas28868"
+            "peng-copilot-controlled-task-2022"
           ],
           "verification_status": "Not independently verified by the Commons",
           "publication_record": {
@@ -559,7 +562,7 @@
             "prepared_by": "Mike — AI assistant",
             "authority_policy_id": "POLICY-001",
             "individual_human_review": "Not recorded",
-            "date": "2026-10-30T22:52:57.829686+00:00"
+            "date": "2026-11-02T17:19:55.273187+00:00"
           }
         }
       ],
@@ -798,47 +801,52 @@
         "Was competence measured directly, or inferred from a performance proxy?",
         "Do the population, task and observation period support the proposed interpretation?"
       ],
-      "caution": "Industrial-process synthesis, clinical assistance and workplace software concern different settings. They do not establish a universal direction of skill change from AI use.",
+      "caution": "School mathematics, clinical detection and workplace software differ in populations, tasks and measures. Reduced learning acquisition is not necessarily erosion of established skills. A statistically undetected difference is not proof of equivalence.",
       "readings": [
         {
-          "id": "EVID-120",
-          "heading": "Start with the lost-practice concern",
-          "why": "Bainbridge’s historical synthesis describes demanding recovery work and reduced practice; it is not modern LLM measurement.",
-          "observation": "Bainbridge argues that automation can leave human operators rare, demanding recovery tasks while reducing practice and making monitoring harder.",
-          "limitations": "Industrial-process and aviation synthesis, not modern LLM data. Training, displays and collaboration are proposed mitigations; occasional effective automation does not remove human-factor constraints. Underlying cited experiments not independently rechecked.",
-          "evidence_standing_label": "Conceptual framing",
-          "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-120",
+          "id": "EVID-185",
+          "heading": "Separate assisted practice from unaided learning",
+          "why": "The classroom trial compares practice gains with later unassisted performance, while retaining the different Tutor result and the boundary between acquiring skills and losing established skills.",
+          "observation": "Source-reported finding: Bastani and colleagues report a classroom-randomized study of nearly 1,000 Turkish high-school students across four mathematics sessions. GPT Base and teacher-informed GPT Tutor increased assisted practice scores by 48% and 127% relative to control. Subsequent unassisted examination scores were 17% lower with Base; Tutor scores were statistically indistinguishable from control. Observation context: Fall semester of academic year 2023–2024.",
+          "limitations": "One school, grades 9–11, short exposure; assisted scores and immediate unassisted learning are different outcomes. Reduced acquisition does not establish erosion of established skills. Tutor required labor-intensive teacher inputs. Reported percentages are relative changes, not percentage points; no long-term outcome established. A statistically indistinguishable Tutor result does not establish equivalence or a positive unaided learning benefit.",
+          "evidence_standing_label": "Reported observation",
+          "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-185",
           "source_ids": [
-            "SRC-087"
+            "SRC-148"
           ],
           "sources": [
             {
-              "id": "SRC-087",
-              "title": "Ironies of Automation",
-              "publisher": "Automatica / IFAC",
-              "issuing_body": "Automatica / IFAC",
+              "id": "SRC-148",
+              "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+              "publisher": "PNAS 122(26), e2422633122",
+              "issuing_body": "Listed study authors",
               "authors": [
-                "Lisanne Bainbridge"
+                "Hamsa Bastani",
+                "Osbert Bastani",
+                "Alp Sungu",
+                "Haosen Ge",
+                "Özge Kabakcı",
+                "Rei Mariman"
               ],
-              "url": "https://doi.org/10.1016/0005-1098(83)90046-8",
-              "publication_date": "1983-11",
-              "access_date": "2026-10-30",
-              "locator": "pp. 775–778, Sections 1.1–3.3",
-              "source_kind": "Historical research synthesis",
-              "independence_group": "study-bainbridge",
-              "version_note": "Publisher403; complete five-page original inspected at https://tc.ifac-control.org/4/1/newsletter/ironies-of-automation/@@download/file/Bainbridge1983_Automatica_Ironies%20of%20automation.pdf . Published month only; no invented day. Rights holder IFAC; no copy retained.",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+              "publication_date": "2025-06-25",
+              "access_date": "2026-11-02",
+              "locator": "Experimental Design; Main Results, Table 1; Discussion",
+              "source_kind": "Original public research article",
+              "independence_group": "bastani-math-tutoring-2025",
+              "version_note": "Final article dated 25 June 2025. Affiliation-only correction dated 20 August 2025 inspected: https://pmc.ncbi.nlm.nih.gov/articles/PMC12403119/; that notice states no results revision. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
               "verification": {
-                "status": "Original publication inspected; not independently verified",
-                "scope": "pp.775–778, Sections 1.1–3.3",
-                "review_date": "2026-10-30",
-                "authenticity": "Identifiable original author/institution publication inspected; underlying claims not independently authenticated",
-                "independent_corroboration": "Not established by this inspection",
-                "dispute_status": "Internal limitations checked; no correction established in bounded inspection. Not an exhaustive dispute search.",
-                "dispute_check_date": "2026-10-30",
-                "dispute_check_note": null
+                "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+                "scope": "Experimental Design; Main Results, Table 1; Discussion; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+                "review_date": "2026-11-02",
+                "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+                "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+                "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+                "dispute_check_date": null,
+                "dispute_check_note": "The affiliation-only correction was inspected; no results revision stated in that notice."
               },
               "preservation": {
-                "status": "Links only; no source publication bytes captured.",
+                "status": "Link-only; no source publication copy captured or redistributed",
                 "sha256": null,
                 "captured_at": null
               },
@@ -847,12 +855,12 @@
                 "prepared_by": "Mike — AI assistant",
                 "authority_policy_id": "POLICY-001",
                 "individual_human_review": "Not recorded",
-                "date": "2026-10-30T22:52:57.829686+00:00"
+                "date": "2026-11-02T17:19:55.273187+00:00"
               }
             }
           ],
           "recorded_family_ids": [
-            "study-bainbridge"
+            "bastani-math-tutoring-2025"
           ],
           "verification_status": "Not independently verified by the Commons",
           "publication_record": {
@@ -860,7 +868,7 @@
             "prepared_by": "Mike — AI assistant",
             "authority_policy_id": "POLICY-001",
             "individual_human_review": "Not recorded",
-            "date": "2026-10-30T22:52:57.829686+00:00"
+            "date": "2026-11-02T17:19:55.273187+00:00"
           }
         },
         {

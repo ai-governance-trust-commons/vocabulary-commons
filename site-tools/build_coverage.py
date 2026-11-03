@@ -6,7 +6,7 @@ from urllib.parse import urlencode
 
 ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs';OUT=D/'evidence/coverage'
 HOST='https://ai-governance-trust-commons.github.io/vocabulary-commons/'
-PRESENTATION='0.5.4'
+PRESENTATION='0.5.5'
 
 def derive(d):
     ev={e['id']:e for e in d['evidence']};ss={s['id']:s for s in d['sources']};terms={t['id']:t for t in d['terms']}
