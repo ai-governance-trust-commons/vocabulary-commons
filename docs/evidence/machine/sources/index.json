@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "dataset_version": "0.5.4",
+  "dataset_version": "0.5.5",
   "notice": "One source record is not necessarily one independent study or corroborator.",
   "sources": [
     {
@@ -727,6 +727,26 @@
       "id": "SRC-147",
       "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-147.json",
       "original_url": "https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/"
+    },
+    {
+      "id": "SRC-148",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-148.json",
+      "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/"
+    },
+    {
+      "id": "SRC-149",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-149.json",
+      "original_url": "https://pubsonline.informs.org/doi/10.1287/orsc.2025.21838"
+    },
+    {
+      "id": "SRC-150",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-150.json",
+      "original_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896064/"
+    },
+    {
+      "id": "SRC-151",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-151.json",
+      "original_url": "https://arxiv.org/html/2302.06590v1"
     }
   ]
 }

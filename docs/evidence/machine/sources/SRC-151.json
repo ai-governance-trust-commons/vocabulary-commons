@@ -1,0 +1,61 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "id": "SRC-151",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-151.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-151",
+    "title": "The Impact of AI on Developer Productivity: Evidence from GitHub Copilot",
+    "publisher": "arXiv preprint 2302.06590v1",
+    "issuing_body": "Listed study authors",
+    "authors": [
+      "Sida Peng",
+      "Eirini Kalliamvakou",
+      "Peter Cihon",
+      "Mert Demirer"
+    ],
+    "url": "https://arxiv.org/html/2302.06590v1",
+    "publication_date": "2023-02-13",
+    "access_date": "2026-11-02",
+    "locator": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history",
+    "source_kind": "Original public research preprint",
+    "independence_group": "peng-copilot-controlled-task-2022",
+    "version_note": "arXiv submission history lists v1, 13 February 2023. Root/source: https://arxiv.org/html/2302.06590v1 Discovery credit: https://www.microsoft.com/en-us/research/publication/the-impact-of-ai-on-developer-productivity-evidence-from-github-copilot/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+    "verification": {
+      "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+      "scope": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+      "review_date": "2026-11-02",
+      "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+      "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+      "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+      "dispute_check_date": null,
+      "dispute_check_note": "Known limitations and reporting ambiguities are retained in the finding. No absence-of-dispute claim."
+    },
+    "preservation": {
+      "status": "Link-only; no source publication copy captured or redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-188",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-188.json"
+    }
+  ]
+}

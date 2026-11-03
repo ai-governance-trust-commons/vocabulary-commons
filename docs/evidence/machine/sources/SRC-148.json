@@ -1,0 +1,63 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.5",
+  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "id": "SRC-148",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-148.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-148",
+    "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+    "publisher": "PNAS 122(26), e2422633122",
+    "issuing_body": "Listed study authors",
+    "authors": [
+      "Hamsa Bastani",
+      "Osbert Bastani",
+      "Alp Sungu",
+      "Haosen Ge",
+      "Özge Kabakcı",
+      "Rei Mariman"
+    ],
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/",
+    "publication_date": "2025-06-25",
+    "access_date": "2026-11-02",
+    "locator": "Experimental Design; Main Results, Table 1; Discussion",
+    "source_kind": "Original public research article",
+    "independence_group": "bastani-math-tutoring-2025",
+    "version_note": "Final article dated 25 June 2025. Affiliation-only correction dated 20 August 2025 inspected: https://pmc.ncbi.nlm.nih.gov/articles/PMC12403119/; that notice states no results revision. Root/source: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/ Discovery credit: https://pmc.ncbi.nlm.nih.gov/articles/PMC12232635/. Commons identification: primary-literature review, 2 November 2026. Discovery and related versions are not independent corroboration.",
+    "verification": {
+      "status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+      "scope": "Experimental Design; Main Results, Table 1; Discussion; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+      "review_date": "2026-11-02",
+      "authenticity": "Original publisher or author-deposited/public journal archive location inspected; underlying study records not independently authenticated",
+      "independent_corroboration": "Not established by the Commons. Possible overlap with existing syntheses has not been comprehensively ruled out. Distinct source-family labels do not certify independence.",
+      "dispute_status": "Bounded source/version inspection only; no systematic dispute or retraction clearance",
+      "dispute_check_date": null,
+      "dispute_check_note": "The affiliation-only correction was inspected; no results revision stated in that notice."
+    },
+    "preservation": {
+      "status": "Link-only; no source publication copy captured or redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-02T17:19:55.273187+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-185",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-185.json"
+    }
+  ]
+}
