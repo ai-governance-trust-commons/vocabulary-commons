@@ -225,7 +225,7 @@ for folder,expected in [('records',expected_records),('sources',expected_sources
 checks={str(p.relative_to(DOCS)):sha(p) for p in sorted(M.rglob('*')) if p.is_file() and p.name!='checksums.json'}
 checks.update({'evidence/evidence.json':DATA_SHA,'data/glossary.json':sha(DOCS/'data/glossary.json')})
 write(M/'checksums.json',{'algorithm':'SHA-256','scope':'Exact file bytes; excludes this manifest. Not signed, not independent source authentication.','dataset_version':d['dataset_version'],'machine_release':VERSION,'files':checks})
-manifest=DOCS/'evidence/release-manifest.json';m=json.loads(manifest.read_text());m.update(dataset_version=d["dataset_version"],presentation_version=PRESENTATION_VERSION,machine_release=VERSION,machine_contract_version=CONTRACT,machine_catalog=BASE+'catalog.json',machine_checksums_sha256=sha(M/'checksums.json'),presentation_updated_at=STAMP)
+manifest=DOCS/'evidence/release-manifest.json';m=json.loads(manifest.read_text());m.update(generated_at=STAMP,dataset_version=d["dataset_version"],presentation_version=PRESENTATION_VERSION,machine_release=VERSION,machine_contract_version=CONTRACT,machine_catalog=BASE+'catalog.json',machine_checksums_sha256=sha(M/'checksums.json'),presentation_updated_at=STAMP)
 m['evidence_count']=len(d['evidence']);m['source_count']=len(d['sources']);m['withdrawn_ids']=sorted(held)
 m['files_sha256']={name:sha(DOCS/'evidence'/name) for name in ['index.html','evidence.json','policy.html','evidence.js','evidence.css']};write(manifest,m)
 print(json.dumps({'machine_release':VERSION,'published_evidence':len(d['evidence']),'withdrawals':len(held),'sources':len(source_index),'machine_files':len([p for p in M.rglob('*') if p.is_file()])}))

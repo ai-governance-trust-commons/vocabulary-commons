@@ -26,7 +26,17 @@ check('Four relationships qualify',all(next(x for x in d['relationships'] if x['
 embedded=re.search(r'<script type="application/json" id="data">(.*?)</script>',(D/'evidence/index.html').read_text(),re.S)
 check('Browser embedded dataset equals canonical JSON',json.loads(embedded[1])==d)
 checksums=read(M/'checksums.json');check('All machine checksums match',all(sha(D/k)==v for k,v in checksums['files'].items()))
-m=read(D/'evidence/release-manifest.json');check('Manifest counts derived from data',m['evidence_count']==len(d['evidence'])==192 and m['source_count']==len(d['sources'])==155)
+m=read(D/'evidence/release-manifest.json');check('Manifest counts derived from data',m['evidence_count']==len(d['evidence'])==193 and m['source_count']==len(d['sources'])==155)
+
+prepared=json.loads(subprocess.check_output(['git','show','4a8364e:docs/evidence/evidence.json'],cwd=R))
+check('No additional source or case records',d['sources']==prepared['sources'] and d['cases']==prepared['cases'])
+a=next(e for e in d['evidence'] if e['id']=='EVID-189');b=next(e for e in d['evidence'] if e['id']=='EVID-195')
+check('Binance observations share source/case and are distinct',a['source_ids']==b['source_ids']==['SRC-152'] and a['case_id']==b['case_id']=='CASE-172' and 'on-chain' not in a['observation'] and 'on-chain' in b['observation'])
+check('Other prepared evidence unchanged',all(next(n for n in d['evidence'] if n['id']==e['id'])==e for e in prepared['evidence'] if e['id']!='EVID-189'))
+check('All six MM1 decisions preserved',all(next(n for n in d['relationships'] if n['id']==r['id'])==r for r in prepared['relationships'] if r['id'] in ['REL-092','REL-127','REL-144','REL-330']) and not {'REL-283','REL-366'}&{r['id'] for r in d['relationships']})
+from datetime import datetime
+check('Manifest generation timestamp refreshed by build',m['generated_at']==m['presentation_updated_at'] and datetime.fromisoformat(m['generated_at'])>=datetime.fromisoformat(d['generated_at']))
+
 check('Manifest evidence payload hashes match',all(sha(D/'evidence'/k)==v for k,v in m['files_sha256'].items()))
 check('Machine checksum manifest hash matches',m['machine_checksums_sha256']==sha(M/'checksums.json'))
 for section,root in [('coverage_view',D/'evidence/coverage'),('research_paths',D),('term_navigation',D)]:
@@ -47,4 +57,18 @@ for folder,schema in [('records','record-bundle-v1.schema.json'),('sources','sou
  for p in (M/folder).glob('*.json'):
   if p.name!='index.json':v.validate(read(p))
 check('Dataset, glossary and all bundles validate against unchanged JSON schemas',True)
+from bs4 import BeautifulSoup
+from urllib.parse import urlsplit,unquote
+pages=list(D.rglob('*.html'));broken=[];nav_changed=[]
+for p in pages:
+ soup=BeautifulSoup(p.read_text(),'html.parser')
+ prior=BeautifulSoup(subprocess.check_output(['git','show','4a8364e:'+str(p.relative_to(R))],cwd=R),'html.parser')
+ if [str(n) for n in soup.find_all('nav')]!=[str(n) for n in prior.find_all('nav')]:nav_changed.append(str(p))
+ for node in soup.find_all(['a','script','link']):
+  u=node.get('href') or node.get('src') or '';sp=urlsplit(u)
+  if not u or sp.scheme or sp.netloc or u.startswith('#'):continue
+  if not (p.parent/unquote(sp.path)).resolve().exists():broken.append((str(p),u))
+check('All 52 HTML pages have valid local targets',len(pages)==52 and not broken)
+check('All page navigation markup unchanged from prepared candidate',not nav_changed)
+check('All existing prepared relationships except reviewed Binance link unchanged',all(next(n for n in d['relationships'] if n['id']==r['id'])==r for r in prepared['relationships'] if r['id']!='REL-435'))
 print(json.dumps({'passed':len(checks),'dataset_sha256':sha(D/'evidence/evidence.json'),'counts':{k:len(d[k]) for k in ['evidence','sources','cases','terms','relationships','withdrawals']}},indent=2))

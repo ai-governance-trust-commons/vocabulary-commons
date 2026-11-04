@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "30dde5e18f56cbc131a848851237763773a95e226f7a0885bba0b155fb2af4d0",
+  "dataset_sha256": "f40b5230fc052016c7bd747d6cf1221fa280b64dc3afd57f9b19078c0f9bc9d2",
   "id": "EVID-189",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-189.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-189",
@@ -14,7 +14,7 @@
     "id": "EVID-189",
     "title": "Binance internal AI tooling in a reported multi-stage compromise",
     "case_id": "CASE-172",
-    "observation": "Binance reports that a compromised employee computer and an internal AI tool enabled further access and discovery of a deployment token. Separately, on-chain delegations continued to permit asset movements after normal withdrawals were suspended.",
+    "observation": "Binance reports that a compromised employee computer and an internal AI tool enabled further access and discovery of a container deployment token.",
     "evidence_standing": "Source-reported bounded observation; not independently verified",
     "evidence_standing_label": "Reported observation",
     "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
@@ -22,15 +22,15 @@
       "SRC-152"
     ],
     "source_locations": {
-      "SRC-152": "Attack Preparation, 20 October and 29 October entries; What happened on 29 October; opening investigation qualification"
+      "SRC-152": "Attack Preparation, 20 October and 29 October entries; opening investigation qualification"
     },
-    "limitations": "Initial issuer account; investigation ongoing. The internal AI mechanism is not disclosed sufficiently to establish prompt injection, autonomous attacker coordination or a measured intervention-window contraction. The on-chain authorization consequence is not itself evidence of AI autonomy.",
+    "limitations": "Initial issuer account; investigation ongoing. The internal AI mechanism is not disclosed sufficiently to establish prompt injection, autonomous attacker coordination, corruption of assurance information or a measured intervention-window contraction.",
     "open_questions": "Do the findings generalize beyond the reported setting? Underlying results and mechanisms are not independently reproduced.",
     "keywords": [
       "binance-2026-10-29",
       "reference environment integrity"
     ],
-    "support_assessment": "Attributed finding with bounded descriptive mappings; no general prevalence or independent corroboration asserted.",
+    "support_assessment": "Commons interpretation: The reported use of compromised internal AI tooling is distinct from the downstream persistence of delegated authority recorded in EVID-195. The report does not establish which information or reasoning paths were manipulated.",
     "dispute_status": "Source access, version and generalization qualifications retained; no systematic clearance.",
     "publication_status": "Provisional",
     "verification_status": "Not independently verified by the Commons",
@@ -39,7 +39,7 @@
       "prepared_by": "Mike — AI assistant",
       "authority_policy_id": "POLICY-001",
       "individual_human_review": "Not recorded",
-      "date": "2026-11-04T23:11:57.661644+00:00"
+      "date": "2026-11-04T23:30:39.022111+00:00"
     }
   },
   "case": {
@@ -122,14 +122,14 @@
       "id": "REL-435",
       "from_id": "EVID-189",
       "to_id": "TERM-reference-environment-integrity",
-      "relationship_type": "illustrates",
-      "explanation": "Commons interpretation: Compromised internal tooling qualifies reliance on the surrounding operational environment; the precise AI mechanism remains unspecified.",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: Compromise of internal AI tooling raises a reference-environment question, but this account does not establish manipulation of information used for operational or assurance judgments. Tool compromise alone does not demonstrate the full defined mechanism.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-11-04T23:11:57.661644+00:00"
+        "date": "2026-11-04T23:30:39.022111+00:00"
       }
     }
   ],

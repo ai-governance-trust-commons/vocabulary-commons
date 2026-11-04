@@ -1166,6 +1166,12 @@
       "status": "provisionally_published",
       "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-194.json",
       "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-194"
+    },
+    {
+      "id": "EVID-195",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-195.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-195"
     }
   ]
 }

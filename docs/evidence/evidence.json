@@ -3,7 +3,7 @@
   "title": "Vocabulary Commons Evidence Library",
   "status": "Provisional public evidence collection",
   "dataset_version": "0.5.6",
-  "generated_at": "2026-11-04T23:11:57.661644+00:00",
+  "generated_at": "2026-11-04T23:30:39.022111+00:00",
   "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
   "sources": [
     {
@@ -15308,7 +15308,7 @@
       "id": "EVID-189",
       "title": "Binance internal AI tooling in a reported multi-stage compromise",
       "case_id": "CASE-172",
-      "observation": "Binance reports that a compromised employee computer and an internal AI tool enabled further access and discovery of a deployment token. Separately, on-chain delegations continued to permit asset movements after normal withdrawals were suspended.",
+      "observation": "Binance reports that a compromised employee computer and an internal AI tool enabled further access and discovery of a container deployment token.",
       "evidence_standing": "Source-reported bounded observation; not independently verified",
       "evidence_standing_label": "Reported observation",
       "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
@@ -15316,15 +15316,15 @@
         "SRC-152"
       ],
       "source_locations": {
-        "SRC-152": "Attack Preparation, 20 October and 29 October entries; What happened on 29 October; opening investigation qualification"
+        "SRC-152": "Attack Preparation, 20 October and 29 October entries; opening investigation qualification"
       },
-      "limitations": "Initial issuer account; investigation ongoing. The internal AI mechanism is not disclosed sufficiently to establish prompt injection, autonomous attacker coordination or a measured intervention-window contraction. The on-chain authorization consequence is not itself evidence of AI autonomy.",
+      "limitations": "Initial issuer account; investigation ongoing. The internal AI mechanism is not disclosed sufficiently to establish prompt injection, autonomous attacker coordination, corruption of assurance information or a measured intervention-window contraction.",
       "open_questions": "Do the findings generalize beyond the reported setting? Underlying results and mechanisms are not independently reproduced.",
       "keywords": [
         "binance-2026-10-29",
         "reference environment integrity"
       ],
-      "support_assessment": "Attributed finding with bounded descriptive mappings; no general prevalence or independent corroboration asserted.",
+      "support_assessment": "Commons interpretation: The reported use of compromised internal AI tooling is distinct from the downstream persistence of delegated authority recorded in EVID-195. The report does not establish which information or reasoning paths were manipulated.",
       "dispute_status": "Source access, version and generalization qualifications retained; no systematic clearance.",
       "publication_status": "Provisional",
       "verification_status": "Not independently verified by the Commons",
@@ -15333,7 +15333,7 @@
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-11-04T23:11:57.661644+00:00"
+        "date": "2026-11-04T23:30:39.022111+00:00"
       }
     },
     {
@@ -15498,6 +15498,41 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    },
+    {
+      "id": "EVID-195",
+      "title": "Binance on-chain delegated authority persisted beyond operational shutdown",
+      "case_id": "CASE-172",
+      "observation": "Binance reports that suspending withdrawals and shutting down hot-wallet services did not automatically invalidate existing EIP-7702 on-chain authorizations. Separate revocation transactions were required.",
+      "evidence_standing": "Source-reported bounded observation; not independently verified",
+      "evidence_standing_label": "Reported observation",
+      "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
+      "source_ids": [
+        "SRC-152"
+      ],
+      "source_locations": {
+        "SRC-152": "What happened on 29 October, paragraphs on EIP-7702 delegation, withdrawal suspension, service shutdown and revocation; opening investigation qualification"
+      },
+      "limitations": "Initial issuer account; not independently verified. Persistence of delegated execution authority does not establish continued AI activity, agent trajectory persistence or system-level autonomy. The source reports eventual revocation, not permanent loss of control.",
+      "open_questions": "Which shutdown and revocation mechanisms cover delegated execution rights across the relevant authority boundaries? The Commons has not independently reconstructed the incident.",
+      "keywords": [
+        "binance-2026-10-29",
+        "delegated authority",
+        "EIP-7702",
+        "containment",
+        "governability"
+      ],
+      "support_assessment": "Commons interpretation: Containment within one operational boundary did not revoke authority already delegated across another. This concerns the practical reach of corrective action; it is distinct from the AI-tool compromise in EVID-189.",
+      "dispute_status": "Source access, version and generalization qualifications retained; no systematic clearance.",
+      "publication_status": "Provisional",
+      "verification_status": "Not independently verified by the Commons",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:30:39.022111+00:00"
       }
     }
   ],
@@ -22079,14 +22114,14 @@
       "id": "REL-435",
       "from_id": "EVID-189",
       "to_id": "TERM-reference-environment-integrity",
-      "relationship_type": "illustrates",
-      "explanation": "Commons interpretation: Compromised internal tooling qualifies reliance on the surrounding operational environment; the precise AI mechanism remains unspecified.",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: Compromise of internal AI tooling raises a reference-environment question, but this account does not establish manipulation of information used for operational or assurance judgments. Tool compromise alone does not demonstrate the full defined mechanism.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
-        "date": "2026-11-04T23:11:57.661644+00:00"
+        "date": "2026-11-04T23:30:39.022111+00:00"
       }
     },
     {
@@ -22213,6 +22248,20 @@
         "authority_policy_id": "POLICY-001",
         "individual_human_review": "Not recorded",
         "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    },
+    {
+      "id": "REL-445",
+      "from_id": "EVID-195",
+      "to_id": "TERM-governability",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: The reported need for separate on-chain revocation illustrates how the ability to constrain and recover a consequential process depends on the reach of corrective authority. Operational shutdown did not itself revoke delegated rights; eventual revocation bounds the finding.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:30:39.022111+00:00"
       }
     }
   ],
