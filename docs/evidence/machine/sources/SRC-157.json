@@ -1,0 +1,58 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "30dde5e18f56cbc131a848851237763773a95e226f7a0885bba0b155fb2af4d0",
+  "id": "SRC-157",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-157.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-157",
+    "title": "Detecting Covert Collusion between AI Agents through Partner–Outsider Positive Listening",
+    "publisher": "Author sprint submission hosted by Apart Research",
+    "issuing_body": "Author sprint submission hosted by Apart Research",
+    "authors": [
+      "Kevin Yandoka Denamganaï"
+    ],
+    "url": "https://apartresearch.com/sprints/projects/detecting-covert-collusion-between-ai-agents-through-partneroutsider-positive-listening-w98v",
+    "publication_date": "2026-10-26",
+    "access_date": "2026-11-04",
+    "locator": "Linked report main.v3, Abstract; Sections 4–5.1; Appendix A",
+    "source_kind": "Early-stage participant research; not an Apart Research publication",
+    "independence_group": "denamganai-popli-2610.37849",
+    "version_note": "Project dated 26 October 2026; linked main.v3 PDF inspected. Related arXiv 2610.37849 could not be retrieved; equivalence to that version is not asserted. Same candidate study family; no duplicate arXiv intake.",
+    "verification": {
+      "status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+      "scope": "Linked report main.v3, Abstract; Sections 4–5.1; Appendix A; no raw-data reanalysis or independent authentication.",
+      "review_date": "2026-11-04",
+      "authenticity": "Publisher/author location or attributed MM1 inspection only; underlying records not authenticated",
+      "independent_corroboration": "Not established by the Commons",
+      "dispute_status": "No comprehensive dispute or retraction clearance",
+      "dispute_check_date": null,
+      "dispute_check_note": "Access and version limits are explicit; no absence-of-dispute claim"
+    },
+    "preservation": {
+      "status": "Link-only; no source publication copy captured or redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-194",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-194.json"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "dataset_version": "0.5.5",
+  "dataset_version": "0.5.6",
   "notice": "Navigation index only. Retrieve the complete bundle before interpreting or citing a finding. Withdrawals are not evidence.",
   "records": [
     {
@@ -1130,6 +1130,42 @@
       "status": "provisionally_published",
       "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-188.json",
       "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-188"
+    },
+    {
+      "id": "EVID-189",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-189.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-189"
+    },
+    {
+      "id": "EVID-190",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-190.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-190"
+    },
+    {
+      "id": "EVID-191",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-191.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-191"
+    },
+    {
+      "id": "EVID-192",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-192.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-192"
+    },
+    {
+      "id": "EVID-193",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-193.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-193"
+    },
+    {
+      "id": "EVID-194",
+      "status": "provisionally_published",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-194.json",
+      "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-194"
     }
   ]
 }

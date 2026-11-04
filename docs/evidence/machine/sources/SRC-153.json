@@ -1,0 +1,60 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "30dde5e18f56cbc131a848851237763773a95e226f7a0885bba0b155fb2af4d0",
+  "id": "SRC-153",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-153.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-153",
+    "title": "BOSSAI: Inside the AI attack mesh that targeted Taiwan’s emergency services",
+    "publisher": "Acronis Threat Research Unit",
+    "issuing_body": "Acronis Threat Research Unit",
+    "authors": [
+      "Eliad Kimhy",
+      "Santiago Pontiroli",
+      "Subhajeet Singha"
+    ],
+    "url": "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/",
+    "publication_date": "2026-11-04",
+    "access_date": "2026-11-04",
+    "locator": "A shape of things to come; 12 AIs; Refusals and jailbreaks; Victims",
+    "source_kind": "Issuer investigation",
+    "independence_group": "acronis-bossai-2026",
+    "version_note": "Inspected version at cited URL on 4 November 2026; no source copy retained. Related reporting is not independent corroboration.",
+    "verification": {
+      "status": "Original publisher search extract inspected by Mike AI; full article inspection attributed to MM1 AI on 4 November 2026",
+      "scope": "Mike inspected the publisher extract on manual handoffs and failures; MM1 briefing supplies active-agent count and detailed locators. No raw-log review.",
+      "review_date": "2026-11-04",
+      "authenticity": "Publisher/author location or attributed MM1 inspection only; underlying records not authenticated",
+      "independent_corroboration": "Not established by the Commons",
+      "dispute_status": "No comprehensive dispute or retraction clearance",
+      "dispute_check_date": null,
+      "dispute_check_note": "Access and version limits are explicit; no absence-of-dispute claim"
+    },
+    "preservation": {
+      "status": "Link-only; no source publication copy captured or redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-190",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-190.json"
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
   "machine_release": "0.5.5",
-  "dataset_version": "0.5.5",
-  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "30dde5e18f56cbc131a848851237763773a95e226f7a0885bba0b155fb2af4d0",
   "id": "EVID-134",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-134.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-134",
@@ -103,23 +103,6 @@
   ],
   "terms": [
     {
-      "id": "TERM-evidence-laundering-through-ai",
-      "name": "Evidence laundering through AI",
-      "definition": "The appearance of credibility or corroboration acquired by low-integrity material when AI systems retrieve, summarize, cite, or re-present it. Multiple apparently agreeing outputs may share the same original, manipulated source.",
-      "vocabulary": "Working",
-      "claim": "Indicated",
-      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#evidence-laundering-through-ai",
-      "baseline": "v1.0.2",
-      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
       "id": "TERM-investigative-indicator",
       "name": "Investigative indicator",
       "definition": "An observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.",
@@ -173,20 +156,6 @@
       "id": "REL-282",
       "from_id": "EVID-134",
       "to_id": "TERM-observability-boundary",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-283",
-      "from_id": "EVID-134",
-      "to_id": "TERM-evidence-laundering-through-ai",
       "relationship_type": "illustrates",
       "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
       "publication_record": {

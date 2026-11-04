@@ -1,8 +1,8 @@
 {
   "format_version": "1.0",
-  "editorial_version": "0.5.5",
-  "dataset_version": "0.5.5",
-  "dataset_sha256": "df882dbfd2aeb3634029287a799599eae8633f5d577ad2e07c312a1b39bc3c23",
+  "editorial_version": "0.5.6",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "30dde5e18f56cbc131a848851237763773a95e226f7a0885bba0b155fb2af4d0",
   "scope": "Editorial reading paths through already published evidence. Selections are starting points, not exhaustive reviews, evidence rankings or new canonical relationships.",
   "verification_note": "Approved public projection, not independent verification. Editorial selection does not create a new evidence-to-term relationship. Source inspection dates are historical; path generation does not re-inspect sources.",
   "paths": [

@@ -3,7 +3,7 @@
 from pathlib import Path
 import json,hashlib,html,re
 from urllib.parse import urlencode
-ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs';OUT=D/'questions';VERSION='0.5.5';HOST='https://ai-governance-trust-commons.github.io/vocabulary-commons/'
+ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs';OUT=D/'questions';VERSION='0.5.6';HOST='https://ai-governance-trust-commons.github.io/vocabulary-commons/'
 def esc(x):return html.escape(str(x),quote=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def build():
