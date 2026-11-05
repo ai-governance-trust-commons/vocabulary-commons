@@ -2,7 +2,7 @@
 """Refresh public navigation/reading aids, preserving frozen glossary content."""
 from pathlib import Path
 import json,re,html,hashlib
-ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs';VERSION='0.5.5'
+ROOT=Path(__file__).resolve().parents[1];D=ROOT/'docs';VERSION='0.5.6'
 def esc(s):return html.escape(str(s),quote=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def aid(t):

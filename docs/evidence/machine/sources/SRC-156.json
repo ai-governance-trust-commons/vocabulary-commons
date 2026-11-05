@@ -1,0 +1,61 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "f40b5230fc052016c7bd747d6cf1221fa280b64dc3afd57f9b19078c0f9bc9d2",
+  "id": "SRC-156",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-156.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-156",
+    "title": "Automated Subtle Emergent Misalignment Research",
+    "publisher": "Anthropic Alignment Science",
+    "issuing_body": "Anthropic Alignment Science",
+    "authors": [
+      "Oscar Balcells Obeso",
+      "Richard Qi",
+      "Monte MacDiarmid",
+      "Evan Hubinger"
+    ],
+    "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+    "publication_date": "2026-10",
+    "access_date": "2026-11-04",
+    "locator": "Introduction; Setup; results and example datasets",
+    "source_kind": "Developer research report",
+    "independence_group": "anthropic-automated-em-search-2026",
+    "version_note": "Publisher dates page October 2026; exact publication day is not established. Distinct experiment from earlier reward-hacking studies.",
+    "verification": {
+      "status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+      "scope": "Introduction; Setup; results and example datasets; no raw-data reanalysis or independent authentication.",
+      "review_date": "2026-11-04",
+      "authenticity": "Publisher/author location or attributed MM1 inspection only; underlying records not authenticated",
+      "independent_corroboration": "Not established by the Commons",
+      "dispute_status": "No comprehensive dispute or retraction clearance",
+      "dispute_check_date": null,
+      "dispute_check_note": "Access and version limits are explicit; no absence-of-dispute claim"
+    },
+    "preservation": {
+      "status": "Link-only; no source publication copy captured or redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-193",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-193.json"
+    }
+  ]
+}

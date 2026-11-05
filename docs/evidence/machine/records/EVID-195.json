@@ -1,0 +1,141 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "f40b5230fc052016c7bd747d6cf1221fa280b64dc3afd57f9b19078c0f9bc9d2",
+  "id": "EVID-195",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-195.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-195",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-195",
+    "title": "Binance on-chain delegated authority persisted beyond operational shutdown",
+    "case_id": "CASE-172",
+    "observation": "Binance reports that suspending withdrawals and shutting down hot-wallet services did not automatically invalidate existing EIP-7702 on-chain authorizations. Separate revocation transactions were required.",
+    "evidence_standing": "Source-reported bounded observation; not independently verified",
+    "evidence_standing_label": "Reported observation",
+    "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
+    "source_ids": [
+      "SRC-152"
+    ],
+    "source_locations": {
+      "SRC-152": "What happened on 29 October, paragraphs on EIP-7702 delegation, withdrawal suspension, service shutdown and revocation; opening investigation qualification"
+    },
+    "limitations": "Initial issuer account; not independently verified. Persistence of delegated execution authority does not establish continued AI activity, agent trajectory persistence or system-level autonomy. The source reports eventual revocation, not permanent loss of control.",
+    "open_questions": "Which shutdown and revocation mechanisms cover delegated execution rights across the relevant authority boundaries? The Commons has not independently reconstructed the incident.",
+    "keywords": [
+      "binance-2026-10-29",
+      "delegated authority",
+      "EIP-7702",
+      "containment",
+      "governability"
+    ],
+    "support_assessment": "Commons interpretation: Containment within one operational boundary did not revoke authority already delegated across another. This concerns the practical reach of corrective action; it is distinct from the AI-tool compromise in EVID-189.",
+    "dispute_status": "Source access, version and generalization qualifications retained; no systematic clearance.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:30:39.022111+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-172",
+    "title": "Binance internal AI tooling in a reported multi-stage compromise",
+    "kind": "Issuer incident report",
+    "event_date": "2026-10-29",
+    "event_date_precision": "Reported interval or date; see source qualifications",
+    "summary": "One attributed source/study family; related reporting is not an independent replication.",
+    "source_ids": [
+      "SRC-152"
+    ],
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-152",
+      "title": "29 October 2026 Binance Security Incident: Initial Findings and Response Update",
+      "publisher": "Binance",
+      "issuing_body": "Binance",
+      "authors": [],
+      "url": "https://www.binance.com/en/blog/community/3229153443759566763",
+      "publication_date": "2026-11-03",
+      "access_date": "2026-11-04",
+      "locator": "Attack Preparation, 20 October and 29 October entries; What happened on 29 October; opening investigation qualification",
+      "source_kind": "Issuer incident report",
+      "independence_group": "binance-2026-10-29",
+      "version_note": "Inspected version at cited URL on 4 November 2026; no source copy retained. Related reporting is not independent corroboration.",
+      "verification": {
+        "status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+        "scope": "Attack Preparation, 20 October and 29 October entries; What happened on 29 October; opening investigation qualification; no raw-data reanalysis or independent authentication.",
+        "review_date": "2026-11-04",
+        "authenticity": "Publisher/author location or attributed MM1 inspection only; underlying records not authenticated",
+        "independent_corroboration": "Not established by the Commons",
+        "dispute_status": "No comprehensive dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Access and version limits are explicit; no absence-of-dispute claim"
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-governability",
+      "name": "Governability",
+      "definition": "A property of a consequential process describing the extent to which legitimate parties can understand, influence, constrain, correct, or recover its operation and outcomes. It does not imply complete predictability or a single controller.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#governability",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-445",
+      "from_id": "EVID-195",
+      "to_id": "TERM-governability",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: The reported need for separate on-chain revocation illustrates how the ability to constrain and recover a consequential process depends on the reach of corrective authority. Operational shutdown did not itself revoke delegated rights; eventual revocation bounds the finding.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:30:39.022111+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

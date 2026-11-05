@@ -1,0 +1,172 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "f40b5230fc052016c7bd747d6cf1221fa280b64dc3afd57f9b19078c0f9bc9d2",
+  "id": "EVID-194",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-194.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-194",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-194",
+    "title": "PoPLi detected an instructed wording code with incomplete false-alarm validation",
+    "case_id": "CASE-177",
+    "observation": "Denamganaï reports a replay-based comparison of partner and outsider action responses to meaning-preserving paraphrases. An instructed wording code produced a gap in simulated markets, while the no-code gap was near zero.",
+    "evidence_standing": "Source-reported bounded observation; not independently verified",
+    "evidence_standing_label": "Reported observation",
+    "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
+    "source_ids": [
+      "SRC-157"
+    ],
+    "source_locations": {
+      "SRC-157": "Linked report main.v3, Abstract; Sections 4–5.1; Appendix A"
+    },
+    "limitations": "One model, one environment, ten markets per condition, a scripted speaker and an instructed code. Neither listener acted on honest remarks, leaving false-alarm validity incomplete. Meaning-carried codes are outside the test. This is not demonstrated detection of learned or emergent collusion.",
+    "open_questions": "Do the findings generalize beyond the reported setting? Underlying results and mechanisms are not independently reproduced.",
+    "keywords": [
+      "denamganai-popli-2610.37849",
+      "investigative indicator",
+      "observability boundary"
+    ],
+    "support_assessment": "Attributed finding with bounded descriptive mappings; no general prevalence or independent corroboration asserted.",
+    "dispute_status": "Source access, version and generalization qualifications retained; no systematic clearance.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-177",
+    "title": "PoPLi detected an instructed wording code with incomplete false-alarm validation",
+    "kind": "Early-stage participant research; not an Apart Research publication",
+    "event_date": "Controlled simulated markets; dates unspecified",
+    "event_date_precision": "Reported interval or date; see source qualifications",
+    "summary": "One attributed source/study family; related reporting is not an independent replication.",
+    "source_ids": [
+      "SRC-157"
+    ],
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-157",
+      "title": "Detecting Covert Collusion between AI Agents through Partner–Outsider Positive Listening",
+      "publisher": "Author sprint submission hosted by Apart Research",
+      "issuing_body": "Author sprint submission hosted by Apart Research",
+      "authors": [
+        "Kevin Yandoka Denamganaï"
+      ],
+      "url": "https://apartresearch.com/sprints/projects/detecting-covert-collusion-between-ai-agents-through-partneroutsider-positive-listening-w98v",
+      "publication_date": "2026-10-26",
+      "access_date": "2026-11-04",
+      "locator": "Linked report main.v3, Abstract; Sections 4–5.1; Appendix A",
+      "source_kind": "Early-stage participant research; not an Apart Research publication",
+      "independence_group": "denamganai-popli-2610.37849",
+      "version_note": "Project dated 26 October 2026; linked main.v3 PDF inspected. Related arXiv 2610.37849 could not be retrieved; equivalence to that version is not asserted. Same candidate study family; no duplicate arXiv intake.",
+      "verification": {
+        "status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+        "scope": "Linked report main.v3, Abstract; Sections 4–5.1; Appendix A; no raw-data reanalysis or independent authentication.",
+        "review_date": "2026-11-04",
+        "authenticity": "Publisher/author location or attributed MM1 inspection only; underlying records not authenticated",
+        "independent_corroboration": "Not established by the Commons",
+        "dispute_status": "No comprehensive dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Access and version limits are explicit; no absence-of-dispute claim"
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-investigative-indicator",
+      "name": "Investigative indicator",
+      "definition": "An observed characteristic or combination of signals that provides a reason to investigate a possible event, mechanism, or hidden relationship without establishing that it occurred.",
+      "vocabulary": "Established",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#investigative-indicator",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-443",
+      "from_id": "EVID-194",
+      "to_id": "TERM-investigative-indicator",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: A bounded behavioral signal can motivate investigation; it is not a general proof of hidden coordination.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    },
+    {
+      "id": "REL-444",
+      "from_id": "EVID-194",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: Behavioral replay adds a view beyond message inspection, with explicit semantic-code and control limitations.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}

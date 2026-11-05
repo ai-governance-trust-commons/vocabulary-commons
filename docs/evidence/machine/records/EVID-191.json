@@ -1,0 +1,170 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6",
+  "dataset_sha256": "f40b5230fc052016c7bd747d6cf1221fa280b64dc3afd57f9b19078c0f9bc9d2",
+  "id": "EVID-191",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-191.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-191",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-191",
+    "title": "Greeter runtime overrides were absent from benign-looking stored messages",
+    "case_id": "CASE-174",
+    "observation": "According to MM1’s 4 November original-source inspection, Era reports seven deliberately vulnerable Flowise honeypots with 4,972 stored user messages saying hello. Per-request JavaScript overrides carried malicious commands without changing saved workflows.",
+    "evidence_standing": "Source-reported bounded observation; not independently verified",
+    "evidence_standing_label": "Reported observation",
+    "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
+    "source_ids": [
+      "SRC-154"
+    ],
+    "source_locations": {
+      "SRC-154": "Opening; Initial Access: Vulnerability Exploitation; Step 1; Summary"
+    },
+    "limitations": "Mike could not reopen the original in this preparation session; source inspection is attributed to MM1. Responses retained suspicious results; credentials were planted and persistence attempts failed. Capability checks do not establish payload execution, exposure estimates do not establish production compromise, and timing alone does not establish attacker AI use.",
+    "open_questions": "Do the findings generalize beyond the reported setting? Underlying results and mechanisms are not independently reproduced.",
+    "keywords": [
+      "era-greeter-flowise-2026",
+      "observability boundary",
+      "reference environment integrity"
+    ],
+    "support_assessment": "Attributed finding with bounded descriptive mappings; no general prevalence or independent corroboration asserted.",
+    "dispute_status": "Source access, version and generalization qualifications retained; no systematic clearance.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-174",
+    "title": "Greeter runtime overrides were absent from benign-looking stored messages",
+    "kind": "Honeypot investigation",
+    "event_date": "July–October 2026",
+    "event_date_precision": "Reported interval or date; see source qualifications",
+    "summary": "One attributed source/study family; related reporting is not an independent replication.",
+    "source_ids": [
+      "SRC-154"
+    ],
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-04T23:11:57.661644+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-154",
+      "title": "Greeter: Flowise AI infrastructure attack",
+      "publisher": "Era Security",
+      "issuing_body": "Era Security",
+      "authors": [],
+      "url": "https://era.security/blog/greeter-flowise-ai-infrastructure-attack",
+      "publication_date": "2026-11-03",
+      "access_date": "2026-11-04",
+      "locator": "Opening; Initial Access: Vulnerability Exploitation; Step 1; Summary",
+      "source_kind": "Honeypot investigation",
+      "independence_group": "era-greeter-flowise-2026",
+      "version_note": "Inspected version at cited URL on 4 November 2026; no source copy retained. Related reporting is not independent corroboration.",
+      "verification": {
+        "status": "Original-source inspection attributed to MM1 AI on 4 November 2026; Mike direct retrieval unavailable",
+        "scope": "MM1 briefing and cited locators reviewed by Mike; original was not directly retrievable in this session. No underlying-log review.",
+        "review_date": "2026-11-04",
+        "authenticity": "Publisher/author location or attributed MM1 inspection only; underlying records not authenticated",
+        "independent_corroboration": "Not established by the Commons",
+        "dispute_status": "No comprehensive dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Access and version limits are explicit; no absence-of-dispute claim"
+      },
+      "preservation": {
+        "status": "Link-only; no source publication copy captured or redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    }
+  ],
+  "terms": [
+    {
+      "id": "TERM-observability-boundary",
+      "name": "Observability boundary",
+      "definition": "The practical limit of what a given observer or monitoring arrangement can detect, interpret, or causally connect. The limit may be known, partly understood, or itself unrecognized.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#observability-boundary",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    },
+    {
+      "id": "TERM-reference-environment-integrity",
+      "name": "Reference environment integrity",
+      "definition": "The reliability, provenance, completeness, and resistance to manipulation of information used to make operational or assurance judgments, including documents, logs, telemetry, evidence, and monitoring outputs.",
+      "vocabulary": "Extended",
+      "claim": "Foundation",
+      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#reference-environment-integrity",
+      "baseline": "v1.0.2",
+      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-10-30T22:52:57.829686+00:00"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "REL-438",
+      "from_id": "EVID-191",
+      "to_id": "TERM-observability-boundary",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: Stored workflow and message views omitted consequential runtime instructions; some results remained visible.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    },
+    {
+      "id": "REL-439",
+      "from_id": "EVID-191",
+      "to_id": "TERM-reference-environment-integrity",
+      "relationship_type": "illustrates",
+      "explanation": "Commons interpretation: Completeness of execution records matters to assurance judgments; this is not total trace erasure or evidence laundering.",
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-04T23:11:57.661644+00:00"
+      }
+    }
+  ],
+  "source_dependencies": [],
+  "withdrawal": null
+}
