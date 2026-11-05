@@ -31,7 +31,78 @@
   const family = r => sources(r)[0].independence_group || sources(r)[0].id;
   const years = r => sources(r).map(s => /^(\d{4})(?:\D|$)/.exec(s.publication_date || '')?.[1]).filter(Boolean).map(Number);
   const latestYear = r => Math.max(0, ...years(r));
-  const searchIndex = new Map(data.evidence.map(r => [r.id, [r.id, r.title, r.observation, r.limitations, r.open_questions, r.support_assessment, r.dispute_status, r.evidence_standing, Object.values(r.source_locations).join(' '), r.keywords?.join(' '), byId.get(r.case_id)?.title, byId.get(r.case_id)?.summary, ...sources(r).map(s => [s.title, s.authors?.join(' '), s.publisher, s.issuing_body, s.version_note, s.publication_date, s.url].join(' ')), ...edges(r.id).map(e => [byId.get(e.to_id)?.name, e.explanation].join(' '))].filter(Boolean).join(' ').toLocaleLowerCase()]));
+  // Keep the existing substring search, but retain the source field so readers can see why a record matched.
+  // Display labels describe *where* text occurs; they are not new evidence or search-ranking claims.
+  function searchFields(r) {
+    const c = byId.get(r.case_id);
+    return [
+      ['Record ID', r.id], ['Finding title', r.title], ['Observation', r.observation],
+      ['Limits', r.limitations], ['Open questions', r.open_questions],
+      ['Commons support assessment', r.support_assessment], ['Dispute status', r.dispute_status],
+      ['Detailed reporting assessment', r.evidence_standing],
+      ['Supporting location', Object.values(r.source_locations).join(' ')],
+      ['Keywords', r.keywords?.join(' ')],
+      ['Study or case grouping', c?.title], ['Grouping context', c?.summary],
+      ...sources(r).flatMap(s => [
+        ['Original source', s.title], ['Source authors', s.authors?.join(' ')],
+        ['Source publisher', s.publisher], ['Source issuing body', s.issuing_body],
+        ['Source version notes', s.version_note], ['Source publication date', s.publication_date],
+        ['Source URL', s.url]
+      ]),
+      ...edges(r.id).flatMap(e => [
+        ['Glossary relationship', byId.get(e.to_id)?.name],
+        ['Relationship explanation', e.explanation]
+      ])
+    ].filter(([, value]) => !!value).map(([label, value]) => ({label, value: String(value)}));
+  }
+  const searchFieldsById = new Map(data.evidence.map(r => [r.id, searchFields(r)]));
+  const searchIndex = new Map([...searchFieldsById].map(([id, fields]) => [id, fields.map(f => f.value).join(' ').toLocaleLowerCase()]));
+  const escapeRegex = value => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Search marks are created from text nodes only; source content is never interpreted as HTML.
+  function markMatches(root, queryTerms) {
+    if (!queryTerms.length) return;
+    const terms = [...new Set(queryTerms)].filter(Boolean).sort((a, b) => b.length - a.length);
+    if (!terms.length) return;
+    const re = new RegExp(terms.map(escapeRegex).join('|'), 'gi');
+    const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+    const nodes = [];
+    while (walker.nextNode()) {
+      const n = walker.currentNode;
+      if (n.parentElement && !n.parentElement.closest('mark, script, style, button, input, textarea')) nodes.push(n);
+    }
+    for (const node of nodes) {
+      const str = node.nodeValue;
+      re.lastIndex = 0;
+      let match, last = 0, changed = false;
+      const frag = document.createDocumentFragment();
+      while ((match = re.exec(str)) !== null) {
+        if (match.index > last) frag.appendChild(document.createTextNode(str.slice(last, match.index)));
+        const m = document.createElement('mark'); m.className = 'search-hit'; m.textContent = match[0];
+        frag.appendChild(m); last = match.index + match[0].length; changed = true;
+      }
+      if (changed) { if (last < str.length) frag.appendChild(document.createTextNode(str.slice(last))); node.replaceWith(frag); }
+    }
+  }
+  function matchExcerpts(r, queryTerms) {
+    const available = [...queryTerms];
+    const fields = searchFieldsById.get(r.id);
+    const results = [];
+    // Prefer fields explaining more of the search, while showing distinct locations for other terms.
+    while (available.length && results.length < 3) {
+      const ranked = fields.map((f, i) => ({...f, index: i,
+        hits: available.filter(t => f.value.toLocaleLowerCase().includes(t))
+      })).filter(f => f.hits.length).sort((a, b) => b.hits.length - a.hits.length || a.index - b.index);
+      if (!ranked.length) break;
+      const f = ranked[0];
+      const lower = f.value.toLocaleLowerCase();
+      const starts = f.hits.map(t => lower.indexOf(t)).filter(n => n >= 0);
+      const first = Math.min(...starts);
+      const start = Math.max(0, first - 65), end = Math.min(f.value.length, first + 115);
+      results.push({label: f.label, excerpt: (start ? '…' : '') + f.value.slice(start, end) + (end < f.value.length ? '…' : '')});
+      available.splice(0, available.length, ...available.filter(t => !f.hits.includes(t)));
+    }
+    return results;
+  }
   function options(control, values) {
     for (const value of [...new Set(values)].sort((a, b) => a.localeCompare(b))) {
       const option = el('option', value, control); option.value = value;
@@ -97,6 +168,15 @@
     el('p', ss.map(s => s.publisher + ' · ' + (s.publication_date || 'publication date not established')).join(' / '), a, 'record-source');
     el('p', shorten(r.observation, 300), a, 'finding-preview');
     el('p', 'Limits: ' + shorten(r.limitations, 190), a, 'limits-preview');
+    const queryTerms = tokens(controls.search.value).filter(Boolean);
+    if (queryTerms.length) {
+      const context = el('div', undefined, a, 'match-excerpts');
+      for (const hit of matchExcerpts(r, queryTerms)) {
+        const p = el('p', undefined, context);
+        el('strong', 'Matched in ' + hit.label + ': ', p);
+        el('span', hit.excerpt, p);
+      }
+    }
     const quick = el('div', undefined, a, 'record-actions');
     const permalink = el('a', 'Record link', quick); permalink.href = '#' + r.id;
     const details = el('details', undefined, a, 'record-details');
@@ -144,6 +224,34 @@
     link('Report a correction or dispute', correction, details);
     el('p', 'Publication authority: ' + r.publication_record.authority_policy_id, details, 'publication-note');
     el('p', 'Prepared by ' + r.publication_record.prepared_by + ' · ' + r.publication_record.date + ' · Individual human review: ' + r.publication_record.individual_human_review, details, 'publication-note');
+    if (queryTerms.length) {
+      markMatches(a, queryTerms);
+      let current = -1;
+      const buttons = el('span', undefined, quick, 'match-navigation');
+      const first = el('button', 'Find match', buttons); first.type = 'button';
+      const previous = el('button', 'Previous', buttons); previous.type = 'button';
+      const next = el('button', 'Next', buttons); next.type = 'button';
+      const status = el('span', '', buttons, 'match-position');
+      status.setAttribute('aria-live', 'polite');
+      const seek = change => {
+        details.open = true;
+        // Prefer the complete finding over its preview; otherwise reveal the explanatory excerpt.
+        const hits = [...details.querySelectorAll('mark.search-hit')];
+        const candidates = hits.length ? hits : [...a.querySelectorAll('mark.search-hit')];
+        if (!candidates.length) { status.textContent = 'No visible match'; return; }
+        candidates.forEach(m => m.classList.remove('search-hit-current'));
+        current = change === 0 ? 0 : (current + change + candidates.length) % candidates.length;
+        const target = candidates[current];
+        target.classList.add('search-hit-current');
+        target.scrollIntoView({block: 'center', behavior: 'smooth'});
+        status.textContent = (current + 1) + ' of ' + candidates.length;
+      };
+      first.addEventListener('click', () => seek(0));
+      previous.addEventListener('click', () => seek(-1));
+      next.addEventListener('click', () => seek(1));
+      // Opening the native detail control also reveals the first actual match.
+      details.addEventListener('toggle', () => { if (details.open && current === -1) seek(0); });
+    }
   }
   const termSlugs = new Map(JSON.parse(document.getElementById('term-routes').textContent));
   function draw() {
