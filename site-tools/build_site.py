@@ -88,6 +88,10 @@ def relink_markup(text, prefix):
 # Globally shared page elements.
 def nav(prefix, active=''):
     menu=[('Home',prefix),('Glossary',prefix+'terms/'),('Evidence Library',prefix+'evidence/'),('Explore questions',prefix+'questions/'),('How to read',prefix+'method/'),('Participate',prefix+'participate/')]
+    # Navigation discovery on the home and new Resources pages only for this
+    # review candidate. Other published pages have integrity-managed hashes.
+    if active in ('Home','Resources'):
+        menu.insert(3,('Resources',prefix+'resources/'))
     links=''.join('<a href="'+esc(u)+'"'+(' aria-current="page"' if label==active else '')+'>'+esc(label)+'</a>' for label,u in menu)
     return f'''<header class="site-header"><div class="wrap masthead">
 <a class="brand" href="{prefix}" aria-label="Governance and Trust Vocabulary Commons, home"><span class="mark" aria-hidden="true"><span></span><span></span><span></span></span><span class="brand-name">Governance <em>&amp;</em> Trust <small>Vocabulary Commons</small></span></a>
@@ -166,7 +170,58 @@ front=f'''<section class="hero"><div class="wrap hero-grid"><div>
 <section class="fullband"><div class="wrap band-grid"><div><p class="eyebrow">How to read an entry</p><h2>Words are not evidence.</h2><p>A useful term does not prove that every claim associated with it is true. Each entry shows whether its wording is established or still being developed, and how strongly its associated claims are supported.</p><a class="text-link" href="method/">Understand the classifications →</a></div>
 <div class="band-details"><div><strong>Vocabulary standing</strong><span>Is the term established, extended, or still working?</span><span>Established · Extended · Working</span></div><div><strong>Claim standing</strong><span>How well supported is an associated claim?</span><span>Foundation · Demonstrated (bounded) · Indicated · Hypothesis</span></div><div><strong>Normative proposals</strong><span>Recommendations are distinguished from descriptions of what happens.</span></div></div></div></section>
 <section class="wrap section source-section"><div><p class="eyebrow">Where this started</p><h2>A published starting point.<br>An open future.</h2><p>The first 35 definitions come from <em>Describing the Environment We Are Trying to Govern</em> by Lance J. Johnson. That version is preserved on Zenodo. The Commons makes it easier to explore and creates a place to question, refine, and add terminology without rewriting the original publication.</p><div class="actions"><a class="button secondary" href="{DOI}">Read on Zenodo ↗</a><a class="text-link" href="{REPO}">Explore the GitHub Commons ↗</a></div></div><div class="source-stamp"><span>01 / FOUNDING REFERENCE</span><strong>35</strong><p>alphabetical entries<br><span>version 1.0.2</span></p><small>Preserved with definitions, relationships, classifications and citations.</small></div></section>'''
-home_schema = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Governance & Trust Vocabulary Commons', 'description': 'Shared vocabulary and attributed evidence for examining oversight, organizational reliance, assurance, and governability in human–AI environments.', 'url': 'https://ai-governance-trust-commons.github.io/vocabulary-commons/', 'hasPart': [{'@type': 'CollectionPage', 'name': 'Founding glossary', 'url': 'https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/'}, {'@type': 'CollectionPage', 'name': 'Evidence Library', 'url': 'https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/'}]}
+# A distinct, curated companion route: neither a glossary edition nor an Evidence Library release.
+resource_data=json.loads((ROOT/'site-tools/resources.json').read_text(encoding='utf-8'))
+resource_groups=resource_data['sections']
+assert len(resource_groups)==4
+assert 20<=sum(len(group['items']) for group in resource_groups)<=30
+assert len({entry['url'] for group in resource_groups for entry in group['items']})==sum(len(group['items']) for group in resource_groups)
+
+def resource_card(entry, is_commons):
+    url=entry['url']
+    assert url.startswith('../') or url.startswith('https://')
+    assert is_commons or url.startswith('https://')
+    kind='Commons resource' if is_commons else 'External resource'
+    return (f'<li class="resource-card"><article><p class="resource-type">{kind} · {esc(entry["publisher"])}</p>'
+            f'<h3><a href="{esc(url)}"'+(' rel="noreferrer noopener"' if url.startswith('https://') else '')+f'>{esc(entry["title"])} <span aria-hidden="true">↗</span></a></h3>'
+            f'<p>{esc(entry["note"])}</p></article></li>')
+
+resources_jump=''.join(f'<a href="#{esc(group["slug"])}">{esc(group["title"])}</a>' for group in resource_groups)
+resource_sections=''.join(
+    f'<section class="wrap resources-section" id="{esc(group["slug"])}" aria-labelledby="{esc(group["slug"])}-heading">'
+    f'<div class="resources-heading"><p class="eyebrow">0{number} / Collection</p><h2 id="{esc(group["slug"])}-heading">{esc(group["title"])}</h2>'
+    f'<p>{esc(group["intro"])}</p></div>'
+    f'<ul class="resource-grid">'+''.join(resource_card(entry,group['slug']=='commons-work') for entry in group['items'])+'</ul></section>'
+    for number,group in enumerate(resource_groups,1))
+resource_main=(
+    '<section class="small-hero wrap resources-hero"><p class="eyebrow">Companion reading · curated starting points</p>'
+    '<h1>Resources beyond the glossary.</h1>'
+    '<p>Explore external standards, original research, the Commons’ own public materials, and independent initiatives. '
+    'These links provide context for inquiry; they are not a replacement for primary-source inspection or a prescribed governance framework.</p>'
+    '<p class="resources-stamp">26 selected starting points · Editorial link review: 8 November 2026</p></section>'
+    '<nav class="wrap resources-jump" aria-label="Resource categories">'+resources_jump+'</nav>'
+    +resource_sections+
+    '<section class="wrap resources-policy" id="selection-policy" aria-labelledby="policy-heading">'
+    '<div><p class="eyebrow">Selection and maintenance</p><h2 id="policy-heading">Curated, not comprehensive.</h2></div>'
+    '<div><p>Inclusion requires an identifiable publisher, a direct and useful source, and a clear connection to the Commons’ descriptive mission. '
+    'We favor original sources and preserve distinctions between standards, proposals, controlled experiments, attributed incident reports, and independently verified evidence.</p>'
+    '<p>Listing is not endorsement, independent verification, or acceptance of a source’s conclusions. '
+    'External sites, their versions, terms and access may change. Links should be reviewed when the Commons is updated or a correction is reported; superseded items should be revised or withdrawn with an editorial explanation.</p>'
+    '<p>For individual observations, sources and limitations, use the <a href="../evidence/">Evidence Library</a> and its '
+    '<a href="../evidence/policy.html">publication policy</a>. Suggestions and corrections are welcome through '
+    '<a href="../participate/">Participate</a>.</p></div></section>'
+)
+resources_html=layout('Companion resources','Selected standards, research and related initiatives for studying AI governance, oversight, assurance and dependencies.',resource_main,'../','Resources','resources/')
+resources_html=resources_html.replace('<head>','<head><meta name="referrer" content="no-referrer">',1)
+put(Path('resources/index.html'),resources_html)
+
+# Small homepage discovery prompt; interpretation remains provisional, not a new finding.
+front+='''<section class="wrap chain-promo" aria-labelledby="chain-promo-heading"><div><p class="eyebrow">An open question</p><h2 id="chain-promo-heading">What connects events across time?</h2><p>One action may leave an artifact, permission or dependency that affects someone else later. Explore how to distinguish a documented causal chain from a sequence that merely looks connected—and why an actor's intention must be assessed separately.</p><p class="chain-promo-note">Exploratory analysis · No new glossary terms or Library findings</p></div><a class="button secondary" href="questions/event-chains/">Explore event-chain questions →</a></section>'''
+
+# Front-page discovery without changing the existing four entry routes.
+front+='''<section class="wrap resources-promo" aria-labelledby="resources-promo-heading"><div><p class="eyebrow">Explore the wider landscape</p><h2 id="resources-promo-heading">A companion set of sources.</h2><p>Browse a deliberately small set of standards, research papers, Commons materials and related initiatives, each with a note on why it may be useful.</p></div><a class="button secondary" href="resources/">Browse companion resources →</a></section>'''
+
+home_schema = {'@context': 'https://schema.org', '@type': 'CollectionPage', 'name': 'Governance & Trust Vocabulary Commons', 'description': 'Shared vocabulary and attributed evidence for examining oversight, organizational reliance, assurance, and governability in human–AI environments.', 'url': 'https://ai-governance-trust-commons.github.io/vocabulary-commons/', 'hasPart': [{'@type': 'CollectionPage', 'name': 'Founding glossary', 'url': 'https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/'}, {'@type': 'CollectionPage', 'name': 'Evidence Library', 'url': 'https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/'}, {'@type': 'CollectionPage', 'name': 'Companion resources', 'url': 'https://ai-governance-trust-commons.github.io/vocabulary-commons/resources/'}]}
 put(Path('index.html'),layout('Governance & Trust Vocabulary Commons','Explore language and evidence for AI governance: oversight, organizational reliance, assurance and risk. Examine original sources, limitations and open questions.',front,'./','Home','',home_schema))
 
 # Term browse page + local, client-side query and filter.
@@ -197,8 +252,48 @@ for i,t in enumerate(terms):
 
 # Question-based navigation.
 qs=''.join(f'''<article class="question"><span class="question-no">{i:02d}</span><div><h2>{esc(q)}</h2><p>Related founding terms:</p><div class="related-links">{group_terms(ls,'../')}</div></div></article>''' for i,(q,ls) in enumerate(questions,1))
-page=f'''<section class="small-hero wrap"><p class="eyebrow">Start with the problem</p><h1>Questions that lead to terms</h1><p>This is an editorial navigation aid, not part of the frozen 2026 publication. These questions direct visitors to relevant founding entries without claiming to answer the questions or validate their application.</p></section><section class="wrap questions">{qs}</section><section class="wrap afterword"><h2>Have a different question?</h2><p>Propose alternative terminology or challenge a relationship through the open Commons. Relevance is not endorsement.</p><a class="button primary" href="../participate/">Explore participation →</a></section>'''
+# Provisional, public-source-only editorial inquiry: expose questions, not private P1 findings.
+# Link to existing evidence without adding findings, relations or glossary terms.
+chain_inquiry = '''<section id="event-chains" class="wrap chain-inquiry" aria-labelledby="chain-inquiry-heading">
+<div class="chain-inquiry-intro"><p class="eyebrow">Exploratory question · Not a new glossary term</p>
+<h2 id="chain-inquiry-heading">What connects the stages?</h2>
+<p>An incident can leave information, permissions or dependencies that affect a later actor—even after the original task ends. But a sequence of events is not automatically a causal chain. The question is what passed between stages, whether the next actor actually used it, and what changed as a result.</p></div>
+<div class="chain-pattern-grid" aria-label="Different forms of continuation">
+<article><span>01</span><h3>Unintended continuation</h3><p>An earlier activity leaves a condition that someone later relies on without the originator intending the eventual outcome.</p></article>
+<article><span>02</span><h3>Deliberately staged continuation</h3><p>An actor prepares a note, instruction or authorization for later use. The attempt can still fail before activation.</p></article>
+<article><span>03</span><h3>Opportunistic continuation</h3><p>A later actor deliberately exploits a condition left by someone else, without any demonstrated shared plan.</p></article>
+</div>
+<div class="chain-evidence-grid"><div>
+<h3>Questions before calling events connected</h3>
+<ol><li>What identifiable <strong>carrier</strong> connects the stages: memory, document, credential, authority or another state?</li>
+<li>Is the later actor's <strong>access, reliance or action</strong> observed, or only possible?</li>
+<li>Which <strong>boundary</strong> was crossed, and what triggered the next step?</li>
+<li>Whose <strong>intention</strong> is documented? Causation does not imply coordination or a shared objective.</li>
+<li>Which link failed, was interrupted or has an alternative explanation?</li></ol></div>
+<div><h3>Starting points in published evidence</h3><ul class="chain-reading-list">
+<li><a href="../evidence/#EVID-108">EVID-108 · Successor memory</a><p>A controlled predecessor-to-successor experiment; storing a note did not guarantee its later use.</p></li>
+<li><a href="../evidence/#EVID-180">EVID-180 · Email-assistant propagation</a><p>A constructed ecosystem demonstrating propagation with application-controlled routing.</p></li>
+<li><a href="../evidence/#EVID-195">EVID-195 · Delegated authority after shutdown</a><p>Reported surviving authorization; not evidence that an AI agent kept operating.</p></li>
+<li><a href="../evidence/#EVID-141">EVID-141 · Dependent mathematical work</a><p>Correction and dependency questions around reused arguments; the agent-to-agent transmission path has not been established.</p></li>
+</ul></div></div>
+<p class="chain-caution"><strong>Status and limits:</strong> This is a question for continuing analysis, not a finding that all four cases form one mechanism. “Event-chain continuity” is an exploratory analytical label, not part of the 35-term founding glossary. Chronology, repeated citations and shared glossary annotations alone do not prove causal transmission, independent corroboration, recursive feedback or deliberate collusion. Examine the original sources and limitations in each Library record.</p>
+</section>'''
+page=f'''<section class="small-hero wrap"><p class="eyebrow">Start with the problem</p><h1>Questions that lead to terms</h1><p>This is an editorial navigation aid, not part of the frozen 2026 publication. These questions direct visitors to relevant founding entries without claiming to answer the questions or validate their application.</p></section><section class="wrap questions">{qs}</section>{chain_inquiry}<section class="wrap afterword"><h2>Have a different question?</h2><p>Propose alternative terminology or challenge a relationship through the open Commons. Relevance is not endorsement.</p><a class="button primary" href="../participate/">Explore participation →</a></section>'''
 put(Path('questions/index.html'),layout('Explore by question','Start from common AI oversight, assurance, dependency, and evidence questions; explore related glossary terms.',page,'../','Explore questions','questions/'))
+
+# Build a separate, review-only public question page. The existing research-path
+# index is rebuilt by build_research_paths.py and must remain byte-identical.
+chain_page=(
+    '<section class="small-hero wrap"><p class="eyebrow">Exploring relationships over time</p>'
+    '<h1>When do separate events connect?</h1>'
+    '<p>Investigate what really links an earlier activity to a later outcome, even when the actors, tools, or organizations differ.</p>'
+    '<p><a href="../">← Return to Explore questions</a></p></section>'
+    + chain_inquiry.replace('href="../evidence/', 'href="../../evidence/')
+    + '<section class="wrap afterword"><h2>Challenge the interpretation</h2><p>Find a missing link, a contrary case or a more precise explanation? We welcome source-grounded criticism.</p><a class="button primary" href="../../participate/">Explore participation →</a></section>'
+)
+put(Path('questions/event-chains/index.html'),layout('Exploring causal event chains',
+    'An exploratory guide to distinguishing causal continuity, actor intent, persistence and unanswered links across AI-enabled activities.',
+    chain_page,'../../','Explore questions','questions/event-chains/'))
 
 # Method: foundational methodology excerpts copied as is where practical.
 intro=segment(raw,'How to read each entry').strip()
@@ -221,7 +316,7 @@ put(Path('data/glossary.json'),json.dumps(export,ensure_ascii=False,indent=2)+'\
 shutil.copyfile(SOURCE,SITE/'source/FOUNDING_GLOSSARY_v1.0.2.md')
 assert (SITE/'source/FOUNDING_GLOSSARY_v1.0.2.md').read_bytes()==b
 
-urls=['','terms/','questions/','method/','participate/','evidence/','evidence/policy.html']+['terms/'+t['slug']+'/' for t in terms]
+urls=['','terms/','questions/','questions/event-chains/','method/','participate/','resources/','evidence/','evidence/policy.html']+['terms/'+t['slug']+'/' for t in terms]
 sitemap='<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join('<url><loc>'+xml_escape(HOST+x)+'</loc></url>\n' for x in urls)+'</urlset>\n'
 put(Path('sitemap.xml'),sitemap)
 put(Path('robots.txt'),'User-agent: *\nAllow: /\n\nSitemap: '+HOST+'sitemap.xml\n')

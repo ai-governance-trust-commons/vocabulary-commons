@@ -3,8 +3,12 @@
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/questions/</loc></url>
+<url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/questions/event-chains/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/method/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/participate/</loc></url>
+<url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/resources/</loc></url>
+<url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/</loc></url>
+<url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/policy.html</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/ai-enabled-capability/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/assurance/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/assurance-independence/</loc></url>
@@ -40,8 +44,6 @@
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/successor-assurance/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/system-level-autonomy/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/terms/trajectory-persistence/</loc></url>
-<url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/</loc></url>
-<url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/policy.html</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/coverage/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/questions/human-oversight/</loc></url>
@@ -53,4 +55,3 @@
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/questions/change-and-continuity/</loc></url>
 <url><loc>https://ai-governance-trust-commons.github.io/vocabulary-commons/questions/governability-across-systems/</loc></url>
 </urlset>
-
