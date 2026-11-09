@@ -3,6 +3,19 @@
  'use strict';
  const toggle=document.querySelector('.nav-toggle');
  const nav=document.querySelector('#primary-nav');
+ // Existing generated pages have integrity-managed HTML. Supply the shared
+ // Resources link now without rewriting evidence, glossary or research pages.
+ // The source builder emits the link directly on subsequent full builds.
+ if(nav && !Array.from(nav.querySelectorAll('a')).some(a=>a.textContent.trim()==='Resources')){
+   const home=Array.from(nav.querySelectorAll('a')).find(a=>a.textContent.trim()==='Home');
+   if(home){
+     const link=document.createElement('a');
+     link.textContent='Resources';
+     link.href=new URL('resources/',home.href).href;
+     const questions=Array.from(nav.querySelectorAll('a')).find(a=>a.textContent.trim()==='Explore questions');
+     if(questions)nav.insertBefore(link,questions);else nav.appendChild(link);
+   }
+ }
  if(toggle && nav) toggle.addEventListener('click',()=>{
    const open=toggle.getAttribute('aria-expanded')==='true';
    toggle.setAttribute('aria-expanded',String(!open));
