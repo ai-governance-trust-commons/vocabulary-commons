@@ -1,0 +1,190 @@
+{
+  "version": "review-2026-11-08",
+  "reviewed_on": "8 November 2026",
+  "sections": [
+    {
+      "slug": "standards-institutions",
+      "title": "Standards & institutions",
+      "intro": "Established standards, institutional guidance, and regulatory reference points. These documents are external to the Commons and have different purposes and legal standing.",
+      "items": [
+        {
+          "title": "NIST AI Risk Management Framework",
+          "publisher": "NIST · voluntary framework",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+          "note": "A widely used risk-management reference for organizations developing or using AI; a useful point of comparison, not the Commons' framework."
+        },
+        {
+          "title": "NIST Generative AI Profile (AI 600-1)",
+          "publisher": "NIST · sector-neutral guidance",
+          "url": "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence",
+          "note": "Extends the AI RMF's risk considerations to generative AI, including characteristics of AI-enabled operating environments."
+        },
+        {
+          "title": "ISO/IEC 42001 — AI management systems",
+          "publisher": "ISO / IEC · international standard",
+          "url": "https://www.iso.org/standard/42001",
+          "note": "Requirements for an organizational AI management system; distinguishes management responsibilities from descriptive research questions."
+        },
+        {
+          "title": "OECD AI Principles",
+          "publisher": "OECD · intergovernmental recommendation",
+          "url": "https://oecd.ai/en/ai-principles",
+          "note": "International reference principles on trustworthy AI, accountability, transparency, robustness and human-centered governance."
+        },
+        {
+          "title": "European Commission — AI Act overview",
+          "publisher": "European Commission · regulatory reference",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+          "note": "Official explanation of the EU AI Act, its obligations and application timeline. Consult the legal text for binding requirements."
+        },
+        {
+          "title": "Japan METI / MIC — AI Guidelines for Business v1.2",
+          "publisher": "Japan METI & MIC · national AI governance guidance",
+          "url": "https://www.meti.go.jp/shingikai/mono_info_service/ai_shakai_jisso/20260331_report.html",
+          "note": "Japan’s March 2026 AI business guidelines distinguish responsibilities across developers, providers and users. The official page includes English translations; these are non-binding guidance, not Commons standards."
+        },
+        {
+          "title": "OWASP GenAI LLM Top 10 (2026)",
+          "publisher": "OWASP · security community guidance",
+          "url": "https://genai.owasp.org/resource/owasp-genai-llm-top-10-2026/",
+          "note": "Current community-maintained application-security risks and mitigations for LLM systems; complements governance descriptions."
+        },
+        {
+          "title": "NIST Adversarial ML Taxonomy (2025)",
+          "publisher": "NIST AI 100-2e2025 · technical terminology",
+          "url": "https://csrc.nist.gov/pubs/ai/100/2/e2025/final",
+          "note": "A technical language for adversarial AI methods, attacker goals and mitigations; useful when distinguishing mechanism from speculation."
+        }
+      ]
+    },
+    {
+      "slug": "research-publications",
+      "title": "Research & publications",
+      "intro": "Selected reports and original studies relevant to capability, reliance, cross-agent effects, assurance and incident reconstruction. Experimental findings retain their study-specific limits.",
+      "items": [
+        {
+          "title": "Stanford AI Index Report 2026",
+          "publisher": "Stanford HAI · research synthesis",
+          "url": "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+          "note": "A broad evidence-oriented snapshot of AI development, adoption, technical performance and governance trends."
+        },
+        {
+          "title": "Task-Completion Time Horizons",
+          "publisher": "METR · capability measurement",
+          "url": "https://metr.org/time-horizons/",
+          "note": "Measurements of frontier agents' software-task time horizons; informative for capability and intervention-window questions, not a measure of all work."
+        },
+        {
+          "title": "Why Do Multi-Agent LLM Systems Fail?",
+          "publisher": "Cemri et al. · research paper",
+          "url": "https://arxiv.org/abs/2503.13657",
+          "note": "Analyzes failure patterns across multi-agent systems, including coordination, specification and verification limits."
+        },
+        {
+          "title": "Incident Analysis for AI Agents",
+          "publisher": "Ezell, Roberts-Gaal & Chan · research paper",
+          "url": "https://arxiv.org/abs/2508.14231",
+          "note": "A proposal for reconstructing agent incidents from system, context and activity evidence; a methodological comparator, not an adopted Commons framework."
+        },
+        {
+          "title": "Self-Propagating Misalignment in LLM Agents",
+          "publisher": "Das et al. · controlled study",
+          "url": "https://arxiv.org/abs/2610.04083",
+          "note": "Tests whether agent-written memory or files affect a successor; controlled setups and failed transfers matter to interpreting persistence."
+        },
+        {
+          "title": "After the Attacker Leaves: Carryover Attacks",
+          "publisher": "Xu et al. · controlled benchmark",
+          "url": "https://arxiv.org/abs/2610.28425",
+          "note": "Separates planting from later triggering via persistent state and scheduled tasks. Manual test wakes do not establish unattended deployment prevalence."
+        },
+        {
+          "title": "When Truth Is Distributed",
+          "publisher": "Yan et al. · controlled multi-agent study",
+          "url": "https://arxiv.org/abs/2608.03421",
+          "note": "Examines how false testimony affects collective fact recovery and how a claim may spread after its original source exits."
+        }
+      ]
+    },
+    {
+      "slug": "commons-work",
+      "title": "Commons papers & working references",
+      "intro": "Public materials produced by or maintained within this Commons. Exploratory and private research is deliberately excluded until separately reviewed for publication.",
+      "items": [
+        {
+          "title": "Founding discussion and glossary · publication of record",
+          "publisher": "Vocabulary Commons · published discussion / glossary",
+          "url": "https://doi.org/10.5281/zenodo.23626688",
+          "note": "The preserved publication accompanying the 35 founding terms; its definitions and claim standings are a fixed, citable baseline."
+        },
+        {
+          "title": "Browse the 35 founding terms",
+          "publisher": "Vocabulary Commons · public glossary",
+          "url": "../terms/",
+          "note": "Definitions, relationships and vocabulary/claim standings with navigation to relevant evidence."
+        },
+        {
+          "title": "Evidence Library",
+          "publisher": "Vocabulary Commons · public evidence register",
+          "url": "../evidence/",
+          "note": "Attributed findings, source families, cases and relationships, with limitations and withdrawal notices preserved."
+        },
+        {
+          "title": "Evidence Library publication policy",
+          "publisher": "Vocabulary Commons · evidence discipline",
+          "url": "../evidence/policy.html",
+          "note": "Explains why publication status, source inspection and independent verification are different judgments."
+        },
+        {
+          "title": "Evidence coverage and open gaps",
+          "publisher": "Vocabulary Commons · exploratory index",
+          "url": "../evidence/coverage/",
+          "note": "Shows where published findings have explicit term relationships—and where they do not, without implying that unlinked evidence is absent."
+        },
+        {
+          "title": "Question-based research paths",
+          "publisher": "Vocabulary Commons · guided reading",
+          "url": "../questions/",
+          "note": "Editorial starting points that connect governance questions with selected records and their limitations; not an exhaustive literature review."
+        }
+      ]
+    },
+    {
+      "slug": "related-initiatives",
+      "title": "Related initiatives",
+      "intro": "Independent collections and research organizations that offer different lenses on AI incidents, security, safety and governance. Inclusion does not mean methodological agreement.",
+      "items": [
+        {
+          "title": "AI Incident Database",
+          "publisher": "Responsible AI Collaborative · incident collection",
+          "url": "https://incidentdatabase.ai/",
+          "note": "Searchable reporting on AI harms and near harms. Incident records may depend on the same underlying reporting sources."
+        },
+        {
+          "title": "MIT AI Risk Repository",
+          "publisher": "MIT · risk taxonomy and database",
+          "url": "https://airisk.mit.edu/risks",
+          "note": "A cross-framework inventory of AI risks with causal and domain classifications; helpful for comparing terminology and coverage."
+        },
+        {
+          "title": "MITRE ATLAS",
+          "publisher": "MITRE · adversarial AI knowledge base",
+          "url": "https://atlas.mitre.org/",
+          "note": "Documented AI-related adversary tactics and techniques drawn from observed attacks and realistic demonstrations."
+        },
+        {
+          "title": "OECD AI Incidents and Hazards Monitor",
+          "publisher": "OECD.AI · automated incident monitor (beta)",
+          "url": "https://oecd.ai/en/incidents",
+          "note": "Tracks media-reported incidents and hazards using automated aggregation; review original reporting before treating entries as verified events."
+        },
+        {
+          "title": "UK AI Security Institute",
+          "publisher": "UK government · evaluation and research",
+          "url": "https://www.aisi.gov.uk/about",
+          "note": "Research and evaluations concerning the risks and capabilities of advanced AI systems, with separate institutional aims from the Commons."
+        }
+      ]
+    }
+  ]
+}
