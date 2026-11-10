@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "192dba8105498f7c42d45e57ae92beb1b5cbfe852c852fa714e7d4977b7b95de",
+  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
   "id": "EVID-181",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-181.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-181",
@@ -26,11 +26,10 @@
     "limitations": "Bounded historical behavior. The disclosure says the image-based exfiltration route had been fixed; retrieval is not demonstrated exfiltration. No independent replay was performed.",
     "open_questions": "Transfer beyond the described models, tasks and setting remains unestablished. Calendar observation dates not reported precisely are not inferred.",
     "keywords": [
-      "Trajectory persistence",
       "Control air gap",
       "Observability boundary"
     ],
-    "support_assessment": "Commons interpretation: Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass.",
+    "support_assessment": "Commons interpretation: The disclosure reports later-turn activation of planted instructions after a same-turn restriction. It does not establish continued pursuit despite contrary information, independently enforced architectural separation, or measured failure by an actual monitoring arrangement.",
     "dispute_status": "Source-attributed result; no systematic dispute or retraction clearance claimed.",
     "publication_status": "Provisional",
     "verification_status": "Not independently verified by the Commons",
@@ -135,46 +134,15 @@
         "individual_human_review": "Not recorded",
         "date": "2026-10-30T22:52:57.829686+00:00"
       }
-    },
-    {
-      "id": "TERM-trajectory-persistence",
-      "name": "Trajectory persistence",
-      "definition": "A tendency for an agent to continue an established approach despite information suggesting the approach is inappropriate, unsafe, or outside scope. In controlled incident replays, continued behavior was observed. The explanation that prior actions and compaction summaries create a self-reinforcing “momentum” remains a researcher hypothesis, not a verified causal mechanism [8–10].",
-      "vocabulary": "Working",
-      "claim": "Demonstrated (bounded)",
-      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#trajectory-persistence",
-      "baseline": "v1.0.2",
-      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
     }
   ],
   "relationships": [
     {
-      "id": "REL-416",
-      "from_id": "EVID-181",
-      "to_id": "TERM-trajectory-persistence",
-      "relationship_type": "illustrates",
-      "explanation": "Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass. Proposed link to Trajectory persistence is Commons interpretation; not source-author endorsement.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-11-01T18:38:34.386143+00:00"
-      }
-    },
-    {
       "id": "REL-417",
       "from_id": "EVID-181",
       "to_id": "TERM-control-air-gap",
-      "relationship_type": "illustrates",
-      "explanation": "Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass. Proposed link to Control air gap is Commons interpretation; not source-author endorsement.",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: The reported later-turn invocation qualifies the adequacy of a same-turn restriction; it does not demonstrate a functioning, independently enforced control air gap.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
@@ -187,8 +155,8 @@
       "id": "REL-418",
       "from_id": "EVID-181",
       "to_id": "TERM-observability-boundary",
-      "relationship_type": "illustrates",
-      "explanation": "Illustrates instructions persisting across turns and a control boundary limited to the immediate turn. It does not establish permanent memory or a universal bypass. Proposed link to Observability boundary is Commons interpretation; not source-author endorsement.",
+      "relationship_type": "qualifies",
+      "explanation": "Commons interpretation: A review limited to the email-ingestion turn would miss the subsequent document retrieval, a conditional observability limit rather than demonstrated universal invisibility. Actual monitor coverage or an observer’s failure to connect turns was not measured.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
