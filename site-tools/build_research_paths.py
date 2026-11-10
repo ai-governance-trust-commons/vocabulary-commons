@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Build editorial navigation from approved public records, without changing them."""
+from projection_utils import preserve_chrome
 from pathlib import Path
 import json,hashlib,html,re
 from urllib.parse import urlencode
@@ -24,7 +25,8 @@ def build():
   header=baseheader.replace('href="./','href="'+prefix).replace('aria-current="page"','').replace('href="'+prefix+'questions/"','href="'+prefix+'questions/" aria-current="page"')
   footer=basefooter.replace('href="./','href="'+prefix)
   asset='../' if depth==2 else ''
-  return '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>'+esc(title)+' | Vocabulary Commons</title><meta name="description" content="'+esc(description)+'"><link rel="canonical" href="'+HOST+'questions/'+slug+'"><link rel="stylesheet" href="'+prefix+'assets/style.css"><link rel="stylesheet" href="'+asset+'paths.css"><link rel="alternate" type="application/json" href="'+asset+'paths.json" title="Research paths data"></head><body><a class="skip" href="#content">Skip to main content</a>'+header+'<main id="content" class="paths-main">'+body+'</main>'+footer+'<script defer src="'+prefix+'assets/app.js"></script>'+('<script defer src="paths.js"></script>' if script else '')+'</body></html>\n'
+  rendered = '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>'+esc(title)+' | Vocabulary Commons</title><meta name="description" content="'+esc(description)+'"><link rel="canonical" href="'+HOST+'questions/'+slug+'"><link rel="stylesheet" href="'+prefix+'assets/style.css"><link rel="stylesheet" href="'+asset+'paths.css"><link rel="alternate" type="application/json" href="'+asset+'paths.json" title="Research paths data"></head><body><a class="skip" href="#content">Skip to main content</a>'+header+'<main id="content" class="paths-main">'+body+'</main>'+footer+'<script defer src="'+prefix+'assets/app.js"></script>'+('<script defer src="paths.js"></script>' if script else '')+'</body></html>\n'
+  return preserve_chrome(OUT/slug/'index.html', rendered)
  cards=[];jsonpaths=[]
  for i,p in enumerate(paths):
   termnames=[terms[t]['name'] for t in p['terms']];search=' '.join([p['question'],p['label'],p['intro'],*termnames]).casefold()
@@ -57,7 +59,7 @@ def build():
   url=HOST+'questions/'+path['slug']+'/'
   if '<loc>'+url+'</loc>' not in s:s=s.replace('</urlset>','<url><loc>'+url+'</loc></url>\n</urlset>')
  p.write_text(s)
- p=D/'evidence/release-manifest.json';m=json.loads(p.read_text());m['presentation_version']=VERSION;m['research_paths']={'editorial_version':VERSION,'dataset_version':d['dataset_version'],'dataset_sha256':payload['dataset_sha256'],'files_sha256':{str(x.relative_to(D)):sha(x) for x in sorted(OUT.rglob('*')) if x.is_file()}}
+ p=D/'evidence/release-manifest.json';m=json.loads(p.read_text());m['research_paths']={'editorial_version':VERSION,'dataset_version':d['dataset_version'],'dataset_sha256':payload['dataset_sha256'],'files_sha256':{str(x.relative_to(D)):sha(x) for x in sorted(OUT.rglob('*')) if x.is_file()}}
  m['files_sha256']['index.html']=sha(D/'evidence/index.html');p.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')
  return payload
 if __name__=='__main__':

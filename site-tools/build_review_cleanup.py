@@ -63,7 +63,7 @@ def build():
  if 'id="release-054"' not in s:s=s.replace('</main>',note+'</main>')
  p.write_text(s)
  # Record content-to-page hashes after all presentation modifications.
- p=D/'evidence/release-manifest.json';m=json.loads(p.read_text());m['presentation_version']=VERSION;m['files_sha256']={n:sha(D/'evidence'/n) for n in ['index.html','evidence.json','policy.html','evidence.js','evidence.css']}
+ p=D/'evidence/release-manifest.json';m=json.loads(p.read_text());m['files_sha256']={n:sha(D/'evidence'/n) for n in ['index.html','evidence.json','policy.html','evidence.js','evidence.css']}
  targets=[D/'terms/index.html',D/'method/index.html',D/'assets/research-notes.css',*sorted((D/'terms').glob('*/index.html'))]
  m['term_navigation']={'dataset_version':data['dataset_version'],'dataset_sha256':sha(D/'evidence/evidence.json'),'term_pages':count,'files_sha256':{str(p.relative_to(D)):sha(p) for p in targets}}
  p.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n')

@@ -4,13 +4,14 @@
 No private collection, approval or publication-hold logic is implemented here.
 Run the private publication gate first; this program refuses inconsistent public data.
 """
+from projection_utils import preserve_chrome
 import csv,hashlib,html,io,json,re,shutil
 from pathlib import Path
 from datetime import datetime,timezone
 
 ROOT=Path(__file__).resolve().parents[1];DOCS=ROOT/'docs';M=DOCS/'evidence/machine'
 HOST='https://ai-governance-trust-commons.github.io/vocabulary-commons/'
-BASE=HOST+'evidence/machine/';VERSION='0.5.5';CONTRACT='1.0';PRESENTATION_VERSION='0.5.6'
+BASE=HOST+'evidence/machine/';VERSION='0.5.5';CONTRACT='1.0'
 DATA=DOCS/'evidence/evidence.json';d=json.loads(DATA.read_text());g=json.loads((DOCS/'data/glossary.json').read_text())
 STAMP=datetime.now(timezone.utc).isoformat();DATA_SHA=hashlib.sha256(DATA.read_bytes()).hexdigest()
 for folder,expected in [('records',{r['id']+'.json' for r in d['evidence']+d['withdrawals']}|{'index.json'}),('sources',{r['id']+'.json' for r in d['sources']}|{'index.json'})]:
@@ -32,6 +33,7 @@ for path in [M/'records',M/'sources',M/'schemas',M/'exports']:path.mkdir(parents
 
 def write(path,value):
  path.parent.mkdir(parents=True,exist_ok=True)
+ if isinstance(value,str) and path.suffix == '.html': value=preserve_chrome(path,value)
  path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n' if not isinstance(value,str) else value)
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def url(path):return HOST+str(path.relative_to(DOCS))
@@ -225,7 +227,7 @@ for folder,expected in [('records',expected_records),('sources',expected_sources
 checks={str(p.relative_to(DOCS)):sha(p) for p in sorted(M.rglob('*')) if p.is_file() and p.name!='checksums.json'}
 checks.update({'evidence/evidence.json':DATA_SHA,'data/glossary.json':sha(DOCS/'data/glossary.json')})
 write(M/'checksums.json',{'algorithm':'SHA-256','scope':'Exact file bytes; excludes this manifest. Not signed, not independent source authentication.','dataset_version':d['dataset_version'],'machine_release':VERSION,'files':checks})
-manifest=DOCS/'evidence/release-manifest.json';m=json.loads(manifest.read_text());m.update(generated_at=STAMP,dataset_version=d["dataset_version"],presentation_version=PRESENTATION_VERSION,machine_release=VERSION,machine_contract_version=CONTRACT,machine_catalog=BASE+'catalog.json',machine_checksums_sha256=sha(M/'checksums.json'),presentation_updated_at=STAMP)
+manifest=DOCS/'evidence/release-manifest.json';m=json.loads(manifest.read_text());m.update(generated_at=STAMP,dataset_version=d["dataset_version"],machine_release=VERSION,machine_contract_version=CONTRACT,machine_catalog=BASE+'catalog.json',machine_checksums_sha256=sha(M/'checksums.json'),presentation_updated_at=STAMP)
 m['evidence_count']=len(d['evidence']);m['source_count']=len(d['sources']);m['withdrawn_ids']=sorted(held)
 m['files_sha256']={name:sha(DOCS/'evidence'/name) for name in ['index.html','evidence.json','policy.html','evidence.js','evidence.css']};write(manifest,m)
 print(json.dumps({'machine_release':VERSION,'published_evidence':len(d['evidence']),'withdrawals':len(held),'sources':len(source_index),'machine_files':len([p for p in M.rglob('*') if p.is_file()])}))
