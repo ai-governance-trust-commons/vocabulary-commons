@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "id": "EVID-005",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-005.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-005",
@@ -22,7 +22,7 @@
       "SRC-006"
     ],
     "source_locations": {
-      "SRC-005": "Opening incident summary",
+      "SRC-005": "Safeguard coverage in internal evaluations",
       "SRC-006": "Opening replay example"
     },
     "limitations": "A replay detection result is not a demonstration that the historical event was prevented. Timing depends on recorded activity and the tested monitoring configuration.",
@@ -273,7 +273,7 @@
       "from_id": "EVID-005",
       "to_id": "TERM-horizon-compression",
       "relationship_type": "partial",
-      "explanation": "Timing is relevant to an intervention window; the replay does not itself measure a shrinking window over time.",
+      "explanation": "Commons interpretation: The replay identifies a potential warning interval before the historical breach, but neither establishes the response time needed to exploit it nor demonstrates horizon compression or successful intervention.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",

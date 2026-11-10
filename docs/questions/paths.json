@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "editorial_version": "0.5.6",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "scope": "Editorial reading paths through already published evidence. Selections are starting points, not exhaustive reviews, evidence rankings or new canonical relationships.",
   "verification_note": "Approved public projection, not independent verification. Editorial selection does not create a new evidence-to-term relationship. Source inspection dates are historical; path generation does not re-inspect sources.",
   "paths": [
@@ -30,7 +30,7 @@
           "why": "Start with a proposed causal taxonomy that separates different kinds of human involvement.",
           "observation": "Authors distinguish humans whose input constitutes a decision from humans able to correct or prevent it, with temporal subtypes of corrective involvement.",
           "limitations": "Proposed causal taxonomy, not evidence that a named oversight arrangement works. Runtime scope and role distinctions need operational validation; no founding Commons definition change follows from retaining this comparison.",
-          "evidence_standing_label": "Normative proposal",
+          "evidence_standing_label": "Conceptual framing",
           "record_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-110",
           "source_ids": [
             "SRC-077"

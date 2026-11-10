@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "id": "EVID-189",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-189.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-189",
@@ -24,11 +24,10 @@
     "source_locations": {
       "SRC-152": "Attack Preparation, 20 October and 29 October entries; opening investigation qualification"
     },
-    "limitations": "Initial issuer account; investigation ongoing. The internal AI mechanism is not disclosed sufficiently to establish prompt injection, autonomous attacker coordination, corruption of assurance information or a measured intervention-window contraction.",
+    "limitations": "Initial issuer account; investigation ongoing. The internal AI mechanism is not disclosed sufficiently to establish prompt injection, autonomous attacker coordination, corruption of assurance information or a measured intervention-window contraction. The reported internal-AI-tool access path does not identify altered decision inputs or assurance records, so it does not establish a reference-environment-integrity failure.",
     "open_questions": "Do the findings generalize beyond the reported setting? Underlying results and mechanisms are not independently reproduced.",
     "keywords": [
-      "binance-2026-10-29",
-      "reference environment integrity"
+      "binance-2026-10-29"
     ],
     "support_assessment": "Commons interpretation: The reported use of compromised internal AI tooling is distinct from the downstream persistence of delegated authority recorded in EVID-195. The report does not establish which information or reasoning paths were manipulated.",
     "dispute_status": "Source access, version and generalization qualifications retained; no systematic clearance.",
@@ -98,41 +97,8 @@
       }
     }
   ],
-  "terms": [
-    {
-      "id": "TERM-reference-environment-integrity",
-      "name": "Reference environment integrity",
-      "definition": "The reliability, provenance, completeness, and resistance to manipulation of information used to make operational or assurance judgments, including documents, logs, telemetry, evidence, and monitoring outputs.",
-      "vocabulary": "Extended",
-      "claim": "Foundation",
-      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#reference-environment-integrity",
-      "baseline": "v1.0.2",
-      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    }
-  ],
-  "relationships": [
-    {
-      "id": "REL-435",
-      "from_id": "EVID-189",
-      "to_id": "TERM-reference-environment-integrity",
-      "relationship_type": "qualifies",
-      "explanation": "Commons interpretation: Compromise of internal AI tooling raises a reference-environment question, but this account does not establish manipulation of information used for operational or assurance judgments. Tool compromise alone does not demonstrate the full defined mechanism.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-11-04T23:30:39.022111+00:00"
-      }
-    }
-  ],
+  "terms": [],
+  "relationships": [],
   "source_dependencies": [],
   "withdrawal": null
 }

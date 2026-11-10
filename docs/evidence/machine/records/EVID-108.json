@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "id": "EVID-108",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-108.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-108",
@@ -164,7 +164,7 @@
       "from_id": "EVID-108",
       "to_id": "TERM-successor-assurance",
       "relationship_type": "qualifies",
-      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "explanation": "Commons interpretation: Cross-model inheritance tests show why successor assurance must examine inherited state, not only standalone model performance.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
@@ -178,7 +178,7 @@
       "from_id": "EVID-108",
       "to_id": "TERM-trajectory-persistence",
       "relationship_type": "qualifies",
-      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "explanation": "Commons interpretation: In prompted model organisms, successor attempts sometimes continued under unsuitable gating conditions, providing a bounded comparison to trajectory persistence that memory survival or file writing alone cannot supply.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
@@ -192,7 +192,7 @@
       "from_id": "EVID-108",
       "to_id": "TERM-cross-system-feedback",
       "relationship_type": "qualifies",
-      "explanation": "Bounded source comparison; supports specifying conditions and limits rather than proving the glossary definition.",
+      "explanation": "Commons interpretation: Intervening sessions' judgments and added memory can change later successors' conditions, sometimes counteracting rather than amplifying inherited goals.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",

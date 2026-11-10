@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "id": "EVID-110",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-110.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-110",
@@ -33,7 +33,7 @@
     "dispute_status": "No explicit correction located in bounded checks; not exhaustive",
     "publication_status": "Provisional",
     "verification_status": "Not independently verified by the Commons",
-    "evidence_standing_label": "Normative proposal",
+    "evidence_standing_label": "Conceptual framing",
     "publication_record": {
       "status": "Provisionally published",
       "prepared_by": "Mike — AI assistant",

@@ -214,6 +214,7 @@
         "EVID-013",
         "EVID-014",
         "EVID-017",
+        "EVID-029",
         "EVID-097",
         "EVID-099",
         "EVID-102",
@@ -233,7 +234,6 @@
           "EVID-021",
           "EVID-024",
           "EVID-025",
-          "EVID-029",
           "EVID-031",
           "EVID-036",
           "EVID-037",
@@ -275,6 +275,7 @@
           "EVID-013",
           "EVID-014",
           "EVID-017",
+          "EVID-029",
           "EVID-097",
           "EVID-099",
           "EVID-102",
@@ -453,7 +454,6 @@
         "EVID-032",
         "EVID-035",
         "EVID-038",
-        "EVID-040",
         "EVID-043",
         "EVID-047",
         "EVID-048",
@@ -490,7 +490,7 @@
         "EVID-176",
         "EVID-177"
       ],
-      "finding_count": 48,
+      "finding_count": 47,
       "source_ids": [
         "SRC-005",
         "SRC-006",
@@ -503,7 +503,6 @@
         "SRC-027",
         "SRC-029",
         "SRC-031",
-        "SRC-032",
         "SRC-035",
         "SRC-036",
         "SRC-037",
@@ -566,7 +565,6 @@
         "https://www.anthropic.com/claude-haiku-5-5-system-card",
         "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report",
         "https://www.policeconduct.gov.uk/news/officers-risk-accidental-ai-misconduct-iopc-warns",
-        "microsoft-storm 0940-oct 2026",
         "openai-hugging-face-2026",
         "openai-monitoring-2026",
         "study-arxiv-2603.19213",
@@ -575,12 +573,13 @@
         "study-controllability",
         "study-internaldeploy"
       ],
-      "recorded_family_count": 39,
+      "recorded_family_count": 38,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-005",
         "EVID-009",
         "EVID-010",
+        "EVID-029",
         "EVID-100",
         "EVID-110",
         "EVID-120",
@@ -595,25 +594,21 @@
           "EVID-008",
           "EVID-022",
           "EVID-025",
-          "EVID-029",
           "EVID-032",
           "EVID-035",
           "EVID-038",
-          "EVID-040",
           "EVID-043",
           "EVID-047",
           "EVID-048",
           "EVID-051",
           "EVID-052",
           "EVID-053",
-          "EVID-054",
           "EVID-055",
           "EVID-056",
           "EVID-057",
           "EVID-062",
           "EVID-063",
           "EVID-064",
-          "EVID-070",
           "EVID-071",
           "EVID-072",
           "EVID-076",
@@ -631,10 +626,15 @@
           "EVID-176",
           "EVID-177"
         ],
+        "partial": [
+          "EVID-054",
+          "EVID-070"
+        ],
         "qualifies": [
           "EVID-005",
           "EVID-009",
           "EVID-010",
+          "EVID-029",
           "EVID-100",
           "EVID-110",
           "EVID-120",
@@ -1308,23 +1308,27 @@
       "recorded_family_count": 10,
       "sources_without_family": [],
       "qualifying_finding_ids": [
+        "EVID-035",
+        "EVID-054",
+        "EVID-071",
+        "EVID-118",
         "EVID-120"
       ],
       "challenging_finding_ids": [],
       "relationships": {
         "illustrates": [
-          "EVID-035",
           "EVID-040",
-          "EVID-054",
-          "EVID-070",
-          "EVID-071",
-          "EVID-091",
-          "EVID-118"
+          "EVID-091"
         ],
         "partial": [
-          "EVID-005"
+          "EVID-005",
+          "EVID-070"
         ],
         "qualifies": [
+          "EVID-035",
+          "EVID-054",
+          "EVID-071",
+          "EVID-118",
           "EVID-120"
         ]
       }
@@ -1930,15 +1934,13 @@
       "id": "TERM-organizational-dependency",
       "name": "Organizational dependency",
       "finding_ids": [
-        "EVID-040",
         "EVID-088",
         "EVID-112",
         "EVID-123",
         "EVID-132"
       ],
-      "finding_count": 5,
+      "finding_count": 4,
       "source_ids": [
-        "SRC-032",
         "SRC-056",
         "SRC-079",
         "SRC-090",
@@ -1947,11 +1949,10 @@
       "recorded_family_ids": [
         "https://blogs.microsoft.com/on-the-issues/2026/09/22/disrupting-eviltokens-the-ai-chatbot-built-for-cybercrime",
         "https://www.fsb.org/2026/10/sound-practices-for-responsible-adoption-of-artificial-intelligence-ai-final-report",
-        "microsoft-storm 0940-oct 2026",
         "study-arxiv-2608.08601",
         "study-ecology"
       ],
-      "recorded_family_count": 5,
+      "recorded_family_count": 4,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-112",
@@ -1960,7 +1961,6 @@
       "challenging_finding_ids": [],
       "relationships": {
         "illustrates": [
-          "EVID-040",
           "EVID-088",
           "EVID-132"
         ],
@@ -2141,10 +2141,9 @@
         "EVID-147",
         "EVID-182",
         "EVID-183",
-        "EVID-189",
         "EVID-191"
       ],
-      "finding_count": 21,
+      "finding_count": 20,
       "source_ids": [
         "SRC-010",
         "SRC-015",
@@ -2165,7 +2164,6 @@
         "SRC-112",
         "SRC-145",
         "SRC-146",
-        "SRC-152",
         "SRC-154"
       ],
       "recorded_family_ids": [
@@ -2176,7 +2174,6 @@
         "WIKIMEDIA_ACTIVITY",
         "anthropic-four-cyber-evals-2026",
         "anthropic-unintended-actions-oct 2026",
-        "binance-2026-10-29",
         "era-greeter-flowise-2026",
         "hines-spotlighting-2024",
         "https://www.air.security/blog-posts/plugin4shell",
@@ -2191,13 +2188,12 @@
         "study-arxiv-2609.23226",
         "study-arxiv-2610.02036"
       ],
-      "recorded_family_count": 21,
+      "recorded_family_count": 20,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-099",
         "EVID-106",
-        "EVID-183",
-        "EVID-189"
+        "EVID-183"
       ],
       "challenging_finding_ids": [],
       "relationships": {
@@ -2223,8 +2219,7 @@
         "qualifies": [
           "EVID-099",
           "EVID-106",
-          "EVID-183",
-          "EVID-189"
+          "EVID-183"
         ]
       }
     },
@@ -2428,7 +2423,8 @@
   ],
   "unmatched_finding_ids": [
     "EVID-004",
-    "EVID-160"
+    "EVID-160",
+    "EVID-189"
   ],
   "counts": {
     "terms": 35,
@@ -2436,13 +2432,13 @@
     "terms_without_links": 1,
     "terms_with_one_recorded_family": 5,
     "public_findings": 193,
-    "findings_with_term_links": 191,
-    "findings_without_term_links": 2,
+    "findings_with_term_links": 190,
+    "findings_without_term_links": 3,
     "withdrawal_notices": 2
   },
   "format_version": "1.0",
   "coverage_presentation_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "basis": "Explicit evidence-to-term relationships in the current published dataset. Withdrawals excluded. Counts describe recorded curation, not truth, completeness or independence.",
   "family_method": "Distinct recorded independence_group values across all sources cited by each term’s linked findings. Missing groups are disclosed separately; source-dependency relationships may identify further dependence.",
   "source_dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json"

@@ -1,7 +1,7 @@
 {
   "dataset_version": "0.5.6",
   "presentation_version": "0.5.7",
-  "generated_at": "2026-11-10T21:06:56.802803+00:00",
+  "generated_at": "2026-11-10T22:06:44.782292+00:00",
   "evidence_count": 193,
   "source_count": 155,
   "withdrawn_ids": [
@@ -9,67 +9,67 @@
     "EVID-144"
   ],
   "files_sha256": {
-    "index.html": "1d238381101d67448588957a9e48293657c162854d6495c3a2b99c069bd53d22",
-    "evidence.json": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+    "index.html": "4182bf15408570b56b1c38345b7111e563f8c8db9b031df00b0aa71067c39260",
+    "evidence.json": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
     "policy.html": "0f6fc02fb4bdbe9dfe07e29bd8743bbed3b20fc181c1a295b08012312bae782b",
     "evidence.js": "579a9b91580e83c4db5fac5bf040bee13971c1ee4c43bdbf5d33137658ebbad0",
     "evidence.css": "da46041ddea3bfee8858aac04345bb8d4f9998d117854f7e048ff9ce4460ccf1"
   },
-  "presentation_updated_at": "2026-11-10T21:06:56.802803+00:00",
+  "presentation_updated_at": "2026-11-10T22:06:44.782292+00:00",
   "machine_release": "0.5.5",
   "machine_contract_version": "1.0",
   "machine_catalog": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/catalog.json",
-  "machine_checksums_sha256": "a4058a72538d585c08dc5440747ab5259a2d46787bb172ea2a5f731a7fc5fcac",
+  "machine_checksums_sha256": "942464f5caa90e509221467b9d2dfb4e7550dfc6caaecd4c55e869adca54b87b",
   "coverage_view": {
     "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/coverage/",
     "dataset_version": "0.5.6",
-    "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+    "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
     "files_sha256": {
       "coverage.css": "5763ce6af014ba37aa46a1c91a6c61d196b4eed8d66b18580c36f2251c0433a1",
       "coverage.js": "33429ad734567b3ae59b07aa7ec582037eb47f1c9d201da0a68943c1f6e484b1",
-      "coverage.json": "a2e74487edd9b935c650dacd8f1a550b810b40af4c356e02ac57a9451984b5ec",
-      "index.html": "693b6bb2a90fa37083fa2c9d07c15ddbfd8dcc495737697436b32e757262a6ea"
+      "coverage.json": "b919bf342f428b8d4a9ae955a3739d66dcfa8561d9e4cac70977548a6707fb5f",
+      "index.html": "649d126038588481b20b7bc3c9e69ba7b2ce9c16b7619beb69fd502103d69faa"
     }
   },
   "research_paths": {
     "editorial_version": "0.5.6",
     "dataset_version": "0.5.6",
-    "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+    "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
     "files_sha256": {
       "questions/barriers-to-action/index.html": "dde53cbed187eb3b963a10b7e5d2498b7e7fd311031852182d863781dfe0dab9",
       "questions/change-and-continuity/index.html": "577a79c4eb76a2f17c80d5aa569accc609ff6aa02ca6345933312a3de68c1175",
       "questions/event-chains/index.html": "f43d829f6de23e560bf621a50a1d69b37a58c897fe5b85ca0979069d846e846c",
-      "questions/evidence-and-provenance/index.html": "fa31c0afe298100fb5f2e12ccc320040e53f137fc1bfc01d5456d2f31060f387",
+      "questions/evidence-and-provenance/index.html": "6143cbf0bc510a1e81718d329a263d90c467e76cbf0958cc8560a97abb9d6306",
       "questions/feedback-and-interaction/index.html": "ac5567cc51cd3001e7475bbee409dc43176e0ea420557faada15dd3ced9412e4",
       "questions/governability-across-systems/index.html": "2ae003d9bd71f035016b8a08c2bc35a8ac00a35a26bedfffabeccc291eae4dc2",
-      "questions/human-oversight/index.html": "28e1990abdb6f3c9e25288f99349194d70c50033680389fcbf344afafb5d79c2",
+      "questions/human-oversight/index.html": "174461fd4496a79b16809b555d0f8505f3fa83fb037ee9bf3b169f5aaf0fbfb6",
       "questions/index.html": "551d5d42454fedd928bc78fa27d6d02c39683e2a0c7cea11eb56d31944ffc559",
       "questions/monitoring-and-visibility/index.html": "c9c5e013bacebc606481bddd2912624f0728a743ec2c3d7e309e04f52a924b12",
       "questions/paths.css": "a2763fc7bf596d1ea7cde6c3e21b2117f5be1cd99be4257fb66bf633419b558c",
       "questions/paths.js": "d2b084dc72bd337b0aa615dae73291aa32bd6852ce3d2a00841c5dbaee8ef398",
-      "questions/paths.json": "9c6a66a92391c9d8a3e618184ead79cb305fc113ebc569efab96e28a47a53b33",
-      "questions/reliance-and-competence/index.html": "80fe8ae7987cc6efe4a0c0bc64fd21df671a50dbd3bff3b70b341aa24c2cdd40"
+      "questions/paths.json": "c0b100bbde20155afabdbc38783a056527fa4d569c249f0cea5eb67441285f55",
+      "questions/reliance-and-competence/index.html": "aa6af2dab40cb748a042606b98137a6268be782b7eb88ea76b00bcc218e07f06"
     }
   },
   "term_navigation": {
     "dataset_version": "0.5.6",
-    "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+    "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
     "term_pages": 35,
     "files_sha256": {
       "terms/index.html": "214f15ab83ebd31d3fbf4ff08c69454871be9adc08873719adef002c5ce848a2",
       "method/index.html": "2b5a19a796617a066990d18b706e313ee9818255f2b510f63b9a78abd2d8f009",
       "assets/research-notes.css": "b8f5d3951dad58bf1bb19c686862ec8fc2fabb13df86a6e05e466b57da140af0",
       "terms/ai-enabled-capability/index.html": "1a88607e593ede8797a14c021cd2d9e6671902bd5dee7a0c0ca82aecc96abdf9",
-      "terms/assurance/index.html": "d7547d03073d74e3168e0208774e17d474cf72c0f3cf8386912a3aa0e2374fb3",
+      "terms/assurance/index.html": "906f36c95875d69e457bd4f508d5a5fb26b2481f724ba0078eff52b388d71f21",
       "terms/assurance-independence/index.html": "b6770b3518e8856fcc8dedf60219e03dbb9c1be144142fae7d0ada4ba08b96d8",
       "terms/attacker-model-change/index.html": "acea32f4360783cdfc149d073200247c202f82be84865b88c7c4978e6e0d54c8",
       "terms/beyond-visual-range-bvr/index.html": "c9a8d8193160f30fddf382ef5f67a96ee03ced5609e442f89c7174ae0581cbad",
       "terms/capability-feasibility-progression/index.html": "b6c80b21c6e40ab994cc40b03c05b89500b079077a9f6c6c255c42a431692750",
-      "terms/chaperoning/index.html": "50b1bf1bc4ac00983b4840e86c980465477b157da0f66160c0c85b2d3eb268c6",
+      "terms/chaperoning/index.html": "4d35a6c667a5bdbff46cb430c87972d7ec115ea97255ec5cf076143162a96dc7",
       "terms/competency-decay/index.html": "8fc32d4ae82bc8d579c4fbc849b4b6c30de04582df618514cda7ed9745e552c4",
       "terms/constraint-compression/index.html": "e90225295e473eb0e10ca850e9984cc52b63c9651fd88464d51a01eb9f7d1706",
       "terms/control-air-gap/index.html": "678de9525c5779477c31b36378cb1190616759f690c03ab4126dbe71001d5ae5",
-      "terms/cross-system-feedback/index.html": "49902c82839e341b707cf9839db37c50d131b8af56f20b7b1df5e5098ca5726d",
+      "terms/cross-system-feedback/index.html": "bd5baacf9032010dbd3276b0794a06a7d65376897bb458fdf64e1dddc061728c",
       "terms/demonstrated-behavior/index.html": "f338233e26c5bce9f0d57d2306a6a6bf090a39df6732c1d735a581f7984ed5e1",
       "terms/distributed-adaptive-control-environment/index.html": "aed856403a8b9cd68953756c43874ba067273303d6a89e2101263ebffa43fdbb",
       "terms/environmental-redirection/index.html": "3d2aadc7f66060e66fc500af532179724b6db960bde26b1d67e560de51cba8d5",
@@ -77,23 +77,23 @@
       "terms/feedback-acceleration/index.html": "6d2013b859589047f1435eeb73599a0821123f984218ca47549ec1b23930dc09",
       "terms/feedback-amplification/index.html": "0fb37a4eff923a65f84e6c8e779634849146e90ba65c4523311078ed0b0361d9",
       "terms/governability/index.html": "8473255d91ae0ba97b425a76d51d6d8372274ef20b4a31ff6eaad36e271d0578",
-      "terms/horizon-compression/index.html": "6b8f1d539bc4b0bcfecef3b73068a7d3332ae076bf924d21e251ec79e3d49b74",
+      "terms/horizon-compression/index.html": "22e3c2545bd951d3100f8815683d56526204212fe64a6293432ebf99c7fac42f",
       "terms/humanai-mutual-adaptation/index.html": "f99447694b0d59191ccfb8080fcb96ffd4e0f4352e6e8a2011b888d410ac0533",
       "terms/investigative-indicator/index.html": "8e4d702fbb67f9aa11407787ea06e3bc0cf7fb03f00b38d01c7594773cb628d0",
       "terms/meaningful-human-control/index.html": "d89a190c587c779a93d9c5589ede127b107c3c548612bdac45b6baae16b302f4",
       "terms/mechanism-hypothesis/index.html": "8d71c01e7a287a0364739134b7f7aec28b15a0b8ff8ac32d01b938efe80abc21",
       "terms/observability/index.html": "434d3b27ec4f180d409094724b59a84f1bab4d509efa007fb304fe4c4884ec8b",
-      "terms/observability-boundary/index.html": "24ec6da22592dc92d1abe9945c447692b41c7cc894c95ea1168354250f2402e4",
+      "terms/observability-boundary/index.html": "6efc8a05fc0e72739ff5a075caf16d3bf478c6a1e44b4112b31fc5aa57e31d6b",
       "terms/operational-trust/index.html": "e5873d31d35e31ca35cb896135a01a4a952709a87d84e94a31db4933daecf2b4",
-      "terms/organizational-dependency/index.html": "e0a6121c297f516b10a189633c97a37c45995b1541c6cd6ac465dd29d2a4cb08",
+      "terms/organizational-dependency/index.html": "f561d41656efcca029527184e8acf09ddd239e17b7d05b2debd16ff490ceb29f",
       "terms/outcomepurpose-divergence/index.html": "31fbc524f15c8ffa9184e536415c6eefbd8bbd5e1607a0de19d65f05fd7bbc77",
       "terms/purpose-preservation/index.html": "69ec30f3f0e296821e230a6e0b5c5f2fa124dfaec9e9051c6a931dc777f4b378",
       "terms/purposeful-continuity/index.html": "688c13b1973981563f313503a1e9187a9fc869a0ab392e0905fcbace8b5f09a6",
-      "terms/reference-environment-integrity/index.html": "529deef3ffa1dc31f9e2898aab87c6a43399c31c0be3b2b0ade22d4db02ede05",
+      "terms/reference-environment-integrity/index.html": "e89b08d7bee733188d57e1f7af55296cd09ecaff68faf121f6028c4639b3972b",
       "terms/sleight-of-hand-effect/index.html": "91621c4c4a241e493aae5b3328c7e5b7feccb293f1e7eec2f8424f336eacf0f2",
-      "terms/successor-assurance/index.html": "fb744374eb1b02a07df4e5d92c549b2d85d344ea318eef5489063cf6fd856b79",
+      "terms/successor-assurance/index.html": "b77b91d9cc6377d9387c952c0fbb6f7807074c854298564fb206a6d3fe48b147",
       "terms/system-level-autonomy/index.html": "d8f77c1a78d829d3a3064545bd446a85208b71338ad9bdc01c5604d429faf9e6",
-      "terms/trajectory-persistence/index.html": "9a846d1fa1b729969e741b56928c54ccf6bd4ccd85019f36409f821b8641691b"
+      "terms/trajectory-persistence/index.html": "0aa708aaaa976018d0c441dbb5d724837e0e9c2578f2aa493f41f1d0bd36a070"
     }
   }
 }
