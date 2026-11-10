@@ -4,6 +4,8 @@
 
 *An open vocabulary forum to collect and discuss terminology and meaning to populate a common curated glossary.*
 
+**Live Commons website:** [https://ai-governance-trust-commons.github.io/vocabulary-commons/](https://ai-governance-trust-commons.github.io/vocabulary-commons/)
+
 ## About the Commons
 
 The Governance and Trust Vocabulary Commons is an open collection and collaborative reference for concepts, terminology, and relationships used to describe AI-enabled human, organizational, and technical environments.
