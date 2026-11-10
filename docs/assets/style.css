@@ -130,10 +130,11 @@ a:hover { color: #182743; }
 @media(max-width:750px){.resource-grid{grid-template-columns:1fr}.resource-card{padding:19px}.resources-section{padding-top:43px}.resources-policy{display:block;margin-bottom:40px;padding-top:25px;padding-bottom:25px}.resources-promo{flex-direction:column;align-items:flex-start;padding-top:30px;padding-bottom:38px}.resources-promo>.button{width:100%}.resources-hero>p:not(.eyebrow){font-size:16px}}
 
 /* Event-chain research question: editorial guidance, not a new glossary entry. */
-.chain-promo{display:flex;align-items:center;justify-content:space-between;gap:36px;padding-top:39px;padding-bottom:44px;border-top:1px solid var(--line)}
+.chain-promo{display:flex;align-items:center;justify-content:space-between;gap:36px;padding-top:39px;padding-bottom:44px;border-top:3px solid var(--copper, #8b5637);border-bottom:1px solid var(--line);background:#f9f5ee}
 .chain-promo h2{font-size:clamp(1.7rem,2.7vw,2.25rem);margin-bottom:13px}
 .chain-promo p:not(.eyebrow){max-width:715px;font-size:15px;line-height:1.7;margin-bottom:10px}
-.chain-promo-note{font-size:12px!important;color:var(--muted);font-weight:700;margin-bottom:0!important}
+.chain-promo-status{font-weight:700;color:var(--ink)}
+.chain-promo-note{font-size:14px!important;color:var(--muted);font-weight:700;margin-bottom:0!important}
 .chain-promo>.button{flex:none}
 .chain-inquiry{scroll-margin-top:22px;padding-top:44px;padding-bottom:55px;margin-bottom:48px;border-top:3px solid var(--teal);border-bottom:1px solid var(--line);background:#f9f5ee}
 .chain-inquiry-intro{max-width:940px}

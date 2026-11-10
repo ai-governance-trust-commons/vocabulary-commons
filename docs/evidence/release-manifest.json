@@ -1,7 +1,7 @@
 {
   "dataset_version": "0.5.6",
   "presentation_version": "0.5.7",
-  "generated_at": "2026-11-10T22:06:44.782292+00:00",
+  "generated_at": "2026-11-10T22:09:41.732729+00:00",
   "evidence_count": 193,
   "source_count": 155,
   "withdrawn_ids": [
@@ -11,15 +11,15 @@
   "files_sha256": {
     "index.html": "4182bf15408570b56b1c38345b7111e563f8c8db9b031df00b0aa71067c39260",
     "evidence.json": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
-    "policy.html": "0f6fc02fb4bdbe9dfe07e29bd8743bbed3b20fc181c1a295b08012312bae782b",
+    "policy.html": "8bc44eec374a1e97075569d48ddec64e654a5b1da096ef117f4957543a6714ad",
     "evidence.js": "579a9b91580e83c4db5fac5bf040bee13971c1ee4c43bdbf5d33137658ebbad0",
     "evidence.css": "da46041ddea3bfee8858aac04345bb8d4f9998d117854f7e048ff9ce4460ccf1"
   },
-  "presentation_updated_at": "2026-11-10T22:06:44.782292+00:00",
+  "presentation_updated_at": "2026-11-10T22:09:41.732729+00:00",
   "machine_release": "0.5.5",
   "machine_contract_version": "1.0",
   "machine_catalog": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/catalog.json",
-  "machine_checksums_sha256": "942464f5caa90e509221467b9d2dfb4e7550dfc6caaecd4c55e869adca54b87b",
+  "machine_checksums_sha256": "127ad21698d762e615933f19af0d7722a1c96b8e185a8b82d704a78f34e84a86",
   "coverage_view": {
     "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/coverage/",
     "dataset_version": "0.5.6",
@@ -43,7 +43,7 @@
       "questions/feedback-and-interaction/index.html": "ac5567cc51cd3001e7475bbee409dc43176e0ea420557faada15dd3ced9412e4",
       "questions/governability-across-systems/index.html": "2ae003d9bd71f035016b8a08c2bc35a8ac00a35a26bedfffabeccc291eae4dc2",
       "questions/human-oversight/index.html": "174461fd4496a79b16809b555d0f8505f3fa83fb037ee9bf3b169f5aaf0fbfb6",
-      "questions/index.html": "551d5d42454fedd928bc78fa27d6d02c39683e2a0c7cea11eb56d31944ffc559",
+      "questions/index.html": "12d679c74f9918d8d66cb86b14d9c658e5ed13dc414ba1871091af69f003ab19",
       "questions/monitoring-and-visibility/index.html": "c9c5e013bacebc606481bddd2912624f0728a743ec2c3d7e309e04f52a924b12",
       "questions/paths.css": "a2763fc7bf596d1ea7cde6c3e21b2117f5be1cd99be4257fb66bf633419b558c",
       "questions/paths.js": "d2b084dc72bd337b0aa615dae73291aa32bd6852ce3d2a00841c5dbaee8ef398",
