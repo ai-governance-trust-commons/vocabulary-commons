@@ -4,7 +4,7 @@
   "dataset_version": "0.5.6",
   "machine_release": "0.5.5",
   "files": {
-    "evidence/machine/catalog.json": "c93d7dd7e0d7e8bbfdd2e211d028086de3875a1ef038550321cc603bbbd3fd9a",
+    "evidence/machine/catalog.json": "f4c06096e2680423f2f07d27824b620a58a0ff102c86d0814fbae9e923da5ae5",
     "evidence/machine/contract.md": "8c79aecd1288b202c31a24fd60d141c62f61b959072317b700606c826c9aa083",
     "evidence/machine/dataset.jsonld": "b3dd1c5a8f05a2af225662a6720de059d39dfb75a799f77fdafdc60af68f28dd",
     "evidence/machine/example-client.py": "888c8c0baa41b6928be75f516a490b2a52b712f47f4e641b7a037dbb65391e19",
@@ -13,7 +13,7 @@
     "evidence/machine/exports/sources.csv": "32d921cef0c316c5090fe824461534f215db0ad58d18b61638324087f4631920",
     "evidence/machine/exports/sources.ris": "5cfcb15ee561a98643ebd3ba5191181fd8a8e1a5a56e7af5aafcdf0f376c12c0",
     "evidence/machine/field-definitions.json": "8abf3acbc4150503794e7bb081c9f91811eb33b90fd6afbb0392a7e9b9f41d09",
-    "evidence/machine/index.html": "1d605b9e68be0377c9854907f9dd1ddd7257e7f3750b61104cdeae57a2edff09",
+    "evidence/machine/index.html": "0527af26a69b5705e53dbb664702bc43d385234ac18c8c0e38ee33ca173e80c0",
     "evidence/machine/interpretation.md": "f0640e54d185b09d2d2b4547193f7c06436a2bb47c89432d2b7bec5bde8f69aa",
     "evidence/machine/records/EVID-001.json": "a41225f095c7616c8c6697455a1d8a4407d99e1427d221f23efac811b0a69523",
     "evidence/machine/records/EVID-002.json": "e6833d58a9b3350e14876d1ba733affa701f3f941fffc182f555965695eb2016",

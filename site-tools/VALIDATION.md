@@ -43,3 +43,17 @@ The regression test builds twice in a disposable copy, verifies that public
 content stays byte-identical except timestamp/integrity metadata, and deliberately
 introduces version and navigation regressions to verify rejection. It does not
 change the working checkout's published files.
+
+For an intentional presentation PR that adds a page or changes navigation,
+keep the reviewed base and name each permitted path explicitly:
+
+```sh
+python site-tools/validate_release.py --baseline-ref BASE_COMMIT_SHA \
+  --allow-new-page docs/considerations/index.html \
+  --allow-navigation-page docs/index.html
+```
+
+Repeat `--allow-navigation-page` for each intentionally changed HTML page.
+These allowances do not permit removed pages, other added pages, or navigation
+changes on unlisted pages. Default evidence-only checks remain strict. After
+reviewed changes are committed, ordinary HEAD-based validation works unchanged.

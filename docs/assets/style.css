@@ -175,3 +175,27 @@ html{scroll-padding-top:110px}
  .nav-toggle{flex:none;min-height:44px}
  .site-header nav{position:absolute;top:100%;left:0;right:0;margin:0;padding:8px 20px 16px;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 5px 8px rgba(32,44,65,.12);max-height:calc(100vh - 92px);max-height:calc(100dvh - 92px);overflow-y:auto;overscroll-behavior:contain}
 }
+
+/* A wider navigation set uses the existing compact menu on tablets too. */
+@media(max-width:1250px){
+ html{scroll-padding-top:92px}
+ .masthead{position:relative;min-height:72px;flex-wrap:wrap;padding-top:11px;padding-bottom:11px}
+ .brand{min-width:0;flex:1;gap:8px}.brand-name{font-size:15px}.mark{width:32px;height:32px}
+ .nav-toggle{display:block;flex:none;min-height:44px}
+ .site-header nav{display:none;position:absolute;top:100%;left:0;right:0;flex-basis:100%;flex-direction:column;align-items:stretch;margin:0;padding:8px 20px 16px;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 5px 8px rgba(32,44,65,.12);max-height:calc(100vh - 92px);max-height:calc(100dvh - 92px);overflow-y:auto;overscroll-behavior:contain}
+ .site-header nav.open{display:flex}.site-header nav a{padding:12px 3px;border-bottom:1px solid var(--line);font-size:15px}
+}
+.commons-guide{padding-bottom:24px}
+.guide-table{max-width:100%;overflow-x:auto;margin:20px 0 35px;border:1px solid var(--line);border-radius:5px;background:var(--surface)}
+.guide-table:focus-visible{outline:3px solid #ed9b42;outline-offset:3px}
+.guide-table table{border-collapse:collapse;width:100%;min-width:600px;font-size:15px;line-height:1.6}
+.guide-table th,.guide-table td{padding:15px 18px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.guide-table thead{background:var(--pale)}.guide-table th[scope=row]{width:23%}
+.consideration-intro{max-width:850px}.consideration-status{padding-top:25px;padding-bottom:24px;border-left:3px solid var(--teal);background:var(--pale)}
+.consideration-status h2{border:0;padding-top:0}.consideration-list{max-width:1080px;padding-bottom:12px}
+.consideration{padding:48px 0 30px;border-bottom:1px solid var(--line)}
+.consideration h2{font-size:clamp(1.9rem,3vw,2.7rem);max-width:900px;margin-bottom:23px}
+.consideration h3{font-size:20px;margin:27px 0 12px}.consideration p,.consideration li{max-width:850px}
+.consideration ul{padding-left:23px}.consideration li{padding-left:5px;margin-bottom:8px}
+.consideration-limit{font-size:14px;border-left:3px solid var(--teal);padding:13px 18px;background:var(--pale)}
+@media(max-width:750px){.consideration{padding-top:34px}.guide-table th,.guide-table td{padding:12px}.consideration-status{margin-left:20px;margin-right:20px;padding-left:18px;padding-right:18px}}
