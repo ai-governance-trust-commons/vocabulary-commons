@@ -7,6 +7,8 @@ def read(p):return json.loads(p.read_text())
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--baseline-ref', default='HEAD', help='Reviewed navigation baseline; use the PR base SHA when reviewing a committed branch')
+parser.add_argument('--allow-new-page', action='append', default=[], help='Explicit repository-relative HTML path added by a reviewed presentation change; repeat per page')
+parser.add_argument('--allow-navigation-page', action='append', default=[], help='Explicit repository-relative HTML path whose navigation is intentionally updated; repeat per page')
 args=parser.parse_args()
 def base(p):return subprocess.check_output(['git','show','b4d26d5:'+str(p.relative_to(R))],cwd=R)
 d=read(D/'evidence/evidence.json');old=json.loads(base(D/'evidence/evidence.json'));checks=[]
@@ -57,13 +59,18 @@ from urllib.parse import urlsplit,unquote
 pages=list(D.rglob('*.html'));broken=[];nav_changed=[]
 baseline_pages=set(subprocess.check_output(['git','ls-tree','-r','--name-only',args.baseline_ref,'--','docs'],cwd=R,text=True).splitlines())
 baseline_pages={p for p in baseline_pages if p.endswith('.html')}
-check('HTML page inventory matches reviewed baseline', {str(p.relative_to(R)) for p in pages}==baseline_pages)
+actual_pages={str(p.relative_to(R)) for p in pages}
+allowed_new=set(args.allow_new_page);allowed_nav=set(args.allow_navigation_page)
+check('Explicit presentation allowances name existing HTML pages',allowed_new<=actual_pages and allowed_nav<=actual_pages and not allowed_new&baseline_pages)
+check('HTML page inventory matches reviewed baseline plus explicit additions',actual_pages==baseline_pages|allowed_new)
 prior_manifest=json.loads(subprocess.check_output(['git','show',args.baseline_ref+':docs/evidence/release-manifest.json'],cwd=R))
 check('Presentation version preserved',m['presentation_version']==prior_manifest['presentation_version'])
 for p in pages:
  soup=BeautifulSoup(p.read_text(),'html.parser')
- prior=BeautifulSoup(subprocess.check_output(['git','show',args.baseline_ref+':'+str(p.relative_to(R))],cwd=R),'html.parser')
- if [str(n) for n in soup.find_all('nav')]!=[str(n) for n in prior.find_all('nav')]:nav_changed.append(str(p))
+ relative=str(p.relative_to(R))
+ if relative in baseline_pages and relative not in allowed_nav:
+  prior=BeautifulSoup(subprocess.check_output(['git','show',args.baseline_ref+':'+relative],cwd=R),'html.parser')
+  if [str(n) for n in soup.find_all('nav')]!=[str(n) for n in prior.find_all('nav')]:nav_changed.append(str(p))
  for node in soup.find_all(['a','script','link']):
   u=node.get('href') or node.get('src') or '';sp=urlsplit(u)
   if not u or sp.scheme or sp.netloc or u.startswith('#'):continue

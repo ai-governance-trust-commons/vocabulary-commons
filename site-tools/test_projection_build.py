@@ -30,9 +30,20 @@ with tempfile.TemporaryDirectory(prefix='commons-build-test-') as tmp:
     result = subprocess.run([sys.executable, str(copy/'site-tools/validate_release.py')], capture_output=True, text=True)
     assert result.returncode != 0 and 'Presentation version preserved' in result.stderr
     target.write_bytes(good)
+    # Presentation exceptions are explicit and cannot hide unlisted additions.
+    extra = docs/'presentation-test.html'
+    extra.write_bytes((docs/'index.html').read_bytes())
+    command = [sys.executable, str(copy/'site-tools/validate_release.py')]
+    result = subprocess.run(command, capture_output=True, text=True)
+    assert result.returncode != 0 and 'HTML page inventory' in result.stderr
+    subprocess.run(command + ['--allow-new-page', 'docs/presentation-test.html'], check=True, capture_output=True)
+    result = subprocess.run(command + ['--allow-new-page', 'docs/missing.html'], capture_output=True, text=True)
+    assert result.returncode != 0 and 'allowances name existing HTML pages' in result.stderr
+    extra.unlink()
     page = docs/'resources/index.html'
     good = page.read_text()
     page.write_text(good.replace('<nav ', '<nav data-regression-test="changed" ', 1))
     result = subprocess.run([sys.executable, str(copy/'site-tools/validate_release.py')], capture_output=True, text=True)
     assert result.returncode != 0 and 'navigation markup unchanged' in result.stderr
+    subprocess.run(command + ['--allow-navigation-page', 'docs/resources/index.html'], check=True, capture_output=True)
 print('PASS: two builds preserve all public content; version and navigation regressions rejected.')
