@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "f40b5230fc052016c7bd747d6cf1221fa280b64dc3afd57f9b19078c0f9bc9d2",
+  "dataset_sha256": "192dba8105498f7c42d45e57ae92beb1b5cbfe852c852fa714e7d4977b7b95de",
   "id": "SRC-080",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-080.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
