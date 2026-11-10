@@ -1,7 +1,7 @@
 .standing-context{background:#f4f2e9;border-left:3px solid #9b7038;padding:16px 20px;margin:24px 0;font-size:14px;line-height:1.65}.standing-context p{margin:6px 0}.standing-context a{overflow-wrap:anywhere}.card-reading-aid{border-top:1px solid var(--line);padding-top:12px;margin-top:18px;font-size:13px;line-height:1.6}.card-reading-aid p{font-size:13px;margin:7px 0}.current-evidence-example{border:1px solid var(--line);background:#fff;padding:22px;margin:28px 0;border-radius:4px;font-size:15px}.current-evidence-example h2{font-size:22px}.current-evidence-example p{overflow-wrap:anywhere}.version-guide{margin-top:0}.record-publication{font-size:11px!important;font-weight:500;color:#425363;line-height:1.5;max-width:700px;margin-top:6px!important}.term-detail #linked-evidence,.term-detail #standing-context,.method #classification-guide,.method #references{scroll-margin-top:25px}
 @media(max-width:600px){.standing-context,.current-evidence-example{padding:17px}.card-reading-aid{font-size:13px}}
 
-/* Cards now contain several distinct links; remove the earlier full-card hit target. */
-.term-card h2 a::after{content:none}.term-card{cursor:default}.term-card p.citation-bearing,.term-card .card-reading-aid p{display:block;-webkit-line-clamp:unset;-webkit-box-orient:initial;overflow:visible}
+/* Keep the full-card term link; raise distinct links above its overlay. */
+.term-card h2 a::after{content:"";z-index:1}.term-card{cursor:pointer}.term-card a:not(h2 a){position:relative;z-index:2}.term-card p.citation-bearing,.term-card .card-reading-aid p{display:block;-webkit-line-clamp:unset;-webkit-box-orient:initial;overflow:visible}
 
 .term-detail .current-evidence-example p{font-size:16px;line-height:1.7}.term-detail .related-evidence>p{font-size:15px;line-height:1.7}.term-detail .related-evidence li p{font-size:14px;line-height:1.65}

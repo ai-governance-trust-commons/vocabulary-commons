@@ -49,6 +49,24 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             expect(items).to_have_count(10)
             page.locator('#vocab-filter').select_option('')
             expect(items).to_have_count(35)
+            # The arrow and card padding open the term; nested evidence links stay independent.
+            card = page.locator('.term-card').first
+            term_url = card.locator('h2 a').get_attribute('href')
+            arrow_box = card.locator('.card-row > span').bounding_box()
+            card_box = card.bounding_box()
+            card.click(position={'x': arrow_box['x'] - card_box['x'] + arrow_box['width']/2,
+                                 'y': arrow_box['y'] - card_box['y'] + arrow_box['height']/2})
+            expect(page).to_have_url(origin + '/terms/' + term_url)
+            visit(page, '/terms/')
+            card = page.locator('.term-card').first
+            card.click(position={'x': 8, 'y': 8})
+            expect(page).to_have_url(origin + '/terms/' + term_url)
+            visit(page, '/terms/')
+            evidence_link = page.locator('.term-card').first.locator('.card-reading-aid a')
+            evidence_url = evidence_link.get_attribute('href')
+            evidence_link.click()
+            expect(page).to_have_url(origin + '/terms/' + evidence_url)
+            visit(page, '/terms/')
             page.screenshot(path=str(output/'glossary.png'))
             visit(page, '/terms/chaperoning/')
             page.screenshot(path=str(output/'term.png'))
