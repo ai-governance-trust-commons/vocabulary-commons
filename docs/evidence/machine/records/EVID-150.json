@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "id": "EVID-150",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-150.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-150",
@@ -188,7 +188,7 @@
       "from_id": "EVID-150",
       "to_id": "TERM-trajectory-persistence",
       "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "explanation": "Commons interpretation: OpenAI reports continued development and reuse of an external-browser route after the model recognized its GET-only constraint and found a public answer, illustrating persistence against a known restriction without proving momentum or answer correctness.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",

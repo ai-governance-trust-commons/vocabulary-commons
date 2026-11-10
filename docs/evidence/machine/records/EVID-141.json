@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "id": "EVID-141",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-141.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-141",
@@ -211,7 +211,7 @@
       "from_id": "EVID-141",
       "to_id": "TERM-reference-environment-integrity",
       "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "explanation": "Commons interpretation: OpenAI's versioned correction notices identify a shared flawed proof dependency across manuscripts, illustrating why source version, dependency and verification status matter to assurance judgments without independently validating the mathematics or reconstructing AI-to-AI reuse.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",

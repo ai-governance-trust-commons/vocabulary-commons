@@ -3,7 +3,7 @@
   "contract_version": "1.0",
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
-  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
+  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
   "id": "EVID-040",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-040.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-040",
@@ -23,12 +23,10 @@
     "source_locations": {
       "SRC-032": "What’s happening; Downstream customer access"
     },
-    "limitations": "Successful authentication does not prove data theft. Microsoft reports most targeting failed. Defender response latency and a human-only comparator are not measured; horizon compression is indicated, not causally established.",
+    "limitations": "Successful authentication does not prove data theft. Microsoft reports most targeting failed. Defender response latency and a human-only comparator are not measured; horizon compression is indicated, not causally established. Reported intrusion speed and response pressure do not establish whether the defining chaperoning conditions were present or failed. Compromised application permissions do not demonstrate that victim organizations materially depended on AI-enabled operations.",
     "open_questions": "Which conclusions survive independent access to complete records, controls and counterfactual tests?",
     "keywords": [
-      "Horizon compression",
-      "Chaperoning",
-      "Organizational dependency"
+      "Horizon compression"
     ],
     "support_assessment": "Attributed bounded finding; publication inclusion does not certify truth or completeness. New observation, not present in baseline 041. Repeated articles or alternate formats are not independent corroboration.",
     "dispute_status": "Bounded correction checks; known limitations retained, no absence guarantee",
@@ -180,46 +178,12 @@
   ],
   "terms": [
     {
-      "id": "TERM-chaperoning",
-      "name": "Chaperoning",
-      "definition": "The continuing supervisory activity of independently observing consequential behavior, exercising informed judgment, and intervening effectively when appropriate. This requires access, competence, authority, and an actual ability to alter outcomes—not nominal participation or an agent merely stating that an action is inappropriate.",
-      "vocabulary": "Working",
-      "claim": "Foundation",
-      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#chaperoning",
-      "baseline": "v1.0.2",
-      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
       "id": "TERM-horizon-compression",
       "name": "Horizon compression",
       "definition": "A process in which the time available to identify, interpret, decide about, and intervene in consequential activity becomes shorter relative to the time intervention requires. It is an intervention-window problem, not a general label for every obstacle to correcting an agent.",
       "vocabulary": "Extended",
       "claim": "Indicated",
       "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#horizon-compression",
-      "baseline": "v1.0.2",
-      "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "TERM-organizational-dependency",
-      "name": "Organizational dependency",
-      "definition": "Material reliance by an organization on an AI-enabled capability to conduct operations, make decisions, or sustain service. Consequences depend on alternatives, retained expertise, and capacity to continue or recover without the capability.",
-      "vocabulary": "Extended",
-      "claim": "Foundation",
-      "url": "https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/2110ded184e2273d207367eb6eb909582fb934bf/FOUNDING_GLOSSARY_v1.0.2.md#organizational-dependency",
       "baseline": "v1.0.2",
       "blob_sha": "2e5a19de39653dac037b1c568f4c654870e911ba",
       "publication_record": {
@@ -237,35 +201,7 @@
       "from_id": "EVID-040",
       "to_id": "TERM-horizon-compression",
       "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-096",
-      "from_id": "EVID-040",
-      "to_id": "TERM-chaperoning",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-097",
-      "from_id": "EVID-040",
-      "to_id": "TERM-organizational-dependency",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "explanation": "Commons interpretation: Microsoft’s account indicates horizon compression where rapid ARTEX-linked compromise left little time for coordinated remediation, although neither defender latency nor a matched non-AI counterfactual is measured.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
