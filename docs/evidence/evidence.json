@@ -22255,7 +22255,7 @@
       "from_id": "EVID-195",
       "to_id": "TERM-governability",
       "relationship_type": "illustrates",
-      "explanation": "Commons interpretation: The reported need for separate on-chain revocation illustrates how the ability to constrain and recover a consequential process depends on the reach of corrective authority. Operational shutdown did not itself revoke delegated rights; eventual revocation bounds the finding.",
+      "explanation": "Commons interpretation: Binance's reported shutdown/revocation mismatch illustrates a boundary in corrective authority over a consequential process: operational shutdown did not itself revoke on-chain delegation. Separate revocation eventually succeeded. This technology-neutral finding does not establish continued AI activity or permanent uncontrollability.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
