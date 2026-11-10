@@ -858,14 +858,18 @@
       ],
       "recorded_family_count": 4,
       "sources_without_family": [],
-      "qualifying_finding_ids": [],
+      "qualifying_finding_ids": [
+        "EVID-181"
+      ],
       "challenging_finding_ids": [],
       "relationships": {
         "illustrates": [
           "EVID-058",
           "EVID-145",
           "EVID-151",
-          "EVID-152",
+          "EVID-152"
+        ],
+        "qualifies": [
           "EVID-181"
         ]
       }
@@ -1814,6 +1818,7 @@
         "EVID-125",
         "EVID-127",
         "EVID-128",
+        "EVID-181",
         "EVID-194"
       ],
       "challenging_finding_ids": [],
@@ -1857,7 +1862,6 @@
           "EVID-156",
           "EVID-157",
           "EVID-179",
-          "EVID-181",
           "EVID-191",
           "EVID-192",
           "EVID-193"
@@ -1878,6 +1882,7 @@
           "EVID-125",
           "EVID-127",
           "EVID-128",
+          "EVID-181",
           "EVID-194"
         ]
       }
@@ -2376,10 +2381,9 @@
         "EVID-103",
         "EVID-108",
         "EVID-148",
-        "EVID-150",
-        "EVID-181"
+        "EVID-150"
       ],
-      "finding_count": 8,
+      "finding_count": 7,
       "source_ids": [
         "SRC-021",
         "SRC-023",
@@ -2388,8 +2392,7 @@
         "SRC-070",
         "SRC-075",
         "SRC-113",
-        "SRC-115",
-        "SRC-144"
+        "SRC-115"
       ],
       "recorded_family_ids": [
         "AISI_ASSESS",
@@ -2398,11 +2401,10 @@
         "OAI_SERVER_SECRETS",
         "anthropic-unintended-actions-oct 2026",
         "https://openai.com/index/safety-alignment-long-horizon-models",
-        "rehberger-gemini-delayed-2024",
         "study-arxiv-2609.38411",
         "study-arxiv-2610.04083"
       ],
-      "recorded_family_count": 9,
+      "recorded_family_count": 8,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-103",
@@ -2415,8 +2417,7 @@
           "EVID-028",
           "EVID-049",
           "EVID-148",
-          "EVID-150",
-          "EVID-181"
+          "EVID-150"
         ],
         "qualifies": [
           "EVID-103",
@@ -2441,7 +2442,7 @@
   },
   "format_version": "1.0",
   "coverage_presentation_version": "0.5.6",
-  "dataset_sha256": "192dba8105498f7c42d45e57ae92beb1b5cbfe852c852fa714e7d4977b7b95de",
+  "dataset_sha256": "15e30a2845b93f4ba28daac952f11a8427cd3f2b92cf0bd96b009c06baf96dce",
   "basis": "Explicit evidence-to-term relationships in the current published dataset. Withdrawals excluded. Counts describe recorded curation, not truth, completeness or independence.",
   "family_method": "Distinct recorded independence_group values across all sources cited by each term’s linked findings. Missing groups are disclosed separately; source-dependency relationships may identify further dependence.",
   "source_dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json"
