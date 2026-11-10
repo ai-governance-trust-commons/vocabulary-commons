@@ -78,6 +78,26 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             expect(mobile.locator('#primary-nav')).to_be_visible()
             expect(mobile.locator('.nav-toggle')).to_have_attribute('aria-expanded', 'true')
             mobile.screenshot(path=str(output/'mobile.png'), full_page=True)
+            # Long pages keep section navigation reachable without returning to the top.
+            for target in [page, mobile]:
+                for path in ['/terms/', '/evidence/']:
+                    visit(target, path)
+                    target.evaluate("window.scrollTo({top:document.body.scrollHeight,behavior:'instant'})")
+                    expect(target.locator('.site-header')).to_be_in_viewport()
+                    assert abs(target.locator('.site-header').bounding_box()['y']) < 1
+            mobile.locator('.nav-toggle').click()
+            expect(mobile.locator('#primary-nav')).to_be_visible()
+            mobile.keyboard.press('Escape')
+            expect(mobile.locator('.nav-toggle')).to_have_attribute('aria-expanded', 'false')
+            expect(mobile.locator('.nav-toggle')).to_be_focused()
+            mobile.locator('.nav-toggle').click()
+            mobile.locator('#primary-nav a').filter(has_text='Glossary').click()
+            expect(mobile).to_have_url(origin + '/terms/')
+            expect(mobile.locator('.nav-toggle')).to_have_attribute('aria-expanded', 'false')
+            mobile.set_viewport_size({'width':320,'height':568})
+            mobile.locator('.nav-toggle').click()
+            assert mobile.evaluate('document.documentElement.scrollWidth <= window.innerWidth')
+            mobile.screenshot(path=str(output/'mobile-navigation.png'))
             assert not errors, errors
             browser.close()
             print('PASS: HTTP rendering, search, filters, mobile navigation; no JavaScript errors.')
