@@ -59,7 +59,12 @@ def refresh(docs):
         policy_url = 'https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/main/EDITORIAL_REVIEW.md'
         local_policy = posixpath.relpath('participate/curation', page.parent.relative_to(docs).as_posix()) + '/'
         # Keep the explicitly labeled source link external; ordinary policy routes stay on site.
-        text = text.replace('href="' + policy_url + '"><span class="feature-number">REVIEW', 'href="' + local_policy + '"><span class="feature-number">REVIEW')
+        def policy_link(match):
+            link = match[0]
+            if 'data-policy-source' in link:
+                return link
+            return link.replace('href="' + policy_url + '"', 'href="' + local_policy + '"').replace('↗', '→')
+        text = re.sub(r'<a\b[^>]*href="' + re.escape(policy_url) + r'"[^>]*>[\s\S]*?</a>', policy_link, text)
         text = text.replace('Editorial review policy ↗', 'Editorial review policy →')
         text = text.replace('href="' + policy_url + '">Editorial policy</a>', 'href="' + local_policy + '">Editorial policy</a>')
         text, count = re.subn(r'<nav\b(?=[^>]*\bid="primary-nav")[^>]*>[\s\S]*?</nav>', lambda _: navigation(page, docs), text)
@@ -87,7 +92,7 @@ def refresh_curation(docs):
     page = docs/'participate/curation/index.html'
     page.parent.mkdir(parents=True, exist_ok=True)
     policy_url = 'https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/main/EDITORIAL_REVIEW.md'
-    page.write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editorial Review and Curation | Vocabulary Commons</title><link rel="canonical" href="https://ai-governance-trust-commons.github.io/vocabulary-commons/participate/curation/"><link rel="stylesheet" href="../../assets/style.css"></head><body><a class="skip" href="#content">Skip to main content</a>' + header + '<main id="content" class="wrap prose method"><p class="eyebrow">Participate · Editorial guidance</p><p><a href="../">← Participate in the Commons</a></p><div id="curation-text" data-source-sha256="' + hashlib.sha256(source).hexdigest() + '">' + rendered + '</div><p><a href="' + policy_url + '" rel="noopener noreferrer">View policy source on GitHub ↗</a></p></main>' + footer + '<script defer src="../../assets/app.js"></script></body></html>')
+    page.write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editorial Review and Curation | Vocabulary Commons</title><link rel="canonical" href="https://ai-governance-trust-commons.github.io/vocabulary-commons/participate/curation/"><link rel="stylesheet" href="../../assets/style.css"></head><body><a class="skip" href="#content">Skip to main content</a>' + header + '<main id="content" class="wrap prose method"><p class="eyebrow">Participate · Editorial guidance</p><p><a href="../">← Participate in the Commons</a></p><div id="curation-text" data-source-sha256="' + hashlib.sha256(source).hexdigest() + '">' + rendered + '</div><p><a data-policy-source href="' + policy_url + '" rel="noopener noreferrer">View policy source on GitHub ↗</a></p></main>' + footer + '<script defer src="../../assets/app.js"></script></body></html>')
     sitemap = docs/'sitemap.xml'
     text = sitemap.read_text()
     url = 'https://ai-governance-trust-commons.github.io/vocabulary-commons/participate/curation/'

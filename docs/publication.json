@@ -1,6 +1,6 @@
 {
   "format_version": "1.0",
-  "content_fingerprint_sha256": "9aa542bb9d40be39e1bc1f2bed965c541278e8051d84ae9524e67e7288817971",
+  "content_fingerprint_sha256": "b31aef9598cf4287403990cfb043bee65b43cfdc1400fcad945fdd9e9a9aacc9",
   "scope": "Hashes of published HTML, CSS, JavaScript, canonical evidence, founding glossary JSON and evidence CSV. Excludes this file and volatile integrity/timestamp metadata. Identity is not independent authenticity.",
   "files_sha256": {
     "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
@@ -15,11 +15,11 @@
     "evidence/index.html": "97421a35e677d1d63c4a3a2aa2a44f53111224d0b3af50ada0f00ec467d67914",
     "evidence/machine/index.html": "9389aaa28e23c39f4f30c333c38a937c33d8a0aea0922b74e55a240b0d629433",
     "evidence/policy.css": "688473ae4f12b1bfa46862339aa6e95249593be998ee7ccefb3c2e2ce78935b6",
-    "evidence/policy.html": "77d4f9167e4ae0c479635960cb1d383500505f3a92120784b5820495d1f502a2",
+    "evidence/policy.html": "b845f1c9c874e2ded1c05a9719cae25a834f616f9c38f3ecb90403aaf20b36aa",
     "index.html": "d4c95b1f5e19039c2a37c4feaf7e713f92098cfd8789df031c44c30d2f66f789",
     "method/index.html": "08fabfb92fc1ac89a0327ae34fee2b2aebd0acc1544d2bdfbba68f126b06737a",
-    "participate/curation/index.html": "1ed1586c7b473daf9fe3eeae38ec3e252e0ee69be9b6a09340cc37bd7e522a1b",
-    "participate/index.html": "839a9831fccadb9cd31e0ba32f0d66b0b8b4c77a9052976ac2084d91d0987749",
+    "participate/curation/index.html": "b73aae93d84750701b8bbf88a890101ef170193030a8d95ffc7a8de6eeb89e88",
+    "participate/index.html": "7933160573116f088f677f1adfcb50f45d3423aa618e08c468b8adbf2703dffc",
     "questions/barriers-to-action/index.html": "83b8abfd055c032b4d2ed9edf69c16cde5ccbd68884e8bd7f1fb18f8e47c40e8",
     "questions/change-and-continuity/index.html": "8fafe2013e99ec108330740ed408d6f72bf6f71b81824cddae6df884487c0ab3",
     "questions/event-chains/index.html": "de9fb4b2e108dfc82a99aa38037d867dd9667e36626f5afe2f8ca5834813cb85",

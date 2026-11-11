@@ -4,7 +4,7 @@
   "dataset_version": "0.5.6",
   "machine_release": "0.5.5",
   "files": {
-    "evidence/machine/catalog.json": "ee06af8c87ad148a593164edf9be1e3041fdeeaf0583413c807ea56fc92e42dd",
+    "evidence/machine/catalog.json": "aa4c90b0a71b7532b55242e494f7644139a2510d8b04d0dd433ab85707ddf766",
     "evidence/machine/contract.md": "21a66aa3105d270ccefd6b23e4241ab0b39fdae977447b9fe4062d4cbb66feab",
     "evidence/machine/dataset.jsonld": "b3dd1c5a8f05a2af225662a6720de059d39dfb75a799f77fdafdc60af68f28dd",
     "evidence/machine/example-client.py": "888c8c0baa41b6928be75f516a490b2a52b712f47f4e641b7a037dbb65391e19",

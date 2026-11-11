@@ -118,6 +118,8 @@ for p in pages:
   if [str(n) for n in soup.find_all('nav')]!=[str(n) for n in prior.find_all('nav')]:nav_changed.append(str(p))
  for node in soup.find_all(['a','script','link']):
   u=node.get('href') or node.get('src') or '';sp=urlsplit(u)
+  if u=='https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/main/EDITORIAL_REVIEW.md':
+   check('Only an explicitly labeled policy-source link goes to GitHub',p==D/'participate/curation/index.html' and node.has_attr('data-policy-source'))
   if not u or sp.scheme or sp.netloc or u.startswith('#'):continue
   if not (p.parent/unquote(sp.path)).resolve().exists():broken.append((str(p),u))
 check(f'All {len(pages)} HTML pages have valid local targets: {broken}',not broken)
