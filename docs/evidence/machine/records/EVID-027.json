@@ -2,8 +2,8 @@
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
   "machine_release": "0.5.5",
-  "dataset_version": "0.5.6",
-  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
+  "dataset_version": "0.5.6-review.1",
+  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
   "id": "EVID-027",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-027.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-027",
@@ -158,20 +158,6 @@
       "to_id": "TERM-observability-boundary",
       "relationship_type": "illustrates",
       "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
-      "publication_record": {
-        "status": "Provisionally published",
-        "prepared_by": "Mike — AI assistant",
-        "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
-      }
-    },
-    {
-      "id": "REL-065",
-      "from_id": "EVID-027",
-      "to_id": "EVID-005",
-      "relationship_type": "qualifies",
-      "explanation": "Additional source-attributed observation qualifies the existing account without rewriting its standing or history.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",

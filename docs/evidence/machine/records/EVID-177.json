@@ -2,8 +2,8 @@
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
   "machine_release": "0.5.5",
-  "dataset_version": "0.5.6",
-  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
+  "dataset_version": "0.5.6-review.1",
+  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
   "id": "EVID-177",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-177.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-177",
@@ -84,7 +84,7 @@
         "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
         "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
         "dispute_check_date": null,
-        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. Earlier MM1 bounded-search claims refer to a private working briefing that is not published with this dataset; no public search log, query list or results are available here to audit those checks. The reason for withholding the briefing is not recorded. Those claims are not treated as an auditable dispute clearance; the public source locators and inspection attribution are retained."
       },
       "preservation": {
         "status": "Link-only; no source copy captured",

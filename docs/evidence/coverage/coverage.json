@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.6",
+  "dataset_version": "0.5.6-review.1",
   "terms": [
     {
       "id": "TERM-ai-enabled-capability",
@@ -839,11 +839,10 @@
       "finding_ids": [
         "EVID-058",
         "EVID-145",
-        "EVID-151",
         "EVID-152",
         "EVID-181"
       ],
-      "finding_count": 5,
+      "finding_count": 4,
       "source_ids": [
         "SRC-039",
         "SRC-111",
@@ -859,17 +858,18 @@
       "recorded_family_count": 4,
       "sources_without_family": [],
       "qualifying_finding_ids": [
+        "EVID-058",
+        "EVID-145",
         "EVID-181"
       ],
       "challenging_finding_ids": [],
       "relationships": {
         "illustrates": [
-          "EVID-058",
-          "EVID-145",
-          "EVID-151",
           "EVID-152"
         ],
         "qualifies": [
+          "EVID-058",
+          "EVID-145",
           "EVID-181"
         ]
       }
@@ -2438,7 +2438,7 @@
   },
   "format_version": "1.0",
   "coverage_presentation_version": "0.5.6",
-  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
+  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
   "basis": "Explicit evidence-to-term relationships in the current published dataset. Withdrawals excluded. Counts describe recorded curation, not truth, completeness or independence.",
   "family_method": "Distinct recorded independence_group values across all sources cited by each term’s linked findings. Missing groups are disclosed separately; source-dependency relationships may identify further dependence.",
   "source_dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json"

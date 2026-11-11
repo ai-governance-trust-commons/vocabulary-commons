@@ -1,10 +1,12 @@
 'use strict';
 (() => {
   const data = JSON.parse(document.getElementById('data').textContent);
+  const inspection = JSON.parse(document.getElementById('inspection-data').textContent);
+  const inspectionById = new Map(inspection.sources.map(entry => [entry.source_id, entry]));
   const byId = new Map([...data.sources, ...data.cases, ...data.terms, ...data.evidence].map(r => [r.id, r]));
   const termEdges = data.relationships.filter(r => r.to_id.startsWith('TERM-') && byId.has(r.from_id));
   const selected = new Set();
-  const ids = ['search', 'term-filter', 'category-filter', 'publisher-filter', 'relation-filter', 'year-from', 'year-to', 'sort-order', 'group-family'];
+  const ids = ['search', 'term-filter', 'category-filter', 'publisher-filter', 'relation-filter', 'inspection-filter', 'year-from', 'year-to', 'sort-order', 'group-family'];
   const controls = Object.fromEntries(ids.map(id => [id, document.getElementById(id)]));
   const box = document.getElementById('items');
   const noticeBox = document.getElementById('withdrawals');
@@ -17,7 +19,7 @@
     const details = card?.querySelector('details');
     if (details) details.open = !details.open;
   });
-  const fields = {search: 'q', 'term-filter': 'term', 'category-filter': 'category', 'publisher-filter': 'publisher', 'relation-filter': 'relation', 'year-from': 'from', 'year-to': 'to', 'sort-order': 'sort'};
+  const fields = {search: 'q', 'term-filter': 'term', 'category-filter': 'category', 'publisher-filter': 'publisher', 'relation-filter': 'relation', 'inspection-filter': 'inspection', 'year-from': 'from', 'year-to': 'to', 'sort-order': 'sort'};
   let visible = [];
   const base = 'https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/';
   const el = (tag, text, parent, cls) => {
@@ -149,6 +151,7 @@
     else if ((term || relation) && !edges(r.id).some(e => (!term || e.to_id === term) && (!relation || e.relationship_type === relation))) return false;
     if (controls['category-filter'].value && r.evidence_standing_label !== controls['category-filter'].value) return false;
     if (controls['publisher-filter'].value && !sources(r).some(s => s.publisher === controls['publisher-filter'].value)) return false;
+    if (controls['inspection-filter'].value && !r.source_ids.some(id => inspectionById.get(id).basis === controls['inspection-filter'].value)) return false;
     const from = controls['year-from'].value, to = controls['year-to'].value;
     if ((from || to) && !years(r).some(y => (!from || y >= Number(from)) && (!to || y <= Number(to)))) return false;
     return true;
@@ -216,9 +219,11 @@
       const section = el('div', undefined, details, 'source-entry');
       link(s.title, s.url, section);
       el('p', (s.authors?.length ? s.authors.join(', ') : s.issuing_body || s.publisher) + ' · ' + s.publisher, section);
-      el('p', 'Published: ' + (s.publication_date || 'not established') + ' · Source examined: ' + s.access_date, section);
+      el('p', 'Published: ' + (s.publication_date || 'not established') + ' · Recorded source access: ' + s.access_date, section);
       el('p', 'Supporting location: ' + r.source_locations[s.id], section);
       el('p', s.version_note, section);
+      const annotation = inspectionById.get(s.id);
+      el('p', 'Inspection basis: ' + inspection.basis_labels[annotation.basis] + '. ' + annotation.basis_note, section);
       el('p', 'Source inspection: ' + s.verification.status + '. ' + s.verification.scope, section);
       el('p', 'Independent corroboration: ' + s.verification.independent_corroboration, section);
       el('p', 'Disputes: ' + s.verification.dispute_status, section);
@@ -283,7 +288,7 @@
     }
     const invalidRange = controls['year-from'].value && controls['year-to'].value && Number(controls['year-from'].value) > Number(controls['year-to'].value);
     document.getElementById('count').textContent = invalidRange ? 'The starting publication year must be no later than the ending year.' : visible.length + ' of ' + data.evidence.length + ' published evidence records';
-    const active = ['term-filter', 'category-filter', 'publisher-filter', 'relation-filter', 'year-from', 'year-to'].filter(id => controls[id].value).length;
+    const active = ['term-filter', 'category-filter', 'publisher-filter', 'relation-filter', 'inspection-filter', 'year-from', 'year-to'].filter(id => controls[id].value).length;
     document.getElementById('filter-label').textContent = 'Filter the collection' + (active ? ' · ' + active + ' active' : '');
     document.getElementById('family-guidance').hidden = !controls['group-family'].checked;
     box.replaceChildren(rendered);
@@ -316,8 +321,8 @@
   const cell = value => { let s = String(value ?? ''); if (/^[\s]*[=+@-]/.test(s)) s = "'" + s; return '"' + s.replace(/"/g, '""') + '"'; };
   const chosen = () => data.evidence.filter(r => selected.has(r.id));
   document.getElementById('export-csv').addEventListener('click', () => {
-    const rows = [['Record ID', 'Finding title', 'Source-reported observation', 'Limitations', 'Commons interpretation', 'Reporting category', 'Publication status', 'Independent verification', 'Source titles', 'Authors', 'Original source URLs', 'Publication dates', 'Supporting locations', 'Source family IDs', 'Record URL', 'Dataset version']];
-    for (const r of chosen()) rows.push([r.id, r.title, r.observation, r.limitations, r.support_assessment, r.evidence_standing_label, 'Provisional', r.verification_status, sources(r).map(s => s.title).join(' | '), sources(r).map(s => s.authors?.join('; ') || s.issuing_body).join(' | '), sources(r).map(s => s.url).join(' | '), sources(r).map(s => s.publication_date || 'Not established').join(' | '), sources(r).map(s => r.source_locations[s.id]).join(' | '), sources(r).map(s => s.independence_group || s.id).join(' | '), base + '#' + r.id, data.dataset_version]);
+    const rows = [['Record ID', 'Finding title', 'Source-reported observation', 'Limitations', 'Commons interpretation', 'Reporting category', 'Publication status', 'Independent verification', 'Source titles', 'Authors', 'Original source URLs', 'Publication dates', 'Supporting locations', 'Source family IDs', 'Record URL', 'Dataset version', 'Source inspection annotations']];
+    for (const r of chosen()) rows.push([r.id, r.title, r.observation, r.limitations, r.support_assessment, r.evidence_standing_label, 'Provisional', r.verification_status, sources(r).map(s => s.title).join(' | '), sources(r).map(s => s.authors?.join('; ') || s.issuing_body).join(' | '), sources(r).map(s => s.url).join(' | '), sources(r).map(s => s.publication_date || 'Not established').join(' | '), sources(r).map(s => r.source_locations[s.id]).join(' | '), sources(r).map(s => s.independence_group || s.id).join(' | '), base + '#' + r.id, data.dataset_version, JSON.stringify(r.source_ids.map(id => inspectionById.get(id)))]);
     download('Commons-evidence-selection.csv', '\uFEFF' + rows.map(row => row.map(cell).join(',')).join('\r\n'), 'text/csv;charset=utf-8');
     document.getElementById('action-status').textContent = selected.size + ' selected records exported with findings, limitations and citations.';
   });

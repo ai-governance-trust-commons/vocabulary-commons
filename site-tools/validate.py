@@ -117,6 +117,16 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             import json
             evidence=json.loads((root/'evidence/evidence.json').read_text())
             expect(page.locator('.evidence-card')).to_have_count(len(evidence['evidence']))
+            inspection=json.loads((root/'evidence/machine/source-inspection.json').read_text())
+            basis={entry['source_id']:entry['basis'] for entry in inspection['sources']}
+            for selected_basis in inspection['basis_labels']:
+                visit(page, '/evidence/?inspection=' + selected_basis)
+                expected={r['id'] for r in evidence['evidence'] if any(basis[sid]==selected_basis for sid in r['source_ids'])}
+                assert set(page.locator('.evidence-card').evaluate_all('(nodes) => nodes.map(node => node.id)'))==expected
+                expect(page.locator('#inspection-filter')).to_have_value(selected_basis)
+            page.get_by_role('button',name='Clear search and filters',exact=True).click()
+            expect(page.locator('.evidence-card')).to_have_count(len(evidence['evidence']))
+            assert 'inspection=' not in page.url
             page.locator('#search').fill('EVID-155')
             page.get_by_role('button', name='Search', exact=True).click()
             expect(page.locator('.evidence-card')).to_have_count(1)

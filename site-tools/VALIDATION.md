@@ -12,6 +12,7 @@ python site-tools/validate_release.py
 python site-tools/test_projection_build.py
 python site-tools/test_publication_security.py
 python site-tools/test_review_remediation.py
+python site-tools/test_inspection_annotations.py
 python -m playwright install chromium
 python site-tools/validate.py --chromium ''
 ```

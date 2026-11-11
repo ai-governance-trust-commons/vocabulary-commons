@@ -2,8 +2,8 @@
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
   "machine_release": "0.5.5",
-  "dataset_version": "0.5.6",
-  "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
+  "dataset_version": "0.5.6-review.1",
+  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
   "id": "EVID-013",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-013.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-013",
@@ -78,7 +78,7 @@
       "version_note": "Official announcement 2025-03-13; arXiv v1 2025-03-14; examined v2 2025-03-28. Blog/abstract/HTML/PDF are same research family. Related to but separate from canonical alignment-faking experiment. SRC-012 is a later related model-organism replication, not an independent replication of the human auditing outcome.",
       "verification": {
         "status": "Primary publication inspected by MM1 research worker; not independently reproduced",
-        "scope": "Sections4 (blind auditing game),5 (auditing techniques),7 (limitations),8 (conclusion).",
+        "scope": "Sections 4 (blind auditing game), 5 (auditing techniques), 7 (limitations), 8 (conclusion).",
         "review_date": "2026-10-30",
         "authenticity": "Original publication examined; underlying experimental records not independently authenticated",
         "independent_corroboration": "Not established by this batch",
@@ -167,7 +167,7 @@
         "independent_corroboration": "Not established by the Commons; multiple versions are not independent corroboration",
         "dispute_status": "Bounded checks and version qualifications in source notes; no systematic absence-of-dispute claim",
         "dispute_check_date": null,
-        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. MM1 reports bounded searches in the retained private briefing."
+        "dispute_check_note": "No dated systematic dispute/retraction clearance recorded. Earlier MM1 bounded-search claims refer to a private working briefing that is not published with this dataset; no public search log, query list or results are available here to audit those checks. The reason for withholding the briefing is not recorded. Those claims are not treated as an auditable dispute clearance; the public source locators and inspection attribution are retained."
       },
       "preservation": {
         "status": "Link-only; no source copy captured",
@@ -225,7 +225,7 @@
       "from_id": "EVID-013",
       "to_id": "TERM-observability-boundary",
       "relationship_type": "qualifies",
-      "explanation": "Qualifies what the specified evidence or monitoring arrangement can establish.",
+      "explanation": "Commons interpretation: Auditors with richer access located the planted objective, whereas the API-only team did not. This shows the observation limit depends on available evidence and methods; unequal teams and synthetic training prevent a general audit-success claim.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",

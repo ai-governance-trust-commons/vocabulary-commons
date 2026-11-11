@@ -61,6 +61,17 @@ for folder,schema in [('records','record-bundle-v1.schema.json'),('sources','sou
  for p in (M/folder).glob('*.json'):
   if p.name!='index.json':v.validate(read(p))
 check('Dataset, glossary and all bundles validate against unchanged JSON schemas',True)
+from source_inspection import inspection_index, inspection_schema
+inspection=read(M/'source-inspection.json')
+check('Inspection annotations match reviewed attribution and exact dataset',inspection==inspection_index(d))
+check('Inspection annotation schema matches declared contract',read(M/'source-inspection-v1.schema.json')==inspection_schema())
+Draft202012Validator(inspection_schema()).validate(inspection)
+annotations={e['source_id']:e for e in inspection['sources']}
+check('Catalog discovers versioned inspection extension',read(M/'catalog.json')['source_inspection_url'].endswith('/source-inspection.json') and read(M/'catalog.json')['source_inspection_schema_url'].endswith('/source-inspection-v1.schema.json'))
+for row in export_rows:
+ check(row['id']+' CSV inspection annotations cover direct citations only',json.loads(row['source_inspection'])==[annotations[sid] for sid in records.get(row['id'],{}).get('source_ids',[])])
+for row in csv.DictReader(io.StringIO((M/'exports/sources.csv').read_text(encoding='utf-8-sig'))):
+ check(row['id']+' source CSV inspection annotation matches',json.loads(row['inspection_annotation'])==annotations[row['id']])
 from bs4 import BeautifulSoup
 from publication_security import CSP, REFERRER, presentation_files
 from publication_views import NAVIGATION, navigation
@@ -71,11 +82,14 @@ identity_files=presentation_files(D)
 for name in ['evidence/evidence.json','data/glossary.json','evidence/machine/exports/evidence.csv']:identity_files[name]=sha(D/name)
 check('Publication fingerprint and file inventory match',identity['files_sha256']==identity_files and identity['content_fingerprint_sha256']==hashlib.sha256(json.dumps(identity_files,sort_keys=True,separators=(',',':')).encode()).hexdigest())
 fallback=BeautifulSoup((D/'evidence/index.html').read_text(),'html.parser')
+check('Browser inspection annotations equal versioned extension',json.loads(fallback.select_one('#inspection-data').get_text())==inspection)
+check('Inspection filter exposes controlled values', {o.get('value') for o in fallback.select('#inspection-filter option')}=={''}|set(inspection['basis_labels']))
 cards=fallback.select('#items > article.evidence-card')
 check('Static Library includes exactly all published findings',len(cards)==len(records) and {c['id'] for c in cards}==set(records))
 for card in cards:
  record=records[card['id']];text=card.get_text(' ',strip=True)
  check(card['id']+' readable fallback preserves finding and limitations',all(value in text for value in [record['observation'],record['limitations'],record['verification_status'],record['support_assessment']]) and bool(card.select('a[href="machine/records/'+record['id']+'.json"]')))
+ check(card['id']+' readable fallback preserves inspection provenance and scope',all(inspection['basis_labels'][annotations[sid]['basis']] in text and annotations[sid]['recorded_scope'] in text and annotations[sid]['basis_note'] in text for sid in record['source_ids']))
 check('Static withdrawals preserve both notices without held claims',{n['id'] for n in fallback.select('#withdrawals > article')}=={w['id'] for w in d['withdrawals']})
 policy_source,policy_html=curation_content(D)
 policy_page=BeautifulSoup((D/'participate/curation/index.html').read_text(),'html.parser')
