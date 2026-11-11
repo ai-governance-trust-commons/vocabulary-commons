@@ -15,3 +15,7 @@ The prior thread reported 1,696 checks passed and local Chromium socket restrict
 Fresh execution: `/tmp/commons-check-env/bin/python site-tools/validate_release.py`, candidate 549e1bd, exit 0. Confirms founding definitions, schemas, withdrawals, references, exports, source annotations, static fallbacks and publication hashes. Initial attempt with the default Python stopped for missing markdown_it; reran with the recovered reviewed test environment.
 
 Historical logs subsequently recovered from `/tmp/commons-review-*.log`: release, supported build, projection, security and remediation pass logs; browser launch log records a failure, not a pass. Those logs support prior reported status but fresh runs remain authoritative.
+
+## Stage 2 — reproducible builds passed
+
+Fresh execution: `/tmp/commons-check-env/bin/python site-tools/test_projection_build.py`, candidate 549e1bd, exit 0. Two builds preserved public content; deliberate version, page-inventory and navigation regressions were rejected. `git diff --check` also exited 0. The recovered environment's installed package versions match all 12 entries of requirements-lock.txt.
