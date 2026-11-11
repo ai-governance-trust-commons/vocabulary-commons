@@ -31,6 +31,8 @@ jobs:
         run: python site-tools/test_projection_build.py
       - name: Exercise publication security regressions
         run: python site-tools/test_publication_security.py
+      - name: Exercise review remediation regressions
+        run: python site-tools/test_review_remediation.py
       - name: Install matching Chromium
         run: python -m playwright install --with-deps chromium
       - name: Exercise browser behavior and policy

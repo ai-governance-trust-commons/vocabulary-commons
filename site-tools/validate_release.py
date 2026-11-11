@@ -28,6 +28,13 @@ check('Retired relationships absent',not {'REL-283','REL-366'}&{r['id'] for r in
 check('Four relationships qualify',all(next(x for x in d['relationships'] if x['id']==rid)['relationship_type']=='qualifies' for rid in ['REL-092','REL-127','REL-144','REL-330']))
 embedded=re.search(r'<script type="application/json" id="data">(.*?)</script>',(D/'evidence/index.html').read_text(),re.S)
 check('Browser embedded dataset equals canonical JSON',json.loads(embedded[1])==d)
+export_rows=list(csv.DictReader(io.StringIO((M/'exports/evidence.csv').read_text(encoding='utf-8-sig'))))
+records={r['id']:r for r in d['evidence']}
+for row in export_rows:
+ cited=json.loads(row['cited_source_ids']);context=json.loads(row['context_source_ids'])
+ bundled={s['id'] for s in json.loads(row['sources'])}
+ expected=records.get(row['id'],{}).get('source_ids',[])
+ check(row['id']+' CSV source roles preserve direct citations and separate context',cited==expected and not set(cited)&set(context) and set(cited)|set(context)==bundled and set(cited)<=set(json.loads(row['source_locations'] or '{}')))
 checksums=read(M/'checksums.json');check('All machine checksums match',all(sha(D/k)==v for k,v in checksums['files'].items()))
 m=read(D/'evidence/release-manifest.json');check('Manifest counts derived from data',m['evidence_count']==len(d['evidence']) and m['source_count']==len(d['sources']))
 
@@ -56,7 +63,19 @@ for folder,schema in [('records','record-bundle-v1.schema.json'),('sources','sou
 check('Dataset, glossary and all bundles validate against unchanged JSON schemas',True)
 from bs4 import BeautifulSoup
 from publication_security import CSP, REFERRER, presentation_files
+from publication_views import NAVIGATION, navigation
 from urllib.parse import urlsplit,unquote
+identity=read(D/'publication.json')
+identity_files=presentation_files(D)
+for name in ['evidence/evidence.json','data/glossary.json','evidence/machine/exports/evidence.csv']:identity_files[name]=sha(D/name)
+check('Publication fingerprint and file inventory match',identity['files_sha256']==identity_files and identity['content_fingerprint_sha256']==hashlib.sha256(json.dumps(identity_files,sort_keys=True,separators=(',',':')).encode()).hexdigest())
+fallback=BeautifulSoup((D/'evidence/index.html').read_text(),'html.parser')
+cards=fallback.select('#items > article.evidence-card')
+check('Static Library includes exactly all published findings',len(cards)==len(records) and {c['id'] for c in cards}==set(records))
+for card in cards:
+ record=records[card['id']];text=card.get_text(' ',strip=True)
+ check(card['id']+' readable fallback preserves finding and limitations',all(value in text for value in [record['observation'],record['limitations'],record['verification_status'],record['support_assessment']]) and bool(card.select('a[href="machine/records/'+record['id']+'.json"]')))
+check('Static withdrawals preserve both notices without held claims',{n['id'] for n in fallback.select('#withdrawals > article')}=={w['id'] for w in d['withdrawals']})
 security=m.get('presentation_security',{})
 check('Shared presentation inventory and exact hashes match',security.get('files_sha256')==presentation_files(D))
 check('Shared browser policy metadata matches supported policy',security.get('content_security_policy')==CSP and security.get('referrer_policy')==REFERRER)
@@ -71,6 +90,9 @@ prior_manifest=json.loads(subprocess.check_output(['git','show',args.baseline_re
 check('Presentation version preserved',m['presentation_version']==prior_manifest['presentation_version'])
 for p in pages:
  soup=BeautifulSoup(p.read_text(),'html.parser')
+ nav=soup.find('nav',id='primary-nav')
+ expected_nav=BeautifulSoup(navigation(p,D),'html.parser').find('nav')
+ check(str(p.relative_to(D))+' shared navigation routes and labels',nav is not None and [(a.get_text(),a.get('href')) for a in nav.find_all('a')]==[(a.get_text(),a.get('href')) for a in expected_nav.find_all('a')])
  policy=soup.find_all('meta',attrs={'http-equiv':re.compile('^Content-Security-Policy$',re.I)})
  referrers=soup.find_all('meta',attrs={'name':'referrer'})
  check(str(p.relative_to(D))+' shared browser policies',len(policy)==1 and policy[0].get('content')==CSP and len(referrers)==1 and referrers[0].get('content')==REFERRER)

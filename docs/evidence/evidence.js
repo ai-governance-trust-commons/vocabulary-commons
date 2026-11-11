@@ -255,28 +255,29 @@
   }
   const termSlugs = new Map(JSON.parse(document.getElementById('term-routes').textContent));
   function draw() {
-    box.replaceChildren();
+    const rendered = document.createDocumentFragment();
     visible = data.evidence.filter(matches);
     const sort = controls['sort-order'].value;
     visible.sort(sort === 'newest' ? (a, b) => latestYear(b) - latestYear(a) || a.id.localeCompare(b.id) : sort === 'oldest' ? (a, b) => (latestYear(a) || 9999) - (latestYear(b) || 9999) || a.id.localeCompare(b.id) : sort === 'title' ? (a, b) => a.title.localeCompare(b.title) : (a, b) => a.id.localeCompare(b.id));
     if (controls['group-family'].checked) {
       const groups = new Map(); for (const r of visible) { if (!groups.has(family(r))) groups.set(family(r), []); groups.get(family(r)).push(r); }
       for (const records of groups.values()) {
-        const section = el('section', undefined, box, 'family-group');
+        const section = el('section', undefined, rendered, 'family-group');
         el('h2', sources(records[0])[0].title, section, 'family-heading');
         el('p', records.length + ' matching record' + (records.length === 1 ? '' : 's') + ' · Shared source family; related publications are not independent corroboration.', section, 'family-note');
         for (const r of records) renderRecord(r, section);
       }
-    } else for (const r of visible) renderRecord(r, box);
+    } else for (const r of visible) renderRecord(r, rendered);
     if (!visible.length) {
-      el('h2', 'No evidence records match these choices.', box, 'empty-heading');
-      el('p', 'Try fewer words, a different phrase, or clear the filters. Missing results do not establish that no relevant evidence exists.', box);
+      el('h2', 'No evidence records match these choices.', rendered, 'empty-heading');
+      el('p', 'Try fewer words, a different phrase, or clear the filters. Missing results do not establish that no relevant evidence exists.', rendered);
     }
     const invalidRange = controls['year-from'].value && controls['year-to'].value && Number(controls['year-from'].value) > Number(controls['year-to'].value);
     document.getElementById('count').textContent = invalidRange ? 'The starting publication year must be no later than the ending year.' : visible.length + ' of ' + data.evidence.length + ' published evidence records';
     const active = ['term-filter', 'category-filter', 'publisher-filter', 'relation-filter', 'year-from', 'year-to'].filter(id => controls[id].value).length;
     document.getElementById('filter-label').textContent = 'Filter the collection' + (active ? ' · ' + active + ' active' : '');
     document.getElementById('family-guidance').hidden = !controls['group-family'].checked;
+    box.replaceChildren(rendered);
     selectionStatus();
   }
   function clearFilters() {
@@ -333,9 +334,12 @@
   window.addEventListener('hashchange', reveal);
   document.getElementById('notice').textContent = data.notice;
   document.getElementById('release').textContent = 'Dataset ' + data.dataset_version + ' · ' + data.evidence.length + ' published records · ' + data.sources.length + ' source records. Counts are not independent studies or incidents.';
+  noticeBox.replaceChildren();
   for (const w of data.withdrawals || []) {
     const a = el('article', undefined, noticeBox, 'withdrawal-notice'); a.id = w.id;
     el('h3', w.id + ' — ' + w.status, a); el('p', w.reason + ' Updated ' + w.date + '; identifier and private history retained.', a);
   }
   restore(); draw(); reveal();
+  document.getElementById("library-tools").hidden = false;
+  document.getElementById("library-fallback-note").hidden = true;
 })();

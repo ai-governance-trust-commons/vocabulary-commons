@@ -34,7 +34,7 @@ with tempfile.TemporaryDirectory(prefix='commons-build-test-') as tmp:
     # Presentation exceptions are explicit and cannot hide unlisted additions.
     extra = docs/'presentation-test.html'
     extra.write_bytes((docs/'index.html').read_bytes())
-    finalize(docs)  # Keep integrity metadata valid while probing inventory allowances.
+    finalize(docs, refresh_views=False)  # Preserve deliberate probe mutations.
     command = [sys.executable, str(copy/'site-tools/validate_release.py')]
     result = subprocess.run(command, capture_output=True, text=True)
     assert result.returncode != 0 and 'HTML page inventory' in result.stderr
@@ -46,7 +46,7 @@ with tempfile.TemporaryDirectory(prefix='commons-build-test-') as tmp:
     page = docs/'resources/index.html'
     good = page.read_text()
     page.write_text(good.replace('<nav ', '<nav data-regression-test="changed" ', 1))
-    finalize(docs)  # A refreshed hash must not bypass the separate navigation guard.
+    finalize(docs, refresh_views=False)  # A refreshed hash must not bypass the separate navigation guard.
     result = subprocess.run([sys.executable, str(copy/'site-tools/validate_release.py')], capture_output=True, text=True)
     assert result.returncode != 0 and 'navigation markup unchanged' in result.stderr
     subprocess.run(command + ['--allow-navigation-page', 'docs/resources/index.html'], check=True, capture_output=True)

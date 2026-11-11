@@ -11,6 +11,7 @@ python site-tools/build_machine_access.py
 python site-tools/validate_release.py
 python site-tools/test_projection_build.py
 python site-tools/test_publication_security.py
+python site-tools/test_review_remediation.py
 python -m playwright install chromium
 python site-tools/validate.py --chromium ''
 ```
@@ -92,3 +93,30 @@ frame-ancestors enforcement; frame-ancestors cannot be supplied by a meta tag.
 Do not add unsupported header configuration files or weaken CSP to hide a
 failed test. Any future external embed/runtime service needs explicit policy
 review. CSP supplements safe encoding; it does not replace it.
+
+## Review remediation: publication identity and resilient records
+
+`publication_views.py` supplies the same eight navigation routes to every HTML
+page. The validator checks route labels and relative targets across the site,
+separately from its reviewed-baseline guard.
+
+The Library ships all approved findings and both withdrawal notices as escaped
+static HTML. Direct record fragments, findings, limitations and bundle links
+remain readable with JavaScript disabled or the Library script blocked. Search
+and selection controls appear only after successful initialization. Replacement
+records are constructed before replacing the static list. Withdrawal notices
+never contain held findings.
+
+Evidence CSV retains `sources` and adds `cited_source_ids` and `context_source_ids`.
+Only cited IDs denote direct support; each must have a supporting location.
+Context IDs support dependence analysis, not additional corroboration. Canonical
+evidence and all four existing JSON schemas remain unchanged.
+
+`docs/publication.json` provides a reproducible content fingerprint, payload
+hashes and links to GitHub deployment/validation runs. It excludes its own bytes
+and volatile integrity/timestamp files. Resolve the deployed commit from the
+successful Pages run and compare published hashes with that revision. A static
+committed file cannot contain the hash of its own Git commit without circularity.
+Exact deployment-time stamping requires an artifact deployment workflow and a
+separately activated Pages configuration; this update does not claim that change
+or signed authenticity.
