@@ -5,6 +5,8 @@ import posixpath
 import re
 import hashlib
 from markdown_it import MarkdownIt
+from source_inspection import inspection_index, LABELS
+from publication_security import inline_json
 
 NAVIGATION = [('Home', ''), ('Glossary', 'terms/'), ('Evidence Library', 'evidence/'),
               ('Resources', 'resources/'), ('Explore questions', 'questions/'),
@@ -27,6 +29,7 @@ def navigation(page, docs):
 
 def static_records(data):
     sources = {s['id']: s for s in data['sources']}
+    inspection = {e['source_id']: e for e in inspection_index(data)['sources']}
     records = []
     for record in data['evidence']:
         rid = record['id']
@@ -45,7 +48,9 @@ def static_records(data):
             title = esc(source['title'])
             if source['url'].startswith('https://'):
                 title = '<a href="' + esc(source['url']) + '" rel="noopener noreferrer">' + title + '</a>'
-            parts.append('<li>' + sid + ' · ' + title + '<p>Supporting location: ' + esc(record['source_locations'][sid]) + '</p></li>')
+            annotation = inspection[sid]
+            detail = '<p>Inspection basis: ' + esc(LABELS[annotation['basis']]) + '. ' + esc(annotation['basis_note']) + '</p><p>Recorded inspection: ' + esc(source['verification']['status']) + '. ' + esc(source['verification']['scope']) + ' Review date: ' + esc(source['verification']['review_date']) + '.</p><p>Dispute-check limits: ' + esc(source['verification']['dispute_check_note'] or source['verification']['dispute_status']) + '</p>'
+            parts.append('<li>' + sid + ' · ' + title + '<p>Supporting location: ' + esc(record['source_locations'][sid]) + '</p>' + detail + '</li>')
         parts += ['</ul><p><a href="machine/records/' + rid + '.json">Complete record, source-inspection details and relationships (JSON)</a></p>',
                   '<p>Provisional publication; inclusion is not independent verification. Individual human review: ' + esc(record['publication_record']['individual_human_review']) + '.</p></article>']
         records.append(''.join(parts))
@@ -71,6 +76,17 @@ def refresh(docs):
         if count != 1:
             raise ValueError('Expected one shared navigation: ' + str(page))
         if page == docs/'evidence/index.html':
+            annotation = '<script type="application/json" id="inspection-data">' + inline_json(inspection_index(data)) + '</script>'
+            if 'id="inspection-data"' in text:
+                text = re.sub(r'<script type="application/json" id="inspection-data">[\s\S]*?</script>', lambda _: annotation, text)
+            else:
+                text = text.replace('</head>', annotation + '</head>')
+            control = '<label for="inspection-filter">Inspection basis (any cited source)<select id="inspection-filter" aria-label="Inspection basis (any cited source)"><option value="">All inspection routes</option>' + ''.join('<option value="' + key + '">' + esc(value) + '</option>' for key, value in LABELS.items()) + '</select></label>'
+            if 'id="inspection-filter"' not in text:
+                text = text.replace('<div class="library-filters">', '<div class="library-filters">' + control, 1)
+            help_text = '<p id="inspection-help">Inspection basis describes recorded access, not source credibility or independent verification. A filter match means at least one directly cited source has that basis; other cited sources may differ. Unspecified routes remain unresolved. <a href="review-notes.md">Review corrections and remaining limits</a>.</p>'
+            if 'id="inspection-help"' not in text:
+                text = text.replace('</details><div class="search-actions">', help_text + '</details><div class="search-actions">', 1)
             text, count = re.subn(r'(<section\b[^>]*\bid="items"[^>]*>)[\s\S]*?(</section>)', lambda m: m[1] + static_records(data) + m[2], text)
             if count != 1:
                 raise ValueError('Expected one Library record container')

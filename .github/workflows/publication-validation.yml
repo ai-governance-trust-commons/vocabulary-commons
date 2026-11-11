@@ -33,6 +33,8 @@ jobs:
         run: python site-tools/test_publication_security.py
       - name: Exercise review remediation regressions
         run: python site-tools/test_review_remediation.py
+      - name: Exercise inspection provenance regressions
+        run: python site-tools/test_inspection_annotations.py
       - name: Install matching Chromium
         run: python -m playwright install --with-deps chromium
       - name: Exercise browser behavior and policy

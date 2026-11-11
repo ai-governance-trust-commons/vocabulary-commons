@@ -1,5 +1,7 @@
 # Machine-access contract 1.0 — release 0.5.5
 
+The additive source-inspection.json extension declares its own inspection_contract_version 1.0 and schema at source-inspection-v1.schema.json. It does not alter the four original dataset/bundle/glossary schemas. Its source IDs join to canonical sources, and its dataset hash prevents mixing revisions. CSV adds source_inspection (direct citations only) and inspection_annotation columns; existing columns retain their meanings.
+
 This is a static file collection, not a live query API. HTTPS GET requests require no account or token. Directory paths and filename case are significant. Existing human record anchors and the public evidence.json are retained. The complete existing dataset has format_version 1.0; the new envelope has contract_version 1.0. Dataset, presentation, contract and machine-release versions have different purposes.
 
 Start at catalog.json. It links the full public dataset, its JSON Schema, record/source navigation indexes, bundle schemas, metadata, fields, rights and exports. The new schemas use JSON Schema Draft 2020-12. Required structure is validated separately from evidence truth. Schema identifiers are versioned; a shape change requires a new declared contract/schema, not a silent reinterpretation of existing fields.

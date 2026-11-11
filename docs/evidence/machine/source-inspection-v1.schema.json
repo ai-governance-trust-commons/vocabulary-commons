@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source inspection annotation contract 1.0",
+  "type": "object",
+  "properties": {
+    "inspection_contract_version": {
+      "const": "1.0"
+    },
+    "dataset_version": {
+      "type": "string"
+    },
+    "dataset_sha256": {
+      "type": "string"
+    },
+    "classified_at": {
+      "type": "string"
+    },
+    "notice": {
+      "type": "string"
+    },
+    "basis_labels": {
+      "type": "object",
+      "properties": {
+        "direct": {
+          "const": "Direct reading recorded for preparing assistant"
+        },
+        "relayed": {
+          "const": "Relayed inspection report"
+        },
+        "mixed": {
+          "const": "Direct extract plus relayed full-source report"
+        },
+        "abstract_only": {
+          "const": "Abstract and metadata only"
+        },
+        "unspecified": {
+          "const": "Inspection route not established"
+        }
+      },
+      "required": [
+        "direct",
+        "relayed",
+        "mixed",
+        "abstract_only",
+        "unspecified"
+      ],
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "source_id": {
+            "type": "string",
+            "pattern": "^SRC-[0-9]{3,}$"
+          },
+          "basis": {
+            "enum": [
+              "direct",
+              "relayed",
+              "mixed",
+              "abstract_only",
+              "unspecified"
+            ]
+          },
+          "actors": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "basis_note": {
+            "type": "string"
+          },
+          "recorded_status": {
+            "type": "string"
+          },
+          "recorded_scope": {
+            "type": "string"
+          },
+          "recorded_review_date": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "source_id",
+          "basis",
+          "actors",
+          "basis_note",
+          "recorded_status",
+          "recorded_scope",
+          "recorded_review_date"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "inspection_contract_version",
+    "dataset_version",
+    "dataset_sha256",
+    "classified_at",
+    "notice",
+    "basis_labels",
+    "sources"
+  ],
+  "additionalProperties": false
+}

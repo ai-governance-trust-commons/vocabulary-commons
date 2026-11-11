@@ -76,6 +76,8 @@
     }
   },
   "bundle_fields": {
+    "source_inspection": "CSV: versioned inspection annotations for directly cited sources only; join source_id and preserve basis_note and historical scope. Not independent verification.",
+    "inspection_annotation": "Source CSV: separately versioned classification of recorded direct, relayed, mixed, abstract-only or unresolved inspection access; not an authenticated reading event.",
     "observation": "Attributed source finding. It may include context; it is not an independently verified Commons fact.",
     "limitations": "Scope, uncertainty and contrary conditions that must accompany the finding.",
     "support_assessment": "Commons assessment/interpretation, distinct from the source finding.",

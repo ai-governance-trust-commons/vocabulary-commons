@@ -1,0 +1,1502 @@
+{
+  "inspection_contract_version": "1.0",
+  "dataset_version": "0.5.6-review.1",
+  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
+  "classified_at": "2026-11-11",
+  "notice": "Classification of historical recorded attribution, not a fresh inspection or source verification. Unspecified is an intentional unresolved value. Review dates retain their original meaning. Direct means explicitly recorded reading by the preparing assistant, not an independently authenticated reading event.",
+  "basis_labels": {
+    "direct": "Direct reading recorded for preparing assistant",
+    "relayed": "Relayed inspection report",
+    "mixed": "Direct extract plus relayed full-source report",
+    "abstract_only": "Abstract and metadata only",
+    "unspecified": "Inspection route not established"
+  },
+  "sources": [
+    {
+      "source_id": "SRC-001",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-002",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-003",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-004",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-005",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-006",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-007",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-008",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "AI source inspection recorded; underlying claims not independently verified",
+      "recorded_scope": "Cited publication and supporting locations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-009",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "recorded_scope": "Paper Figure 1; sections 3–5; section 7.2 and conclusion, printed pp. 2,12 (PDF pages 2,12). Companion: Testing for faithfulness; Can we improve faithfulness?; Faithfulness and reward hacking.",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-010",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "recorded_scope": "Abstract; sections 7.3–7.4 and 8, printed pp. 3839–3840 (PDF pages 14–15), Table 13; section 6.2–6.3 for application tests.",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-011",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "recorded_scope": "Sections 4 (blind auditing game), 5 (auditing techniques), 7 (limitations), 8 (conclusion).",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-012",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "recorded_scope": "Introduction; Replication Procedure; Reward Model Sycophancy and Red-Teaming Evaluations / Automated Red-Teaming; baseline-auditing discussion.",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-013",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "recorded_scope": "Sections 3.1, 3.2.1, 4.1-4.4; Figures 1-3",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-014",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "recorded_scope": "Sections 3, 6.3-6.4, 7.1-7.4 and 9; Table 1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-015",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Primary publication inspected by MM1 research worker; not independently reproduced",
+      "recorded_scope": "Sections 3-5; Appendix B.3, H.1-H.3 and J.1; Tables 2, 5 and 7",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-016",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; no independent reproduction",
+      "recorded_scope": "Sections 3.1–3.5 (task, conditions, simulated AI, participants), 4.1 (incorrect predictions), 5 (cognitive motivation), 6 (discussion); full text examined at https://arxiv.org/html/2102.09692v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-017",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; no independent reproduction",
+      "recorded_scope": "Section 4 methods; Sections 5–8 results; Section 7.4 participant reuse; Section 10.4 limitations; full text examined at https://arxiv.org/html/2212.06823v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-018",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; no independent reproduction",
+      "recorded_scope": "Abstract; Main; Moderating effect of relative human/AI performance; Surprisingly insignificant moderators; Limitations; references 31–32; full text examined at https://pmc.ncbi.nlm.nih.gov/articles/PMC11659167/",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-019",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Executive Summary ES-2 (PDFp10); sections1.1 (PDFp13),3.2 (PDFpp29–30),5.1.2 (PDFp50),5.2.1 (PDFp53)",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-020",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Opening scope paragraphs; findings bullets3–4,6–10; final remediation paragraph; October29 update log; footnotes4–7",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-021",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Model persistence can expose security vulnerabilities; From considering single actions to considering whole trajectories; Building safeguards; Redeployment; footnotes1–2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-022",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Core takeaways; Agents were very interested in manipulating their own transcripts; Main data sources; Limitations due to scale and complexity; Collaboration on message board",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-023",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Three key findings, Figures 1–3; Implications",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-024",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Alignment assessment summary; Methods; Comparing newer models; What happened in the other eight transcripts?",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-025",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Attack overview; Compromised package distribution and automatic payload execution; Advanced hunting",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-026",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Release attack-chain chronology and scope",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-027",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "AI as the Co-Operator; Modus Operandi; Attribution and Operating Model; FAQ",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-028",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Executive Summary; University Database Exfiltration; VoIP Telecommunications Fraud; Tool Design and Infrastructure",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-029",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Longer to the first objective; How we ran the tests; What the tests show",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-030",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Abstract; Sections 3 and 4, Limitations and discussion",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-031",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "How the cyberattack worked; Edited November 14 2025; linked full report pp 3, 5–10",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-032",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "What is ARTEX; Password Spraying; Downstream customer access",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-033",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "What it looked like in the logs; A clearly agentic attack; Indicators of Compromise",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-034",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "ARTEX Infrastructure Analysis; Assessment",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-035",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Targeting; Inside the Operation; Assessment",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-036",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Overview of behaviors; Remediation; Corrected October 12 2026",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-037",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "The most secure coding agent; Safety",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-038",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Sections 1–2 and Appendix; publication date from official Institute index",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-039",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Introduction; Chapters 4–9",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-040",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Cyber operations: GTG-50029; Prevailing trends; Conventional weapons: GTG-87001 and drone-swarm case",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-041",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "From application repair to model replacement; Persistent effects; What makes modification more likely; Scope and limits",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-042",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Sections2.1,3.1,3.5,4; AppendixA.5",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-043",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "What we know sofar; Metrics; Timeline",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-044",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Manus Guardrails Bypass, especially warning-after-execution paragraphs; controlled reverse-shell demonstration",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-045",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Disclosure paragraph",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-046",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Categories1–2; Observations3–4",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-047",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Sections 3, 5–7 and Appendix A",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-048",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "The Baddening; The Access; The Malware; autonomy discussion",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-049",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "When we became aware; Services Australia details; October 4 update",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-050",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Statement paragraphs 1–3",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-051",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Opening statements and Q&A on logs and investigation",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-052",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "September 11 RubyGems and September 25 training-data entries",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-053",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Department of Education; Library and Archives Canada; broader traffic sections",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-054",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Investigation summary and three activity bullets",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-055",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Sections 1–3 and Figures 1, 3, 5",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-056",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "From account access to financial fraud; AI lowered the barriers at both ends; Disrupting the platform",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-057",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Technical deep dive: pinned commit becomes a branch; pin fetched but never checked out; mitigation and timeline",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-058",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "A first external audit; Building a sustainable professional security organization; Leak and disrupted disclosure",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-059",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Exploit timeline; disclosure timeline; Opus 5 Released; Costs of finding these vulnerabilities",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-060",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "README: What it demonstrates; Notes",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-061",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "News Summary; OpenShell and Sentry description",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-062",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–6; Section 7 Limitations; Appendix B.3–B.8; full text https://arxiv.org/html/2609.15989v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-063",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–5, especially 4.5 and 5.4; Section 7.3; full text https://arxiv.org/html/2609.15383v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-064",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Section 2.1–2.3; Tables 2–3; Sections 3 and 5; full text https://arxiv.org/html/2609.17527v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-065",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–4.6; Figure 3; Section 5; Appendices B–C; full text https://arxiv.org/html/2609.01491v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-066",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2.1–2.7, 3; Section 4.5; full text https://arxiv.org/html/2609.23226v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-067",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2–3; Section 5 Limits, Preconditions, and Objections; Section 6; full text https://arxiv.org/html/2609.24242v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-068",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–6; Section 8 Limitations; Appendix E; full text https://arxiv.org/html/2609.27273v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-069",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–4; Theorems 2–3; Section 4.5; Section 5; full text https://arxiv.org/html/2609.29189v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-070",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3.5, 4–5, 6; Section 7 Limits of the Audit; full text https://arxiv.org/html/2609.38411v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-071",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–6; Appendices D, G, I, K, L, O; full text https://arxiv.org/html/2609.39050v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-072",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3.1–3.3; Section 6.1–6.2; Figures 7–8; Section 7; full text https://arxiv.org/html/2610.00797v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-073",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2–4; Section 5.1–5.13; Conclusion; full text https://arxiv.org/html/2610.02036v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-074",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2–3; Table 2; Section 5; Appendices F, I, J, K; full text https://arxiv.org/html/2610.02122v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-075",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections II–IV; III-C and III-E controls; IV-D; Section V; full text https://arxiv.org/html/2610.04083v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-076",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections IV–VI; Section VIII; Appendix B; full text https://arxiv.org/html/2610.05840v1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-077",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2.1–2.3; Sections 3–4; full text https://arxiv.org/html/2603.19213v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-078",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2–4; Sections 6 and 9, scope limitations; full text https://arxiv.org/html/2604.27292v3",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-079",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–4; Section 5.3; full text https://arxiv.org/html/2608.08601v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-080",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2–4; Section 5; Appendices C, E, F; full text https://arxiv.org/html/2609.32701v2",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-081",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Introducing CLOSEDQUORUM; LLM-as-C2 architecture; The operating model",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-082",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "TL;DR; Two specs, one string; One way in, two ways out; Disclosure timeline",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-083",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "The exception: Reply to a Slack Thread; How the attacks worked; Disclosure Timeline",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-084",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Impact; The AI inflection point; Industry-level collaborations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-085",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Coordinating a global response; Giving maintainers capacity and resources; Help us improve this approach",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-086",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Project Perception description and concluding transparency discussion",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-087",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "pp.775–778, Sections 1.1–3.3",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-088",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2.2–2.3, 3.5, 4 and conclusion",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-089",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–4; 5.1; 6, especially p.13 limitations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-090",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2–5, especially 5.1–5.4; Section 6",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-091",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Summary, pp.1–8, especially pp.2–3 and Figure S-1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-092",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Summary; Results; Discussion: Limitations and future directions",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-093",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Study design paragraphs; Better homework, worse exams; Who is most affected; Redesigning incentives",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-094",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections A–B, D, F–G; appendices",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-095",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 2–5; Table1; Section5 limitations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-096",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–5; Section4.1; Discussion and limitations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-097",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; not independently verified",
+      "recorded_scope": "Sections 3–5; Section4.1; Discussion and limitations",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-098",
+      "basis": "abstract_only",
+      "actors": [],
+      "basis_note": "Only the original abstract and metadata are recorded as inspected; full-paper inspection is not claimed.",
+      "recorded_status": "Original abstract inspected; full paper inaccessible; not independently verified",
+      "recorded_scope": "Abstract and metadata only",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-099",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Employee-like access; other partnerships; footnotes2–3",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-100",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "China’s frontier AI labs: what they do; census criteria and timing discussion",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-101",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Official landing-page practices10 and12",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-102",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Opening accreditation scope and technical testing competencies",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-103",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "May7 meeting minutes, PDF pages12 and19; draft901(c), PDF page149",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-104",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Updates September 19, 21 and 23; Starting Point; Truth About the Switches",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-106",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Scale; Method and limits; October 20 update",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-107",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Release description; October 15 update",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-108",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "README verification caveats; history.md October 7, 26 and 29",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-109",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Technical Overview; Communication; Findings sections 4, 5, 7, 8",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-111",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Section III, Figure 2; Appendix D",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-112",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Completing multi-stage cyber operations; Violating instructions to reach correct answers",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-113",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Summary; What happened; Investigation and Response",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-114",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Summary; What happened; Investigation and response",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-115",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Summary; Developing the browser workaround; Investigation and response",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-116",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Red-teaming containment at scale; Communicating across isolated tasks; Resuming frontier training",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-117",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "What misalignment examples we’ll report; How disclosure works; What each report includes",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-118",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Announcement paragraphs4–11; posted date Oct18, announcement dateline Oct19",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-119",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Opening warning, policy/training discussion, final investigation-status paragraphs",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-120",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Section6.3.1, printed pp76–78; Figure6.3.1.A",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-121",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Sections7.1.1–7.1.2 and7.2.1",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-122",
+      "basis": "unspecified",
+      "actors": [],
+      "basis_note": "An inspection claim is recorded, but the preparing assistant’s direct access versus reliance on a worker report is not established by this entry.",
+      "recorded_status": "Original publication inspected; underlying claims not independently verified",
+      "recorded_scope": "Operationalizing Contextual Integrity; Multi-layered approach; original report abstract https://research.google/pubs/open-and-emergent-problems-in-agentic-privacy-and-security-a-contextual-angle/",
+      "recorded_review_date": "2026-10-30"
+    },
+    {
+      "source_id": "SRC-123",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Productivity and human-attention bottleneck sections; figure notes and methods; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-124",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "https://arxiv.org/html/2608.15550v1 — methods, results, figures and limitations; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-125",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Original reports: setup, expert reviews, limitations and appendices; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-126",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Methods and limitations; six-page appendix; proof-repository README; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-127",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Preprint; author summary; repository changelog; architecture_selection_eval.py protocol docstring; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-128",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Predictive policing case study; Figures 1–3; assumptions and discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-129",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Proceedings PDF §§1, 3.4, 4.1–4.3; arXiv version history; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-130",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Current preprint PDF §§4, 5.2–5.4, 6 and version metadata; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-131",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Proceedings introduction and §3; v4 §3.2, Theorem 3.5 and Proposition 3.6; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-132",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "2016 §§VI–VIII; 2017 §§6–9 and extension statement; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-133",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Accepted manuscript abstract, introduction, PDF pp. 10–14 and Figures 4–6; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-134",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Full methods, results, discussion, limitations and conflicts; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-135",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "§§1.1–2, §3, §4.1 and §5; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-136",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Methods: validating graph hypotheses and limitations; Biology: planning, faithfulness and interventions; July attention extension; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-137",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Executive summary, §§3.3–3.5, printed pp. 27–30 and methods context; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-138",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Introduction, §2 Undeclared Consumers, §4 Hidden Feedback Loops, monitoring discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-139",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Journal §§III–IV, §VI.A–B and Figure VII; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-140",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Author-uploaded article: Method and Results, printed pp. 386–389 and Figure 3; publisher metadata; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-141",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "MM1 primary-source inspection reported; underlying claims not independently verified",
+      "recorded_scope": "Author-uploaded full article: Method, Table 2, Results, Discussion; source inspection reported 31 October 2026. Mike reviewed the inspection report for this release, not every original source.",
+      "recorded_review_date": "2026-10-31"
+    },
+    {
+      "source_id": "SRC-142",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public source inspected; underlying claims not independently verified",
+      "recorded_scope": "§4 Evaluation; §5.2 Limitations; §5.5 Potential vs. Current Harms; direct public full text inspected by Mike AI on 2026-11-01",
+      "recorded_review_date": "2026-11-01"
+    },
+    {
+      "source_id": "SRC-143",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public source inspected; underlying claims not independently verified",
+      "recorded_scope": "§III-C attack steps and Clarification; §IV-A experimental setup; §IV-E propagation; §V guardrails; §VI limitations; direct public full text inspected by Mike AI on 2026-11-01",
+      "recorded_review_date": "2026-11-01"
+    },
+    {
+      "source_id": "SRC-144",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public source inspected; underlying claims not independently verified",
+      "recorded_scope": "Google’s Mitigations; Planting Instructions To Invoke Tools; Attack Overview; Impact and Mitigations; direct public full text inspected by Mike AI on 2026-11-01",
+      "recorded_review_date": "2026-11-01"
+    },
+    {
+      "source_id": "SRC-145",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public source inspected; underlying claims not independently verified",
+      "recorded_scope": "How — Research Process; Cross models hallucinations; Hallucinated Package Case Study; registerability qualifications; direct public full text inspected by Mike AI on 2026-11-01",
+      "recorded_review_date": "2026-11-01"
+    },
+    {
+      "source_id": "SRC-146",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public source inspected; underlying claims not independently verified",
+      "recorded_scope": "§IV Experimental Methodology; §V-A/V-B Results; §V-D Additional Considerations; Appendix; direct public full text inspected by Mike AI on 2026-11-01",
+      "recorded_review_date": "2026-11-01"
+    },
+    {
+      "source_id": "SRC-147",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public source inspected; underlying claims not independently verified",
+      "recorded_scope": "Paragraphs beginning “As we developed Tay” and “The logical place”; launch withdrawal statement; direct public full text inspected by Mike AI on 2026-11-01",
+      "recorded_review_date": "2026-11-01"
+    },
+    {
+      "source_id": "SRC-148",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+      "recorded_scope": "Experimental Design; Main Results, Table 1; Discussion; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+      "recorded_review_date": "2026-11-02"
+    },
+    {
+      "source_id": "SRC-149",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+      "recorded_scope": "Sections 3–4; Tables 7–9; Section 6 Discussion; endnotes 5–6; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+      "recorded_review_date": "2026-11-02"
+    },
+    {
+      "source_id": "SRC-150",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+      "recorded_scope": "Results: Diagnostic accuracy and advice quality; Discussion limitations; Methods: Participants and study design; Table 3; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+      "recorded_review_date": "2026-11-02"
+    },
+    {
+      "source_id": "SRC-151",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Original public full text inspected by AI research scout and Mike AI; not independently reproduced",
+      "recorded_scope": "Experimental design; Results, paragraphs following Figure 6; Discussion; arXiv submission history; directly readable original full text, not abstract-only. No raw-data reanalysis or independent measurement verification.",
+      "recorded_review_date": "2026-11-02"
+    },
+    {
+      "source_id": "SRC-152",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+      "recorded_scope": "Attack Preparation, 20 October and 29 October entries; What happened on 29 October; opening investigation qualification; no raw-data reanalysis or independent authentication.",
+      "recorded_review_date": "2026-11-04"
+    },
+    {
+      "source_id": "SRC-153",
+      "basis": "mixed",
+      "actors": [
+        "Mike AI (publisher extract)",
+        "MM1 AI (reported full article)"
+      ],
+      "basis_note": "Mike’s direct reading is limited to a publisher extract; detailed article inspection and locators are attributed to MM1. This is not direct full-article inspection by Mike.",
+      "recorded_status": "Original publisher search extract inspected by Mike AI; full article inspection attributed to MM1 AI on 4 November 2026",
+      "recorded_scope": "Mike inspected the publisher extract on manual handoffs and failures; MM1 briefing supplies active-agent count and detailed locators. No raw-log review.",
+      "recorded_review_date": "2026-11-04"
+    },
+    {
+      "source_id": "SRC-154",
+      "basis": "relayed",
+      "actors": [
+        "MM1 AI (reported original reader)",
+        "Mike AI (report reviewer)"
+      ],
+      "basis_note": "The recorded scope explicitly distinguishes MM1 original-source inspection from Mike’s review of the inspection report. This classification does not authenticate the worker’s inspection.",
+      "recorded_status": "Original-source inspection attributed to MM1 AI on 4 November 2026; Mike direct retrieval unavailable",
+      "recorded_scope": "MM1 briefing and cited locators reviewed by Mike; original was not directly retrievable in this session. No underlying-log review.",
+      "recorded_review_date": "2026-11-04"
+    },
+    {
+      "source_id": "SRC-155",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+      "recorded_scope": "Sections 3.1–3.2, 4; Appendix A.2; no raw-data reanalysis or independent authentication.",
+      "recorded_review_date": "2026-11-04"
+    },
+    {
+      "source_id": "SRC-156",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+      "recorded_scope": "Introduction; Setup; results and example datasets; no raw-data reanalysis or independent authentication.",
+      "recorded_review_date": "2026-11-04"
+    },
+    {
+      "source_id": "SRC-157",
+      "basis": "direct",
+      "actors": [
+        "Mike AI"
+      ],
+      "basis_note": "The historical record explicitly attributes original-source passage or full-text inspection to Mike AI. Scope remains limited to the recorded passages; this is not independent verification.",
+      "recorded_status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
+      "recorded_scope": "Linked report main.v3, Abstract; Sections 4–5.1; Appendix A; no raw-data reanalysis or independent authentication.",
+      "recorded_review_date": "2026-11-04"
+    }
+  ]
+}
