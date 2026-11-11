@@ -19,3 +19,11 @@ Historical logs subsequently recovered from `/tmp/commons-review-*.log`: release
 ## Stage 2 — reproducible builds passed
 
 Fresh execution: `/tmp/commons-check-env/bin/python site-tools/test_projection_build.py`, candidate 549e1bd, exit 0. Two builds preserved public content; deliberate version, page-inventory and navigation regressions were rejected. `git diff --check` also exited 0. The recovered environment's installed package versions match all 12 entries of requirements-lock.txt.
+
+## Stage 3 — security, remediation and provenance regressions passed
+
+Fresh executions on candidate 549e1bd: test_publication_security.py, test_review_remediation.py and test_inspection_annotations.py all exited 0. Includes adversarial canonical input, refreshed-hash bypass attempts, static record coverage, direct/context citation separation, stale attribution and unsupported verification labels.
+
+## Stage 4 — local browser blocked; CI pending
+
+Fresh execution: `/tmp/commons-check-env/bin/python site-tools/validate.py`, exit 1 at Chromium launch. Browser terminated with SIGABRT; process_singleton_posix.cc reports socket() failed: Operation not permitted. No browser assertion ran; this is an environment-blocked stage, not a pass. Proceed with the existing read-only draft-PR publication-validation workflow, which installs matching Chromium. No workflow, hosting configuration or publication content was changed by recovery.
