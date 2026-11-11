@@ -1,0 +1,14 @@
+# Reviewed Python 3.12 build and browser-test environment.
+# Update intentionally and re-run all publication and browser tests.
+attrs==26.1.0
+beautifulsoup4==4.15.0
+greenlet==3.5.6
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+markdown-it-py==4.3.0
+mdurl==0.1.2
+playwright==1.65.0
+referencing==0.37.0
+rpds-py==2026.9.1
+soupsieve==4.1
+typing_extensions==4.16.0

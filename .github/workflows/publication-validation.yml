@@ -1,0 +1,37 @@
+name: Commons publication validation
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+concurrency:
+  group: publication-validation-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  publication-validation:
+    name: publication-validation
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: Check out full history
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Set up Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install reviewed test dependencies
+        run: python -m pip install -r site-tools/requirements-lock.txt
+      - name: Validate committed publication
+        run: python site-tools/validate_release.py
+      - name: Verify reproducible projections
+        run: python site-tools/test_projection_build.py
+      - name: Exercise publication security regressions
+        run: python site-tools/test_publication_security.py
+      - name: Install matching Chromium
+        run: python -m playwright install --with-deps chromium
+      - name: Exercise browser behavior and policy
+        run: python site-tools/validate.py --chromium ''

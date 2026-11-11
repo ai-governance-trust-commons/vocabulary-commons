@@ -199,3 +199,10 @@ html{scroll-padding-top:110px}
 .consideration ul{padding-left:23px}.consideration li{padding-left:5px;margin-bottom:8px}
 .consideration-limit{font-size:14px;border-left:3px solid var(--teal);padding:13px 18px;background:var(--pale)}
 @media(max-width:750px){.consideration{padding-top:34px}.guide-table th,.guide-table td{padding:12px}.consideration-status{margin-left:20px;margin-right:20px;padding-left:18px;padding-right:18px}}
+
+/* Progressive enhancement: navigation remains usable if the shared script fails. */
+@media(max-width:1250px){
+ .site-header:not(.nav-ready){position:static}
+ .site-header:not(.nav-ready) .nav-toggle{display:none}
+ .site-header:not(.nav-ready) nav{display:flex;position:static;max-height:none;overflow:visible;box-shadow:none;border-bottom:0}
+}
