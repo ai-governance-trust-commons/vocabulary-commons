@@ -201,8 +201,25 @@ html{scroll-padding-top:110px}
 @media(max-width:750px){.consideration{padding-top:34px}.guide-table th,.guide-table td{padding:12px}.consideration-status{margin-left:20px;margin-right:20px;padding-left:18px;padding-right:18px}}
 
 /* Progressive enhancement: navigation remains usable if the shared script fails. */
+/* Native heading links cover a navigation card; distinct actions stay above them. */
+.path-card,.resource-card,.path-term,.coverage-card,.unmatched-card{position:relative;isolation:isolate}
+.path-card>h2 a::after,.resource-card h3 a::after,.path-term>h3 a::after,.coverage-card>h3 a::after,.unmatched-card>h3 a::after{content:"";position:absolute;inset:0;z-index:1}
+.path-card>p a,.path-term nav,.coverage-card details,.coverage-card .coverage-card-link,.coverage-card>p a,.unmatched-card>p a{position:relative;z-index:2}
+.path-card:focus-within,.resource-card:focus-within,.path-term:focus-within,.coverage-card:focus-within,.unmatched-card:focus-within{outline:3px solid #94622f;outline-offset:3px}
+.path-card,.resource-card,.path-term,.coverage-card,.unmatched-card{cursor:pointer}
+.coverage-card details,.evidence-card details{cursor:auto}
+.evidence-card:has(details){cursor:pointer}
+.evidence-card summary{cursor:pointer}
+
 @media(max-width:1250px){
  .site-header:not(.nav-ready){position:static}
  .site-header:not(.nav-ready) .nav-toggle{display:none}
  .site-header:not(.nav-ready) nav{display:flex;position:static;max-height:none;overflow:visible;box-shadow:none;border-bottom:0}
 }
+
+/* Participation has one main route plus an independent account-free action. */
+.participate-options section.feature,.chain-promo,.resources-promo{position:relative;isolation:isolate}
+.participate-options section.feature h2 a{color:inherit;text-decoration:none}
+.participate-options section.feature h2 a::after,.chain-promo>.button::after,.resources-promo>.button::after{content:"";position:absolute;inset:0;z-index:1}
+.participate-options section.feature p a{position:relative;z-index:2}
+.participate-options section.feature:focus-within,.chain-promo:focus-within,.resources-promo:focus-within{outline:3px solid #94622f;outline-offset:3px}

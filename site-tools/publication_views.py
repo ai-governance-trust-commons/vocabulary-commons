@@ -3,6 +3,8 @@ import html
 import json
 import posixpath
 import re
+import hashlib
+from markdown_it import MarkdownIt
 
 NAVIGATION = [('Home', ''), ('Glossary', 'terms/'), ('Evidence Library', 'evidence/'),
               ('Resources', 'resources/'), ('Explore questions', 'questions/'),
@@ -51,8 +53,15 @@ def static_records(data):
 
 def refresh(docs):
     data = json.loads((docs/'evidence/evidence.json').read_text())
+    refresh_curation(docs)
     for page in docs.rglob('*.html'):
         text = page.read_text()
+        policy_url = 'https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/main/EDITORIAL_REVIEW.md'
+        local_policy = posixpath.relpath('participate/curation', page.parent.relative_to(docs).as_posix()) + '/'
+        # Keep the explicitly labeled source link external; ordinary policy routes stay on site.
+        text = text.replace('href="' + policy_url + '"><span class="feature-number">REVIEW', 'href="' + local_policy + '"><span class="feature-number">REVIEW')
+        text = text.replace('Editorial review policy ↗', 'Editorial review policy →')
+        text = text.replace('href="' + policy_url + '">Editorial policy</a>', 'href="' + local_policy + '">Editorial policy</a>')
         text, count = re.subn(r'<nav\b(?=[^>]*\bid="primary-nav")[^>]*>[\s\S]*?</nav>', lambda _: navigation(page, docs), text)
         if count != 1:
             raise ValueError('Expected one shared navigation: ' + str(page))
@@ -63,3 +72,24 @@ def refresh(docs):
             notices = ''.join('<article class="withdrawal-notice" id="' + w['id'] + '"><h3>' + w['id'] + ' — ' + esc(w['status']) + '</h3><p>' + esc(w['reason']) + ' Updated ' + esc(w['date']) + '.</p></article>' for w in data['withdrawals'])
             text = re.sub(r'(<div id="withdrawals">)[\s\S]*?(</div>)', lambda m: m[1] + notices + m[2], text)
         page.write_text(text)
+
+def curation_content(docs):
+    source = (docs.parent/'EDITORIAL_REVIEW.md').read_bytes()
+    rendered = MarkdownIt('commonmark', {'html': False}).render(source.decode('utf-8'))
+    rendered = rendered.replace('href="FOUNDING_GLOSSARY_v1.0.2.md#how-to-read-each-entry"', 'href="../../method/#classification-guide"')
+    return source, rendered
+
+def refresh_curation(docs):
+    source, rendered = curation_content(docs)
+    template = (docs/'evidence/machine/index.html').read_text()
+    header = re.search(r'<header class="site-header">[\s\S]*?</header>', template)[0]
+    footer = re.search(r'<footer class="site-footer">[\s\S]*?</footer>', template)[0]
+    page = docs/'participate/curation/index.html'
+    page.parent.mkdir(parents=True, exist_ok=True)
+    policy_url = 'https://github.com/ai-governance-trust-commons/vocabulary-commons/blob/main/EDITORIAL_REVIEW.md'
+    page.write_text('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Editorial Review and Curation | Vocabulary Commons</title><link rel="canonical" href="https://ai-governance-trust-commons.github.io/vocabulary-commons/participate/curation/"><link rel="stylesheet" href="../../assets/style.css"></head><body><a class="skip" href="#content">Skip to main content</a>' + header + '<main id="content" class="wrap prose method"><p class="eyebrow">Participate · Editorial guidance</p><p><a href="../">← Participate in the Commons</a></p><div id="curation-text" data-source-sha256="' + hashlib.sha256(source).hexdigest() + '">' + rendered + '</div><p><a href="' + policy_url + '" rel="noopener noreferrer">View policy source on GitHub ↗</a></p></main>' + footer + '<script defer src="../../assets/app.js"></script></body></html>')
+    sitemap = docs/'sitemap.xml'
+    text = sitemap.read_text()
+    url = 'https://ai-governance-trust-commons.github.io/vocabulary-commons/participate/curation/'
+    if url not in text:
+        sitemap.write_text(text.replace('</urlset>', '<url><loc>' + url + '</loc></url>\n</urlset>'))

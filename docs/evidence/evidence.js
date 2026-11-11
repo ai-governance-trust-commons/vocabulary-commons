@@ -8,6 +8,15 @@
   const controls = Object.fromEntries(ids.map(id => [id, document.getElementById(id)]));
   const box = document.getElementById('items');
   const noticeBox = document.getElementById('withdrawals');
+  // Card backgrounds open details; nested links, selection and native controls remain independent.
+  box.addEventListener('click', event => {
+    if (event.defaultPrevented || event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    if (event.target.closest('a,button,input,select,textarea,summary,details,label')) return;
+    if (window.getSelection()?.toString()) return;
+    const card = event.target.closest('.evidence-card');
+    const details = card?.querySelector('details');
+    if (details) details.open = !details.open;
+  });
   const fields = {search: 'q', 'term-filter': 'term', 'category-filter': 'category', 'publisher-filter': 'publisher', 'relation-filter': 'relation', 'year-from': 'from', 'year-to': 'to', 'sort-order': 'sort'};
   let visible = [];
   const base = 'https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/';

@@ -121,6 +121,13 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             page.get_by_role('button', name='Search', exact=True).click()
             expect(page.locator('.evidence-card')).to_have_count(1)
             expect(page.locator('#EVID-155')).to_be_visible()
+            record=page.locator('#EVID-155')
+            record.locator('h2').click()
+            assert record.locator('details').evaluate('(node) => node.open')
+            record.locator('summary').click()
+            assert not record.locator('details').evaluate('(node) => node.open')
+            record.locator('input[type="checkbox"]').check()
+            assert not record.locator('details').evaluate('(node) => node.open')
             expect(page.locator('#library-tools')).to_be_visible()
             expect(page.locator('#library-fallback-note')).not_to_be_visible()
             page.locator('#select-visible').click()
@@ -171,6 +178,50 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             unstyled=context.new_page();visit(unstyled,'/terms/')
             assert unstyled.locator('.site-header').evaluate('(node) => getComputedStyle(node).position') != 'sticky'
             context.close()
+            assert not errors, errors
+            # Whole navigation cards use their real primary links, including padding.
+            for route,selector,link in [('/questions/','.path-card','h2 a'),('/questions/human-oversight/','.path-term','h3 a'),('/evidence/coverage/','.coverage-card','h3 a')]:
+                visit(page,route)
+                card=page.locator(selector).first
+                expected=card.locator(link).evaluate('(a) => a.href')
+                card.click(position={'x':8,'y':8})
+                expect(page).to_have_url(expected)
+            visit(page,'/resources/')
+            # Intercept this outbound navigation locally; never send a submission or test payload.
+            card=page.locator('.resource-card').first
+            external=card.locator('h3 a').get_attribute('href')
+            page.route(external,lambda route:route.fulfill(status=200,content_type='text/html',body='<h1>Resource route reached</h1>'))
+            card.click(position={'x':8,'y':8})
+            expect(page).to_have_url(external)
+            visit(page,'/participate/')
+            curation=page.locator('a.feature').filter(has_text='See how curation works')
+            curation.click(position={'x':8,'y':8})
+            expect(page).to_have_url(origin+'/participate/curation/')
+            expect(page.locator('h1')).to_have_text('Editorial Review and Curation')
+            expect(page.get_by_role('link',name='View policy source on GitHub')).to_be_visible()
+            # Secondary term links retain their own destinations above the primary overlay.
+            visit(page,'/questions/human-oversight/')
+            secondary=page.locator('.path-term').first.locator('nav a').first
+            expected=secondary.evaluate('(a) => a.href')
+            secondary.click()
+            expect(page).to_have_url(expected)
+            # Tablet touch targets, matching the reported iPad interaction.
+            tablet_context=browser.new_context(viewport={'width':1024,'height':768},is_mobile=True,has_touch=True)
+            tablet=tablet_context.new_page()
+            visit(tablet,'/questions/')
+            card=tablet.locator('.path-card').first
+            expected=card.locator('h2 a').evaluate('(a) => a.href')
+            card.tap(position={'x':8,'y':8})
+            expect(tablet).to_have_url(expected)
+            visit(tablet,'/participate/')
+            tablet.locator('a.feature').filter(has_text='See how curation works').tap(position={'x':8,'y':8})
+            expect(tablet.locator('h1')).to_have_text('Editorial Review and Curation')
+            visit(tablet,'/evidence/#EVID-155')
+            tablet.locator('#EVID-155 h2').tap()
+            assert not tablet.locator('#EVID-155 details').evaluate('(node) => node.open')
+            tablet.locator('#EVID-155 h2').tap()
+            assert tablet.locator('#EVID-155 details').evaluate('(node) => node.open')
+            tablet_context.close()
             assert not errors, errors
             browser.close()
             print('PASS: HTTP rendering, search, filters, mobile navigation; no JavaScript errors.')

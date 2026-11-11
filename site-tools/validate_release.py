@@ -64,6 +64,7 @@ check('Dataset, glossary and all bundles validate against unchanged JSON schemas
 from bs4 import BeautifulSoup
 from publication_security import CSP, REFERRER, presentation_files
 from publication_views import NAVIGATION, navigation
+from publication_views import curation_content
 from urllib.parse import urlsplit,unquote
 identity=read(D/'publication.json')
 identity_files=presentation_files(D)
@@ -76,6 +77,12 @@ for card in cards:
  record=records[card['id']];text=card.get_text(' ',strip=True)
  check(card['id']+' readable fallback preserves finding and limitations',all(value in text for value in [record['observation'],record['limitations'],record['verification_status'],record['support_assessment']]) and bool(card.select('a[href="machine/records/'+record['id']+'.json"]')))
 check('Static withdrawals preserve both notices without held claims',{n['id'] for n in fallback.select('#withdrawals > article')}=={w['id'] for w in d['withdrawals']})
+policy_source,policy_html=curation_content(D)
+policy_page=BeautifulSoup((D/'participate/curation/index.html').read_text(),'html.parser')
+policy_body=policy_page.select_one('#curation-text')
+check('Curation page faithfully renders the current policy source',policy_body is not None and policy_body.get('data-source-sha256')==hashlib.sha256(policy_source).hexdigest() and policy_body.get_text(' ',strip=True)==BeautifulSoup(policy_html,'html.parser').get_text(' ',strip=True))
+participate=BeautifulSoup((D/'participate/index.html').read_text(),'html.parser')
+check('Participate curation card stays on site',len(participate.select('a.feature[href="curation/"]'))==1)
 security=m.get('presentation_security',{})
 check('Shared presentation inventory and exact hashes match',security.get('files_sha256')==presentation_files(D))
 check('Shared browser policy metadata matches supported policy',security.get('content_security_policy')==CSP and security.get('referrer_policy')==REFERRER)

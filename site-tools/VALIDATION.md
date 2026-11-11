@@ -120,3 +120,21 @@ committed file cannot contain the hash of its own Git commit without circularity
 Exact deployment-time stamping requires an artifact deployment workflow and a
 separately activated Pages configuration; this update does not claim that change
 or signed authenticity.
+
+
+## Curation page and card interactions
+
+The supported build renders `EDITORIAL_REVIEW.md` at `/participate/curation/`.
+Only the classification-guide link is adapted for the web; the source policy
+bytes are not changed. Validation checks the source hash and rendered text.
+Ordinary policy links stay on the site; the explicitly labeled GitHub source
+link remains available.
+
+Primary heading links cover the padding of resource, research-path and coverage
+cards using native CSS link areas. Secondary links and native detail controls
+remain above the primary area; no extra keyboard stops or nested anchors are
+introduced. Evidence cards use delegated background clicks to toggle their
+native details, excluding links, selection controls, text selection and modifier
+clicks. Informational panels without a primary destination are not made links.
+Browser checks exercise padding clicks, secondary links, record checkboxes and
+the local curation destination.
