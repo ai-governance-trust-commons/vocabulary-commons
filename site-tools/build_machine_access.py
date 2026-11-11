@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build machine-access views from PUBLIC JSON only. Standard library; no network.
+"""Build machine-access views from PUBLIC JSON with locked dependencies; no network.
 
 No private collection, approval or publication-hold logic is implemented here.
 Run the private publication gate first; this program refuses inconsistent public data.
