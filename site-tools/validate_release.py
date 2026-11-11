@@ -55,7 +55,11 @@ for folder,schema in [('records','record-bundle-v1.schema.json'),('sources','sou
   if p.name!='index.json':v.validate(read(p))
 check('Dataset, glossary and all bundles validate against unchanged JSON schemas',True)
 from bs4 import BeautifulSoup
+from publication_security import CSP, REFERRER, presentation_files
 from urllib.parse import urlsplit,unquote
+security=m.get('presentation_security',{})
+check('Shared presentation inventory and exact hashes match',security.get('files_sha256')==presentation_files(D))
+check('Shared browser policy metadata matches supported policy',security.get('content_security_policy')==CSP and security.get('referrer_policy')==REFERRER)
 pages=list(D.rglob('*.html'));broken=[];nav_changed=[]
 baseline_pages=set(subprocess.check_output(['git','ls-tree','-r','--name-only',args.baseline_ref,'--','docs'],cwd=R,text=True).splitlines())
 baseline_pages={p for p in baseline_pages if p.endswith('.html')}
@@ -67,6 +71,18 @@ prior_manifest=json.loads(subprocess.check_output(['git','show',args.baseline_re
 check('Presentation version preserved',m['presentation_version']==prior_manifest['presentation_version'])
 for p in pages:
  soup=BeautifulSoup(p.read_text(),'html.parser')
+ policy=soup.find_all('meta',attrs={'http-equiv':re.compile('^Content-Security-Policy$',re.I)})
+ referrers=soup.find_all('meta',attrs={'name':'referrer'})
+ check(str(p.relative_to(D))+' shared browser policies',len(policy)==1 and policy[0].get('content')==CSP and len(referrers)==1 and referrers[0].get('content')==REFERRER)
+ check(str(p.relative_to(D))+' no inline executable code or styles',not soup.find_all('style') and not soup.select('[style]') and all(node.get('src') or node.get('type','').lower() in {'application/json','application/ld+json'} for node in soup.find_all('script')) and not any(any(key.lower().startswith('on') for key in node.attrs) for node in soup.find_all()))
+ for node in soup.find_all('script'):
+  if node.get('type','').lower() in {'application/json','application/ld+json'}:
+   json.loads(node.string or node.get_text())
+   check(str(p.relative_to(D))+' inline JSON uses safe text encoding','<' not in (node.string or node.get_text()))
+ for node in [*soup.find_all('script',src=True),*soup.find_all('link',rel='stylesheet')]:
+  url=node.get('src') or node.get('href');parts=urlsplit(url)
+  target=(p.parent/unquote(parts.path)).resolve()
+  check(str(p.relative_to(D))+' runtime asset is local and inventoried',not parts.scheme and not parts.netloc and target.is_relative_to(D.resolve()) and str(target.relative_to(D.resolve())) in security['files_sha256'])
  relative=str(p.relative_to(R))
  if relative in baseline_pages and relative not in allowed_nav:
   prior=BeautifulSoup(subprocess.check_output(['git','show',args.baseline_ref+':'+relative],cwd=R),'html.parser')

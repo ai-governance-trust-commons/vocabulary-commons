@@ -34,6 +34,8 @@
    document.addEventListener('click',event=>{
      if(!nav.contains(event.target) && !toggle.contains(event.target))setMenuOpen(false);
    });
+   // Collapse only after handlers are installed; failed/disabled JS keeps links usable.
+   toggle.closest('.site-header').classList.add('nav-ready');
  }
  const search=document.querySelector('#term-search');
  const vocab=document.querySelector('#vocab-filter');

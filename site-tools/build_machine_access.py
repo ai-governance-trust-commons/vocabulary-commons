@@ -5,6 +5,7 @@ No private collection, approval or publication-hold logic is implemented here.
 Run the private publication gate first; this program refuses inconsistent public data.
 """
 from projection_utils import preserve_chrome
+from publication_security import embed_dataset, finalize
 import csv,hashlib,html,io,json,re,shutil
 from pathlib import Path
 from datetime import datetime,timezone
@@ -29,6 +30,9 @@ for r in d['evidence']:
  assert r['source_ids'] and r['limitations'] and r['verification_status'] and r['publication_record']
  assert all(sid in lookup and sid in r['source_locations'] for sid in r['source_ids']) and r['case_id'] in lookup
 for r in d['relationships']:assert r['from_id'] in lookup and r['to_id'] in lookup
+# The canonical public JSON is the sole input for the browser dataset.
+index_page = DOCS/'evidence/index.html'
+index_page.write_text(embed_dataset(index_page.read_text(), d))
 for path in [M/'records',M/'sources',M/'schemas',M/'exports']:path.mkdir(parents=True,exist_ok=True)
 
 def write(path,value):
@@ -241,3 +245,6 @@ subprocess.run([sys.executable,str(ROOT/"site-tools/build_research_paths.py")],c
 
 # Refresh term navigation and reviewed reading aids after all public views.
 subprocess.run([sys.executable,str(ROOT/"site-tools/build_review_cleanup.py")],check=True)
+
+# Apply shared safety policies after every projection, then refresh final hashes.
+finalize(DOCS)
