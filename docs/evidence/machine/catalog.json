@@ -3,7 +3,7 @@
   "machine_release": "0.5.5",
   "dataset_version": "0.5.6",
   "dataset_sha256": "4db266a87f8155505eb544eac2455983aa33f9c28bfe27161490d93128db6ce8",
-  "prepared_at": "2026-11-10T23:49:01.248549+00:00",
+  "prepared_at": "2026-11-11T01:05:57.404027+00:00",
   "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
   "dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json",
   "dataset_schema_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/dataset-v1.schema.json",

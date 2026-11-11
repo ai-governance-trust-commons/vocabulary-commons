@@ -36,7 +36,7 @@ with tempfile.TemporaryDirectory(prefix='commons-security-test-') as tmp:
     for name in ['assets/app.js','assets/style.css']:
         path=docs/name;original=path.read_bytes();path.write_text('/* empty asset probe */\n')
         result=run('validate_release.py')
-        assert result.returncode!=0 and 'Shared presentation inventory' in result.stderr
+        assert result.returncode!=0 and 'Publication fingerprint and file inventory' in result.stderr
         path.write_bytes(original)
     # Canonical input remains schema-valid, while the browser projection cannot gain markup.
     path=docs/'evidence/evidence.json';data=json.loads(path.read_text())

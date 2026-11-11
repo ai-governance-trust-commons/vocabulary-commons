@@ -39,10 +39,25 @@ def sha(path):
 def presentation_files(docs):
     return {str(p.relative_to(docs)): sha(p) for p in sorted(docs.rglob('*')) if p.is_file() and p.suffix.lower() in {'.html', '.css', '.js'}}
 
-def finalize(docs):
+def finalize(docs, refresh_views=True):
     docs = Path(docs)
+    from publication_views import refresh
+    if refresh_views:
+        refresh(docs)
     for path in docs.rglob('*.html'):
         path.write_text(harden_html(path.read_text()))
+    public_files = presentation_files(docs)
+    for name in ['evidence/evidence.json', 'data/glossary.json', 'evidence/machine/exports/evidence.csv']:
+        public_files[name] = sha(docs/name)
+    fingerprint = hashlib.sha256(json.dumps(public_files, sort_keys=True, separators=(',', ':')).encode()).hexdigest()
+    repository = 'https://github.com/ai-governance-trust-commons/vocabulary-commons'
+    provenance = {'format_version': '1.0', 'content_fingerprint_sha256': fingerprint,
+                  'scope': 'Hashes of published HTML, CSS, JavaScript, canonical evidence, founding glossary JSON and evidence CSV. Excludes this file and volatile integrity/timestamp metadata. Identity is not independent authenticity.',
+                  'files_sha256': public_files, 'repository_url': repository,
+                  'deployment_runs_url': repository + '/actions/workflows/pages/pages-build-deployment',
+                  'validation_runs_url': repository + '/actions/workflows/publication-validation.yml',
+                  'revision_resolution': 'Use the successful Pages deployment run for the deployed commit, then compare these file hashes with that revision. This committed file does not claim to contain its own commit SHA.'}
+    (docs/'publication.json').write_text(json.dumps(provenance, ensure_ascii=False, indent=2) + '\n')
     machine = docs/'evidence/machine/checksums.json'
     checks = json.loads(machine.read_text())
     checks['files'] = {name: sha(docs/name) for name in checks['files']}

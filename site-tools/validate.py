@@ -121,6 +121,8 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             page.get_by_role('button', name='Search', exact=True).click()
             expect(page.locator('.evidence-card')).to_have_count(1)
             expect(page.locator('#EVID-155')).to_be_visible()
+            expect(page.locator('#library-tools')).to_be_visible()
+            expect(page.locator('#library-fallback-note')).not_to_be_visible()
             page.locator('#select-visible').click()
             with page.expect_download() as pending:
                 page.locator('#export-csv').click()
@@ -138,6 +140,18 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                 expect(fallback.locator('h1')).to_have_text('Considerations')
                 context.close()
             # A schema-valid source string must remain visible text, never executable markup.
+            for javascript in [False, True]:
+                context=browser.new_context(viewport={'width':390,'height':844},java_script_enabled=javascript)
+                if javascript:
+                    context.route('**/evidence/evidence.js', lambda route: route.abort())
+                fallback=context.new_page()
+                visit(fallback, '/evidence/#EVID-058')
+                expect(fallback.locator('.evidence-card')).to_have_count(len(evidence['evidence']))
+                expect(fallback.locator('#EVID-058')).to_be_visible()
+                expect(fallback.locator('#EVID-058 a[href="machine/records/EVID-058.json"]')).to_be_visible()
+                expect(fallback.locator('#library-tools')).not_to_be_visible()
+                expect(fallback.locator('#EVID-139')).to_be_visible()
+                context.close()
             from publication_security import embed_dataset
             import copy
             fixture=copy.deepcopy(evidence)

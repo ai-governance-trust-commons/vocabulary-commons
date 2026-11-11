@@ -26,7 +26,7 @@ Lance J. Johnson | October 24, 2026 | Version 1.0.2
 
 This publication establishes our initial, permanent, citable reference. The Commons will provide a place to examine and develop the vocabulary without altering that historical record.
 
-## How the Commons Will Work
+## How the Commons Works
 
 The Commons is intended to support three complementary activities:
 
@@ -60,8 +60,18 @@ Participation is open. Publication of a proposal does not imply endorsement or a
 
 ## Project Status
 
-**Initial setup — October 2026**
+**Public research resource — November 2026**
 
-The founding glossary is published and available to browse. Public discussions and terminology submissions are open, and the initial editorial review policy is established. Broader editorial participation and a more accessible public reference remain under development.
+The [live Commons](https://ai-governance-trust-commons.github.io/vocabulary-commons/)
+connects the fixed 35-term founding glossary with a provisional
+[Evidence Library](https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/),
+research paths, companion resources and clearly labeled developing discussions.
+Inclusion and source inspection do not establish independent verification.
+
+Publication commands, browser tests and the `publication-validation` GitHub check
+are documented in [publication validation](site-tools/VALIDATION.md).
+[Publication identity](https://ai-governance-trust-commons.github.io/vocabulary-commons/publication.json)
+provides a content fingerprint and links for resolving deployment revisions through
+GitHub. A workflow pass and required-check enforcement are separate states.
 
 **Our objective is shared understanding, not shared conclusions.**
