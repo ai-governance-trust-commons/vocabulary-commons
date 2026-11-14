@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "notice": "Research reports reflecting assessments at the time, distinct from validated evidence findings. Archival inclusion is not independent verification. Evidence Library records retain their own provisional standing.",
+  "reports": [
+    {
+      "date": "2026-11-10",
+      "title": "Thought injection and Australian response",
+      "description": "Forged reasoning in controlled tests; an official response whose significance was subsequently downgraded.",
+      "preservation": "Reconstructed reading copy, preserved November 13; not a verbatim transcript.",
+      "file": "2026-11-10.md",
+      "related_evidence": [
+        {
+          "id": "EVID-095",
+          "note": "Related controlled research on unattributed upstream plans; a different study, not corroboration of this report."
+        }
+      ],
+      "corrections": [
+        {
+          "date": "2026-11-13",
+          "note": "Correction already present when archived November 13 (original correction date not established): Australia’s response was primarily regulatory and operational. The initial assessment overstated its structural significance and was downgraded. See the preserved correction in the report."
+        }
+      ],
+      "sha256": "0e8fec7f9d62ab94f09a48ddfe2c6a4863cddef9b711d1c4b666781d2a1cc80f"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "AI assistance in sustained cyberespionage",
+      "description": "CloudSEK’s account of human-directed agent assistance, with attribution and autonomy limits.",
+      "preservation": "Reconstructed reading copy, preserved November 13; not a verbatim transcript.",
+      "file": "2026-11-11.md",
+      "related_evidence": [
+        {
+          "id": "EVID-038",
+          "note": "Related human-directed campaign; different attribution and case, not independent support for Silent Lynx."
+        }
+      ],
+      "corrections": [],
+      "sha256": "282d62bc02118fad65ded7750d5f518561e4b573e9b6937e67eef41c8d045ad9",
+      "repository_status_at_time": "The original November 11 report stated it searched the connected GitHub record index for Silent Lynx/Hermes/CloudSEK and found no matching indexed records; this is not an exhaustive absence claim. No GitHub records were edited or published as part of these report messages or the November 13 archival task. These status statements were not reverified in the archive."
+    },
+    {
+      "date": "2026-11-12",
+      "title": "Machine-checked security proofs",
+      "description": "A positive assurance example bounded by specifications, trusted semantics and evaluated properties.",
+      "preservation": "Reconstructed reading copy, preserved November 13; not a verbatim transcript.",
+      "file": "2026-11-12.md",
+      "related_evidence": [],
+      "corrections": [],
+      "sha256": "0b2d2e3dac4f32ce47b296edf90a94d0fe74c5fc7030f22fa4d357f7fc244a90",
+      "repository_status_at_time": "The original November 12 report stated the connected repository machine records and source indexes lacked an identifiable AlphaProof/Signal entry; not exhaustive. No GitHub records were edited or published as part of these report messages or the November 13 archival task. These status statements were not reverified in the archive."
+    },
+    {
+      "date": "2026-11-13",
+      "title": "Shared-memory command channels and training compromise",
+      "description": "Two controlled demonstrations, with prior-compromise requirements and uncertain deployment implications.",
+      "preservation": "Reconstructed reading copy, preserved November 13; not a verbatim transcript.",
+      "file": "2026-11-13.md",
+      "related_evidence": [
+        {
+          "id": "EVID-108",
+          "note": "Related controlled memory-persistence study; distinct from attacker-orchestrated command channels."
+        }
+      ],
+      "corrections": [],
+      "sha256": "1d714aa62cc4e89b0e68d84f987e3eb7613ad53e31225eb002a8f8530138a5bb",
+      "repository_status_at_time": "The original November 13 report stated the repository source URL index lacked the two November 12 disclosures; not exhaustive. No GitHub records were edited or published as part of these report messages or the November 13 archival task. These status statements were not reverified in the archive."
+    },
+    {
+      "date": "2026-11-14",
+      "title": "Unintended research-agent access to WorkOS",
+      "description": "A November 6 disclosure of October activity; reported attribution, cross-organization consequences and unresolved containment questions.",
+      "preservation": "Complete recorded automation result; portable Markdown replaces chat-only formatting and citations. Run 299dc139-5ff8-8329-a0fa-bb4dcaf44bc0, completed 2026-11-14T13:09:07.856850Z.",
+      "file": "2026-11-14.md",
+      "related_evidence": [],
+      "corrections": [],
+      "sha256": "8c395709f2c6373a18a15cdf09b116b72dba536621765ac78228658d47028ba4"
+    }
+  ]
+}

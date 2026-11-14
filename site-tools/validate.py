@@ -188,6 +188,21 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             unstyled=context.new_page();visit(unstyled,'/terms/')
             assert unstyled.locator('.site-header').evaluate('(node) => getComputedStyle(node).position') != 'sticky'
             context.close()
+            # Archive remains browsable without JavaScript at narrow mobile widths.
+            for width in [320, 390]:
+                context=browser.new_context(viewport={'width':width,'height':844}, java_script_enabled=False)
+                report=context.new_page()
+                visit(report,'/evidence/')
+                report.get_by_role('link',name='High-Signal Report Archive · dated research reports',exact=True).click()
+                expect(report.locator('h1')).to_have_text('High-Signal Report Archive')
+                report.locator('a[href="2026-11-10.html"]').click()
+                expect(report.locator('section[aria-label="Corrections and subsequent notes"]')).to_contain_text('primarily regulatory and operational')
+                expect(report.locator('article')).to_contain_text('What is NOT established')
+                expect(report.locator('a[href="../evidence/#EVID-095"]')).to_be_visible()
+                assert report.evaluate('document.documentElement.scrollWidth <= window.innerWidth + 1')
+                visit(report,'/reports/earlier-index.html')
+                assert report.evaluate('document.documentElement.scrollWidth <= window.innerWidth + 1')
+                context.close()
             assert not errors, errors
             # Whole navigation cards use their real primary links, including padding.
             for route,selector,link in [('/questions/','.path-card','h2 a'),('/questions/human-oversight/','.path-term','h3 a'),('/evidence/coverage/','.coverage-card','h3 a')]:
@@ -232,6 +247,21 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             tablet.locator('#EVID-155 h2').tap()
             assert tablet.locator('#EVID-155 details').evaluate('(node) => node.open')
             tablet_context.close()
+            # Archive remains browsable without JavaScript at narrow mobile widths.
+            for width in [320, 390]:
+                context=browser.new_context(viewport={'width':width,'height':844}, java_script_enabled=False)
+                report=context.new_page()
+                visit(report,'/evidence/')
+                report.get_by_role('link',name='High-Signal Report Archive · dated research reports',exact=True).click()
+                expect(report.locator('h1')).to_have_text('High-Signal Report Archive')
+                report.locator('a[href="2026-11-10.html"]').click()
+                expect(report.locator('section[aria-label="Corrections and subsequent notes"]')).to_contain_text('primarily regulatory and operational')
+                expect(report.locator('article')).to_contain_text('What is NOT established')
+                expect(report.locator('a[href="../evidence/#EVID-095"]')).to_be_visible()
+                assert report.evaluate('document.documentElement.scrollWidth <= window.innerWidth + 1')
+                visit(report,'/reports/earlier-index.html')
+                assert report.evaluate('document.documentElement.scrollWidth <= window.innerWidth + 1')
+                context.close()
             assert not errors, errors
             browser.close()
             print('PASS: HTTP rendering, search, filters, mobile navigation; no JavaScript errors.')

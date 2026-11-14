@@ -262,5 +262,7 @@ subprocess.run([sys.executable,str(ROOT/"site-tools/build_research_paths.py")],c
 # Refresh term navigation and reviewed reading aids after all public views.
 subprocess.run([sys.executable,str(ROOT/"site-tools/build_review_cleanup.py")],check=True)
 
+subprocess.run([sys.executable,str(ROOT/"site-tools/build_report_archive.py")],check=True)
+
 # Apply shared safety policies after every projection, then refresh final hashes.
 finalize(DOCS)
