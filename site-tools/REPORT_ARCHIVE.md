@@ -42,3 +42,18 @@ Chat display tags and ephemeral citation IDs were converted to portable Markdown
 and the explicit WorkOS source URL. Claims were not reverified in this archival pass.
 Earlier index: selected October 3–November 9 summaries, not full reports. The
 private ChatGPT conversation pointer is described rather than made a public link.
+
+## November 15 recovery refinement
+
+If folder-specific capture is denied, resolve the current private folder path.
+If ordinary private Library create is available, one default-location save may
+preserve the same complete JSON without changing permissions. Disclose the fallback
+location and retain its returned identity for later organization. If all saves fail,
+report failure and retain the complete portable content in the recorded result.
+Neither an interactive recovery nor a prompt update proves autonomous capture.
+The next qualifying scheduled run must supply its own successful save receipt.
+
+Use `create_backup.py --output /outside/repository/dated-backup.zip` after committing
+a review or publication revision. It never includes untracked/private files or
+replaces an existing archive. Keep previous backups. Restore into a fresh directory,
+verify every checksum and rebuild/test before treating a backup as usable.

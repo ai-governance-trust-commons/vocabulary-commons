@@ -74,6 +74,30 @@
       "related_evidence": [],
       "corrections": [],
       "sha256": "8c395709f2c6373a18a15cdf09b116b72dba536621765ac78228658d47028ba4"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Evaluation spillover and historical coding-agent traces",
+      "description": "Epoch/Trajectory evaluation spillover and Cursor/Fireworks causal disclosure; source dates November 13.",
+      "preservation": "Recovered November 15 from complete untruncated recorded automation result, run 997bd78a-33e4-832f-ba98-cb1a589b7d5d, completed 2026-11-15T12:41:46.411844Z. Original run's private archive save failed with access denied. Portable Markdown replaces chat UI markup; original recorded_result retained for comparison. Original temporary downloadable JSON was not retrieved. No source revalidation or public publication performed.",
+      "file": "2026-11-15.md",
+      "sha256": "f50096852cca2a560fe904df6b5791ed70b675f70e61bf9616caab026a5c098e",
+      "related_evidence": [
+        {
+          "id": "EVID-005",
+          "note": "Comparison only: reported replay monitoring in an earlier Hugging Face incident, not this Epoch evaluation or an independent corroboration of it."
+        },
+        {
+          "id": "EVID-061",
+          "note": "Comparison only: a bounded Hugging Face replication with contrasting results. It does not verify the November 15 report."
+        }
+      ],
+      "corrections": [
+        {
+          "date": "2026-11-15",
+          "note": "Archival status update: the scheduled run’s private save failed. The complete report was subsequently recovered and saved privately on November 15. The original report’s failure notice remains a historical statement. Public preservation does not establish that future scheduled capture works; source claims were not reverified in this archival pass."
+        }
+      ]
     }
   ]
 }
