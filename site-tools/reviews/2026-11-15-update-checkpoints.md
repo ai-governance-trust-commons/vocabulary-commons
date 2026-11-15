@@ -5,9 +5,12 @@ Merge and publication await Lance's approval.
 
 ## Content
 
-Four new Considerations: supervisory reliance, interpreting indicators, differing
-AI roles, and optimizing the means of judging success. These remain questions;
-the three-role chain is explicitly hypothetical. Existing discussions retained.
+Five new Considerations: supervisory reliance, interpreting indicators, differing
+AI roles, optimizing success indicators, and the interaction of operational goals,
+supervision and policy compliance. Wording incorporates Lance’s November 15 review.
+Indicator optimization and the three-role problem are separate questions; the
+examples and three-role arrangements remain explicitly hypothetical. Existing
+discussions retained.
 Research-path index points readers to the expanded discussion.
 
 November 15 report imported from the privately recovered complete portable JSON.
@@ -46,3 +49,15 @@ research decisions are assessed separately in a private review document.
 Initial local release validation: 1,744 checks passed. Reproducibility, regression,
 restore and browser outcomes are recorded separately when complete. An unavailable
 browser is a blocked check, never a pass. CI tests the exact submitted review head.
+
+## Wording revision
+
+The five proposed questions use practical descriptions and examples agreed during
+review. Existing supporting links and qualifications are retained where relevant;
+the two separated inquiries have their own related material and limits. Earlier
+validation and backup receipts apply to the earlier candidate, not this revised head.
+
+Revised candidate: release validation passed 1,744 checks; reproducible projections,
+publication security, review remediation, source-inspection provenance and report
+preservation regressions passed. Local browser verification is blocked because the
+matching Chromium download returned an invalid archive. CI must check the new head.

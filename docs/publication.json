@@ -1,12 +1,12 @@
 {
   "format_version": "1.0",
-  "content_fingerprint_sha256": "a08be83b27816c958e781ad413ca2f53ff8c610a383bc87f057380d305ed5adb",
+  "content_fingerprint_sha256": "d2ec14de72d45ec1a232042e7bc8ce691f58ca67afb9d2ca7814550c2f999be6",
   "scope": "Hashes of published HTML, CSS, JavaScript, canonical evidence, founding glossary JSON and evidence CSV. Excludes this file and volatile integrity/timestamp metadata. Identity is not independent authenticity.",
   "files_sha256": {
     "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
     "assets/research-notes.css": "b8f5d3951dad58bf1bb19c686862ec8fc2fabb13df86a6e05e466b57da140af0",
     "assets/style.css": "ca83becc798f836eca292bc7660a082412a68a4f3e16722df75a49c5099f5122",
-    "considerations/index.html": "df248bb248b2a9851894f4a3f810e2d96992a0dbdd1f18d602219eb987e71897",
+    "considerations/index.html": "ce5b13b292b3084be6d274cfd1f268b87887599d19f5beaeb0bf2b65449fe0c7",
     "evidence/coverage/coverage.css": "5763ce6af014ba37aa46a1c91a6c61d196b4eed8d66b18580c36f2251c0433a1",
     "evidence/coverage/coverage.js": "33429ad734567b3ae59b07aa7ec582037eb47f1c9d201da0a68943c1f6e484b1",
     "evidence/coverage/index.html": "cf91dd4ebba8cfea43afa7b2ca9f480dc12316319fe909a9f663b3e13f554d32",
@@ -27,7 +27,7 @@
     "questions/feedback-and-interaction/index.html": "24d7481e87a65ec0b58d6bd2c2de5112d8c365ed16388c85d07baa44ae92b29a",
     "questions/governability-across-systems/index.html": "fc2b835588e2d282001d9d009f96395d47adf446c1fe72b16a02baa7246584a9",
     "questions/human-oversight/index.html": "ebdf51324e2ea4c9ba92d017312baa9b1ff6ec37a8885402a8d2fe995dccc161",
-    "questions/index.html": "6a17bbb7bbe9e3c6237498efebaef705653ce30987c22cfd216d0222962688d3",
+    "questions/index.html": "607184569a07c6bdcef229b43a77a84b0baf62bfe03f7127db4e5b1bd630bdcc",
     "questions/monitoring-and-visibility/index.html": "573ac73cee901bbeafc130346d9634cf3c23eef5e9acf797650f2b92e0f5636f",
     "questions/paths.css": "a2763fc7bf596d1ea7cde6c3e21b2117f5be1cd99be4257fb66bf633419b558c",
     "questions/paths.js": "d2b084dc72bd337b0aa615dae73291aa32bd6852ce3d2a00841c5dbaee8ef398",
