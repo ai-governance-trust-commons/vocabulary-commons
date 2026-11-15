@@ -101,7 +101,7 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
             assert mobile.evaluate('document.documentElement.scrollWidth <= window.innerWidth')
             mobile.screenshot(path=str(output/'mobile-navigation.png'))
             # The expanded guide/discussions stay reachable under the delivered policy.
-            for route, title in [('/considerations/', 'Considerations'), ('/method/', 'How to use the Commons')]:
+            for route, title in [('/considerations/', 'What We’re Thinking About'), ('/method/', 'How to use the Commons')]:
                 visit(page, route)
                 expect(page.locator('h1')).to_have_text(title)
             expect(page.locator('#classification-guide')).to_be_visible()
@@ -153,8 +153,8 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                 visit(fallback, '/terms/')
                 expect(fallback.locator('#primary-nav')).to_be_visible()
                 expect(fallback.locator('.nav-toggle')).not_to_be_visible()
-                fallback.locator('#primary-nav').get_by_role('link', name='Considerations', exact=True).click()
-                expect(fallback.locator('h1')).to_have_text('Considerations')
+                fallback.locator('#primary-nav').get_by_role('link', name='What We’re Thinking About', exact=True).click()
+                expect(fallback.locator('h1')).to_have_text('What We’re Thinking About')
                 context.close()
             # A schema-valid source string must remain visible text, never executable markup.
             for javascript in [False, True]:

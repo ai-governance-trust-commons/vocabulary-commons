@@ -9,8 +9,8 @@ from source_inspection import inspection_index, LABELS
 from publication_security import inline_json
 
 NAVIGATION = [('Home', ''), ('Glossary', 'terms/'), ('Evidence Library', 'evidence/'),
-              ('Resources', 'resources/'), ('Explore questions', 'questions/'),
-              ('Considerations', 'considerations/'), ('How to use', 'method/'),
+              ('Resources', 'resources/'), ('Explore the Evidence', 'questions/'),
+              ('What We’re Thinking About', 'considerations/'), ('How to use', 'method/'),
               ('Participate', 'participate/')]
 
 def esc(value):
