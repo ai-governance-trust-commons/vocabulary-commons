@@ -1,12 +1,12 @@
 {
   "format_version": "1.0",
-  "content_fingerprint_sha256": "d2ec14de72d45ec1a232042e7bc8ce691f58ca67afb9d2ca7814550c2f999be6",
+  "content_fingerprint_sha256": "451a742482da2ac4a816359316e0d1847fb250188a4a6b37f9da6af7a577a86d",
   "scope": "Hashes of published HTML, CSS, JavaScript, canonical evidence, founding glossary JSON and evidence CSV. Excludes this file and volatile integrity/timestamp metadata. Identity is not independent authenticity.",
   "files_sha256": {
     "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
     "assets/research-notes.css": "b8f5d3951dad58bf1bb19c686862ec8fc2fabb13df86a6e05e466b57da140af0",
     "assets/style.css": "ca83becc798f836eca292bc7660a082412a68a4f3e16722df75a49c5099f5122",
-    "considerations/index.html": "ce5b13b292b3084be6d274cfd1f268b87887599d19f5beaeb0bf2b65449fe0c7",
+    "considerations/index.html": "7ba594ce458d93508eb66b2e9008cf37e7faa60f2f76354d92fdbe0ba59ac310",
     "evidence/coverage/coverage.css": "5763ce6af014ba37aa46a1c91a6c61d196b4eed8d66b18580c36f2251c0433a1",
     "evidence/coverage/coverage.js": "33429ad734567b3ae59b07aa7ec582037eb47f1c9d201da0a68943c1f6e484b1",
     "evidence/coverage/index.html": "cf91dd4ebba8cfea43afa7b2ca9f480dc12316319fe909a9f663b3e13f554d32",

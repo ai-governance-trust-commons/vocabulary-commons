@@ -1,7 +1,7 @@
 {
   "dataset_version": "0.5.6-review.1",
   "presentation_version": "0.5.7",
-  "generated_at": "2026-11-15T18:56:49.558653+00:00",
+  "generated_at": "2026-11-15T19:02:06.621166+00:00",
   "evidence_count": 193,
   "source_count": 155,
   "withdrawn_ids": [
@@ -15,11 +15,11 @@
     "evidence.js": "6f61afde850089c5d32e9fedeac94b6f52346979104ed7a4cc73eb44187a3738",
     "evidence.css": "da46041ddea3bfee8858aac04345bb8d4f9998d117854f7e048ff9ce4460ccf1"
   },
-  "presentation_updated_at": "2026-11-15T18:56:49.558653+00:00",
+  "presentation_updated_at": "2026-11-15T19:02:06.621166+00:00",
   "machine_release": "0.5.5",
   "machine_contract_version": "1.0",
   "machine_catalog": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/catalog.json",
-  "machine_checksums_sha256": "e3663d6d88f7f0f24cf70148c2e800c9ceacb0d5788964eceb727dbb72e5bd3d",
+  "machine_checksums_sha256": "246521c02df2d7bc2701e6dcdf387a3381eb526111e689748cbc4a3c9f778f02",
   "coverage_view": {
     "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/coverage/",
     "dataset_version": "0.5.6-review.1",
@@ -104,7 +104,7 @@
       "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
       "assets/research-notes.css": "b8f5d3951dad58bf1bb19c686862ec8fc2fabb13df86a6e05e466b57da140af0",
       "assets/style.css": "ca83becc798f836eca292bc7660a082412a68a4f3e16722df75a49c5099f5122",
-      "considerations/index.html": "ce5b13b292b3084be6d274cfd1f268b87887599d19f5beaeb0bf2b65449fe0c7",
+      "considerations/index.html": "7ba594ce458d93508eb66b2e9008cf37e7faa60f2f76354d92fdbe0ba59ac310",
       "evidence/coverage/coverage.css": "5763ce6af014ba37aa46a1c91a6c61d196b4eed8d66b18580c36f2251c0433a1",
       "evidence/coverage/coverage.js": "33429ad734567b3ae59b07aa7ec582037eb47f1c9d201da0a68943c1f6e484b1",
       "evidence/coverage/index.html": "cf91dd4ebba8cfea43afa7b2ca9f480dc12316319fe909a9f663b3e13f554d32",
