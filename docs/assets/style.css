@@ -195,7 +195,7 @@ html{scroll-padding-top:110px}
 .consideration-status h2{border:0;padding-top:0}.consideration-list{max-width:1080px;padding-bottom:12px}
 .consideration{padding:48px 0 30px;border-bottom:1px solid var(--line)}
 .consideration h2{font-size:clamp(1.9rem,3vw,2.7rem);max-width:900px;margin-bottom:23px}
-.consideration h3{font-size:20px;margin:27px 0 12px}.consideration p,.consideration li{max-width:850px}
+.consideration h3,.consideration h2.topic-subheading{font-size:20px;margin:27px 0 12px}.consideration p,.consideration li{max-width:850px}
 .consideration ul{padding-left:23px}.consideration li{padding-left:5px;margin-bottom:8px}
 .consideration-limit{font-size:14px;border-left:3px solid var(--teal);padding:13px 18px;background:var(--pale)}
 @media(max-width:750px){.consideration{padding-top:34px}.guide-table th,.guide-table td{padding:12px}.consideration-status{margin-left:20px;margin-right:20px;padding-left:18px;padding-right:18px}}

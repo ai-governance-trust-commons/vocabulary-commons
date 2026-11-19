@@ -1,7 +1,7 @@
 {
   "dataset_version": "0.5.6-review.2",
   "presentation_version": "0.5.7",
-  "generated_at": "2026-11-19T15:04:50.951215+00:00",
+  "generated_at": "2026-11-19T16:08:45.594885+00:00",
   "evidence_count": 204,
   "source_count": 165,
   "withdrawn_ids": [
@@ -15,11 +15,11 @@
     "evidence.js": "6f61afde850089c5d32e9fedeac94b6f52346979104ed7a4cc73eb44187a3738",
     "evidence.css": "da46041ddea3bfee8858aac04345bb8d4f9998d117854f7e048ff9ce4460ccf1"
   },
-  "presentation_updated_at": "2026-11-19T15:04:50.951215+00:00",
+  "presentation_updated_at": "2026-11-19T16:08:45.594885+00:00",
   "machine_release": "0.5.5",
   "machine_contract_version": "1.0",
   "machine_catalog": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/catalog.json",
-  "machine_checksums_sha256": "6f152560da11868e630820b1586c3dc63a0d74716c85dcf99188569d8a128ba1",
+  "machine_checksums_sha256": "a10c6d5b18235ee8019c2eeb9095b379e5d1326db932c09533d3bf012efeb2a9",
   "coverage_view": {
     "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/coverage/",
     "dataset_version": "0.5.6-review.2",
@@ -103,8 +103,16 @@
     "files_sha256": {
       "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
       "assets/research-notes.css": "b8f5d3951dad58bf1bb19c686862ec8fc2fabb13df86a6e05e466b57da140af0",
-      "assets/style.css": "ca83becc798f836eca292bc7660a082412a68a4f3e16722df75a49c5099f5122",
-      "considerations/index.html": "9a9c4af45bc4884baa995d13b170e9ffaa186d2b243b9a82a2008c944a8887f3",
+      "assets/style.css": "743930f7220b69dabb6e5fff6dbbc8f025284abfc90175e7c5d3eceade53462e",
+      "considerations/different-ai-roles/index.html": "8fc7d447de6a79fcd4a4775c3236a4cc11f3fb1ec84c44a3a51ff4563b1b81ac",
+      "considerations/event-chains/index.html": "57c44b8d58bdb9e09d999a9f5308ba7ca4d1147db48b107bfac5f1167e8ff39d",
+      "considerations/illuminated-shadow/index.html": "ff1f4e9468ed8d6e0878cbc935ea188140eea87ab99c88756e4ebc466496f76b",
+      "considerations/independent-judgment/index.html": "c8c468ccfa9240cf186422e7bb68ef7716ade12699b9686c0b7b3a1049cb98e7",
+      "considerations/index.html": "09239bdf266c38fd382f92cfae7493f9f9e5972afb9e480009ded56d92860999",
+      "considerations/interpreting-indicators/index.html": "bfb4da9880bd68c1e5ccb67e848471fbd7de9e2e59d4a31fac55db138990d8df",
+      "considerations/operational-supervision-audit/index.html": "02b481934fa4ba9c33ee4ee49c8438a13335202aac6441624e7dd04836748257",
+      "considerations/optimizing-judgment/index.html": "0cf15e7658b83b09c90bbb4a6c1201f22b7b9fa2546564fa87685ead55bb29d5",
+      "considerations/relying-on-oversight/index.html": "9eac54137e919218c85f33e9c94fc72b504e29b2a1c512c30b1f431dd26f84a6",
       "evidence/coverage/coverage.css": "5763ce6af014ba37aa46a1c91a6c61d196b4eed8d66b18580c36f2251c0433a1",
       "evidence/coverage/coverage.js": "33429ad734567b3ae59b07aa7ec582037eb47f1c9d201da0a68943c1f6e484b1",
       "evidence/coverage/index.html": "9af498e22890898b84ecc516e9d407760ba060feaac7a44ac3697420acc27088",

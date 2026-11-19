@@ -264,5 +264,8 @@ subprocess.run([sys.executable,str(ROOT/"site-tools/build_review_cleanup.py")],c
 
 subprocess.run([sys.executable,str(ROOT/"site-tools/build_report_archive.py")],check=True)
 
+# Build topic discussions from their source cards.
+subprocess.run([sys.executable,str(ROOT/"site-tools/build_topic_discussions.py")],check=True)
+
 # Apply shared safety policies after every projection, then refresh final hashes.
 finalize(DOCS)
