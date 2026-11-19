@@ -1,6 +1,6 @@
 {
-  "version": "review-2026-11-08",
-  "reviewed_on": "8 November 2026",
+  "version": "review-2026-11-19",
+  "reviewed_on": "19 November 2026",
   "sections": [
     {
       "slug": "standards-institutions",
@@ -103,6 +103,18 @@
           "publisher": "Yan et al. · controlled multi-agent study",
           "url": "https://arxiv.org/abs/2608.03421",
           "note": "Examines how false testimony affects collective fact recovery and how a claim may spread after its original source exits."
+        },
+        {
+          "title": "The Observability Gap in AI Agents",
+          "publisher": "Partnership on AI · framework assessment",
+          "url": "https://partnershiponai.org/resource/the-observability-gap-in-ai-agents/",
+          "note": "A point-in-time assessment of four agent frameworks, including what they record about agent identity, authority changes and human intervention. Deployments can add their own telemetry."
+        },
+        {
+          "title": "AlphaProof Code: Verifying Signal’s Security at the Machine-Code Level",
+          "publisher": "Google DeepMind · applied formal assurance",
+          "url": "https://google-deepmind.github.io/code-verification/",
+          "note": "Reports machine-checked proofs for specified Signal components and security properties under stated modeling assumptions. An example of AI-assisted assurance with explicit scope."
         }
       ]
     },
