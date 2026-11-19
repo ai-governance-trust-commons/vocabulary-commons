@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "dataset_version": "0.5.6-review.1",
+  "dataset_version": "0.5.6-review.2",
   "notice": "One source record is not necessarily one independent study or corroborator.",
   "sources": [
     {
@@ -777,6 +777,56 @@
       "id": "SRC-157",
       "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-157.json",
       "original_url": "https://apartresearch.com/sprints/projects/detecting-covert-collusion-between-ai-agents-through-partneroutsider-positive-listening-w98v"
+    },
+    {
+      "id": "SRC-158",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-158.json",
+      "original_url": "https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/"
+    },
+    {
+      "id": "SRC-159",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-159.json",
+      "original_url": "https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident"
+    },
+    {
+      "id": "SRC-160",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-160.json",
+      "original_url": "https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website"
+    },
+    {
+      "id": "SRC-161",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-161.json",
+      "original_url": "https://www.trajectorylabs.com/blog/gemini-4-argon-behavior-during-misalignment-testing"
+    },
+    {
+      "id": "SRC-162",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-162.json",
+      "original_url": "https://newcore.com/newsroom/newcore-research-grok-bot-agents-reached-for-corporate-data-unprompted"
+    },
+    {
+      "id": "SRC-163",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-163.json",
+      "original_url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+    },
+    {
+      "id": "SRC-164",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-164.json",
+      "original_url": "https://cursor.com/blog/security-incident-update"
+    },
+    {
+      "id": "SRC-165",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-165.json",
+      "original_url": "https://moumitachoudhury.github.io/helpful-agent-problem/"
+    },
+    {
+      "id": "SRC-166",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-166.json",
+      "original_url": "https://arxiv.org/abs/2611.18471"
+    },
+    {
+      "id": "SRC-167",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-167.json",
+      "original_url": "https://arxiv.org/abs/2611.20045"
     }
   ]
 }

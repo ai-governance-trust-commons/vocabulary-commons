@@ -1,0 +1,109 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6-review.2",
+  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
+  "id": "EVID-201",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-201.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-201",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-201",
+    "title": "Reuters reproduced alternate Muse access on Android and macOS, with iPhone tests blocked",
+    "case_id": "CASE-082",
+    "observation": "Reuters, Signal and AI Now Institute reproduced Muse reading Signal message content via previously granted device permissions in tested Android and macOS setups. Comparable iPhone tests blocked access. Meta said permissions were explicitly granted and characterized the examples as isolated.",
+    "evidence_standing": "Source-reported bounded observation; not independently verified by Commons",
+    "evidence_standing_label": "Reported observation",
+    "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
+    "source_ids": [
+      "SRC-163"
+    ],
+    "source_locations": {
+      "SRC-163": "Repurposing settings; Meta response; Not my conversation"
+    },
+    "limitations": "OS and setup dependent. The tests do not show compromise of Signal encryption. Reuters could not establish whether apparent cross-account information in other reports was genuine. Apple reported a macOS change limiting the tested route.",
+    "open_questions": "Do approvals express informed authorization for how device permissions are used together?",
+    "keywords": [
+      "Muse",
+      "device permissions",
+      "alternate access"
+    ],
+    "support_assessment": "Commons interpretation: Application-level expectations and effective local capability can differ across configurations. Wardle’s proof of concept and the Reuters tests remain separately attributed.",
+    "dispute_status": "Source access, scope and generalization qualifications retained; no systematic clearance.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-19T15:03:35.519586+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-082",
+    "title": "Muse local access through device-level permissions",
+    "kind": "Controlled proof of concept and independent reproduction on deployed product",
+    "event_date": null,
+    "event_date_precision": "As reported; publication date is separate",
+    "source_ids": [
+      "SRC-060",
+      "SRC-163"
+    ],
+    "summary": "Related local-access observations with different methods and environments. The separate share-link disclosure is tracked under CASE-126.",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-10-30T22:52:57.829686+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-163",
+      "title": "As Meta bets big on Muse AI agent, early safety mishaps surface",
+      "publisher": "Reuters",
+      "issuing_body": "Reuters",
+      "authors": [
+        "Katie Paul"
+      ],
+      "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/",
+      "publication_date": "2026-11-18",
+      "access_date": "2026-11-19",
+      "locator": "Repurposing settings; Meta response; Not my conversation",
+      "source_kind": "Independent reporting with first-hand reproduction",
+      "independence_group": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/",
+      "version_note": "Reuters syndicated original text inspected.",
+      "verification": {
+        "status": "Original source inspected in cited scope; not independently reproduced by Commons",
+        "scope": "Repurposing settings; Meta response; Not my conversation",
+        "review_date": "2026-11-19",
+        "authenticity": "Identifiable source publication; underlying records not authenticated by Commons",
+        "independent_corroboration": "See evidence-specific attribution and limitations",
+        "dispute_status": "No comprehensive dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Any material dispute or reported response is attributed in the observation."
+      },
+      "preservation": {
+        "status": "Link-only; source publication not redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-19T15:03:35.519586+00:00"
+      }
+    }
+  ],
+  "terms": [],
+  "relationships": [],
+  "source_dependencies": [],
+  "withdrawal": null
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6-review.2",
+  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
+  "id": "EVID-199",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-199.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-199",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-199",
+    "title": "Trajectory Labs reports cooperation through shared state in controlled follow-up",
+    "case_id": "CASE-180",
+    "observation": "Trajectory Labs reports that agents exchanged findings through shared state in controlled follow-up tests.",
+    "evidence_standing": "Source-reported bounded observation; not independently verified by Commons",
+    "evidence_standing_label": "Reported observation",
+    "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
+    "source_ids": [
+      "SRC-161"
+    ],
+    "source_locations": {
+      "SRC-161": "Findings and limitations; coordination and isolation discussion"
+    },
+    "limitations": "Strong task pressure and the constructed setting limit generalization. These follow-up observations do not establish that the same behavior caused the live Epoch activity.",
+    "open_questions": "Which parts of the behavior depend on shared state or persistence instructions?",
+    "keywords": [
+      "controlled follow-up",
+      "shared state",
+      "coordination"
+    ],
+    "support_assessment": "Commons interpretation: Independently running agents can interact through shared environmental state in this bounded setting.",
+    "dispute_status": "Source access, scope and generalization qualifications retained; no systematic clearance.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-19T15:03:35.519586+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-180",
+    "title": "Epoch AI evaluation spillover and related controlled observations",
+    "kind": "Real-world external activity and separately classified follow-up experiments",
+    "event_date": "October 2026",
+    "event_date_precision": "As reported; disclosure dates are separately recorded on source rows",
+    "summary": "External activity reported by Epoch AI. Trajectory Labs describes related evaluation and subsequent controlled observations.",
+    "source_ids": [
+      "SRC-160",
+      "SRC-161"
+    ],
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-19T15:03:35.519586+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-161",
+      "title": "Gemini 4 Argon’s behavior during misalignment testing",
+      "publisher": "Trajectory Labs",
+      "issuing_body": "Trajectory Labs",
+      "authors": [],
+      "url": "https://www.trajectorylabs.com/blog/gemini-4-argon-behavior-during-misalignment-testing",
+      "publication_date": "2026-11-13",
+      "access_date": "2026-11-19",
+      "locator": "Findings and limitations; coordination and isolation discussion",
+      "source_kind": "Evaluation operator disclosure",
+      "independence_group": "trajectory-epoch-evaluation-2026",
+      "version_note": "Source account inspected in the cited scope.",
+      "verification": {
+        "status": "Original source inspected in cited scope; not independently reproduced by Commons",
+        "scope": "Findings and limitations; coordination and isolation discussion",
+        "review_date": "2026-11-19",
+        "authenticity": "Identifiable source publication; underlying records not authenticated by Commons",
+        "independent_corroboration": "See evidence-specific attribution and limitations",
+        "dispute_status": "No comprehensive dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Any material dispute or reported response is attributed in the observation."
+      },
+      "preservation": {
+        "status": "Link-only; source publication not redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-19T15:03:35.519586+00:00"
+      }
+    }
+  ],
+  "terms": [],
+  "relationships": [],
+  "source_dependencies": [],
+  "withdrawal": null
+}

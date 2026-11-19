@@ -1,5 +1,5 @@
 {
-  "dataset_version": "0.5.6-review.1",
+  "dataset_version": "0.5.6-review.2",
   "terms": [
     {
       "id": "TERM-ai-enabled-capability",
@@ -488,9 +488,10 @@
         "EVID-158",
         "EVID-159",
         "EVID-176",
-        "EVID-177"
+        "EVID-177",
+        "EVID-203"
       ],
-      "finding_count": 47,
+      "finding_count": 48,
       "source_ids": [
         "SRC-005",
         "SRC-006",
@@ -531,7 +532,8 @@
         "SRC-122",
         "SRC-123",
         "SRC-140",
-        "SRC-141"
+        "SRC-141",
+        "SRC-165"
       ],
       "recorded_family_ids": [
         "AISI_ASSESS",
@@ -569,11 +571,12 @@
         "openai-monitoring-2026",
         "study-arxiv-2603.19213",
         "study-arxiv-2609.24242",
+        "study-arxiv-2610.31985",
         "study-bainbridge",
         "study-controllability",
         "study-internaldeploy"
       ],
-      "recorded_family_count": 38,
+      "recorded_family_count": 39,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-005",
@@ -624,7 +627,8 @@
           "EVID-158",
           "EVID-159",
           "EVID-176",
-          "EVID-177"
+          "EVID-177",
+          "EVID-203"
         ],
         "partial": [
           "EVID-054",
@@ -1688,9 +1692,10 @@
         "EVID-191",
         "EVID-192",
         "EVID-193",
-        "EVID-194"
+        "EVID-194",
+        "EVID-200"
       ],
-      "finding_count": 58,
+      "finding_count": 59,
       "source_ids": [
         "SRC-009",
         "SRC-011",
@@ -1746,7 +1751,8 @@
         "SRC-154",
         "SRC-155",
         "SRC-156",
-        "SRC-157"
+        "SRC-157",
+        "SRC-162"
       ],
       "recorded_family_ids": [
         "AISI_ASSESS",
@@ -1778,6 +1784,7 @@
         "https://labs.zenity.io/post/salesbleed-hijacking-agentforce-in-slack-for-anonymous-phishing",
         "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation",
         "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring",
+        "https://newcore.com/newsroom/newcore-research-grok-bot-agents-reached-for-corporate-data-unprompted",
         "https://newsletter.semianalysis.com/p/beijing-will-not-pace-the-frontier",
         "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-92.pdf",
         "https://openai.com/index/safety-alignment-long-horizon-models",
@@ -1804,7 +1811,7 @@
         "study-selfreplication",
         "wiz-artex-oct 2026"
       ],
-      "recorded_family_count": 54,
+      "recorded_family_count": 55,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-011",
@@ -1868,7 +1875,8 @@
           "EVID-179",
           "EVID-191",
           "EVID-192",
-          "EVID-193"
+          "EVID-193",
+          "EVID-200"
         ],
         "qualifies": [
           "EVID-011",
@@ -2376,9 +2384,10 @@
         "EVID-103",
         "EVID-108",
         "EVID-148",
-        "EVID-150"
+        "EVID-150",
+        "EVID-196"
       ],
-      "finding_count": 7,
+      "finding_count": 8,
       "source_ids": [
         "SRC-021",
         "SRC-023",
@@ -2387,7 +2396,8 @@
         "SRC-070",
         "SRC-075",
         "SRC-113",
-        "SRC-115"
+        "SRC-115",
+        "SRC-158"
       ],
       "recorded_family_ids": [
         "AISI_ASSESS",
@@ -2395,11 +2405,12 @@
         "OAI_BROWSER_BYPASS",
         "OAI_SERVER_SECRETS",
         "anthropic-unintended-actions-oct 2026",
+        "https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/",
         "https://openai.com/index/safety-alignment-long-horizon-models",
         "study-arxiv-2609.38411",
         "study-arxiv-2610.04083"
       ],
-      "recorded_family_count": 8,
+      "recorded_family_count": 9,
       "sources_without_family": [],
       "qualifying_finding_ids": [
         "EVID-103",
@@ -2412,7 +2423,8 @@
           "EVID-028",
           "EVID-049",
           "EVID-148",
-          "EVID-150"
+          "EVID-150",
+          "EVID-196"
         ],
         "qualifies": [
           "EVID-103",
@@ -2424,21 +2436,29 @@
   "unmatched_finding_ids": [
     "EVID-004",
     "EVID-160",
-    "EVID-189"
+    "EVID-189",
+    "EVID-197",
+    "EVID-198",
+    "EVID-199",
+    "EVID-201",
+    "EVID-202",
+    "EVID-204",
+    "EVID-205",
+    "EVID-206"
   ],
   "counts": {
     "terms": 35,
     "terms_with_links": 34,
     "terms_without_links": 1,
     "terms_with_one_recorded_family": 5,
-    "public_findings": 193,
-    "findings_with_term_links": 190,
-    "findings_without_term_links": 3,
+    "public_findings": 204,
+    "findings_with_term_links": 193,
+    "findings_without_term_links": 11,
     "withdrawal_notices": 2
   },
   "format_version": "1.0",
   "coverage_presentation_version": "0.5.6",
-  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
+  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
   "basis": "Explicit evidence-to-term relationships in the current published dataset. Withdrawals excluded. Counts describe recorded curation, not truth, completeness or independence.",
   "family_method": "Distinct recorded independence_group values across all sources cited by each term’s linked findings. Missing groups are disclosed separately; source-dependency relationships may identify further dependence.",
   "source_dataset_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/evidence.json"

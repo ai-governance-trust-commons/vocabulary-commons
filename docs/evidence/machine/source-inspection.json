@@ -1,7 +1,7 @@
 {
   "inspection_contract_version": "1.0",
-  "dataset_version": "0.5.6-review.1",
-  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
+  "dataset_version": "0.5.6-review.2",
+  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
   "classified_at": "2026-11-11",
   "notice": "Classification of historical recorded attribution, not a fresh inspection or source verification. Unspecified is an intentional unresolved value. Review dates retain their original meaning. Direct means explicitly recorded reading by the preparing assistant, not an independently authenticated reading event.",
   "basis_labels": {
@@ -1497,6 +1497,116 @@
       "recorded_status": "Relevant original-source passages inspected by Mike AI; not independently reproduced",
       "recorded_scope": "Linked report main.v3, Abstract; Sections 4–5.1; Appendix A; no raw-data reanalysis or independent authentication.",
       "recorded_review_date": "2026-11-04"
+    },
+    {
+      "source_id": "SRC-158",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Summary; What happened; Investigation and response",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-159",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Attribution update; activity and material impact summary",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-160",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Incident timeline and impact; subsequent tests",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-161",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Findings and limitations; coordination and isolation discussion",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-162",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Summary; observed requests; gateway and provider response",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-163",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Repurposing settings; Meta response; Not my conversation",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-164",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Investigation update; root cause and credential chain",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-165",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Inspected the identified source passages or original syndicated text.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Authors’ project page: setup, findings and benchmark details",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-166",
+      "basis": "abstract_only",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Only abstract and metadata inspected.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "arXiv abstract: experimental contrasts and provenance recovery",
+      "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-167",
+      "basis": "abstract_only",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Only abstract and metadata inspected.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "arXiv abstract: fictitious metrics and sandboxed experiments",
+      "recorded_review_date": "2026-11-19"
     }
   ]
 }

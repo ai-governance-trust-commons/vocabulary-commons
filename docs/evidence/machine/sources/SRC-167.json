@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6-review.2",
+  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
+  "id": "SRC-167",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-167.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-167",
+    "title": "Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning",
+    "publisher": "arXiv preprint authors",
+    "issuing_body": "arXiv preprint authors",
+    "authors": [],
+    "url": "https://arxiv.org/abs/2611.20045",
+    "publication_date": "2026-11-15",
+    "access_date": "2026-11-19",
+    "locator": "arXiv abstract: fictitious metrics and sandboxed experiments",
+    "source_kind": "Controlled research preprint",
+    "independence_group": "https://arxiv.org/abs/2611.20045",
+    "version_note": "Abstract inspection. No underlying data reanalysis.",
+    "verification": {
+      "status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "scope": "arXiv abstract: fictitious metrics and sandboxed experiments",
+      "review_date": "2026-11-19",
+      "authenticity": "Identifiable source publication; underlying records not authenticated by Commons",
+      "independent_corroboration": "See evidence-specific attribution and limitations",
+      "dispute_status": "No comprehensive dispute or retraction clearance",
+      "dispute_check_date": null,
+      "dispute_check_note": "Any material dispute or reported response is attributed in the observation."
+    },
+    "preservation": {
+      "status": "Link-only; source publication not redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-19T15:03:35.519586+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-205",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-205.json"
+    }
+  ]
+}

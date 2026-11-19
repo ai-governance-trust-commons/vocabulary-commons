@@ -2,8 +2,8 @@
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
   "machine_release": "0.5.5",
-  "dataset_version": "0.5.6-review.1",
-  "dataset_sha256": "c03ce20766a2e6516c1c32b9d98d520cd1f7fe5d69493e93beb3a95770cdbe26",
+  "dataset_version": "0.5.6-review.2",
+  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
   "id": "EVID-093",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-093.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-093",
@@ -43,14 +43,15 @@
   },
   "case": {
     "id": "CASE-082",
-    "title": "Muse local access amplification proof of concept",
-    "kind": "Controlled proof-of-concept description",
+    "title": "Muse local access through device-level permissions",
+    "kind": "Controlled proof of concept and independent reproduction on deployed product",
     "event_date": null,
     "event_date_precision": "As reported; publication date is separate",
     "source_ids": [
-      "SRC-060"
+      "SRC-060",
+      "SRC-163"
     ],
-    "summary": "Reported setting grouping; see separately attributed observations.",
+    "summary": "Related local-access observations with different methods and environments. The separate share-link disclosure is tracked under CASE-126.",
     "publication_record": {
       "status": "Provisionally published",
       "prepared_by": "Mike — AI assistant",

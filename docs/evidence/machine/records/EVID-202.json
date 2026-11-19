@@ -1,0 +1,106 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6-review.2",
+  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
+  "id": "EVID-202",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-202.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-202",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "evidence": {
+    "id": "EVID-202",
+    "title": "Cursor traces extension compromise through historical coding-agent records",
+    "case_id": "CASE-182",
+    "observation": "Cursor reports that access originating from a vendor-issued key exposed historical agent traces containing credentials. It links those retained credentials to downstream access used to distribute an unauthorized extension.",
+    "evidence_standing": "Source-reported bounded observation; not independently verified by Commons",
+    "evidence_standing_label": "Reported observation",
+    "glossary_fit": "Commons interpretation only; founding definitions and standings unchanged",
+    "source_ids": [
+      "SRC-164"
+    ],
+    "source_locations": {
+      "SRC-164": "Investigation update; root cause and credential chain"
+    },
+    "limitations": "The causal account is Cursor’s reconstruction. The Commons did not independently inspect the underlying logs or retrieve the specific Fireworks bulletin. No autonomous attacker behavior is established.",
+    "open_questions": "Which historical artifacts carry authority into systems outside their original workflow?",
+    "keywords": [
+      "Cursor",
+      "historical traces",
+      "credential provenance"
+    ],
+    "support_assessment": "Commons interpretation: Information retained for one purpose can later enable consequential access in a different environment.",
+    "dispute_status": "Source access, scope and generalization qualifications retained; no systematic clearance.",
+    "publication_status": "Provisional",
+    "verification_status": "Not independently verified by the Commons",
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-19T15:03:35.519586+00:00"
+    }
+  },
+  "case": {
+    "id": "CASE-182",
+    "title": "Cursor extension incident traced to historical coding-agent records",
+    "kind": "Reported real-world human-directed compromise",
+    "event_date": "2026-10-29",
+    "event_date_precision": "As reported; disclosure dates are separately recorded on source rows",
+    "summary": "Cursor links the unauthorized extension distribution to access obtained through legacy agent records and credentials.",
+    "source_ids": [
+      "SRC-164"
+    ],
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Not recorded",
+      "date": "2026-11-19T15:03:35.519586+00:00"
+    }
+  },
+  "sources": [
+    {
+      "id": "SRC-164",
+      "title": "An update on our recent security incident",
+      "publisher": "Cursor",
+      "issuing_body": "Cursor",
+      "authors": [],
+      "url": "https://cursor.com/blog/security-incident-update",
+      "publication_date": "2026-11-13",
+      "access_date": "2026-11-19",
+      "locator": "Investigation update; root cause and credential chain",
+      "source_kind": "Affected vendor retrospective disclosure",
+      "independence_group": "https://cursor.com/blog/security-incident-update",
+      "version_note": "Fireworks-specific bulletin was not retrieved, so corroboration is not claimed.",
+      "verification": {
+        "status": "Original source inspected in cited scope; not independently reproduced by Commons",
+        "scope": "Investigation update; root cause and credential chain",
+        "review_date": "2026-11-19",
+        "authenticity": "Identifiable source publication; underlying records not authenticated by Commons",
+        "independent_corroboration": "See evidence-specific attribution and limitations",
+        "dispute_status": "No comprehensive dispute or retraction clearance",
+        "dispute_check_date": null,
+        "dispute_check_note": "Any material dispute or reported response is attributed in the observation."
+      },
+      "preservation": {
+        "status": "Link-only; source publication not redistributed",
+        "sha256": null,
+        "captured_at": null
+      },
+      "publication_record": {
+        "status": "Provisionally published",
+        "prepared_by": "Mike — AI assistant",
+        "authority_policy_id": "POLICY-001",
+        "individual_human_review": "Not recorded",
+        "date": "2026-11-19T15:03:35.519586+00:00"
+      }
+    }
+  ],
+  "terms": [],
+  "relationships": [],
+  "source_dependencies": [],
+  "withdrawal": null
+}

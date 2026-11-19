@@ -1764,3 +1764,106 @@ PY  - 2026
 UR  - https://apartresearch.com/sprints/projects/detecting-covert-collusion-between-ai-agents-through-partneroutsider-positive-listening-w98v
 N1  - Source ID SRC-157. Publication date as recorded: 2026-10-26. Project dated 26 October 2026; linked main.v3 PDF inspected. Related arXiv 2610.37849 could not be retrieved; equivalence to that version is not asserted. Same candidate study family; no duplicate arXiv intake. Source inspection is not independent verification.
 ER  - 
+
+TY  - GEN
+ID  - SRC-158
+TI  - Generating scripts to copy outgoing email to an unauthorized address
+PB  - OpenAI Alignment Research
+AU  - OpenAI Alignment Research
+PY  - 2026
+UR  - https://alignment.openai.com/misalignment-reports/generating-scripts-to-copy-outgoing-email-to-an-unauthorized-address/
+N1  - Source ID SRC-158. Publication date as recorded: 2026-11-18. October 17 sample and detection, November 18 disclosure. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-159
+TI  - Update for October 30th, 2026 Data Security Incident
+PB  - WorkOS
+AU  - WorkOS
+PY  - 2026
+UR  - https://workos.com/security/bulletins/update-for-october-30th-2026-data-security-incident
+N1  - Source ID SRC-159. Publication date as recorded: 2026-11-06. Source account inspected in the cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-160
+TI  - AI agents attempted exploits on our website
+PB  - Epoch AI
+AU  - Epoch AI
+PY  - 2026
+UR  - https://epoch.ai/publications/incident-report-ai-agents-attempted-exploits-on-our-website
+N1  - Source ID SRC-160. Publication date as recorded: 2026-11-13. Source account inspected in the cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-161
+TI  - Gemini 4 Argon’s behavior during misalignment testing
+PB  - Trajectory Labs
+AU  - Trajectory Labs
+PY  - 2026
+UR  - https://www.trajectorylabs.com/blog/gemini-4-argon-behavior-during-misalignment-testing
+N1  - Source ID SRC-161. Publication date as recorded: 2026-11-13. Source account inspected in the cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-162
+TI  - Grok Bot Reached for Corporate Data, Then Said It Hadn’t
+PB  - NewCore
+AU  - NewCore
+PY  - 2026
+UR  - https://newcore.com/newsroom/newcore-research-grok-bot-agents-reached-for-corporate-data-unprompted
+N1  - Source ID SRC-162. Publication date as recorded: 2026-11-17. Source account inspected in the cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-163
+TI  - As Meta bets big on Muse AI agent, early safety mishaps surface
+PB  - Reuters
+AU  - Katie Paul
+PY  - 2026
+UR  - https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/
+N1  - Source ID SRC-163. Publication date as recorded: 2026-11-18. Reuters syndicated original text inspected. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-164
+TI  - An update on our recent security incident
+PB  - Cursor
+AU  - Cursor
+PY  - 2026
+UR  - https://cursor.com/blog/security-incident-update
+N1  - Source ID SRC-164. Publication date as recorded: 2026-11-13. Fireworks-specific bulletin was not retrieved, so corroboration is not claimed. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-165
+TI  - The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows
+PB  - Choudhury, Sarker and Zilberstein
+AU  - Moumita Choudhury
+AU  - Amit Sarker
+AU  - Shlomo Zilberstein
+PY  - 2026
+UR  - https://moumitachoudhury.github.io/helpful-agent-problem/
+N1  - Source ID SRC-165. Publication date as recorded: 2026-10-22. Direct arXiv retrieval unavailable during review. Project page identifies arXiv:2610.31985. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-166
+TI  - Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation
+PB  - arXiv preprint by Sheshanarayana et al.
+AU  - Disha Sheshanarayana
+AU  - Sai Linisha Reddy Goli
+PY  - 2026
+UR  - https://arxiv.org/abs/2611.18471
+N1  - Source ID SRC-166. Publication date as recorded: 2026-11-13. Abstract inspection. No underlying data reanalysis. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-167
+TI  - Security of Deep Research Agents: Attack Surface, Defenses, Benchmarks, and Agenda Seeding against Research Planning
+PB  - arXiv preprint authors
+AU  - arXiv preprint authors
+PY  - 2026
+UR  - https://arxiv.org/abs/2611.20045
+N1  - Source ID SRC-167. Publication date as recorded: 2026-11-15. Abstract inspection. No underlying data reanalysis. Source inspection is not independent verification.
+ER  - 
