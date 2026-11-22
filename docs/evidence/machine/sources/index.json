@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "dataset_version": "0.5.6-review.2",
+  "dataset_version": "0.5.6-review.3",
   "notice": "One source record is not necessarily one independent study or corroborator.",
   "sources": [
     {
@@ -827,6 +827,51 @@
       "id": "SRC-167",
       "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-167.json",
       "original_url": "https://arxiv.org/abs/2611.20045"
+    },
+    {
+      "id": "SRC-168",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-168.json",
+      "original_url": "https://arxiv.org/abs/2610.28683"
+    },
+    {
+      "id": "SRC-169",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-169.json",
+      "original_url": "https://arxiv.org/html/2611.19237v1"
+    },
+    {
+      "id": "SRC-170",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-170.json",
+      "original_url": "https://www.cooperativeai.com/post/inter-agent-influence-can-ai-agents-persuade-deceive-and-coerce-each-other"
+    },
+    {
+      "id": "SRC-171",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-171.json",
+      "original_url": "https://arxiv.org/abs/2610.27548"
+    },
+    {
+      "id": "SRC-172",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-172.json",
+      "original_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"
+    },
+    {
+      "id": "SRC-173",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-173.json",
+      "original_url": "https://www.jpmorgan.com/payments/newsroom/hyundai-card-kinexys-agentic-payments"
+    },
+    {
+      "id": "SRC-174",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-174.json",
+      "original_url": "https://openai.com/safety-alignment/misalignment-reports/trying-to-prompt-inject-the-grader-in-filenames/"
+    },
+    {
+      "id": "SRC-175",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-175.json",
+      "original_url": "https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/"
+    },
+    {
+      "id": "SRC-176",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-176.json",
+      "original_url": "https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94"
     }
   ]
 }

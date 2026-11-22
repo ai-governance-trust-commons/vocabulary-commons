@@ -1,8 +1,8 @@
 {
   "inspection_contract_version": "1.0",
-  "dataset_version": "0.5.6-review.2",
-  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
-  "classified_at": "2026-11-11",
+  "dataset_version": "0.5.6-review.3",
+  "dataset_sha256": "b3fe57de0f08a10b98c6e700000cd6dc6dfafb980291041c80f7fe7641ef9a0a",
+  "classified_at": "2026-11-22T03:08:23.699139+00:00",
   "notice": "Classification of historical recorded attribution, not a fresh inspection or source verification. Unspecified is an intentional unresolved value. Review dates retain their original meaning. Direct means explicitly recorded reading by the preparing assistant, not an independently authenticated reading event.",
   "basis_labels": {
     "direct": "Direct reading recorded for preparing assistant",
@@ -1607,6 +1607,105 @@
       "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
       "recorded_scope": "arXiv abstract: fictitious metrics and sandboxed experiments",
       "recorded_review_date": "2026-11-19"
+    },
+    {
+      "source_id": "SRC-168",
+      "basis": "abstract_only",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Abstract and gated-phase results",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-169",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Sections III–V and Table IV",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-170",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Author summary, oversight and peer results",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-171",
+      "basis": "abstract_only",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Version 2 abstract",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-172",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Regression workflow and diagnosis review",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-173",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Phase one treasury simulation",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-174",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "What happened and investigation",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-175",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Campaign scope and contrasting outcomes",
+      "recorded_review_date": "2026-11-21"
+    },
+    {
+      "source_id": "SRC-176",
+      "basis": "direct",
+      "actors": [
+        "Mike — AI assistant"
+      ],
+      "basis_note": "Reviewed published source in the cited scope for the November 21 batch.",
+      "recorded_status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "recorded_scope": "Summary",
+      "recorded_review_date": "2026-11-21"
     }
   ]
 }

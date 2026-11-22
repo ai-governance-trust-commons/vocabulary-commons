@@ -2,8 +2,8 @@
   "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/record-bundle-v1.schema.json",
   "contract_version": "1.0",
   "machine_release": "0.5.5",
-  "dataset_version": "0.5.6-review.2",
-  "dataset_sha256": "c554028d26dfacc62ea4b3df7b07c46ddd6cb42feffac471922696c87ef8e1d7",
+  "dataset_version": "0.5.6-review.3",
+  "dataset_sha256": "b3fe57de0f08a10b98c6e700000cd6dc6dfafb980291041c80f7fe7641ef9a0a",
   "id": "EVID-069",
   "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-069.json",
   "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/#EVID-069",
@@ -187,14 +187,14 @@
       "id": "REL-161",
       "from_id": "EVID-069",
       "to_id": "TERM-evidence-laundering-through-ai",
-      "relationship_type": "illustrates",
-      "explanation": "Bounded illustrative connection of the attributed observation; material qualifications remain in limitations. No universal claim or definition change.",
+      "relationship_type": "qualifies",
+      "explanation": "Transect preserves the turns and judgments behind its labels. Repeated agreement measures consistency. Establishing label validity requires an external reference. Counting the labels as independent corroboration would exceed what the method measures.",
       "publication_record": {
         "status": "Provisionally published",
         "prepared_by": "Mike — AI assistant",
         "authority_policy_id": "POLICY-001",
-        "individual_human_review": "Not recorded",
-        "date": "2026-10-30T22:52:57.829686+00:00"
+        "individual_human_review": "Lance J. Johnson approved the November 21 evidence batch for publication",
+        "date": "2026-11-22T03:08:23.699139+00:00"
       }
     }
   ],

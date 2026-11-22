@@ -195,6 +195,12 @@
           "publisher": "UK government · evaluation and research",
           "url": "https://www.aisi.gov.uk/about",
           "note": "Research and evaluations concerning the risks and capabilities of advanced AI systems, with separate institutional aims from the Commons."
+        },
+        {
+          "title": "Where the Evidence Lives",
+          "publisher": "Xu et al. · trace-export methods",
+          "url": "https://arxiv.org/abs/2611.20389",
+          "note": "In synthetic workflows, a separately written diagnostic recovered 39 of 42 faulty cases from exporter-supplied comparisons and 42 of 42 from execution-scoped pseudonyms. Both exports supported the original diagnostic. The study illustrates why trace exports need testing against the recipient’s diagnostic task."
         }
       ]
     }

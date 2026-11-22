@@ -1,0 +1,56 @@
+{
+  "$schema": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/schemas/source-bundle-v1.schema.json",
+  "contract_version": "1.0",
+  "machine_release": "0.5.5",
+  "dataset_version": "0.5.6-review.3",
+  "dataset_sha256": "b3fe57de0f08a10b98c6e700000cd6dc6dfafb980291041c80f7fe7641ef9a0a",
+  "id": "SRC-168",
+  "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/sources/SRC-168.json",
+  "human_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/",
+  "notice": "Provisional collection. Records identify reported findings and their limits. The Commons has not independently verified the underlying claims; inclusion is not endorsement.",
+  "rights_url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/rights.json",
+  "status": "provisionally_published",
+  "source": {
+    "id": "SRC-168",
+    "title": "Who Approved This? Coding Agents, Human Accounts, and Merge-Gate Evidence at a Fintech Startup",
+    "publisher": "Adam Manji",
+    "issuing_body": "Adam Manji",
+    "authors": [],
+    "url": "https://arxiv.org/abs/2610.28683",
+    "publication_date": "2026-10-19",
+    "access_date": "2026-11-21",
+    "locator": "Abstract and gated-phase results",
+    "source_kind": "First-party operational study",
+    "independence_group": "https://arxiv.org/abs/2610.28683",
+    "version_note": "Original publication inspected in cited scope.",
+    "verification": {
+      "status": "Original source inspected in cited scope; not independently reproduced by Commons",
+      "scope": "Abstract and gated-phase results",
+      "review_date": "2026-11-21",
+      "authenticity": "Identifiable source publication; underlying records not authenticated by Commons",
+      "independent_corroboration": "See evidence-specific attribution and limitations",
+      "dispute_status": "No comprehensive dispute or retraction clearance",
+      "dispute_check_date": null,
+      "dispute_check_note": "Any material dispute or reported response is attributed in the observation."
+    },
+    "preservation": {
+      "status": "Link-only; source publication not redistributed",
+      "sha256": null,
+      "captured_at": null
+    },
+    "publication_record": {
+      "status": "Provisionally published",
+      "prepared_by": "Mike — AI assistant",
+      "authority_policy_id": "POLICY-001",
+      "individual_human_review": "Lance J. Johnson approved the November 21 evidence batch for publication",
+      "date": "2026-11-22T03:08:23.699139+00:00"
+    }
+  },
+  "relationships": [],
+  "evidence_records": [
+    {
+      "id": "EVID-207",
+      "url": "https://ai-governance-trust-commons.github.io/vocabulary-commons/evidence/machine/records/EVID-207.json"
+    }
+  ]
+}
