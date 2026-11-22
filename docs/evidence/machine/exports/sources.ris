@@ -1867,3 +1867,92 @@ PY  - 2026
 UR  - https://arxiv.org/abs/2611.20045
 N1  - Source ID SRC-167. Publication date as recorded: 2026-11-15. Abstract inspection. No underlying data reanalysis. Source inspection is not independent verification.
 ER  - 
+
+TY  - GEN
+ID  - SRC-168
+TI  - Who Approved This? Coding Agents, Human Accounts, and Merge-Gate Evidence at a Fintech Startup
+PB  - Adam Manji
+AU  - Adam Manji
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.28683
+N1  - Source ID SRC-168. Publication date as recorded: 2026-10-19. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-169
+TI  - Auditable Authorization for LLM Agents
+PB  - Deng et al.
+AU  - Deng et al.
+PY  - 2026
+UR  - https://arxiv.org/html/2611.19237v1
+N1  - Source ID SRC-169. Publication date as recorded: 2026-11-14. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-170
+TI  - Inter-Agent Influence
+PB  - Cooperative AI Foundation and study authors
+AU  - Cooperative AI Foundation and study authors
+PY  - 2026
+UR  - https://www.cooperativeai.com/post/inter-agent-influence-can-ai-agents-persuade-deceive-and-coerce-each-other
+N1  - Source ID SRC-170. Publication date as recorded: 2026-11-03. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-171
+TI  - Act on Your Behalf, Beyond Your Authorization
+PB  - Zhang et al.
+AU  - Zhang et al.
+PY  - 2026
+UR  - https://arxiv.org/abs/2610.27548
+N1  - Source ID SRC-171. Publication date as recorded: 2026-10-21. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-172
+TI  - How OpenAI’s Performance Factory keeps ChatGPT fast
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/
+N1  - Source ID SRC-172. Publication date as recorded: 2026-11-19. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-173
+TI  - Hyundai Card and Kinexys by J.P. Morgan advance trust framework for safe AI-agent transactions
+PB  - J.P. Morgan
+AU  - J.P. Morgan
+PY  - 2026
+UR  - https://www.jpmorgan.com/payments/newsroom/hyundai-card-kinexys-agentic-payments
+N1  - Source ID SRC-173. Publication date as recorded: 2026-11-18. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-174
+TI  - Trying to prompt-inject the grader in filenames
+PB  - OpenAI
+AU  - OpenAI
+PY  - 2026
+UR  - https://openai.com/safety-alignment/misalignment-reports/trying-to-prompt-inject-the-grader-in-filenames/
+N1  - Source ID SRC-174. Publication date as recorded: 2026-11-05. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-175
+TI  - Chinese-nexus actor’s Cairn AI agents found a zero-day on their own
+PB  - Amazon Threat Intelligence
+AU  - Amazon Threat Intelligence
+PY  - 2026
+UR  - https://aws.amazon.com/blogs/security/chinese-nexus-actors-cairn-ai-agents-found-a-zero-day-on-their-own/
+N1  - Source ID SRC-175. Publication date as recorded: 2026-11-20. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
+
+TY  - GEN
+ID  - SRC-176
+TI  - MONAI Label security advisory GHSA-qc22-rmgc-vg94
+PB  - Project MONAI
+AU  - Project MONAI
+UR  - https://github.com/Project-MONAI/MONAILabel/security/advisories/GHSA-qc22-rmgc-vg94
+N1  - Source ID SRC-176. Publication date as recorded: None. Original publication inspected in cited scope. Source inspection is not independent verification.
+ER  - 
