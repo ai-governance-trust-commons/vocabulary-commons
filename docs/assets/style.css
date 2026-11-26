@@ -223,3 +223,9 @@ html{scroll-padding-top:110px}
 .participate-options section.feature h2 a::after,.chain-promo>.button::after,.resources-promo>.button::after{content:"";position:absolute;inset:0;z-index:1}
 .participate-options section.feature p a{position:relative;z-index:2}
 .participate-options section.feature:focus-within,.chain-promo:focus-within,.resources-promo:focus-within{outline:3px solid #94622f;outline-offset:3px}
+
+/* The reading guide uses explicit links within each entry. */
+.ideas-questions{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,19rem),1fr));gap:1rem;list-style:none;padding:0}
+.ideas-questions a{display:block;height:100%;padding:1rem;border:1px solid var(--line);border-radius:6px;background:var(--surface);font-weight:700}
+.resource-card[id^="HIA-"]{cursor:auto;scroll-margin-top:6rem}
+.resource-card[id^="HIA-"] p{line-height:1.65}

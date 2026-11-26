@@ -103,7 +103,7 @@
     "files_sha256": {
       "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
       "assets/research-notes.css": "b8f5d3951dad58bf1bb19c686862ec8fc2fabb13df86a6e05e466b57da140af0",
-      "assets/style.css": "743930f7220b69dabb6e5fff6dbbc8f025284abfc90175e7c5d3eceade53462e",
+      "assets/style.css": "29c108c84df972d9a82a37f2185be5efadc56394d2fbc6aba044406d629bd051",
       "considerations/different-ai-roles/index.html": "8fc7d447de6a79fcd4a4775c3236a4cc11f3fb1ec84c44a3a51ff4563b1b81ac",
       "considerations/event-chains/index.html": "57c44b8d58bdb9e09d999a9f5308ba7ca4d1147db48b107bfac5f1167e8ff39d",
       "considerations/illuminated-shadow/index.html": "ff1f4e9468ed8d6e0878cbc935ea188140eea87ab99c88756e4ebc466496f76b",
@@ -147,7 +147,8 @@
       "reports/archive.css": "cf361e19c90754dcafa15f8fa5ee46a87becbe46fd63bb562d59c7826f0a77b4",
       "reports/earlier-index.html": "3be123474e935eb53fc5d49e244aedf4f52e03efd1ad9bb46f509d3569c183ef",
       "reports/index.html": "a8b13c3b60b9521428a246feae7c3d431458e943d54d73afdaf5d41103cd6668",
-      "resources/index.html": "72cabd173eba8498629f6865a0dd93c5925f329eb222452fc4dc346a600d43e5",
+      "resources/ideas/index.html": "3cc490befd61d7048ad5bb5be35b6d35640db827f8cf81f07f57d332dac2e97b",
+      "resources/index.html": "0cb1ba63337cb180fd328168a64044fd8ae3882c4768cdbbe25008602d08a6d1",
       "terms/ai-enabled-capability/index.html": "32a61493ddf09e028f5f7c911b79a202ecc01c62c928c4bec8f5bc21a9510fff",
       "terms/assurance/index.html": "68333a924d885387bf68b2a65dfec3a5c76c40d7e4016b1839f624ef8bee5ae6",
       "terms/assurance-independence/index.html": "0b9ca782866756839206f043aa386d0b0b173bdbb3b0a86d54e9033a7087f0b1",
