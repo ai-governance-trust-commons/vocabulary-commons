@@ -212,6 +212,49 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                 card.click(position={'x':8,'y':8})
                 expect(page).to_have_url(expected)
             visit(page,'/resources/')
+            # The feature and guide use explicit links, including on narrow touch screens.
+            for width in [320, 1024, 1440]:
+                touch = width < 1440
+                ctx = browser.new_context(viewport={'width': width, 'height': 850},
+                                          has_touch=touch, reduced_motion='reduce')
+                guide = ctx.new_page()
+                visit(guide, '/resources/')
+                for link in guide.locator('.resources-jump a').all():
+                    target = link.get_attribute('href')
+                    link.tap() if touch else link.click()
+                    expect(guide.locator(target)).to_be_in_viewport()
+                feature = guide.locator('#ideas')
+                for link in feature.locator('a').all():
+                    destination = link.evaluate('(a) => a.href')
+                    link.tap() if touch else link.click()
+                    expect(guide).to_have_url(destination)
+                    assert guide.evaluate('document.documentElement.scrollWidth <= innerWidth')
+                    if '#' in destination:
+                        expect(guide.locator(destination[destination.index('#'):]).locator('h2')).to_be_in_viewport()
+                    guide.go_back()
+                feature.locator('.button').focus()
+                guide.keyboard.press('Enter')
+                expect(guide.locator('h1')).to_have_text('Ideas Worth Debating')
+                entries = guide.locator('[id^="HIA-"]')
+                expect(entries).to_have_count(14)
+                for entry in entries.all():
+                    original = entry.get_by_role('link')
+                    original.scroll_into_view_if_needed()
+                    assert original.evaluate("""a => {
+                        const r = a.getBoundingClientRect();
+                        return a.contains(document.elementFromPoint(r.left + 4, r.top + r.height / 2));
+                    }""")
+                original = entries.first.get_by_role('link')
+                original.focus()
+                guide.keyboard.press('Shift+Tab')
+                guide.keyboard.press('Tab')
+                expect(original).to_be_focused()
+                assert original.evaluate("a => a.matches(':focus-visible') && getComputedStyle(a).outlineStyle !== 'none'")
+                destination = original.get_attribute('href')
+                guide.route(destination, lambda route: route.fulfill(body='Original source'))
+                original.tap() if touch else original.click()
+                expect(guide).to_have_url(destination)
+                ctx.close()
             # Intercept this outbound navigation locally; never send a submission or test payload.
             card=page.locator('.resource-card').first
             external=card.locator('h3 a').get_attribute('href')
