@@ -30,7 +30,8 @@ def build():
  cards=[];jsonpaths=[]
  for i,p in enumerate(paths):
   termnames=[terms[t]['name'] for t in p['terms']];search=' '.join([p['question'],p['label'],p['intro'],*termnames]).casefold()
-  cards.append('<article class="path-card" data-search="'+esc(search)+'"><p class="path-label">'+str(i+1).zfill(2)+' · '+esc(p['label'])+'</p><h2><a href="'+p['slug']+'/">'+esc(p['question'])+'</a></h2><p>'+esc(p['intro'])+'</p><p class="path-meta">'+str(len(p['readings']))+' selected findings · '+str(len(p['terms']))+' related terms</p><p><a href="'+p['slug']+'/">Start this research path →</a></p></article>')
+  link_label = 'See the cases and what they show' if p['slug'] == 'human-oversight' else 'Start this research path'
+  cards.append('<article class="path-card" data-search="'+esc(search)+'"><p class="path-label">'+str(i+1).zfill(2)+' · '+esc(p['label'])+'</p><h2><a href="'+p['slug']+'/">'+esc(p['question'])+'</a></h2><p>'+esc(p['intro'])+'</p><p class="path-meta">'+str(len(p['readings']))+' selected findings · '+str(len(p['terms']))+' related terms</p><p><a href="'+p['slug']+'/">'+link_label+' →</a></p></article>')
   termcards=[]
   for tid in p['terms']:
    c=counts[tid];missing=not c['finding_count'];status='No recorded evidence relationship' if missing else str(c['finding_count'])+' linked findings · '+str(c['recorded_family_count'])+' recorded families'
