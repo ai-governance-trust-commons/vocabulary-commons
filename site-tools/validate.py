@@ -211,7 +211,11 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                 expected=card.locator(link).evaluate('(a) => a.href')
                 card.click(position={'x':8,'y':8})
                 expect(page).to_have_url(expected)
-            visit(page,'/resources/')
+            visit(page, '/questions/')
+            page.get_by_role('link', name='See the cases and what they show →').click()
+            expect(page).to_have_url(origin + '/questions/human-oversight/')
+            expect(page.locator('.path-finding').first).to_be_visible()
+            visit(page, '/resources/')
             # The feature and guide use explicit links, including on narrow touch screens.
             for width in [320, 1024, 1440]:
                 touch = width < 1440
@@ -224,17 +228,23 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                     link.tap() if touch else link.click()
                     expect(guide.locator(target)).to_be_in_viewport()
                 feature = guide.locator('#ideas')
-                for link in feature.locator('a').all():
-                    destination = link.evaluate('(a) => a.href')
-                    link.tap() if touch else link.click()
-                    expect(guide).to_have_url(destination)
-                    assert guide.evaluate('document.documentElement.scrollWidth <= innerWidth')
-                    if '#' in destination:
-                        expect(guide.locator(destination[destination.index('#'):]).locator('h2')).to_be_in_viewport()
-                    guide.go_back()
-                feature.locator('.button').focus()
-                guide.keyboard.press('Enter')
+                invitation = feature.get_by_role('link')
+                expect(invitation).to_have_count(1)
+                expect(invitation).to_have_text('Compare the authors’ arguments →')
+                if touch:
+                    invitation.tap()
+                else:
+                    invitation.focus()
+                    guide.keyboard.press('Enter')
+                expect(guide).to_have_url(origin + '/resources/ideas/')
                 expect(guide.locator('h1')).to_have_text('Ideas Worth Debating')
+                assert guide.evaluate('document.documentElement.scrollWidth <= innerWidth')
+                questions = guide.get_by_role('navigation', name='Reading guide questions').get_by_role('link')
+                expect(questions).to_have_count(5)
+                for link in questions.all():
+                    target = link.get_attribute('href')
+                    link.tap() if touch else link.click()
+                    expect(guide.locator(target).locator('h2')).to_be_in_viewport()
                 entries = guide.locator('[id^="HIA-"]')
                 expect(entries).to_have_count(14)
                 for entry in entries.all():
