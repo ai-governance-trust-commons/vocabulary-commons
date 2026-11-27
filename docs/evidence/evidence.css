@@ -20,3 +20,16 @@
 .match-navigation button{font-size:12px;min-height:32px;padding:4px 9px}
 .match-position{font-size:12px;color:#42564a}
 @media(max-width:460px){.match-navigation{display:flex;margin:10px 0 0}.match-excerpts{padding:8px 10px}}
+
+.library-main .library-search{margin-top:20px}
+.library-questions{margin-block:22px}
+.library-questions h2{font-size:1.15rem;margin-bottom:10px}
+.library-question-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.library-question-grid article{padding:14px 16px;border:1px solid var(--line);border-radius:5px;background:var(--surface)}
+.library-question-grid h3{font-size:1.08rem;margin-bottom:6px}
+.library-question-grid p{margin:0}
+.library-resources{margin-block:16px}
+.library-resources summary{cursor:pointer;font-weight:700}
+.library-resources .library-links{margin-top:10px}
+.library-main:has(#search:not(:placeholder-shown)) .library-questions{display:none}
+@media(max-width:640px){.library-question-grid{grid-template-columns:1fr}}
