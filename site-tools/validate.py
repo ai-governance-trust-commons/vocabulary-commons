@@ -40,6 +40,14 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                 assert response and response.ok, path
             visit(page, '/')
             page.screenshot(path=str(output/'home.png'), full_page=True)
+            page.locator('a[href="evidence/#EVID-215"]').click()
+            expect(page.locator('#EVID-215 details')).to_have_attribute('open', '')
+            for phrase, finding in [('agent exceeding its authority', 'EVID-213'),
+                                    ('signed mandate', 'EVID-215')]:
+                visit(page, '/evidence/')
+                page.get_by_role('link', name=phrase, exact=True).click()
+                expect(page.locator('#search')).to_have_value(phrase)
+                expect(page.locator('#' + finding)).to_be_visible()
             visit(page, '/terms/')
             items = page.locator('.term-item:visible')
             expect(items).to_have_count(35)
@@ -193,6 +201,7 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                 context=browser.new_context(viewport={'width':width,'height':844}, java_script_enabled=False)
                 report=context.new_page()
                 visit(report,'/evidence/')
+                report.locator('.library-resources > summary:visible').click()
                 report.get_by_role('link',name='High-Signal Report Archive · dated research reports',exact=True).click()
                 expect(report.locator('h1')).to_have_text('High-Signal Report Archive')
                 report.locator('a[href="2026-11-10.html"]').click()
@@ -305,6 +314,7 @@ with tempfile.TemporaryDirectory(prefix='commons-previews-') as temporary:
                 context=browser.new_context(viewport={'width':width,'height':844}, java_script_enabled=False)
                 report=context.new_page()
                 visit(report,'/evidence/')
+                report.locator('.library-resources > summary:visible').click()
                 report.get_by_role('link',name='High-Signal Report Archive · dated research reports',exact=True).click()
                 expect(report.locator('h1')).to_have_text('High-Signal Report Archive')
                 report.locator('a[href="2026-11-10.html"]').click()

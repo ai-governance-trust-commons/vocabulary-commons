@@ -1,6 +1,6 @@
 {
   "format_version": "1.0",
-  "content_fingerprint_sha256": "c18727f531a50516060871a698bb8e7c519d00696f534ca8d1603deab607293a",
+  "content_fingerprint_sha256": "fc025c5c9b2b37bf85f5a1894e5ae549b69cd82446fb4d386d6af20808c4b121",
   "scope": "Hashes of published HTML, CSS, JavaScript, canonical evidence, founding glossary JSON and evidence CSV. Excludes this file and volatile integrity/timestamp metadata. Identity is not independent authenticity.",
   "files_sha256": {
     "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
@@ -19,9 +19,9 @@
     "evidence/coverage/coverage.css": "5763ce6af014ba37aa46a1c91a6c61d196b4eed8d66b18580c36f2251c0433a1",
     "evidence/coverage/coverage.js": "33429ad734567b3ae59b07aa7ec582037eb47f1c9d201da0a68943c1f6e484b1",
     "evidence/coverage/index.html": "e3f15ad76933e0056ee5872b856f1230a5c2891a90cccd185dca56b429929a97",
-    "evidence/evidence.css": "da46041ddea3bfee8858aac04345bb8d4f9998d117854f7e048ff9ce4460ccf1",
-    "evidence/evidence.js": "6f61afde850089c5d32e9fedeac94b6f52346979104ed7a4cc73eb44187a3738",
-    "evidence/index.html": "df83bce7270fb81b8d0093797e662ae9c2d87cab790e6ee133949458a6604000",
+    "evidence/evidence.css": "ce5d07c6f9b75e4c65dbbbe615af4ffc3c570953289aefdb61e19c2bf55f2d71",
+    "evidence/evidence.js": "1655307e39a4ac64c02a97e3cd48760dfd83458c56d53bd41a48d3833ebf7750",
+    "evidence/index.html": "03d21f8dcb7810f118cd3a137aca061b90b28f51d82a7deb49a969facb10369d",
     "evidence/machine/index.html": "0ccec1fbf4a59f7fde091e5eed6ab9157284187ebd48c230ebc5bd2d84ab45dc",
     "evidence/policy.css": "688473ae4f12b1bfa46862339aa6e95249593be998ee7ccefb3c2e2ce78935b6",
     "evidence/policy.html": "7a3610d9608dddf2ac86af32f3366172a543b2e6f8218d5e0af19cff89864538",

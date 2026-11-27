@@ -142,9 +142,11 @@
     const q = p.toString();
     window.history.replaceState(null, '', window.location.pathname + (q ? '?' + q : '') + window.location.hash);
   }
+  const searchPhrase = value => value.trim().toLocaleLowerCase() === "agent exceeding its authority"
+    ? "exceeding authority" : value;
   const tokens = value => (value.match(/"[^"]+"|\S+/g) || []).map(t => t.replace(/^"|"$/g, '').toLocaleLowerCase());
   function matches(r) {
-    if (!tokens(controls.search.value).every(word => searchIndex.get(r.id).includes(word))) return false;
+    if (!tokens(searchPhrase(controls.search.value)).every(word => searchIndex.get(r.id).includes(word))) return false;
     const term = controls['term-filter'].value, relation = controls['relation-filter'].value;
     // A combined term + relationship must describe the same edge.
     if (term === '__unmatched__') { if (edges(r.id).length || relation) return false; }
@@ -180,7 +182,7 @@
     el('p', ss.map(s => s.publisher + ' · ' + (s.publication_date || 'publication date not established')).join(' / '), a, 'record-source');
     el('p', shorten(r.observation, 300), a, 'finding-preview');
     el('p', 'Limits: ' + shorten(r.limitations, 190), a, 'limits-preview');
-    const queryTerms = tokens(controls.search.value).filter(Boolean);
+    const queryTerms = tokens(searchPhrase(controls.search.value)).filter(Boolean);
     if (queryTerms.length) {
       const context = el('div', undefined, a, 'match-excerpts');
       for (const hit of matchExcerpts(r, queryTerms)) {
