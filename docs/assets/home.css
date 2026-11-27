@@ -77,3 +77,31 @@
   .banner, .home-scenario, .routes, .case-example { padding-block: 28px; }
   .discussion article + article, .close section + section { padding-left: 0; border-left: 0; }
 }
+
+/* Compact Commons homepage layout. */
+.subtitle{margin-top:.8rem;color:var(--muted);font-size:1.08rem;max-width:58ch}
+.doors{margin-top:1.35rem;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem;grid-auto-rows:1fr}
+.door{display:flex;flex-direction:column;align-items:flex-start;gap:.35rem;border:1px solid var(--line);border-radius:.6rem;background:var(--surface);padding:.8rem 1rem;color:inherit;text-decoration:none}
+.door:hover{background:var(--pale);border-color:var(--deep)}
+.door h2,.research h2{font-size:clamp(1.35rem,2.8vw,1.8rem);margin:0}
+.door p,.teaser p{color:var(--muted);line-height:1.45}
+.action{color:var(--deep);font-weight:700;text-decoration:underline;margin-top:auto}
+.research{margin-top:1.8rem}
+.research h2{margin-bottom:.65rem}
+.teaser{padding:.85rem .25rem;border-top:1px solid var(--line)}
+.teaser h3{font-size:clamp(1.2rem,2.5vw,1.5rem);margin:0 0 .3rem}
+.teaser h3 a{color:var(--deep)}
+.contribute{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:.25rem 1rem;margin-top:1rem;padding:.65rem 1rem;border:1px solid var(--line);border-radius:.45rem;color:var(--ink);text-decoration:none}
+.contribute:hover{background:var(--pale);border-color:var(--deep)}
+.contribute span{font-weight:700;color:var(--deep);text-decoration:underline}
+@media(max-width:620px){.doors{grid-template-columns:1fr}.research{margin-top:1.4rem}}
+.mock-home .banner{display:block;padding-block:clamp(24px,4vw,45px)}
+.mock-home .banner p{margin:0}
+.mock-home .door{padding:14px 18px;border-radius:5px;box-shadow:0 2px 5px #202c4109}
+.mock-home .door h2{font-size:clamp(19px,2.2vw,24px);margin-bottom:4px}
+.mock-home .door p,.mock-home .contribute p{font-size:15px;font-weight:400;margin:0}
+.mock-home .contribute{background:var(--pale);border-left:3px solid var(--teal)}
+.mock-home .teaser h3 a{font-size:inherit}
+.mock-home .teaser p{margin:0}
+.research{margin-bottom:30px}
+@media(max-width:1030px) and (min-width:751px){.masthead{flex-wrap:wrap;gap:4px;padding-block:10px}.site-header nav{flex-wrap:wrap}}
