@@ -1,10 +1,10 @@
 {
   "format_version": "1.0",
-  "content_fingerprint_sha256": "fc025c5c9b2b37bf85f5a1894e5ae549b69cd82446fb4d386d6af20808c4b121",
+  "content_fingerprint_sha256": "0404c6ae8212ad0e887a30f45d4b0aeda8b96165c97c58a8463f2589d8c0a1e3",
   "scope": "Hashes of published HTML, CSS, JavaScript, canonical evidence, founding glossary JSON and evidence CSV. Excludes this file and volatile integrity/timestamp metadata. Identity is not independent authenticity.",
   "files_sha256": {
     "assets/app.js": "b8e0b26abb119d92bf4fa9cab443846e6d2c2b30236ee0de788bc807aea6b7ce",
-    "assets/home.css": "9484341d066d8b058f2c5566fbe85f897a138cd938ada58dd643e29476fdc84d",
+    "assets/home.css": "d717d75698ff1fecd18348134c44a82c7053701fcea8c2316fcfca6f2967aed9",
     "assets/research-notes.css": "b8f5d3951dad58bf1bb19c686862ec8fc2fabb13df86a6e05e466b57da140af0",
     "assets/style.css": "4c3dec0ecb832b5208ab1c54046e8b39e53d5f2290d6b0d62aaaa1a6466571a5",
     "considerations/different-ai-roles/index.html": "8fc7d447de6a79fcd4a4775c3236a4cc11f3fb1ec84c44a3a51ff4563b1b81ac",
@@ -25,7 +25,7 @@
     "evidence/machine/index.html": "0ccec1fbf4a59f7fde091e5eed6ab9157284187ebd48c230ebc5bd2d84ab45dc",
     "evidence/policy.css": "688473ae4f12b1bfa46862339aa6e95249593be998ee7ccefb3c2e2ce78935b6",
     "evidence/policy.html": "7a3610d9608dddf2ac86af32f3366172a543b2e6f8218d5e0af19cff89864538",
-    "index.html": "ee02d6f45b6980b1a6a16a3a9b30034f6db54f392071d271cef70a1edf5f2bc3",
+    "index.html": "cd1bb6fc6f11ae09bd26a3a9ce5601e9064d8e48d983223e4b001b2d85f2faca",
     "method/index.html": "f37ccb50a3b0cd572faf5b95d9fec4d6a9a15b6ccddc8810115b74f925446c22",
     "participate/curation/index.html": "b0b16a00ef927d6c6bd8ccdde561e8805df35157a4878672477a974aee7e0dad",
     "participate/index.html": "3e9cf025f096cd90fd94b93e997d786a96c75ecbe3e231b526ddf4efe05ee210",
